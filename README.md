@@ -16,7 +16,7 @@ php bin/magento cache:clean
 ## Manually
 To install this language package manually you need access to your server file system.
 * Download the zip file [here](https://github.com/Magento2Translations/language_hu_hu/archive/master.zip).
-* Upload the contents to `<your magento path>/app/i18n/magento2translations/hu_HU`.
+* Upload the contents to `<your magento path>/app/i18n/magento2translations/language_hu_hu`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/hu_HU/hu_HU.csv`.
 * Go to your Magento admin panel and clear the caches.
 

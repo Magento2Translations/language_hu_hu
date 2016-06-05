@@ -26,7 +26,7 @@ minor,elhanyagolható,module,Magento_AdminNotification
 notice,figyelmeztetés,module,Magento_AdminNotification
 "Wrong message type","Rossz üzenet típus",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Kérlek, látogass el a <a href=""%1"">Gyorsítótár kezelése</a> oldalra és frissítsd a gyorsítótár típusokat.",module,Magento_AdminNotification
-"Close popup","Popup bezárása",module,Magento_AdminNotification
+"Close popup","Felugró ablak bezárása",module,Magento_AdminNotification
 Close,Bezárás,module,Magento_AdminNotification
 "Critical System Messages","Kritikus rendszerüzenetek",module,Magento_AdminNotification
 "Major System Messages","Fontos rendszerüzenetek",module,Magento_AdminNotification
@@ -101,6 +101,13 @@ Backup,"Biztonsági mentés",module,Magento_Backup
 successful,sikeres,module,Magento_Backup
 Database,Adatbázis,module,Magento_Backup
 Country,Ország,module,Magento_Braintree
+"Stored Card","Tárolt kártya",module,Magento_Braintree
+"Credit card successfully added","Hitelkártya sikeresen hozzáadva",module,Magento_Braintree
+"Delete Credit Card","Bankkártya törlése",module,Magento_Braintree
+"Credit card successfully deleted","Bankkártya sikeresen törölve.",module,Magento_Braintree
+"Edit Credit Card","Bankkártya módosítása",module,Magento_Braintree
+"My Credit Cards",Bankkártyáim,module,Magento_Braintree
+"There was error during saving card data","Hiba történt a kártya adatainak mentése közben.",module,Magento_Braintree
 "Payment Information","Fizetési információk",module,Magento_Braintree
 Delete,Törlés,module,Magento_Braintree
 Back,Vissza,module,Magento_Braintree
@@ -292,12 +299,17 @@ State/Province,Állam/megye,module,Magento_Checkout
 "My Cart",Kosaram,module,Magento_Checkout
 "Minimum order amount is %1","Minimális rendelési összeg %1",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","""%1"" kuponkód érvénytelen.",module,Magento_Checkout
+"We cannot apply the coupon code.","Kuponkód érvényesítése sikertelen.",module,Magento_Checkout
+Checkout,Fizetés,module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Checkout
 "The product does not exist.","A termék nem létezik.",module,Magento_Checkout
 "Invalid data","Érvénytelen adat",module,Magento_Checkout
 "The customer address is not valid.","A vásárló címe érvénytelen.",module,Magento_Checkout
 "Invalid shipping method","Érvénytelen szállítási mód",module,Magento_Checkout
 Item,Elem,module,Magento_Checkout
 Price,Ár,module,Magento_Checkout
+Qty,Mennyiség,module,Magento_Checkout
+Subtotal,Részösszeg,module,Magento_Checkout
 "Continue Shopping","Vásárlás folytatása",module,Magento_Checkout
 "Clear Shopping Cart","Kosár kiürítése",module,Magento_Checkout
 "Update Shopping Cart","Kosár frissítése",module,Magento_Checkout
@@ -308,6 +320,7 @@ Edit,Szerkesztés,module,Magento_Checkout
 "Estimate Shipping and Tax","Becsült szállítás és adó",module,Magento_Checkout
 "Excl. Tax","Adó nélkül",module,Magento_Checkout
 Loading...,Betöltés...,module,Magento_Checkout
+"Proceed to Checkout","Tovább a pénztárhoz",module,Magento_Checkout
 "Product Name",Terméknév,module,Magento_Checkout
 "Incl. Tax",Adóval,module,Magento_Checkout
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_Cms
@@ -849,6 +862,11 @@ None,"Egyik sem",module,Magento_Usps
 "Variable Code must be unique.","A változó kódjának egyedinek kell lennie.",module,Magento_Variable
 "Validation has failed.","Az ellenőrzés sikertelen.",module,Magento_Variable
 "Insert Variable...","Változó beszúrása...",module,Magento_Variable
+"Not allowed parameters: %1. Please use only %2 and %3.","Nem engedélyezett paraméterek: %1. Csak %2 és %3 műveletek használhatóak.",module,Magento_Webapi
+"Requested service is not available: ""%1""","A kért szolgáltatás nem elérhető: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","""%1"" művelet nem található.",module,Magento_Webapi
+"Invalid XML","Érvénytelen XML",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","Érvénytelen XML: Illegális DOCTYPE használat észlelve",module,Magento_Webapi
 Tax,Adó,module,Magento_Weee
 Action,Akció,module,Magento_Weee
 "Insert Widget","Felületi elem beszúrása",module,Magento_Widget
@@ -945,6 +963,10 @@ Forms,Űrlapok,module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
 "Enable Terms and Conditions","Általános Szerződési Feltételek engedélyezése",module,Magento_CheckoutAgreements
+"Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
+"Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
+"Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
+"My Cart Link","Kosaram link",module,Magento_Checkout
 "Shipping Address","Szállítási cím",module,Magento_Checkout
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
 "Not yet calculated","Nincs kiszámítva",module,Magento_Checkout
@@ -1071,6 +1093,9 @@ Height,Magasság,module,Magento_Usps
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Usps
 "Handling Fee","Kezelési költség",module,Magento_Usps
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Usps
+"SOAP Settings","SOAP beállítások",module,Magento_Webapi
+"If empty, UTF-8 will be used.","Ha üres, UTF-8 lesz használva.",module,Magento_Webapi
+"Web Services Configuration","Webszolgáltatás konfiguráció",module,Magento_Webapi
 "Share Options","Megosztási beállítások",module,Magento_Wishlist
 "Email Sender","Email feladója",module,Magento_Wishlist
 "Email Template","Email sablon",module,Magento_Wishlist

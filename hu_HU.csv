@@ -34,7 +34,10 @@ Close,Bezárás,module,Magento_AdminNotification
 "Critical System Messages","Kritikus rendszerüzenetek",module,Magento_AdminNotification
 "Major System Messages","Fontos rendszerüzenetek",module,Magento_AdminNotification
 "System messages",Rendszerüzenetek,module,Magento_AdminNotification
+"We can't find the role for the user you wanted.","A felhasználóhoz tartozó szerepkör nem található.",module,Magento_Authorization
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Authorizenet
+"We can't process your order right now. Please try again later.","Rendelését jelenleg nem tudjuk feldolgozni. Kérjük később próbálkozzon újra.",module,Magento_Authorizenet
+"Cannot place order.","Rendelés sikertelen.",module,Magento_Authorizenet
 failed.,"nem sikerült.",module,Magento_Authorizenet
 successful.,sikeres.,module,Magento_Authorizenet
 refund,visszatérítés,module,Magento_Authorizenet
@@ -755,12 +758,17 @@ Preview,Előnézet,module,Magento_Newsletter
 "Template Name","Sablon neve",module,Magento_Newsletter
 ID,Azonosító,module,Magento_Newsletter
 Action,Akció,module,Magento_Newsletter
+"We can't delete this template right now.","A sablon jelenleg nem törölhető.",module,Magento_Newsletter
 Country,Ország,module,Magento_OfflineShipping
 "Zip/Postal Code",Irányítószám,module,Magento_OfflineShipping
 "Shipping Price","Szállítási költség",module,Magento_OfflineShipping
 None,"Egyik sem",module,Magento_OfflineShipping
+"We couldn't import this file because of these errors: %1","A fájl nem tölthető be az alábbi hibák miatt: %1",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Ismétlődő sor #%1 (ország ""%2"", régió/állam ""%3"", irányítószám ""%4"" és érték ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","Ingyenes szállítás",module,Magento_OfflineShipping
 No,Nem ,module,Magento_OfflineShipping
+"Built-in Application (Not Recommended for Production Use)","Beépített alkalmazás (Éles használatra nem javasolt)",module,Magento_PageCache
+"Varnish Caching","Varnish gyorstárazás",module,Magento_PageCache
 Month,Hónap,module,Magento_Payment
 Year,Év,module,Magento_Payment
 Discount,Kedvezmény,module,Magento_Payment
@@ -1520,6 +1528,7 @@ Type,Típus,module,Magento_OfflineShipping
 Export,Exportálás,module,Magento_OfflineShipping
 Import,Importálás,module,Magento_OfflineShipping
 "Minimum Order Amount","Minimális rendelési összeg",module,Magento_OfflineShipping
+"Full page caching.","Teljes oldal gyorstárazás.",module,Magento_PageCache
 Size,Méret,module,Magento_Paypal
 Title,Cím,module,Magento_Paypal
 "Advanced Settings","Haladó beállítások",module,Magento_Paypal

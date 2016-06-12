@@ -632,8 +632,11 @@ Country,Ország,module,Magento_OfflineShipping
 "Zip/Postal Code",Irányítószám,module,Magento_OfflineShipping
 "Shipping Price","Szállítási költség",module,Magento_OfflineShipping
 None,"Egyik sem",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Ismétlődő sor #%1 (ország ""%2"", régió/állam ""%3"", irányítószám ""%4"" és érték ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","Ingyenes szállítás",module,Magento_OfflineShipping
 No,Nem ,module,Magento_OfflineShipping
+"Built-in Application (Not Recommended for Production Use)","Beépített alkalmazás (Éles használatra nem javasolt)",module,Magento_PageCache
+"Varnish Caching","Varnish gyorstárazás",module,Magento_PageCache
 Month,Hónap,module,Magento_Payment
 Year,Év,module,Magento_Payment
 Discount,Kedvezmény,module,Magento_Payment
@@ -1199,6 +1202,7 @@ Type,Típus,module,Magento_OfflineShipping
 Export,Exportálás,module,Magento_OfflineShipping
 Import,Importálás,module,Magento_OfflineShipping
 "Minimum Order Amount","Minimális rendelési összeg",module,Magento_OfflineShipping
+"Full page caching.","Teljes oldal gyorstárazás.",module,Magento_PageCache
 Size,Méret,module,Magento_Paypal
 Title,Cím,module,Magento_Paypal
 "Advanced Settings","Haladó beállítások",module,Magento_Paypal

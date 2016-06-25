@@ -548,6 +548,8 @@ Purchased,Megvásárolva,module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
+Indeterminate,Meghatározatlan,module,Magento_Customer
+"The customer does not have default billing address.","Az ügyfél nem rendelkezik alapértelmezett számlázási címmel.",module,Magento_Customer
 Offline,"Nem elérhető",module,Magento_Customer
 Online,Elérhető,module,Magento_Customer
 Never,Soha,module,Magento_Customer
@@ -560,9 +562,38 @@ Download,Letöltés,module,Magento_Customer
 "Delete Image","Kép törlése",module,Magento_Customer
 "View Full Size","Teljes méret",module,Magento_Customer
 "All countries","Összes ország",module,Magento_Customer
+"Customer Groups","Vevői csoportok",module,Magento_Customer
+"Add New Customer Group","Új vevői csoport hozzáadása",module,Magento_Customer
+"Save Customer Group","Vevői csoport mentése",module,Magento_Customer
+"New Customer Group","Új vevői csoport",module,Magento_Customer
+"Group Information","Csoport információ",module,Magento_Customer
+"Group Name","Csoport neve",module,Magento_Customer
+"The VAT ID is valid.","Az adószám érvényes.",module,Magento_Customer
+"The VAT ID entered (%s) is not a valid VAT ID.","A megadott adószám (%s) nem érvényes.",module,Magento_Customer
+"Customer Login",Belépés,module,Magento_Customer
+"Date of Birth","Születési dátum",module,Magento_Customer
+"Wrong email.","Hibás email cím.",module,Magento_Customer
+"Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
+"A login and a password are required.","Azonosító és jelszó megadása szükséges.",module,Magento_Customer
+"Please enter a new password.","Adjon meg egy új jelszót.",module,Magento_Customer
+"You updated your password.","Frissítette a jelszót.",module,Magento_Customer
+"You deleted the address.","Törölte a címet.",module,Magento_Customer
+"You saved the address.","Mentette a címet.",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
+"New Group","Új csoport",module,Magento_Customer
+"New Customer Groups","Új vevői csoport",module,Magento_Customer
+"Edit Group","Csoport szerkesztése",module,Magento_Customer
+"Edit Customer Groups","Vevői csoportok szerkesztése",module,Magento_Customer
+"You saved the customer group.","Vevői csoport elmentve.",module,Magento_Customer
+"Please select customer(s).","Kérjük, válassza ki a vevőket.",module,Magento_Customer
+"Customer could not be deleted.","Vevő nem törölhető.",module,Magento_Customer
+"You deleted the customer.","Vevő törölve.",module,Magento_Customer
+"Manage Customers","Vevők kezelése",module,Magento_Customer
+"You saved the customer.","Vásárló elmentve.",module,Magento_Customer
+"Something went wrong while saving the customer.","Hiba történt a vásárló mentése közben.",module,Magento_Customer
 "Page not found.","Az oldal nem található.",module,Magento_Customer
+"Online Customers","Online vásárlók",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
 "Please enter a TAX/VAT number.","Kérjük, írja be az adószámát.",module,Magento_Customer

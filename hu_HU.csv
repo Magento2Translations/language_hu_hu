@@ -446,6 +446,8 @@ Order,Rendelés,module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
+Indeterminate,Meghatározatlan,module,Magento_Customer
+"The customer does not have default billing address.","Az ügyfél nem rendelkezik alapértelmezett számlázási címmel.",module,Magento_Customer
 Offline,"Nem elérhető",module,Magento_Customer
 Never,Soha,module,Magento_Customer
 "Deleted Stores","Törölt üzletek",module,Magento_Customer
@@ -457,8 +459,26 @@ Download,Letöltés,module,Magento_Customer
 "Delete Image","Kép törlése",module,Magento_Customer
 "View Full Size","Teljes méret",module,Magento_Customer
 "All countries","Összes ország",module,Magento_Customer
+"Customer Groups","Vevői csoportok",module,Magento_Customer
+"Add New Customer Group","Új vevői csoport hozzáadása",module,Magento_Customer
+"Save Customer Group","Vevői csoport mentése",module,Magento_Customer
+"New Customer Group","Új vevői csoport",module,Magento_Customer
+"Group Information","Csoport információ",module,Magento_Customer
+"Group Name","Csoport neve",module,Magento_Customer
+"Customer Login",Belépés,module,Magento_Customer
+"Date of Birth","Születési dátum",module,Magento_Customer
+"Wrong email.","Hibás email cím.",module,Magento_Customer
+"Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
+"New Group","Új csoport",module,Magento_Customer
+"New Customer Groups","Új vevői csoport",module,Magento_Customer
+"Edit Group","Csoport szerkesztése",module,Magento_Customer
+"Edit Customer Groups","Vevői csoportok szerkesztése",module,Magento_Customer
+"Please select customer(s).","Kérjük, válassza ki a vevőket.",module,Magento_Customer
+"You deleted the customer.","Vevő törölve.",module,Magento_Customer
+"Manage Customers","Vevők kezelése",module,Magento_Customer
+"You saved the customer.","Vásárló elmentve.",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer

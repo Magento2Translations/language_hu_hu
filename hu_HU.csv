@@ -436,6 +436,7 @@ Loading...,Betöltés...,module,Magento_Checkout
 "Product Name",Terméknév,module,Magento_Checkout
 "Incl. Tax",Adóval,module,Magento_Checkout
 "Your order number is: %1.","A rendelés száma: %1.",module,Magento_Checkout
+"Your order # is: <span>%1</span>.","A rendelés száma: <span>%1</span>.",module,Magento_Checkout
 "Add New Block","Új blokk hozzáadása",module,Magento_Cms
 "Save Block","Blokk mentése",module,Magento_Cms
 "Delete Block","Blokk törlése",module,Magento_Cms

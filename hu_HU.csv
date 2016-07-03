@@ -505,6 +505,7 @@ Import,Importálás,module,Magento_CurrencySymbol
 System,Rendszer,module,Magento_CurrencySymbol
 "Sign Out",Kijelentkezés,module,Magento_Customer
 "Sign In",Bejelentkezés,module,Magento_Customer
+"You don't subscribe to our newsletter.","Nem iratkozik fel a hírlevelünkre.",module,Magento_Customer
 "You have not set a default shipping address.","Nem állított be alapértelmezett szállítási címet.",module,Magento_Customer
 "You have not set a default billing address.","Nem állított be alapértelmezett számlázási címet.",module,Magento_Customer
 "Address Book",Címjegyzék,module,Magento_Customer
@@ -546,6 +547,7 @@ Purchased,Megvásárolva,module,Magento_Customer
 "Bill-to Name","Számlázási név",module,Magento_Customer
 "Ship-to Name","Szállítási név",module,Magento_Customer
 "Order Total","Rendelés végösszege",module,Magento_Customer
+"There are no items in customer's shopping cart.","A vevő bevásárlókosara üres.",module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
@@ -569,18 +571,28 @@ Download,Letöltés,module,Magento_Customer
 "New Customer Group","Új vevői csoport",module,Magento_Customer
 "Group Information","Csoport információ",module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
+"Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
 "The VAT ID is valid.","Az adószám érvényes.",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","A megadott adószám (%s) nem érvényes.",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
 "Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
+"We can't save the customer.","Nem tudjuk menteni a vevőt.",module,Magento_Customer
+"Invalid input","Érvénytelen adat",module,Magento_Customer
+"Confirm your new password.","Erősítse meg új jelszavát.",module,Magento_Customer
+"Something went wrong while changing the password.","Valami nem sikerült a jelszó megváltoztatása közben.",module,Magento_Customer
+"We're unable to send the password reset email.","Nem tudunk jelszó módosító levelet küldeni.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
 "A login and a password are required.","Azonosító és jelszó megadása szükséges.",module,Magento_Customer
 "Please enter a new password.","Adjon meg egy új jelszót.",module,Magento_Customer
 "You updated your password.","Frissítette a jelszót.",module,Magento_Customer
 "You deleted the address.","Törölte a címet.",module,Magento_Customer
+"We can't delete the address right now.","Jelenleg nem tudjuk törölni a címet.",module,Magento_Customer
 "You saved the address.","Mentette a címet.",module,Magento_Customer
+"We can't save the address.","Nem tudjuk menteni a címet.",module,Magento_Customer
+"You have revoked the customer's tokens.","Visszavonta a vevő tokenjeit.",module,Magento_Customer
+"We can't find a customer to revoke.","Nem találtuk a vevőt a visszavonáshoz.",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
 "New Group","Új csoport",module,Magento_Customer
 "New Customer Groups","Új vevői csoport",module,Magento_Customer
@@ -595,9 +607,18 @@ Customers,Vásárlók,module,Magento_Customer
 "Something went wrong while saving the customer.","Hiba történt a vásárló mentése közben.",module,Magento_Customer
 "Page not found.","Az oldal nem található.",module,Magento_Customer
 "Online Customers","Online vásárlók",module,Magento_Customer
+"%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 nem a \Magento\Customer\CustomerData\SectionSourceInterface kiterjesztése",module,Magento_Customer
+"The password doesn't match this account.","Az azonosító jelszava nem megfelelő.",module,Magento_Customer
+"The password can't begin or end with a space.","A jelszó nem kezdődhet vagy végződhet szóközzel.",module,Magento_Customer
+"We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Nem tudjuk megosztani vevő azonosítókat globálisan ha az e-mail címek megegyeznek több weblapon.",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
+"Please enter a first name.","Kérjük, adjon meg utónevet.",module,Magento_Customer
+"Please enter a last name.","Kérjük, adjon meg vezetéknevet.",module,Magento_Customer
+"Please correct this email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Customer
+"Please enter a date of birth.","Kérjük, adja meg a születési dátumát.",module,Magento_Customer
 "Please enter a TAX/VAT number.","Kérjük, írja be az adószámát.",module,Magento_Customer
+"Please enter a gender.","Kérjük, adja meg a nemét.",module,Magento_Customer
 message,üzenet,module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer
 Customer,Vásárló,module,Magento_Customer
@@ -1477,6 +1498,8 @@ Total:,Végösszeg:,module,Magento_Checkout
 "Email: %email","E-mail: %email",module,Magento_Contact
 "Phone Number: %telephone","Telefonszám: %telephone",module,Magento_Contact
 "Comment: %comment","Hozzászólás: %comment",module,Magento_Contact
+"The password for your account has been successfully changed.","A fiók jelszavának módosítása sikeresen megtörtént.",module,Magento_Customer
+"If you did not request this change, please contact us.","Ha ezt a változást nem kérte, kérjük lépjen kapcsolatba velünk.",module,Magento_Customer
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name vásárló, %store_name webáruházból meg akarja osztani veled ezt a kívánságlistát:",module,Magento_Wishlist
 "Message from %customer_name:","%customer_name üzenete:",module,Magento_Wishlist
 "View all Wish List items","Minden kívánságlista termék megtekintése",module,Magento_Wishlist
@@ -1590,11 +1613,14 @@ Contacts,Névjegyek,module,Magento_Contact
 "Generate Schedules Every","Ütemezések létrehozása minden",module,Magento_Cron
 "Use Separate Process","Külön eljárások használata",module,Magento_Cron
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
+"Recovery Link Expiration Period (days)","Helyreállítási link lejárati idő (nap)",module,Magento_Customer
 "Show Tax/VAT Number","Adószám megjelenítése",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
+"Last Logged In","Utolsó bejelentkezés",module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer
 "Last Name",Vezetéknév,module,Magento_Customer
 Type,Típus,module,Magento_Customer
+"You are signed out.","Ön kijelentkezett.",module,Magento_Customer
 "Workflow type","Munkafolyamat típus",module,Magento_Developer
 "Not available in production mode","Éles üzemmódban nem elérhető",module,Magento_Developer
 "Developer Client Restrictions","Fejlesztői kliens korlátozások",module,Magento_Developer

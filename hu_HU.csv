@@ -465,10 +465,12 @@ Download,Letöltés,module,Magento_Customer
 "New Customer Group","Új vevői csoport",module,Magento_Customer
 "Group Information","Csoport információ",module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
+"Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
 "Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
+"Invalid input","Érvénytelen adat",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
 "New Group","Új csoport",module,Magento_Customer
@@ -481,10 +483,12 @@ Customers,Vásárlók,module,Magento_Customer
 "You saved the customer.","Vásárló elmentve.",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
+"Please correct this email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer
 Customer,Vásárló,module,Magento_Customer
 Change,Módosítás,module,Magento_Customer
 "Default Shipping Address","Alapértelmezett szállítási cím",module,Magento_Customer
+or,vagy,module,Magento_Customer
 "Change Billing Address","Számlázási cím módosítása",module,Magento_Customer
 "Change Shipping Address","Szállítási cím módosítása",module,Magento_Customer
 Company,Cég,module,Magento_Customer
@@ -1245,6 +1249,7 @@ Contacts,Névjegyek,module,Magento_Contact
 "Generate Schedules Every","Ütemezések létrehozása minden",module,Magento_Cron
 "Use Separate Process","Külön eljárások használata",module,Magento_Cron
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
+"Recovery Link Expiration Period (days)","Helyreállítási link lejárati idő (nap)",module,Magento_Customer
 "Show Tax/VAT Number","Adószám megjelenítése",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer

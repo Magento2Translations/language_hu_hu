@@ -574,6 +574,7 @@ Password,Jelszó,module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
+"Cannot switch into given mode ""%1""","""%1"" módba nem lehet átváltani",module,Magento_Deploy
 "Format for IDE '%1' is not supported","'%1' IDE formátum nem támogatott",module,Magento_Developer
 "Client side less compilation","Kliens oldali LESS fordítás",module,Magento_Developer
 "Server side less compilation","Szerver oldali LESS fordítás",module,Magento_Developer

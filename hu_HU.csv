@@ -613,9 +613,13 @@ Yes,Igen,module,Magento_EncryptionKey
 "FedEx Envelope","FedEx boríték",module,Magento_Fedex
 Adult,Felnőtt,module,Magento_Fedex
 None,"Egyik sem",module,Magento_Fedex
+"Unknown entity type","Ismeretlen entitástípus",module,Magento_GiftMessage
+From,Feladó,module,Magento_GiftMessage
+To,Címzett,module,Magento_GiftMessage
 Message,Üzenet,module,Magento_GiftMessage
 Cancel,Mégse,module,Magento_GiftMessage
 "Gift Options","Ajándék beállítások",module,Magento_GiftMessage
+"Gift Message","Ajándék üzenet",module,Magento_GiftMessage
 Dynamic,Dinamikus,module,Magento_GoogleAdwords
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct

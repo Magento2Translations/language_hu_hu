@@ -34,6 +34,8 @@ Close,Bezárás,module,Magento_AdminNotification
 "Critical System Messages","Kritikus rendszerüzenetek",module,Magento_AdminNotification
 "Major System Messages","Fontos rendszerüzenetek",module,Magento_AdminNotification
 "System messages",Rendszerüzenetek,module,Magento_AdminNotification
+"Please correct the data sent.","Kérjük, javítsa a továbbított adatokat.",module,Magento_AdvancedPricingImportExport
+"There are no product types available for export","Nincsenek exportálható terméktípusok",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","A felhasználóhoz tartozó szerepkör nem található.",module,Magento_Authorization
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","Rendelését jelenleg nem tudjuk feldolgozni. Kérjük később próbálkozzon újra.",module,Magento_Authorizenet
@@ -762,9 +764,13 @@ Adult,Felnőtt,module,Magento_Fedex
 Pounds,Font,module,Magento_Fedex
 Kilograms,Kilogramm,module,Magento_Fedex
 None,"Egyik sem",module,Magento_Fedex
+"Unknown entity type","Ismeretlen entitástípus",module,Magento_GiftMessage
+From,Feladó,module,Magento_GiftMessage
+To,Címzett,module,Magento_GiftMessage
 Message,Üzenet,module,Magento_GiftMessage
 Cancel,Mégse,module,Magento_GiftMessage
 "Gift Options","Ajándék beállítások",module,Magento_GiftMessage
+"Gift Message","Ajándék üzenet",module,Magento_GiftMessage
 Dynamic,Dinamikus,module,Magento_GoogleAdwords
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct

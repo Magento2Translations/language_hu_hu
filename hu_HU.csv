@@ -27,6 +27,7 @@ notice,figyelmeztetés,module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} használata nem javasolt éles környezetben mint nem biztonságos URL / biztonságos URL. Erősen javasolt ezen érték megváltoztatása a Magento <a href=""%1"">beállításokban</a>.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Kérlek, látogass el a <a href=""%1"">Gyorsítótár kezelése</a> oldalra és frissítsd a gyorsítótár típusokat.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Egy vagy több média fájl szinkronizálása sikertelen. Kérlek, olvasd el a részleteket a naplófájlban.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Média tároló frissítése befejeződött.",module,Magento_AdminNotification
 "Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","A webszerver beállítása helytelen, és lehetővé teszi a jogosulatlan hozzáférést az érzékeny fájlokhoz. Kérlek, fordulj a tárhelyszolgáltatódhoz.",module,Magento_AdminNotification
 "Close popup","Felugró ablak bezárása",module,Magento_AdminNotification
 Close,Bezárás,module,Magento_AdminNotification
@@ -34,6 +35,7 @@ Close,Bezárás,module,Magento_AdminNotification
 "Critical System Messages","Kritikus rendszerüzenetek",module,Magento_AdminNotification
 "Major System Messages","Fontos rendszerüzenetek",module,Magento_AdminNotification
 "System messages",Rendszerüzenetek,module,Magento_AdminNotification
+"See All (","Összes megtekintése (",module,Magento_AdminNotification
 "Please correct the data sent.","Kérjük, javítsa a továbbított adatokat.",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Nincsenek exportálható terméktípusok",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","A felhasználóhoz tartozó szerepkör nem található.",module,Magento_Authorization

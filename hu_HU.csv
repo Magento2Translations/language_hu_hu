@@ -26,6 +26,7 @@ minor,elhanyagolható,module,Magento_AdminNotification
 notice,figyelmeztetés,module,Magento_AdminNotification
 "Wrong message type","Rossz üzenet típus",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Kérlek, látogass el a <a href=""%1"">Gyorsítótár kezelése</a> oldalra és frissítsd a gyorsítótár típusokat.",module,Magento_AdminNotification
+"Synchronization of media storages has been completed.","Média tároló frissítése befejeződött.",module,Magento_AdminNotification
 "Close popup","Felugró ablak bezárása",module,Magento_AdminNotification
 Close,Bezárás,module,Magento_AdminNotification
 "Critical System Messages","Kritikus rendszerüzenetek",module,Magento_AdminNotification

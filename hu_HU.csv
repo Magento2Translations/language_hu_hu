@@ -132,6 +132,8 @@ Actions,Műveletek,module,Magento_Braintree
 Yes,Igen,module,Magento_Braintree
 No,Nem ,module,Magento_Braintree
 Edit,Szerkesztés,module,Magento_Braintree
+"Percent Discount","Százalékos kedvezmény",module,Magento_Bundle
+"-- Select --","-- Válasszon --",module,Magento_Bundle
 Dynamic,Dinamikus,module,Magento_Bundle
 Fixed,Rögzített,module,Magento_Bundle
 Close,Bezárás,module,Magento_Bundle
@@ -144,9 +146,14 @@ Delete,Törlés,module,Magento_Bundle
 "Price Range",Ártartomány,module,Magento_Bundle
 Percent,Százalék,module,Magento_Bundle
 None,"Egyik sem",module,Magento_Bundle
+Separately,Külön-külön,module,Magento_Bundle
+Together,Együtt,module,Magento_Bundle
+"Input Type","Beviteli mező típusa",module,Magento_Bundle
 Required,Kötelező,module,Magento_Bundle
+Position,Pozició,module,Magento_Bundle
 Default,Alapértelmezett,module,Magento_Bundle
 Name,Név,module,Magento_Bundle
+"Price Type",Ártípus,module,Magento_Bundle
 "Default Quantity","Alapértelmezett mennyiség",module,Magento_Bundle
 "User Defined","Felhasználó által definiált",module,Magento_Bundle
 Ordered,Megrendelt,module,Magento_Bundle
@@ -154,12 +161,15 @@ Invoiced,Számlázott,module,Magento_Bundle
 Shipped,Szállított,module,Magento_Bundle
 Refunded,Visszatérített,module,Magento_Bundle
 Canceled,Törölve,module,Magento_Bundle
+"* Required Fields","* kitöltése kötelező",module,Magento_Bundle
 Availability,Elérhetőség,module,Magento_Bundle
 "In stock",Raktáron,module,Magento_Bundle
 "Out of stock","Nincs raktáron",module,Magento_Bundle
 Summary,Összefoglaló,module,Magento_Bundle
 Availability:,Elérhetőség:,module,Magento_Bundle
 "Customize %1","%1 testreszabása",module,Magento_Bundle
+"Gift Message","Ajándék üzenet",module,Magento_Bundle
+Message:,Üzenet:,module,Magento_Bundle
 Always,Mindig,module,Magento_Captcha
 "Incorrect CAPTCHA","Érvénytelen CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Érvénytelen CAPTCHA.",module,Magento_Captcha
@@ -201,31 +211,58 @@ List,Lista,module,Magento_CatalogSearch
 "Search Settings","Keresési beállítások",module,Magento_CatalogSearch
 Search,Keresés,module,Magento_CatalogSearch
 name,név,module,Magento_CatalogSearch
+Root,Gyökér,module,Magento_Catalog
 "Save Category","Kategória mentése",module,Magento_Catalog
 "Delete Category","Kategória törlése",module,Magento_Catalog
 Reset,Alaphelyzet,module,Magento_Catalog
 "New Subcategory","Új alkategória",module,Magento_Catalog
+"Use Config Settings","Konfigurációs beállítások használata",module,Magento_Catalog
+"Use All Available Attributes","Minden rendelkezésre álló attribútum használata",module,Magento_Catalog
 ID,Azonosító,module,Magento_Catalog
 Name,Név,module,Magento_Catalog
 SKU,Cikkszám,module,Magento_Catalog
 Price,Ár,module,Magento_Catalog
 Position,Pozició,module,Magento_Catalog
 "Add Subcategory","Alkategória hozzáadása",module,Magento_Catalog
+"Add Root Category","Gyökér kategória hozzáadása",module,Magento_Catalog
 Day,Nap,module,Magento_Catalog
 Month,Hónap,module,Magento_Catalog
 Year,Év,module,Magento_Catalog
 "WYSIWYG Editor","WYSIWYG szerkesztő",module,Magento_Catalog
+"Add Product","Termék hozzáadása",module,Magento_Catalog
 label,címke,module,Magento_Catalog
 "Product Attributes",Termékjellemzők,module,Magento_Catalog
+"Add New Attribute","Új attribútum hozzáadása",module,Magento_Catalog
+"Save in New Attribute Set","Új attribútum készlet mentése",module,Magento_Catalog
+"Enter Name for New Attribute Set","Adja meg az új attribútum készlet nevét",module,Magento_Catalog
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_Catalog
 "Save Attribute","Jellemző mentése",module,Magento_Catalog
+"Delete Attribute","Attribútum törlése",module,Magento_Catalog
 "Edit Product Attribute ""%1""","""%1"" termék jellemző szerkesztése",module,Magento_Catalog
 "New Product Attribute","Új termékjellemző",module,Magento_Catalog
+"Advanced Attribute Properties","Haladó attribútum tulajdonságok",module,Magento_Catalog
+"Attribute Code",Attribútum-kód,module,Magento_Catalog
 "Default Value","Alapértelmezett érték",module,Magento_Catalog
 "Unique Value","Egyedi érték",module,Magento_Catalog
+"Store View","Áruház nézet",module,Magento_Catalog
+Website,Weboldal,module,Magento_Catalog
+Global,Globális,module,Magento_Catalog
+Scope,Hatókör,module,Magento_Catalog
+"Media Image","Média kép",module,Magento_Catalog
 Gallery,Galéria,module,Magento_Catalog
+"System Properties","Rendszer tulajdonságai",module,Magento_Catalog
 No,Nem ,module,Magento_Catalog
 Yes,Igen,module,Magento_Catalog
+"Data Type for Saving in Database","Adattípus az adatbázisba mentéshez",module,Magento_Catalog
+Text,Szöveg,module,Magento_Catalog
+Static,Statikus,module,Magento_Catalog
+Datetime,"Dátum és idő",module,Magento_Catalog
+Decimal,Decimális,module,Magento_Catalog
+Integer,"Egész szám",module,Magento_Catalog
+"Globally Editable","Globálisan szerkeszthető",module,Magento_Catalog
+"Attribute Information",Attribútum-információk,module,Magento_Catalog
+Properties,Tulajdonságok,module,Magento_Catalog
+"Manage Labels","Feliratok kezelése",module,Magento_Catalog
 Visible,Látható,module,Magento_Catalog
 Searchable,Kereshető,module,Magento_Catalog
 Comparable,Összehasonlítható,module,Magento_Catalog
@@ -263,25 +300,57 @@ Import,Importálás,module,Magento_Catalog
 "Add New Row","Új sor hozzáadása",module,Magento_Catalog
 "Delete Row","Sor törlése",module,Magento_Catalog
 "Default Price","Alapértelmezett ár",module,Magento_Catalog
+"All Websites","Minden weboldal",module,Magento_Catalog
+"ALL GROUPS","MINDEN CSOPORT",module,Magento_Catalog
+"Add Price","Ár hozzáadása",module,Magento_Catalog
 "Default Values","Alapértelmezett értékek",module,Magento_Catalog
 "Related Products","Kapcsolódó termékek",module,Magento_Catalog
 Quantity,Mennyiség,module,Magento_Catalog
 Edit,Szerkesztés,module,Magento_Catalog
 "Are you sure?","Biztos benne?",module,Magento_Catalog
+"New Category","Új kategória",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Képek (.gif, .jpg, .png)",module,Magento_Catalog
+"Add New Images","Új képek hozzáadása",module,Magento_Catalog
 "Inc. Tax",Adóval,module,Magento_Catalog
 Product,Termék,module,Magento_Catalog
 Home,Kezdőlap,module,Magento_Catalog
+AM,de,module,Magento_Catalog
+PM,du,module,Magento_Catalog
+"-- Please Select --","-- Kérjük válasszon --",module,Magento_Catalog
 None,"Egyik sem",module,Magento_Catalog
 "New Products","Új termékek",module,Magento_Catalog
 Categories,Kategóriák,module,Magento_Catalog
 "Manage Categories","Kategóriák kezelése",module,Magento_Catalog
+Catalog,Katalógus,module,Magento_Catalog
+"Manage Product Attributes","Termék-attribútumok kezelése",module,Magento_Catalog
 Products,Termékek,module,Magento_Catalog
+"New Attribute Set","Új attribútumkészlet",module,Magento_Catalog
+"The attribute set has been removed.","Az attribútumkészlet el lett távolítva.",module,Magento_Catalog
+"New Set","Új készlet",module,Magento_Catalog
+"Manage Product Sets","Termék-készletek kezelése",module,Magento_Catalog
+"Manage Attribute Sets","Attribútum-készletek kezelése",module,Magento_Catalog
+"This attribute set no longer exists.","Ez az attribútum-készlet már nem létezik.",module,Magento_Catalog
+"1 item","1 elem",module,Magento_Catalog
+"%1 items","%1 elem",module,Magento_Catalog
 Grid,Rács,module,Magento_Catalog
 List,Lista,module,Magento_Catalog
 All,Összes,module,Magento_Catalog
+"Products only","Csak termékek",module,Magento_Catalog
+"Static block only","Csak statikus blokk",module,Magento_Catalog
+"Static block and products","Statikus blokk és termékek",module,Magento_Catalog
+"Please select a static block.","Kérjük, válasszon egy statikus blokkot.",module,Magento_Catalog
+"-- Please Select a Category --","-- Kérjük, válasszon egy kategóriát --",module,Magento_Catalog
+"Grid Only","Csak rács",module,Magento_Catalog
+"List Only","Csak lista",module,Magento_Catalog
+"Grid (default) / List","Rács (alapértelmezett) / lista",module,Magento_Catalog
+"List (default) / Grid","Lista (alapértelmezett) / rács",module,Magento_Catalog
+Manual,Kézi,module,Magento_Catalog
 Fixed,Rögzített,module,Magento_Catalog
 Percent,Százalék,module,Magento_Catalog
+"-- Please select --","-- Kérjük válasszon --",module,Magento_Catalog
+"12h AM/PM","12 óra, de/du",module,Magento_Catalog
+Enabled,Engedélyezett,module,Magento_Catalog
+Disabled,Tiltott,module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
 "Catalog, Search","Katalógus, keresés",module,Magento_Catalog
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Catalog
@@ -306,6 +375,8 @@ Action,Akció,module,Magento_Catalog
 "You have no items to compare.","Nincs összehasonlítható termék.",module,Magento_Catalog
 Compare,Összehasonlítás,module,Magento_Catalog
 Next, Következő,module,Magento_Catalog
+Show,Megtekintés,module,Magento_Catalog
+"per page",oldalanként,module,Magento_Catalog
 "Sort By",Rendezés,module,Magento_Catalog
 Loading...,Betöltés...,module,Magento_Catalog
 Availability,Elérhetőség,module,Magento_Catalog
@@ -1088,9 +1159,12 @@ No,Nem ,module,Magento_UrlRewrite
 Back,Vissza,module,Magento_User
 Reset,Alaphelyzet,module,Magento_User
 "Delete Role","Szerepkör törlése",module,Magento_User
+"Are you sure you want to do this?","Biztos benne, hogy ezt akarja csinálni?",module,Magento_User
 "Save Role","Szerepkör mentése",module,Magento_User
 Roles,Szerepkörök,module,Magento_User
 "Add New Role","Új szerepkör hozzáadása",module,Magento_User
+"Role Information",Szerepkör-információ,module,Magento_User
+"Role Users","Szerepkör Felhasználók",module,Magento_User
 "User ID","Felhasználói azonosító",module,Magento_User
 "User Name","Felhasználói név",module,Magento_User
 "First Name",Keresztnév,module,Magento_User
@@ -1098,6 +1172,9 @@ Roles,Szerepkörök,module,Magento_User
 Status,Állapot,module,Magento_User
 Active,Aktív,module,Magento_User
 Inactive,Inaktív,module,Magento_User
+"Role Resources","Szerepkör Erőforrások",module,Magento_User
+"Role Info",Szerepkör-információ,module,Magento_User
+"Role Name","Szerepkör neve",module,Magento_User
 "Add New User","Új felhasználó hozzáadása",module,Magento_User
 Users,Felhasználók,module,Magento_User
 "Save User","Felhasználó mentése",module,Magento_User
@@ -1105,24 +1182,56 @@ Users,Felhasználók,module,Magento_User
 "Edit User '%1'","'%1' felhasználó szerkesztése",module,Magento_User
 "New User","Új felhasználó",module,Magento_User
 "Account Information","Felhasználói fiók adatai",module,Magento_User
+"User Email","Felhasználó e-mail",module,Magento_User
 Password,Jelszó,module,Magento_User
 "New Password","Új jelszó",module,Magento_User
+"Password Confirmation","Jelszó megerősítése",module,Magento_User
 "Interface Locale","Kezelőfelület nyelve",module,Magento_User
+"Account Status","Fiók állapota",module,Magento_User
+"Your Password","Az Ön jelszava",module,Magento_User
+Assigned,Hozzárendelve,module,Magento_User
 Role,Szerepkör,module,Magento_User
+"User Information","Felhasználói információ",module,Magento_User
+"User Info","Felhasználó infó",module,Magento_User
+"User Role","Felhasználói szerepkör",module,Magento_User
+"Please correct the password reset token.","Kérjük a javítsa a jelszó-visszaállítási tokent.",module,Magento_User
+"Please specify the correct account and try again.","Kérjük, adja meg a megfelelő fiókot, majd próbálkozzon újra.",module,Magento_User
+"Your password reset link has expired.","A jelszó módosító link érvényessége lejárt.",module,Magento_User
+"Please correct this email address:","Kérjük javítsa ezt az email címet:",module,Magento_User
 "Locked Users","Zárolt felhasználók",module,Magento_User
 System,Rendszer,module,Magento_User
 Permissions,Jogosultságok,module,Magento_User
+"You cannot delete your own account.","Saját fiókját nem törölheti.",module,Magento_User
+"You deleted the user.","A felhasználó törölte.",module,Magento_User
 "This user no longer exists.","Ez a felhasználó már nem létezik.",module,Magento_User
 "Edit User","Felhasználó szerkesztése",module,Magento_User
+"You cannot delete self-assigned roles.","Nem törölheti a saját társított szerepkörét.",module,Magento_User
+"You deleted the role.","Törölte a szerepkört.",module,Magento_User
+"An error occurred while deleting this role.","Hiba történt a szerepkör törlése közben.",module,Magento_User
 "Edit Role","Szerepkör szerkesztése",module,Magento_User
 "New Role","Új szerepkör",module,Magento_User
 "This role no longer exists.","Ez a szerepkör már nem létezik.",module,Magento_User
+"You saved the role.","A szerepkör mentése megtörtént.",module,Magento_User
+"An error occurred while saving this role.","Hiba történt a szerepkör mentése közben.",module,Magento_User
+"You saved the user.","A felhasználó mentése megtörtént.",module,Magento_User
+Recommended,Ajánlott,module,Magento_User
+Forced,Kényszerített,module,Magento_User
+"User Name is a required field.","A Felhasználó Név mező megadása kötelező.",module,Magento_User
+"First Name is a required field.","A Keresztnév mező megadása kötelező.",module,Magento_User
+"Last Name is a required field.","A Családi Név mező megadása kötelező.",module,Magento_User
+"Password is required field.","A jelszó megadása kötelező.",module,Magento_User
+"Your password must be at least %1 characters.","A jelszó legalább %1 karakter kell legyen.",module,Magento_User
+"Your password must include both numeric and alphabetic characters.","A jelszónak mind numerikus és alfabetikus karaktert tartalmaznia kell.",module,Magento_User
+"Your password confirmation must match your password.","A jelszó megerősítés meg kell egyezzen a jelszóval.",module,Magento_User
 "Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
 "Confirm New Password","Új jelszó megerősítése",module,Magento_User
 "Reset Password","Jelszó visszaállítása",module,Magento_User
+"Roles Resources","Szerepkör Erőforrások",module,Magento_User
+"Resource Access",Erőforrás-hozzáférés,module,Magento_User
 Custom,Egyedi,module,Magento_User
 All,Összes,module,Magento_User
+Resources,Erőforrások,module,Magento_User
 Yes,Igen,module,Magento_Usps
 No,Nem ,module,Magento_Usps
 Required,Kötelező,module,Magento_Usps
@@ -1235,6 +1344,9 @@ Forms,Űrlapok,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
+"All products","Összes termék",module,Magento_Catalog
+"New products","Új termékek",module,Magento_Catalog
+Template,Sablon,module,Magento_Catalog
 "Enable Terms and Conditions","Általános Szerződési Feltételek engedélyezése",module,Magento_CheckoutAgreements
 "Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
@@ -1385,10 +1497,13 @@ Title,Cím,module,Magento_Ups
 Action,Akció,module,Magento_UrlRewrite
 Edit,Szerkesztés,module,Magento_UrlRewrite
 "Password Lifetime (days)","Jelszó élettartama (nap)",module,Magento_User
+"Password Change",Jelszómódosítás,module,Magento_User
 Unlock,Feloldás,module,Magento_User
 ID,Azonosító,module,Magento_User
 Username,Felhasználónév,module,Magento_User
 "Last login","Utolsó bejelentkezés",module,Magento_User
+Failures,Hibák,module,Magento_User
+Unlocked,Feloldva,module,Magento_User
 Title,Cím,module,Magento_Usps
 Password,Jelszó,module,Magento_Usps
 Size,Méret,module,Magento_Usps

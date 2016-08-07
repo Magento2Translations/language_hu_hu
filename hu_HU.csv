@@ -39,12 +39,45 @@ Close,Bezárás,module,Magento_AdminNotification
 "See All (","Összes megtekintése (",module,Magento_AdminNotification
 "Please correct the data sent.","Kérjük, javítsa a továbbított adatokat.",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","Nincsenek exportálható terméktípusok",module,Magento_AdvancedPricingImportExport
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Hiba történt az engedélyezett erőforrások listájának összeállítása közben. Részletek a kivételek naplójában.",module,Magento_Authorization
+"You created the order.","A megrendelés létre lett hozva.",module,Magento_Authorizenet
+"Order saving error: %1","Hiba a rendelés mentése közben: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Authorizenet
+"Credit Card: xxxx-%1","Hitelkártya: xxxx-%1",module,Magento_Authorizenet
+"amount %1","%1 összeg",module,Magento_Authorizenet
 failed.,"nem sikerült.",module,Magento_Authorizenet
 successful.,sikeres.,module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net tranzakció azonosító %1.",module,Magento_Authorizenet
+authorize,engedélyez,module,Magento_Authorizenet
+"authorize and capture","engedélyez és levon",module,Magento_Authorizenet
+capture,levon,module,Magento_Authorizenet
 refund,visszatérítés,module,Magento_Authorizenet
+void,érvénytelen,module,Magento_Authorizenet
 "Gateway error: %1","Átjáró hiba: %1",module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Hiba történt a fizetési átjáróban.",module,Magento_Authorizenet
+"Invalid amount for capture.","Érvénytelen levonandó összeg.",module,Magento_Authorizenet
+"Payment capturing error.","Hiba a fizetés közben.",module,Magento_Authorizenet
+"Invalid transaction ID.","Érvénytelen a tranzakció azonosítója.",module,Magento_Authorizenet
+"Payment voiding error.","Fizetés érvénytelenítési hiba.",module,Magento_Authorizenet
+"Invalid amount for refund.","Érvénytelen visszatérítendő összeg.",module,Magento_Authorizenet
+"Payment refunding error.","Visszafizetési hiba.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","A tranzakció elutasítva válasz érvényesség ellenőrzés sikertelensége miatt.",module,Magento_Authorizenet
+"There was a payment authorization error.","Fizetés hitelesítési hiba történt.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Adjon meg egy tranzakció azonosítót a kifizetés engedélyezéséhez.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","A %1 tranzakció engedélyezve lett. Összeg: %2. Tranzakció állapota: ""%3""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","A %1 tranzakció érvénytelenítve vagy elutasítva. Tranzakció állapota: ""%2"". Összeg: %3.",module,Magento_Authorizenet
+"Authorize Only","Csak engedélyez",module,Magento_Authorizenet
+"Authorize and Capture","Engedélyez és levon",module,Magento_Authorizenet
+"Unable to get transaction details. Try again later.","Nem sikerült lekérdezni a tranzakció részleteit. Próbálkozzon később.",module,Magento_Authorizenet
+"Credit Card Type",Hitelkártya-típus,module,Magento_Authorizenet
+"Credit Card Number",Hitelkártyaszám,module,Magento_Authorizenet
 "Expiration Date","Lejárat dátuma",module,Magento_Authorizenet
+"Card Verification Number","Kártya ellenőrző szám",module,Magento_Authorizenet
+"FDS Filter Action","FDS szűrő művelet",module,Magento_Authorizenet
+"AVS Response","AVS válasz",module,Magento_Authorizenet
+"Card Code Response","Kártya kód válasz",module,Magento_Authorizenet
+"CAVV Response","CAVV válasz",module,Magento_Authorizenet
+"Fraud Filters","Csalás szűrők",module,Magento_Authorizenet
 "Cache Storage Management","Gyorsítótárak kezelése",module,Magento_Backend
 "Flush Magento Cache","Magento gyorsítótár ürítése",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","A gyorsítótár további adatot tartalmazhat. Biztos benne, hogy üríteni akarja?",module,Magento_Backend
@@ -175,6 +208,7 @@ Subtotal,Részösszeg,module,Magento_Bundle
 "Qty Invoiced","Számlázott mennyiség",module,Magento_Bundle
 "Qty Shipped","Szállított mennyiség",module,Magento_Bundle
 Always,Mindig,module,Magento_Captcha
+"After number of attempts to login","Megadott számú bejelentkezési kísérlet után",module,Magento_Captcha
 "Provided form does not exist","A megadott űrlap nem létezik",module,Magento_Captcha
 "Incorrect CAPTCHA","Érvénytelen CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Érvénytelen CAPTCHA.",module,Magento_Captcha
@@ -258,6 +292,13 @@ label,címke,module,Magento_Catalog
 Website,Weboldal,module,Magento_Catalog
 Global,Globális,module,Magento_Catalog
 Scope,Hatókör,module,Magento_Catalog
+"Storefront Properties","Storefront tulajdonságok",module,Magento_Catalog
+"Use in Search","Használat keresésben",module,Magento_Catalog
+"Visible in Advanced Search","Látható a Részletes keresésben",module,Magento_Catalog
+"Comparable on Storefront","Összehasonlítható a Storefronton",module,Magento_Catalog
+"Enable WYSIWYG","WYSIWYG engedélyezése",module,Magento_Catalog
+"Allow HTML Tags on Storefront","HTML tag-ek engedése a Storefronton",module,Magento_Catalog
+"Used in Product Listing","Terméklistában mutatás",module,Magento_Catalog
 "Media Image","Média kép",module,Magento_Catalog
 Gallery,Galéria,module,Magento_Catalog
 "System Properties","Rendszer tulajdonságai",module,Magento_Catalog
@@ -305,9 +346,14 @@ Websites,Honlapok,module,Magento_Catalog
 "Parent Category",Szülőkategória,module,Magento_Catalog
 "First Name",Keresztnév,module,Magento_Catalog
 "Last Name",Vezetéknév,module,Magento_Catalog
+"New Attribute","Új attribútum",module,Magento_Catalog
 Type,Típus,module,Magento_Catalog
+"Attribute Set",Attribútumkészlet,module,Magento_Catalog
 Status,Állapot,module,Magento_Catalog
 Visibility,Láthatóság,module,Magento_Catalog
+"Add New Option","Új választási lehetőség hozzáadása",module,Magento_Catalog
+"Import Options","Választási lehetőségek importálása",module,Magento_Catalog
+"Use Default","Alapértelmezés használata",module,Magento_Catalog
 Import,Importálás,module,Magento_Catalog
 "Add New Row","Új sor hozzáadása",module,Magento_Catalog
 "Delete Row","Sor törlése",module,Magento_Catalog
@@ -320,6 +366,8 @@ Import,Importálás,module,Magento_Catalog
 Quantity,Mennyiség,module,Magento_Catalog
 Edit,Szerkesztés,module,Magento_Catalog
 "Are you sure?","Biztos benne?",module,Magento_Catalog
+"Change Status","Állapot megváltoztatása",module,Magento_Catalog
+Hidden,Rejtett,module,Magento_Catalog
 "New Category","Új kategória",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Képek (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Új képek hozzáadása",module,Magento_Catalog
@@ -350,6 +398,7 @@ Products,Termékek,module,Magento_Catalog
 Grid,Rács,module,Magento_Catalog
 List,Lista,module,Magento_Catalog
 All,Összes,module,Magento_Catalog
+"Product is not loaded","Termék nincs betöltve",module,Magento_Catalog
 "Products only","Csak termékek",module,Magento_Catalog
 "Static block only","Csak statikus blokk",module,Magento_Catalog
 "Static block and products","Statikus blokk és termékek",module,Magento_Catalog
@@ -364,16 +413,31 @@ Fixed,Rögzített,module,Magento_Catalog
 Percent,Százalék,module,Magento_Catalog
 "-- Please select --","-- Kérjük válasszon --",module,Magento_Catalog
 "12h AM/PM","12 óra, de/du",module,Magento_Catalog
+Tile,Mozaik,module,Magento_Catalog
+Top/Left,Fent/Balra,module,Magento_Catalog
+Top/Right,Fent/Jobbra,module,Magento_Catalog
+Bottom/Left,Lent/Balra,module,Magento_Catalog
+Bottom/Right,Lent/Jobbra,module,Magento_Catalog
+Center,Középen,module,Magento_Catalog
+Category,Kategória,module,Magento_Catalog
+"%1 and above","%1 és felette",module,Magento_Catalog
 Enabled,Engedélyezett,module,Magento_Catalog
 Disabled,Tiltott,module,Magento_Catalog
+"The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
 "Catalog, Search","Katalógus, keresés",module,Magento_Catalog
 "Unable to remove product %1","%1 terméket nem lehet eltávolítani",module,Magento_Catalog
+Dropdown,"Legördülő lista",module,Magento_Catalog
 message,üzenet,module,Magento_Catalog
+Select...,"Válassza ki...",module,Magento_Catalog
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Catalog
+"Is Default",Alapértelmezett,module,Magento_Catalog
+Groups,Csoportok,module,Magento_Catalog
 "Manage Stock","Készlet kezelése",module,Magento_Catalog
+Qty,Mennyiség,module,Magento_Catalog
 "In Stock",Raktáron,module,Magento_Catalog
 "Out of Stock","Nincs raktáron",module,Magento_Catalog
+"Input Type","Beviteli mező típusa",module,Magento_Catalog
 Required,Kötelező,module,Magento_Catalog
 Title,Cím,module,Magento_Catalog
 Action,Akció,module,Magento_Catalog
@@ -400,6 +464,7 @@ Show,Megtekintés,module,Magento_Catalog
 "Sort By",Rendezés,module,Magento_Catalog
 "More Information","További információ",module,Magento_Catalog
 Loading...,Betöltés...,module,Magento_Catalog
+"* Required Fields","* kitöltése kötelező",module,Magento_Catalog
 Availability,Elérhetőség,module,Magento_Catalog
 "Terms and Conditions","Általános Szerződési Feltételek",module,Magento_CheckoutAgreements
 "Add New Condition","Új feltétel hozzáadása",module,Magento_CheckoutAgreements
@@ -431,6 +496,7 @@ Automatically,Automatikusan,module,Magento_CheckoutAgreements
 Manually,Manuálisan,module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.","Kérlek, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_CheckoutAgreements
 "Shopping Cart",Kosár,module,Magento_Checkout
+"Invalid method: %1","Érvénytelen metódus: %1",module,Magento_Checkout
 City,Város,module,Magento_Checkout
 Country,Ország,module,Magento_Checkout
 State/Province,Állam/megye,module,Magento_Checkout
@@ -440,6 +506,7 @@ State/Province,Állam/megye,module,Magento_Checkout
 "My Cart",Kosaram,module,Magento_Checkout
 "Customer is already registered","A vásárló már regisztrált",module,Magento_Checkout
 "Your session has expired","A munkamenet lejárt",module,Magento_Checkout
+"You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Checkout
 "Out of stock","Nincs raktáron",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","""%1"" kuponkód érvénytelen.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkód érvényesítése sikertelen.",module,Magento_Checkout
@@ -459,6 +526,7 @@ Checkout,Fizetés,module,Magento_Checkout
 Error!,Hiba!,module,Magento_Checkout
 Message,Üzenet,module,Magento_Checkout
 "Apply Discount Code","Kupon érvényesítése",module,Magento_Checkout
+"Shopping Cart Items","Kosár tartalma",module,Magento_Checkout
 Item,Elem,module,Magento_Checkout
 Price,Ár,module,Magento_Checkout
 Qty,Mennyiség,module,Magento_Checkout
@@ -474,6 +542,7 @@ Edit,Szerkesztés,module,Magento_Checkout
 "Estimate Shipping and Tax","Becsült szállítás és adó",module,Magento_Checkout
 "Excl. Tax","Adó nélkül",module,Magento_Checkout
 Loading...,Betöltés...,module,Magento_Checkout
+"Order #","A rendelés száma",module,Magento_Checkout
 "Proceed to Checkout","Tovább a pénztárhoz",module,Magento_Checkout
 "Product Name",Terméknév,module,Magento_Checkout
 "Incl. Tax",Adóval,module,Magento_Checkout
@@ -712,18 +781,58 @@ Ordered,Megrendelt,module,Magento_Downloadable
 Shipped,Szállított,module,Magento_Downloadable
 Canceled,Törölve,module,Magento_Downloadable
 Refunded,Visszatérített,module,Magento_Downloadable
+"Attribute Properties","Attribútum tulajdonságok",module,Magento_Eav
+"Default label","Alapértelmezett címke",module,Magento_Eav
+"Attribute Code",Attribútum-kód,module,Magento_Eav
 "Default Value","Alapértelmezett érték",module,Magento_Eav
 "Unique Value","Egyedi érték",module,Magento_Eav
+"Unique Value (not shared with other products)","Egyedi érték (nincs megosztva más termékekkel)",module,Magento_Eav
 Required,Kötelező,module,Magento_Eav
 Yes,Igen,module,Magento_Eav
 No,Nem ,module,Magento_Eav
 System,Rendszer,module,Magento_Eav
 None,"Egyik sem",module,Magento_Eav
+"Decimal Number","Decimális szám",module,Magento_Eav
 "Integer Number","Egész szám",module,Magento_Eav
 Letters,Betűk,module,Magento_Eav
+"Text Field",Szövegmező,module,Magento_Eav
+"Text Area","Szöveg terület",module,Magento_Eav
 Date,Dátum,module,Magento_Eav
 Yes/No,Igen/Nem,module,Magento_Eav
 Dropdown,"Legördülő lista",module,Magento_Eav
+"""%1"" is not a valid URL.","""%1"" nem egy érvényes URL.",module,Magento_Eav
+"""%1"" is not a valid date.","""%1"" nem egy érvényes dátum.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" nem a megadott dátum formátumban van.",module,Magento_Eav
+"""%1"" is a required value.","""%1"" egy szükséges érték.",module,Magento_Eav
+"""%1"" is not a valid file extension.","""%1"" nem egy érvényes fájlkiterjesztés.",module,Magento_Eav
+"""%1"" is not a valid file.","""%1"" nem egy érvényes fájl.",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" meghaladja a megengedett fájlméretet.",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" nem egy érvényes képformátum",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","""%1"" szélessége meghaladja az engedélyezett méretet (%2 px).",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","""%1"" magassága meghaladja az engedélyezett méretet (%2 px).",module,Magento_Eav
+"""%1"" cannot contain more than %2 lines.","""%1"" nem tartalmazhat több, mint %2 vonalat.",module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.","""%1"" hossza egyenlő vagy több mint %2 karakter kell legyen.",module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.","""%1"" hossza egyenlő vagy kevesebb mint %2 karakter kell legyen.",module,Magento_Eav
+"Attribute set not found: %1","Az attribútumkészlet nem található: %1",module,Magento_Eav
+"Attribute ""%1"" not found in attribute set %2.","A ""%1"" attribútum nem található a ""%2"" attribútumkészletben.",module,Magento_Eav
+"Cannot delete attribute.","Nem lehet törölni az attribútumot.",module,Magento_Eav
+"Unknown parameter","Ismeretlen paraméter",module,Magento_Eav
+"Invalid default decimal value","Érvénytelen alapértelmezett decimális érték",module,Magento_Eav
+"Invalid default date","Érvénytelen alapértelmezett dátum",module,Magento_Eav
+"Invalid date","Érvénytelen dátum",module,Magento_Eav
+"Empty attribute code","Üres attribútum kód",module,Magento_Eav
+"Cannot save attribute %1","Nem lehet menteni a %1 attribútumot",module,Magento_Eav
+"Cannot load options for attribute %1","Nem tölthetők be a ""%1"" attribútum választási lehetőségei",module,Magento_Eav
+"No options found.","Nincsenek választási lehetőségek.",module,Magento_Eav
+label,címke,module,Magento_Eav
+"Invalid foreign key","Érvénytelen idegen kulcs",module,Magento_Eav
+"Invalid entity type","Érvénytelen entitás típus",module,Magento_Eav
+"Invalid attribute type","Érvénytelen attribútumtípus",module,Magento_Eav
+"Invalid joint fields","Érvénytelen kapcsolt mezők",module,Magento_Eav
+"Invalid attribute name: %1","Érvénytelen attribútum név: %1",module,Magento_Eav
+"Invalid form type.","Érvénytelen űrlap típus.",module,Magento_Eav
+"Invalid EAV attribute","Érvénytelen EAV-attribútum",module,Magento_Eav
+hello,helló,module,Magento_Eav
 "Add New Template","Új sablon hozzáadása",module,Magento_Email
 Back,Vissza,module,Magento_Email
 Reset,Alaphelyzet,module,Magento_Email
@@ -1546,13 +1655,16 @@ Back,Vissza,module,Magento_Wishlist
 "Remove This Item","Termék eltávolítása",module,Magento_Wishlist
 "Go to Wish List","Tovább a kívánságlistához",module,Magento_Wishlist
 "You have no items in your wish list.","Nincsenek termékek a kívánságlistádban.",module,Magento_Wishlist
+"Now Shopping by","Aktív szűrőfeltételek",theme,frontend/Magento/luma
 Previous,Előző,theme,frontend/Magento/luma
 Remove,Eltávolítás,theme,frontend/Magento/luma
 "Remove This Item","Az elem eltávolítása",theme,frontend/Magento/luma
+"Shop By",Szűrőfeltételek,theme,frontend/Magento/luma
 "Clear All","Összes törlése",theme,frontend/Magento/luma
 "Shopping Options","Vásárlási beállítások",theme,frontend/Magento/luma
 Reason,Indoklás,module,Magento_Checkout
 Customer:,Vásárló:,module,Magento_Checkout
+Items,Termékek,module,Magento_Checkout
 Total:,Végösszeg:,module,Magento_Checkout
 "Billing Address:","Számlázási cím:",module,Magento_Checkout
 "Shipping Address:","Szállítási cím:",module,Magento_Checkout
@@ -1568,6 +1680,7 @@ Total:,Végösszeg:,module,Magento_Checkout
 "Message from %customer_name:","%customer_name üzenete:",module,Magento_Wishlist
 "View all Wish List items","Minden kívánságlista termék megtekintése",module,Magento_Wishlist
 "Welcome to %store_name.","%store_name üdvözöl!",theme,frontend/Magento/luma
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","A bejelentkezéshez használja ezeket az adatokat fizetés közben vagy a <a href=""%customer_url"">Saját fiók</a> oldalon:",theme,frontend/Magento/luma
 Password:,Jelszó:,theme,frontend/Magento/luma
 "Password you set when creating account","Jelszó beállítva a felhasználói fiók létrehozásakor",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Elfelejtetted a jelszavad? <a href=""%reset_url"">Kattints ide</a> a visszaállításhoz.",theme,frontend/Magento/luma
@@ -1576,12 +1689,14 @@ Password:,Jelszó:,theme,frontend/Magento/luma
 "Order Status","Rendelés állapota",theme,frontend/Magento/luma
 "Check the status of orders","Rendelések állapotának ellenőrzése",theme,frontend/Magento/luma
 "Manage Addresses","Címek kezelése",theme,frontend/Magento/luma
+"Store alternative addresses","Alternatív címek tárolása",theme,frontend/Magento/luma
 "For shipping to multiple family members and friends","Szállítás több családtagnak és barátnak",theme,frontend/Magento/luma
 "Order History","Rendelés történet",theme,frontend/Magento/luma
 "View past orders","Korábbi rendelések megtekintése",theme,frontend/Magento/luma
 "About Us",Rólunk,theme,frontend/Magento/luma
 "Customer Service",Ügyfélszolgálat,theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Nyitvatartás:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Köszönjük a %store_name webáruházban leadott megrendelést.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","A rendelés állapotát ellenőrizheted, ha <a href=""%account_url"">bejelentkezel a felhasználói fiókodba</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ha kérdésed van a rendeléseddel kapcsolatban, <a href=""mailto:%store_email"">%store_email</a> címre írj nekünk.",theme,frontend/Magento/luma
 "Billing Info","Számlázási információk",theme,frontend/Magento/luma
@@ -1589,6 +1704,7 @@ Password:,Jelszó:,theme,frontend/Magento/luma
 "Payment Method","Fizetési mód",theme,frontend/Magento/luma
 "Shipping Method","Szállítási mód",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Ha a csomag szállításra kész, elküldjük a nyomkövetési kódot.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","A #%order_id megrendelés #%shipment_id azonosítójú szállítása",theme,frontend/Magento/luma
 Cancel,Mégse,module,Magento_Catalog
 Submit,Elküld,module,Magento_Catalog
 "Create Category","Kategória létrehozása",module,Magento_Catalog
@@ -1614,7 +1730,23 @@ Severity,Súlyosság,module,Magento_AdminNotification
 "Date Added","Hozzáadás dátuma",module,Magento_AdminNotification
 Message,Üzenet,module,Magento_AdminNotification
 Actions,Műveletek,module,Magento_AdminNotification
+Enabled,Engedélyezett,module,Magento_Authorizenet
+"Payment Action","Fizetési művelet",module,Magento_Authorizenet
 Title,Cím,module,Magento_Authorizenet
+"Transaction Key","Tranzakciós kulcs",module,Magento_Authorizenet
+"New Order Status","Új rendelés állapota",module,Magento_Authorizenet
+"Test Mode","Teszt mód",module,Magento_Authorizenet
+"Accepted Currency","Elfogadott pénznemek",module,Magento_Authorizenet
+Debug,Hibakeresés,module,Magento_Authorizenet
+"Email Customer","Ügyfél értesítése levélben",module,Magento_Authorizenet
+"Merchant's Email","Kereskedő e-mail",module,Magento_Authorizenet
+"Credit Card Types","Hitelkártya típusok",module,Magento_Authorizenet
+"Credit Card Verification","Hitelkártya ellenőrzés",module,Magento_Authorizenet
+"Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_Authorizenet
+"Payment from Specific Countries","Fizelés a megadott országokból",module,Magento_Authorizenet
+"Minimum Order Total","Minimális megrendelés végösszeg",module,Magento_Authorizenet
+"Maximum Order Total","Maximális megrendelés végösszeg",module,Magento_Authorizenet
+"Sort Order","Rendezési sorrend",module,Magento_Authorizenet
 "Default Country","Alapértelmezett ország",module,Magento_Backend
 Country,Ország,module,Magento_Backend
 "ZIP/Postal Code",Irányítószám,module,Magento_Backend
@@ -1633,6 +1765,7 @@ Forms,Űrlapok,module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Ha 0 van megadva, a bejelentkezési űrlapon  a CAPTCHA mindig elérhető lesz.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","CAPTCHA időtúllépés (perc)",module,Magento_Captcha
 "Number of Symbols","Szimbólumok száma",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Maximum 8 szimbólumot adjon meg. Tartomány is megadható (pl 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","CAPTCHA-ban használt szimbólumok",module,Magento_Captcha
 "Case Sensitive","Kis- és nagybetű érzékeny",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
@@ -1642,9 +1775,16 @@ Stock,Készlet,module,Magento_CatalogInventory
 Quantity,Mennyiség,module,Magento_CatalogInventory
 Title,Cím,module,Magento_CatalogWidget
 Conditions,Feltételek,module,Magento_CatalogWidget
+Thumbnail,Bélyegkép,module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog
+"Select Product...","Válassza ki a terméket...",module,Magento_Catalog
+"Select Category...","Válassza ki a kategóriát...",module,Magento_Catalog
+Enable,Engedélyez,module,Magento_Catalog
+Disable,Letilt,module,Magento_Catalog
+none,nincs,module,Magento_Catalog
+Overview,Áttekintés,module,Magento_Catalog
 "Enable Terms and Conditions","Általános Szerződési Feltételek engedélyezése",module,Magento_CheckoutAgreements
 "Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout

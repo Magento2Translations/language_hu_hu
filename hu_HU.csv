@@ -233,6 +233,7 @@ Grid,Rács,module,Magento_CatalogSearch
 List,Lista,module,Magento_CatalogSearch
 "Search Settings","Keresési beállítások",module,Magento_CatalogSearch
 Search,Keresés,module,Magento_CatalogSearch
+"Modify your search","Keresés módosítása",module,Magento_CatalogSearch
 name,név,module,Magento_CatalogSearch
 Root,Gyökér,module,Magento_Catalog
 "Save Category","Kategória mentése",module,Magento_Catalog
@@ -882,6 +883,9 @@ Shipping,Szállítás,module,Magento_Payment
 "All Allowed Countries","Minden engedélyezett ország",module,Magento_Payment
 Yes,Igen,module,Magento_Payment
 No,Nem ,module,Magento_Payment
+"Switch/Solo/Maestro Only","Kizárólag Switch/Solo/Maestro",module,Magento_Payment
+"Issue Number",Ügyszám,module,Magento_Payment
+"Start Date","Kezdő dátum",module,Magento_Payment
 "--Please Select--","--Kérem válasszon--",module,Magento_Payment
 "What is this?","Mi ez?",module,Magento_Payment
 ID,Azonosító,module,Magento_Paypal

@@ -396,6 +396,7 @@ Disabled,Tiltott,module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
 "Catalog, Search","Katalógus, keresés",module,Magento_Catalog
 Dropdown,"Legördülő lista",module,Magento_Catalog
+"Are you sure you want to delete this category?","Biztos abban, hogy törölni szeretné a kategóriát?",module,Magento_Catalog
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Catalog
 "Is Default",Alapértelmezett,module,Magento_Catalog
 Groups,Csoportok,module,Magento_Catalog
@@ -1449,6 +1450,9 @@ Forms,Űrlapok,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
+"Watermark Default Size","Vízjel alapértelmezett mérete",module,Magento_Catalog
+Watermark,Vízjel,module,Magento_Catalog
+"Watermark Position","Vízjel pozíciója",module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog

@@ -1275,8 +1275,10 @@ Password,Jelszó,module,Magento_User
 "New Password","Új jelszó",module,Magento_User
 "Password Confirmation","Jelszó megerősítése",module,Magento_User
 "Interface Locale","Kezelőfelület nyelve",module,Magento_User
+"This account is","Ez a fiók",module,Magento_User
 "Account Status","Fiók állapota",module,Magento_User
 "Your Password","Az Ön jelszava",module,Magento_User
+"User Roles Information","Felhasználói szerepkörök adatai",module,Magento_User
 Assigned,Hozzárendelve,module,Magento_User
 Role,Szerepkör,module,Magento_User
 "User Information","Felhasználói információ",module,Magento_User
@@ -1287,6 +1289,7 @@ Role,Szerepkör,module,Magento_User
 "Your password reset link has expired.","A jelszó módosító link érvényessége lejárt.",module,Magento_User
 "Please correct this email address:","Kérjük javítsa ezt az email címet:",module,Magento_User
 "Locked Users","Zárolt felhasználók",module,Magento_User
+"Unlocked %1 user(s).","%1 felhasználó feloldva.",module,Magento_User
 System,Rendszer,module,Magento_User
 Permissions,Jogosultságok,module,Magento_User
 "You cannot delete your own account.","Saját fiókját nem törölheti.",module,Magento_User
@@ -1302,15 +1305,20 @@ Permissions,Jogosultságok,module,Magento_User
 "You saved the role.","A szerepkör mentése megtörtént.",module,Magento_User
 "An error occurred while saving this role.","Hiba történt a szerepkör mentése közben.",module,Magento_User
 "You saved the user.","A felhasználó mentése megtörtént.",module,Magento_User
+"A user with the same user name or email already exists.","Felhasználónév vagy email cím már létezik.",module,Magento_User
 Recommended,Ajánlott,module,Magento_User
 Forced,Kényszerített,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Sajnálom, ez a jelszó már használatban van. Kérjük válasszon egy másikat.",module,Magento_User
+"You did not sign in correctly or your account is temporarily disabled.","Bejelentkezés sikertelen vagy fiók átmenetileg letiltva.",module,Magento_User
 "User Name is a required field.","A Felhasználó Név mező megadása kötelező.",module,Magento_User
 "First Name is a required field.","A Keresztnév mező megadása kötelező.",module,Magento_User
 "Last Name is a required field.","A Családi Név mező megadása kötelező.",module,Magento_User
+"Please enter a valid email.","Kérjük érvényes emailt adjon meg.",module,Magento_User
 "Password is required field.","A jelszó megadása kötelező.",module,Magento_User
 "Your password must be at least %1 characters.","A jelszó legalább %1 karakter kell legyen.",module,Magento_User
 "Your password must include both numeric and alphabetic characters.","A jelszónak mind numerikus és alfabetikus karaktert tartalmaznia kell.",module,Magento_User
 "Your password confirmation must match your password.","A jelszó megerősítés meg kell egyezzen a jelszóval.",module,Magento_User
+"Your password has expired; please contact your administrator.","Jelszó lejárt; Értesítse az adminisztrátort.",module,Magento_User
 "Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
 "Confirm New Password","Új jelszó megerősítése",module,Magento_User
@@ -1396,7 +1404,7 @@ Back,Vissza,module,Magento_Wishlist
 "Remove This Item","Termék eltávolítása",module,Magento_Wishlist
 "Go to Wish List","Tovább a kívánságlistához",module,Magento_Wishlist
 "You have no items in your wish list.","Nincsenek termékek a kívánságlistádban.",module,Magento_Wishlist
-"Shop By",Szűrőfeltételek,theme,frontend/Magento/luma
+"Shop By",Szűrés,theme,frontend/Magento/luma
 Total:,Végösszeg:,module,Magento_Checkout
 Cancel,Mégse,module,Magento_Catalog
 "Create Category","Kategória létrehozása",module,Magento_Catalog

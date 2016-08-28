@@ -1491,9 +1491,11 @@ Password,Jelszó,module,Magento_User
 "New Password","Új jelszó",module,Magento_User
 "Password Confirmation","Jelszó megerősítése",module,Magento_User
 "Interface Locale","Kezelőfelület nyelve",module,Magento_User
+"This account is","Ez a fiók",module,Magento_User
 "Account Status","Fiók állapota",module,Magento_User
 "Current User Identity Verification","Aktuális felhasználói identitás ellenőrzése",module,Magento_User
 "Your Password","Az Ön jelszava",module,Magento_User
+"User Roles Information","Felhasználói szerepkörök adatai",module,Magento_User
 Assigned,Hozzárendelve,module,Magento_User
 Role,Szerepkör,module,Magento_User
 "User Information","Felhasználói információ",module,Magento_User
@@ -1506,6 +1508,7 @@ Role,Szerepkör,module,Magento_User
 "Please enter an email address.","Kérjük, adjon meg egy email címet.",module,Magento_User
 "You updated your password.","Frissítette a jelszót.",module,Magento_User
 "Locked Users","Zárolt felhasználók",module,Magento_User
+"Unlocked %1 user(s).","%1 felhasználó feloldva.",module,Magento_User
 System,Rendszer,module,Magento_User
 Permissions,Jogosultságok,module,Magento_User
 "You cannot delete your own account.","Saját fiókját nem törölheti.",module,Magento_User
@@ -1522,15 +1525,21 @@ Permissions,Jogosultságok,module,Magento_User
 "An error occurred while saving this role.","Hiba történt a szerepkör mentése közben.",module,Magento_User
 "You have entered an invalid password for current user.","Érvénytelen jelszó lett megadva az aktuális felhasználóhoz.",module,Magento_User
 "You saved the user.","A felhasználó mentése megtörtént.",module,Magento_User
+"A user with the same user name or email already exists.","Felhasználónév vagy email cím már létezik.",module,Magento_User
 Recommended,Ajánlott,module,Magento_User
 Forced,Kényszerített,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","Sajnálom, ez a jelszó már használatban van. Kérjük válasszon egy másikat.",module,Magento_User
+"You did not sign in correctly or your account is temporarily disabled.","Bejelentkezés sikertelen vagy fiók átmenetileg letiltva.",module,Magento_User
+"You need more permissions to access this.","A belépéshez magasabb jogosultság szükséges.",module,Magento_User
 "User Name is a required field.","A Felhasználó Név mező megadása kötelező.",module,Magento_User
 "First Name is a required field.","A Keresztnév mező megadása kötelező.",module,Magento_User
 "Last Name is a required field.","A Családi Név mező megadása kötelező.",module,Magento_User
+"Please enter a valid email.","Kérjük érvényes emailt adjon meg.",module,Magento_User
 "Password is required field.","A jelszó megadása kötelező.",module,Magento_User
 "Your password must be at least %1 characters.","A jelszó legalább %1 karakter kell legyen.",module,Magento_User
 "Your password must include both numeric and alphabetic characters.","A jelszónak mind numerikus és alfabetikus karaktert tartalmaznia kell.",module,Magento_User
 "Your password confirmation must match your password.","A jelszó megerősítés meg kell egyezzen a jelszóval.",module,Magento_User
+"Your password has expired; please contact your administrator.","Jelszó lejárt; Értesítse az adminisztrátort.",module,Magento_User
 "Password Help","Jelszó segítség",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Adja meg e-mail címét. Egy e-mailt fog kapni a jelszó visszaállítására szolgáló linkkel.",module,Magento_User
 "Email address","Email cím",module,Magento_User
@@ -1657,10 +1666,10 @@ Back,Vissza,module,Magento_Wishlist
 "You have no items in your wish list.","Nincsenek termékek a kívánságlistádban.",module,Magento_Wishlist
 "Now Shopping by","Aktív szűrőfeltételek",theme,frontend/Magento/luma
 Previous,Előző,theme,frontend/Magento/luma
-Remove,Eltávolítás,theme,frontend/Magento/luma
-"Remove This Item","Az elem eltávolítása",theme,frontend/Magento/luma
-"Shop By",Szűrőfeltételek,theme,frontend/Magento/luma
-"Clear All","Összes törlése",theme,frontend/Magento/luma
+Remove,Törlés,theme,frontend/Magento/luma
+"Remove This Item","Elem törlése",theme,frontend/Magento/luma
+"Shop By",Szűrés,theme,frontend/Magento/luma
+"Clear All","Mindet töröl",theme,frontend/Magento/luma
 "Shopping Options","Vásárlási beállítások",theme,frontend/Magento/luma
 Reason,Indoklás,module,Magento_Checkout
 Customer:,Vásárló:,module,Magento_Checkout
@@ -1679,13 +1688,14 @@ Total:,Végösszeg:,module,Magento_Checkout
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name vásárló, %store_name webáruházból meg akarja osztani veled ezt a kívánságlistát:",module,Magento_Wishlist
 "Message from %customer_name:","%customer_name üzenete:",module,Magento_Wishlist
 "View all Wish List items","Minden kívánságlista termék megtekintése",module,Magento_Wishlist
-"Welcome to %store_name.","%store_name üdvözöl!",theme,frontend/Magento/luma
+"Welcome to %store_name.","Üdvözöljük a %store_name áruházban.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","A bejelentkezéshez használja ezeket az adatokat fizetés közben vagy a <a href=""%customer_url"">Saját fiók</a> oldalon:",theme,frontend/Magento/luma
 Password:,Jelszó:,theme,frontend/Magento/luma
 "Password you set when creating account","Jelszó beállítva a felhasználói fiók létrehozásakor",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Elfelejtetted a jelszavad? <a href=""%reset_url"">Kattints ide</a> a visszaállításhoz.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Ha bejelentkezel a felhasználói fiókodba, képes leszel:",theme,frontend/Magento/luma
 "Quick Checkout","Gyors fizetés",theme,frontend/Magento/luma
+"Proceed through checkout faster","Gyorsabb vásárlás",theme,frontend/Magento/luma
 "Order Status","Rendelés állapota",theme,frontend/Magento/luma
 "Check the status of orders","Rendelések állapotának ellenőrzése",theme,frontend/Magento/luma
 "Manage Addresses","Címek kezelése",theme,frontend/Magento/luma
@@ -1699,11 +1709,17 @@ Password:,Jelszó:,theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","Köszönjük a %store_name webáruházban leadott megrendelést.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","A rendelés állapotát ellenőrizheted, ha <a href=""%account_url"">bejelentkezel a felhasználói fiókodba</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Ha kérdésed van a rendeléseddel kapcsolatban, <a href=""mailto:%store_email"">%store_email</a> címre írj nekünk.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","Az ön jóváírása #%creditmemo_id a(z) #%order_id számú megrendeléshez",theme,frontend/Magento/luma
 "Billing Info","Számlázási információk",theme,frontend/Magento/luma
 "Shipping Info","Szállítási információk",theme,frontend/Magento/luma
 "Payment Method","Fizetési mód",theme,frontend/Magento/luma
 "Shipping Method","Szállítási mód",theme,frontend/Magento/luma
+"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","A(z) #%increment_id számú megrendelés státusza frissült: <strong>%order_status</strong>.",theme,frontend/Magento/luma
+"Your Invoice #%invoice_id for Order #%order_id","A(z) #%order_id számú rendelés #%invoice_id azonosítójú számlája",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Ha a csomag szállításra kész, elküldjük a nyomkövetési kódot.",theme,frontend/Magento/luma
+"Your Order <span class=""no-link"">#%increment_id</span>","A z Ön rendelése <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","Rendelés ideje: <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","A szállítási információ megerősítve. Köszönjük rendelését.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","A #%order_id megrendelés #%shipment_id azonosítójú szállítása",theme,frontend/Magento/luma
 Cancel,Mégse,module,Magento_Catalog
 Submit,Elküld,module,Magento_Catalog

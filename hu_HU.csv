@@ -1638,6 +1638,7 @@ username,felhasználónév,module,Magento_User
 "Password Help","Jelszó segítség",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Adja meg e-mail címét. Egy e-mailt fog kapni a jelszó visszaállítására szolgáló linkkel.",module,Magento_User
 "Email address","Email cím",module,Magento_User
+"Retrieve Password","Jelszó visszaállítása",module,Magento_User
 "Back to Sign in","Vissza a bejelentkezéshez",module,Magento_User
 "Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
@@ -1648,6 +1649,8 @@ username,felhasználónév,module,Magento_User
 Custom,Egyedi,module,Magento_User
 All,Összes,module,Magento_User
 Resources,Erőforrások,module,Magento_User
+"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Figyelem! \r\nEz a művelet eltávolítja a felhasználót a korábban hozzárendelt szerepkörből\r\nBiztos, hogy eltávolítja a felhasználót?",module,Magento_User
+"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Figyelem! \r\nEz a művelet eltávolítja a felhasználót a korábban hozzárendelt szerepkörből\r\nBiztos, hogy eltávolítja a felhasználót?",module,Magento_User
 Yes,Igen,module,Magento_Usps
 No,Nem ,module,Magento_Usps
 Required,Kötelező,module,Magento_Usps
@@ -1836,8 +1839,16 @@ Assign,Hozzárendelés,module,Magento_Ui
 Options,Opciók,module,Magento_Ui
 selected,kiválasztva,module,Magento_Ui
 Filters,Szűrők,module,Magento_Ui
+"Password Reset Confirmation for %name","Jelszó visszaállítás megerősítése: %name",module,Magento_User
+"There was recently a request to change the password for your account.","Nemrég kérelmezték a fiók jelszavának megváltoztatását.",module,Magento_User
+"If you requested this change, reset your password here:","Ha Ön nyújtotta be ezt a kérelmet, állítsa alaphelyzetbe jelszavát itt:",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","Ha nem Ön kérvényezte a változtatást, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt, a jelszó változatlan marad.",module,Magento_User
 "Thank you,","Köszönönjük,",module,Magento_User
+"New %changes for %user_name","Új %changes %user_name részére",module,Magento_User
 "Hello,","Üdvözlöm,",module,Magento_User
+"We have received a request to change the following information associated with your account at %store_name: %changes.","Kérvény érkezett az Ön fiókjának következő adatainak megváltoztatására: %store_name: %changes.",module,Magento_User
+"If you have not authorized this action, please contact us immediately at %store_email","Ha ezt a műveletet nem Ön engedélyezte, kérjük lépjen kapcsolatba velünk azonnal a következő e-mail címen: %store_email",module,Magento_User
+"or call us at %store_phone","vagy hívjon minket a következő telefonszámon: %store_phone",module,Magento_User
 "Thanks,","Köszönettel,",module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name vásárló, %store_name webáruházból meg akarja osztani veled ezt a kívánságlistát:",module,Magento_Wishlist
 "Message from %customer_name:","%customer_name üzenete:",module,Magento_Wishlist

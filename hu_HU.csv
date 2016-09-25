@@ -1319,6 +1319,7 @@ Forced,Kényszerített,module,Magento_User
 "Your password must include both numeric and alphabetic characters.","A jelszónak mind numerikus és alfabetikus karaktert tartalmaznia kell.",module,Magento_User
 "Your password confirmation must match your password.","A jelszó megerősítés meg kell egyezzen a jelszóval.",module,Magento_User
 "Your password has expired; please contact your administrator.","Jelszó lejárt; Értesítse az adminisztrátort.",module,Magento_User
+"Retrieve Password","Jelszó visszaállítása",module,Magento_User
 "Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
 "Confirm New Password","Új jelszó megerősítése",module,Magento_User
@@ -1328,6 +1329,8 @@ Forced,Kényszerített,module,Magento_User
 Custom,Egyedi,module,Magento_User
 All,Összes,module,Magento_User
 Resources,Erőforrások,module,Magento_User
+"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Figyelem! \r\nEz a művelet eltávolítja a felhasználót a korábban hozzárendelt szerepkörből\r\nBiztos, hogy eltávolítja a felhasználót?",module,Magento_User
+"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Figyelem! \r\nEz a művelet eltávolítja a felhasználót a korábban hozzárendelt szerepkörből\r\nBiztos, hogy eltávolítja a felhasználót?",module,Magento_User
 Yes,Igen,module,Magento_Usps
 No,Nem ,module,Magento_Usps
 Required,Kötelező,module,Magento_Usps

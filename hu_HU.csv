@@ -213,6 +213,7 @@ To,Eddig,module,Magento_Backend
 "Select All","Összes kijelölése",module,Magento_Backend
 "We couldn't find any records.","Nincs találat.",module,Magento_Backend
 "Add New","Új hozzáadása",module,Magento_Backend
+"Invalid export type supplied for grid export block","Érvénytelen export típus Grid Export Block-hoz",module,Magento_Backend
 Export,Exportálás,module,Magento_Backend
 "Please correct the column format and try again.","Kérjük, javítsa az oszlop formátumát, majd próbálja újra.",module,Magento_Backend
 "Please select items.","Kérjük, válasszon elemeket.",module,Magento_Backend
@@ -255,6 +256,7 @@ Error,Hiba,module,Magento_Backend
 System,Rendszer,module,Magento_Backend
 "Manage Stores","Boltok kezelése",module,Magento_Backend
 "The database was backed up.","Az adatbázis elmentve.",module,Magento_Backend
+"Deleting a %1 will not delete the information associated with the %1 (e.g. categories, products, etc.), but the %1 will not be able to be restored. It is suggested that you create a database backup before deleting the %1.","A %1 törlésével a %1 -hez kapcsolódó információk (pl. kategóriák, termékek, stb.) nem kerülnek törlésre, de a %1 -et nem lehet majd helye állítani. Azt javasoljuk, hogy hozzon létre adatbázis biztonsági mentést %1 törlése előtt.",module,Magento_Backend
 "Something went wrong. Please try again.","Valami elromlott. Kérjük, próbálja meg újra.",module,Magento_Backend
 "This store cannot be deleted.","Ez a bolt nem törölhető.",module,Magento_Backend
 "You deleted the store.","Ön törölte a boltot.",module,Magento_Backend
@@ -354,19 +356,79 @@ Actions,Műveletek,module,Magento_Backend
 "Unselect All","Összes kijelölés megszüntetése",module,Magento_Backend
 "Select Visible","Láthatóak kiválasztása",module,Magento_Backend
 "Unselect Visible","Láthatóak kiválasztásának törlése",module,Magento_Backend
+"Changes have been made to this section that have not been saved.","Ebben a szakaszban létrehozott változások nincsenek elmentve.",module,Magento_Backend
+"This tab contains invalid data. Please resolve this before saving.","Ez a lap érvénytelen adatot tartalmaz. Kérem oldja meg a problémát mentés előtt.",module,Magento_Backend
+"The information in this tab has been changed.","Ezen a lapon információk megváltoztak.",module,Magento_Backend
 Loading...,Betöltés...,module,Magento_Backend
+"System Backup","Rendszer biztonsági másolat",module,Magento_Backup
+"Database and Media Backup","Adatbázis média biztonsági mentés",module,Magento_Backup
+"Database Backup","Adatbázis biztonsági mentés",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Az Archívum kicsomagolható Windows rendszereken a <a href=""%1"">%2</a> segítségével.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Szüksége van további jogosultságokra, ha most a karbantartási üzemmódot szeretné aktiválni.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","A biztonsági másolat létrehozásához kérem törölje a kijelölést a ""Weboldalt karbantartási módba állítása"" mellől, vagy változtasson a jogosultságán.",module,Magento_Backup
+"Something went wrong while putting your store into maintenance mode.","Valami félresikerült miközben a weboldalt karbantartási módba próbáltuk állítani.",module,Magento_Backup
+"You need more free space to create a backup.","Kevés a szabad hely a meghajtón a biztonsági másolat készítéséhez.",module,Magento_Backup
+"You need more permissions to create a backup.","Önnek további jogosultságokra van szüksége a biztonsági másolat készítéséhez.",module,Magento_Backup
 Backups,"Biztonsági mentések",module,Magento_Backup
 System,Rendszer,module,Magento_Backup
 Tools,Eszközök,module,Magento_Backup
 Backup,"Biztonsági mentés",module,Magento_Backup
+failed,"nem sikerült",module,Magento_Backup
 successful,sikeres,module,Magento_Backup
+"You deleted the selected backup(s).","Törölte a kijelölt biztonsági mentését vagy mentéseit.",module,Magento_Backup
+"Please correct the password.","Kérem javítsa ki a jelszót.",module,Magento_Backup
+"To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","A visszaállításhoz kérem törölje a kijelölést a ""Weboldalt karbantartási módba állítása"" mellől, vagy változtasson a jogosultságán.",module,Magento_Backup
+"Failed to validate FTP.","Nem sikerült érvényesíteni az FTP-t.",module,Magento_Backup
+"You need more permissions to perform a rollback.","Önnek további jogosultságokra van szüksége a visszaállításhoz.",module,Magento_Backup
+"Failed to rollback.","Nem sikerült a visszaállítás.",module,Magento_Backup
 Database,Adatbázis,module,Magento_Backup
 "Database and Media","Adatbázis és média",module,Magento_Backup
+"System (excluding Media)","Rendszer (kivéve a Media)",module,Magento_Backup
+"You created the system backup.","A rendszer biztonsági másolat létrejött.",module,Magento_Backup
+"You created the system backup (excluding media).","A rendszer biztonsági másolat létrejött (kivéve a Médiát).",module,Magento_Backup
+"You created the database and media backup.","Az adatbázis és a média biztonsági mentés létrejött.",module,Magento_Backup
+"You created the database backup.","Az Adatbázis biztonsági másolata létrejött.",module,Magento_Backup
+"Please correct the order of creation for a new backup.","Kérem javítsa ki az új biztonsági mentés készítésének sorrendjét.",module,Magento_Backup
+"The backup file does not exist.","A biztonságimásolat-fájl nem létezik.",module,Magento_Backup
+"The backup file path was not specified.","A biztonságimásolat-fájl elérési útja nincs megadva.",module,Magento_Backup
+"The backup file ""%1"" does not exist.","A biztonságimásolat-fájl ""%1"" nem létezik.",module,Magento_Backup
+"Sorry, but we cannot read from or write to backup file ""%1"".","Sajnáljuk, de nem lehet olvasni vagy írni a biztonságimásolat-fájl ""%1"".",module,Magento_Backup
+"The backup file handler was unspecified.","A biztonságimásolat-fájl kezelő nincs megadva.",module,Magento_Backup
+"Something went wrong while writing to the backup file ""%1"".","Valami elromlott a biztonságimásolat-fájl ""%1"" írása közben.",module,Magento_Backup
+"You will lose any data created since the backup was made, including admin users, customers and orders.","Minden adat el fog veszni ami a biztonsági másolat készítése után jött létre. Beleértve felhasználói fiókokat, rendeléseket, és az Admin felhasználókat is.",module,Magento_Backup
+"Are you sure you want to continue?","Biztosan folytatni kívánja?",module,Magento_Backup
+"This may take a few moments.","Ez néhány percet igénybevesz.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","Győződjön meg arról, hogy a weboldal karbantartási üzemmódban van a biztonsági másolat készítése alatt.",module,Magento_Backup
+"Backup Name","Biztonsági másolat neve",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","Ebben a mezőben csak betűket (a-z vagy A-Z), számokat (0-9) vagy szóközöket használhat.",module,Magento_Backup
+"Maintenance mode","Karbantartás üzemmód",module,Magento_Backup
+"Please put your store into maintenance mode during backup.","Kérjük, hogy a weboldalt állítsa karbantartási módba biztonsági mentés során.",module,Magento_Backup
+Exclude,Kizárás,module,Magento_Backup
+"Exclude media folder from backup","Média könyvtár kizárása",module,Magento_Backup
+"Please enter the password to confirm rollback.","Kérjük írja be a jelszót, hogy megerősítse visszaállítást.",module,Magento_Backup
+"This action cannot be undone.","Ez a művelet nem vonható vissza.",module,Magento_Backup
+"User Password","Felhasználói jelszó",module,Magento_Backup
+"Please put your store into maintenance mode during rollback processing.","Kérjük, hogy a webáruházat állítsa karbantartási módba visszaállítás ideje alatt.",module,Magento_Backup
+"Use FTP Connection","Használja az FTP-kapcsolatot",module,Magento_Backup
+"FTP credentials","FTP-hitelesítő adatok",module,Magento_Backup
+"FTP Login","FTP bejelentkezés",module,Magento_Backup
+"FTP Password","FTP jelszó",module,Magento_Backup
+"Magento root directory","Magento gyökérkönyvtár",module,Magento_Backup
+"Create Backup","Másolat készítése",module,Magento_Backup
 Country,Ország,module,Magento_Braintree
 "Add Rule","Szabály hozzáadása",module,Magento_Braintree
 "We can't initialize checkout.","A fizetés nem indítható.",module,Magento_Braintree
+Authorize,Engedélyez,module,Magento_Braintree
+"Authorize and Capture","Engedélyez és levon",module,Magento_Braintree
 "--Please Select--","--Kérem válasszon--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Braintree
+"Paypal account","PayPal fiók",module,Magento_Braintree
+"Coinbase account","Coinbase fiók",module,Magento_Braintree
+"Europe bank account","Európa bank fiók",module,Magento_Braintree
+"Credit card",Bankkártya,module,Magento_Braintree
+Authorizing,Engedélyezés,module,Magento_Braintree
+Authorized,Engedélyezve,module,Magento_Braintree
+Failed,Sikertelen,module,Magento_Braintree
 "Expiration Date","Lejárat dátuma",module,Magento_Braintree
 "Percent Discount","Százalékos kedvezmény",module,Magento_Bundle
 "-- Select --","-- Válasszon --",module,Magento_Bundle
@@ -385,9 +447,16 @@ Together,Együtt,module,Magento_Bundle
 Separately,Külön-külön,module,Magento_Bundle
 Percent,Százalék,module,Magento_Bundle
 Cancel,Mégse,module,Magento_Bundle
+"Add Option","Opció hozzáadása",module,Magento_Bundle
+"New Option","Új opció",module,Magento_Bundle
+"Option Title","Opció cím",module,Magento_Bundle
+"Default Title","Alapértelmezett Cím",module,Magento_Bundle
+"Store View Title","Bolt nézet cím",module,Magento_Bundle
 "Input Type","Beviteli mező típusa",module,Magento_Bundle
+Drop-down,"Lenyíló menü",module,Magento_Bundle
 "Radio Buttons",Rádiógombok,module,Magento_Bundle
 Checkbox,Jelölőnégyzet,module,Magento_Bundle
+"Multiple Select","Többszörös kijelölés",module,Magento_Bundle
 Required,Kötelező,module,Magento_Bundle
 "Is Default",Alapértelmezett,module,Magento_Bundle
 Name,Név,module,Magento_Bundle
@@ -403,6 +472,9 @@ Invoiced,Számlázott,module,Magento_Bundle
 Shipped,Szállított,module,Magento_Bundle
 Refunded,Visszatérített,module,Magento_Bundle
 Canceled,Törölve,module,Magento_Bundle
+From,Ettől,module,Magento_Bundle
+To,Eddig,module,Magento_Bundle
+"Buy %1 with %2 discount each","Vásároljon %1 %2 kedvezménnyel",module,Magento_Bundle
 "* Required Fields","* kitöltése kötelező",module,Magento_Bundle
 Availability,Elérhetőség,module,Magento_Bundle
 "In stock",Raktáron,module,Magento_Bundle
@@ -412,6 +484,8 @@ Availability:,Elérhetőség:,module,Magento_Bundle
 Quantity,Mennyiség,module,Magento_Bundle
 "Customize %1","%1 testreszabása",module,Magento_Bundle
 "Gift Message","Ajándék üzenet",module,Magento_Bundle
+From:,Ettől:,module,Magento_Bundle
+To:,Eddig:,module,Magento_Bundle
 Message:,Üzenet:,module,Magento_Bundle
 "Product Name",Terméknév,module,Magento_Bundle
 Subtotal,Részösszeg,module,Magento_Bundle
@@ -2100,6 +2174,9 @@ Footer,Lábléc,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","A szállítási információ megerősítve. Köszönjük rendelését.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","A #%order_id megrendelés #%shipment_id azonosítójú szállítása",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Változás a %store_name megrendeléssel kapcsolatban",theme,frontend/Magento/luma
+"We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Backend
+MM,HH,module,Magento_Braintree
+YY,ÉÉ,module,Magento_Braintree
 Submit,Elküld,module,Magento_Catalog
 Close,Bezárás,module,Magento_CheckoutAgreements
 Shipping,Szállítás,module,Magento_Checkout
@@ -2160,6 +2237,47 @@ Debug,Hibakeresés,module,Magento_Authorizenet
 "Minimum Order Total","Minimális megrendelés végösszeg",module,Magento_Authorizenet
 "Maximum Order Total","Maximális megrendelés végösszeg",module,Magento_Authorizenet
 "Sort Order","Rendezési sorrend",module,Magento_Authorizenet
+"Allow everything","Mindent engedélyez",module,Magento_Backend
+"Global Search","Globális keresés",module,Magento_Backend
+"SEO & Search","SEO & keresés",module,Magento_Backend
+"User Content","Felhasználói tartalom",module,Magento_Backend
+Content,Tartalom,module,Magento_Backend
+Elements,Elemek,module,Magento_Backend
+Schedule,Ütemezés,module,Magento_Backend
+Settings,Beállítások,module,Magento_Backend
+"All Stores","Minden bolt",module,Magento_Backend
+Attributes,Jellemzők,module,Magento_Backend
+"Other Settings","Egyéb beállítások",module,Magento_Backend
+"Data Transfer",Adatátvitel,module,Magento_Backend
+"Package Extensions","Kiegészítő csomagok",module,Magento_Backend
+Tools,Eszközök,module,Magento_Backend
+"Web Setup Wizard","Web telepítő varázsló",module,Magento_Backend
+Currency,Pénznem,module,Magento_Backend
+Communications,Kommunikáció,module,Magento_Backend
+Services,Szolgáltatások,module,Magento_Backend
+Advanced,Részletes,module,Magento_Backend
+"Disable Modules Output","Modulok kimenetének letiltása",module,Magento_Backend
+"Store Email Addresses","Bolt email címek",module,Magento_Backend
+"Custom Email 1","Egyéni E-mail 1",module,Magento_Backend
+"Sender Email","Feladó email cím",module,Magento_Backend
+"Sender Name","Feladó neve",module,Magento_Backend
+"Custom Email 2","Egyéni E-mail 2",module,Magento_Backend
+"General Contact","Általános kapcsolattartó",module,Magento_Backend
+"Sales Representative","Értékesítési képviselő",module,Magento_Backend
+"Customer Support",Ügyfélszolgálat,module,Magento_Backend
+Developer,Fejlesztő,module,Magento_Backend
+Debug,Hibakeresés,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Sablon útvonal tippek engedélyezése a Botnézetben",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Sablon útvonal tippek engedélyezése az Adminnak",module,Magento_Backend
+"Add Block Names to Hints","Blokk nevek hozzáadása a tippekhez",module,Magento_Backend
+"Template Settings","Sablon beállítások",module,Magento_Backend
+"Allow Symlinks","Symlinkek engedélyezése",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Figyelem! A szolgáltatás engedélyezése nem javasolt ipari környezetben, mert potenciális biztonsági kockázatot jelent.",module,Magento_Backend
+"Minify Html","Html kisebbítése",module,Magento_Backend
+"Minification is not applied in developer mode.","Kicsinyítés nem lesz alkalmazva a fejlesztői módban.",module,Magento_Backend
+"Translate Inline","Inline fordítás",module,Magento_Backend
+"Enabled for Storefront","Bolt nézethez engedélyezve",module,Magento_Backend
+"Enabled for Admin","Admin felületen engedélyezve",module,Magento_Backend
 "Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","A inline fordításhoz le kell tiltani a Bolt, és az Adnin felületen is a következő gyorsítótárakat: fordítás, blokkok és egyéb kimeneti gyorsítótárak.",module,Magento_Backend
 "JavaScript Settings","JavaScript beállítások",module,Magento_Backend
 "Merge JavaScript Files","JavaScript-fájlok egyesítése",module,Magento_Backend
@@ -2198,8 +2316,11 @@ City,Város,module,Magento_Backend
 "Mail Sending Settings","Levél-küldés beállítások",module,Magento_Backend
 "Disable Email Communications","Email kommunikáció letiltása",module,Magento_Backend
 Host,Kiszolgáló,module,Magento_Backend
+"Set Return-Path","Visszatérési útvonal beállítása",module,Magento_Backend
+"Return-Path Email","Visszatérési útvonal email",module,Magento_Backend
 "Admin User Emails","Admin e-mailek",module,Magento_Backend
 "Forgot Password Email Template","Elfelejtett jelszó email sablon",module,Magento_Backend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","A kiválasztott email sablon alapján a tartalék téma amikor az ""Alapértelmezett"" opció van kiválasztva.",module,Magento_Backend
 "Forgot and Reset Email Sender","Elfelejtett és visszaállított email feladó",module,Magento_Backend
 "Startup Page",Startoldal,module,Magento_Backend
 "Admin Base URL","Admin alap URL",module,Magento_Backend
@@ -2209,7 +2330,52 @@ Host,Kiszolgáló,module,Magento_Backend
 "Use Custom Admin Path","Egyedi Admin útvonal használata",module,Magento_Backend
 "Custom Admin Path","Egyedi Admin útvonal",module,Magento_Backend
 "You will have to sign in after you save your custom admin path.","Miután elmentette az Admin útvonalat, be kell jelentkeznie.",module,Magento_Backend
+Security,Biztonság,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","Helyreállítási Link lejárati idő (óra)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 1 vagy annál nagyobb.",module,Magento_Backend
+"Add Secret Key to URLs","Titkos kulcs hozzáadása URL-ekhez",module,Magento_Backend
+"Login is Case Sensitive","Bejelentkezés kis-nagybetű érzékeny",module,Magento_Backend
+"Admin Session Lifetime (seconds)","Admin munkamenet élettartam (mp)",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","Adjon meg egy számot, ami legalább 60, és nem több mint 31536000 (egy év).",module,Magento_Backend
+"Enable Charts","Diagram engedélyezése",module,Magento_Backend
+"Url Options",URL-beállítások,module,Magento_Backend
+"Add Store Code to Urls","Bolt kód hozzáadása URL-ekhez",module,Magento_Backend
+"Auto-redirect to Base URL","Automatikus átirányítás az Alap URL-re",module,Magento_Backend
+"Search Engine Optimization","Kereső motor optimalizáció",module,Magento_Backend
+"Use Web Server Rewrites","Web Server Rewrites használata",module,Magento_Backend
+"Base URLs","Alap URL-ek",module,Magento_Backend
+"Base URL","Alap URL",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","Adja meg az URL-vagy {{base_url}} helykitöltőt.",module,Magento_Backend
+"Base Link URL","Alap Link URL",module,Magento_Backend
+"Base URL for Static View Files","Alap URL a statikus nézet fájlokhoz",module,Magento_Backend
+"May be empty or start with {{unsecure_base_url}} placeholder.","Lehet üres vagy kezdődhet {{unsecure_base_url}} helykitöltővel.",module,Magento_Backend
+"Base URL for User Media Files","Alap URL a felhasználó médiafájlaihoz",module,Magento_Backend
+"Base URLs (Secure)","Alap URL-ek (biztonságos)",module,Magento_Backend
+"Secure Base URL","Biztonságos alap URL",module,Magento_Backend
+"Specify URL or {{base_url}}, or {{unsecure_base_url}} placeholder.","Adja meg az URL vagy {{base_url}}, vagy {{unsecure_base_url}} helykitöltőt.",module,Magento_Backend
+"Secure Base Link URL","Biztonságos alap Link URL",module,Magento_Backend
+"Secure Base URL for Static View Files","Biztonságos alap URL a statikus fájlokhoz",module,Magento_Backend
+"May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","Lehet üres, vagy kezdődhet {{secure_base_url}}, vagy a {{unsecure_base_url}} helykitöltővel.",module,Magento_Backend
+"Secure Base URL for User Media Files","Biztonságos alap URL a felhasználó médiafájlokhoz",module,Magento_Backend
+"Use Secure URLs on Storefront","Biztonságos URL-címek használata a Bolt nézetben",module,Magento_Backend
+"Use Secure URLs in Admin","Biztonságos URL az Admin felülethez",module,Magento_Backend
+"Enable HTTP Strict Transport Security (HSTS)","A HTTP Strict Transport Security (HSTS) engedélyezése",module,Magento_Backend
+"Upgrade Insecure Requests","Nem biztonságos kérések cseréje",module,Magento_Backend
+"Offloader header","Offloader fejléc",module,Magento_Backend
+"Default Pages","Alapértelmezett oldal",module,Magento_Backend
+"Default Web URL","Alapértelmezett web URL",module,Magento_Backend
+"Default No-route URL","Alapértelmezett No-route URL",module,Magento_Backend
+"Session Validation Settings","Munkamenet-érvényesítés beállítások",module,Magento_Backend
+"Validate REMOTE_ADDR","REMOTE_ADDR érvényesítése",module,Magento_Backend
+"Validate HTTP_VIA","HTTP_VIA érvényesítése",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","HTTP_X_FORWARDED_FOR érvényesítése",module,Magento_Backend
+"Validate HTTP_USER_AGENT","HTTP_USER_AGENT érvényesítése",module,Magento_Backend
+"Use SID on Storefront","Bolt nézetben az SID használata (boltazonosító)",module,Magento_Backend
+"Allows customers to stay logged in when switching between different stores.","Lehetővé teszi, hogy a vásárló bejelentkezve maradjon a különböző boltok közötti váltáskor.",module,Magento_Backend
+"Cache Type",Gyorsítótár-típus,module,Magento_Backend
 Description,Leírás,module,Magento_Backend
+Tags,Cimkék,module,Magento_Backend
+"<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404-es hiba</h1> <p>Az oldal nem található.</p>",module,Magento_Backend
 "Community Edition","Közösségi kiadás",module,Magento_Backend
 "Default Theme","Alapértelmezett téma",module,Magento_Backend
 "Applied Theme","Alkalmazott téma",module,Magento_Backend
@@ -2220,18 +2386,59 @@ Pagination,Lapszámozás,module,Magento_Backend
 "Pagination Frame","Lapszámozás keret",module,Magento_Backend
 "How many links to display at once.","Mennyi link jeleníthető meg egyszerre.",module,Magento_Backend
 "Pagination Frame Skip","Lapszámozás keret átugrása",module,Magento_Backend
+"If current frame position does not cover utmost pages, it renders the link to current position plus/minus this value.","Ha az aktuális keret helyzete nem foglalja magában a legnagyobb oldalt, jelenlegi helyzethez képest plusz/mínusz ezzel az értékkel lesz odébb kirajzolva.",module,Magento_Backend
 "Anchor Text for Previous","Szöveg az előző oldalhoz",module,Magento_Backend
 "Alternative text for the previous pages link in the pagination menu. If empty, the default arrow image is used.","Alternatív szöveg az előző oldal gombra a lapszámozás menüben. Ha üres, az alapértelmezett nyíl képet használja.",module,Magento_Backend
 "Anchor Text for Next","Szöveg a következő oldalhoz",module,Magento_Backend
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternatív szöveg az következő oldal gombra a lapszámozás menüben. Ha üres, az alapértelmezett nyíl képet használja.",module,Magento_Backend
 "Theme Name","Téma név",module,Magento_Backend
+Rollback,Visszaállítás,module,Magento_Backup
+"Scheduled Backup Settings","Ütemezett biztonsági mentés beállítások",module,Magento_Backup
+"Enable Scheduled Backup","Ütemezett biztonságimásolat-készítés engedélyezése",module,Magento_Backup
+"Backup Type",Biztonságimásolat-típus,module,Magento_Backup
+"Start Time","Kezdés ideje",module,Magento_Backup
+Frequency,Gyakoriság,module,Magento_Backup
+"Maintenance Mode","Karbantartás üzemmód",module,Magento_Backup
 Delete,Törlés,module,Magento_Backup
+"Are you sure you want to delete the selected backup(s)?","Biztosan törli a kijelölt biztonsági mentését vagy mentéseit?",module,Magento_Backup
+Time,Idő,module,Magento_Backup
 Name,Név,module,Magento_Backup
+Size(bytes),Méret(bytes),module,Magento_Backup
 Type,Típus,module,Magento_Backup
-Action,Akció,module,Magento_Backup
+Download,Letöltés,module,Magento_Backup
+Action,Művelet,module,Magento_Backup
 Title,Cím,module,Magento_Braintree
+Environment,Környezet,module,Magento_Braintree
+"Payment Action","Fizetési művelet",module,Magento_Braintree
+"Merchant ID","Kereskedő azonosító",module,Magento_Braintree
+"Public Key","Nyilvános kulcs",module,Magento_Braintree
+"Private Key","Privát kulcs",module,Magento_Braintree
+"Advanced Braintree Settings","Braintree speciális beállítások",module,Magento_Braintree
+"Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
+Debug,Hibakeresés,module,Magento_Braintree
+"CVV Verification","CVV ellenőrzés",module,Magento_Braintree
+"Credit Card Types","Hitelkártya típusok",module,Magento_Braintree
+"Sort Order","Rendezési sorrend",module,Magento_Braintree
+"Country Specific Settings","Ország-specifikus beállítások",module,Magento_Braintree
+"Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_Braintree
+"Payment from Specific Countries","Fizetés a megadott országokból",module,Magento_Braintree
+"3D Secure Verification","3D Secure ellenőrzés",module,Magento_Braintree
+"Threshold Amount",Küszöbértéket,module,Magento_Braintree
+Select...,Válassz...,module,Magento_Braintree
+Status,Állapot,module,Magento_Braintree
+"Transaction Type","Tranzakció típus",module,Magento_Braintree
+"PayPal Payment ID","PayPal fizetési azonosító",module,Magento_Braintree
+"Transaction ID","Tranzakció azonosító",module,Magento_Braintree
+"Order ID","Megrendelés azonosító",module,Magento_Braintree
+"Payment Type","Fizetési mód",module,Magento_Braintree
 Type,Típus,module,Magento_Braintree
+"Created At",Létrehozva,module,Magento_Braintree
+Amount,Összeg,module,Magento_Braintree
+"Refund Ids","Visszatérítés azonosítók",module,Magento_Braintree
+Currency,Pénznem,module,Magento_Braintree
+Select...,Válassz...,module,Magento_Bundle
 Status,Állapot,module,Magento_Bundle
+Thumbnail,Bélyegkép,module,Magento_Bundle
 Type,Típus,module,Magento_Bundle
 "Enable CAPTCHA in Admin","CAPTCHA engedélyezése az Adminban",module,Magento_Captcha
 Font,Betűtípus,module,Magento_Captcha

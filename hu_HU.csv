@@ -377,9 +377,12 @@ Percent,Százalék,module,Magento_Bundle
 None,"Egyik sem",module,Magento_Bundle
 Separately,Külön-külön,module,Magento_Bundle
 Together,Együtt,module,Magento_Bundle
+"Option Title","Opció cím",module,Magento_Bundle
+"Store View Title","Bolt nézet cím",module,Magento_Bundle
 "Input Type","Beviteli mező típusa",module,Magento_Bundle
 Required,Kötelező,module,Magento_Bundle
 Position,Pozició,module,Magento_Bundle
+"New Option","Új opció",module,Magento_Bundle
 Default,Alapértelmezett,module,Magento_Bundle
 Name,Név,module,Magento_Bundle
 "Price Type",Ártípus,module,Magento_Bundle
@@ -390,6 +393,9 @@ Invoiced,Számlázott,module,Magento_Bundle
 Shipped,Szállított,module,Magento_Bundle
 Refunded,Visszatérített,module,Magento_Bundle
 Canceled,Törölve,module,Magento_Bundle
+From,Ettől,module,Magento_Bundle
+To,Eddig,module,Magento_Bundle
+"Buy %1 with %2 discount each","Vásároljon %1 %2 kedvezménnyel",module,Magento_Bundle
 "* Required Fields","* kitöltése kötelező",module,Magento_Bundle
 Availability,Elérhetőség,module,Magento_Bundle
 "In stock",Raktáron,module,Magento_Bundle
@@ -398,6 +404,8 @@ Summary,Összefoglaló,module,Magento_Bundle
 Availability:,Elérhetőség:,module,Magento_Bundle
 "Customize %1","%1 testreszabása",module,Magento_Bundle
 "Gift Message","Ajándék üzenet",module,Magento_Bundle
+From:,Ettől:,module,Magento_Bundle
+To:,Eddig:,module,Magento_Bundle
 Message:,Üzenet:,module,Magento_Bundle
 Always,Mindig,module,Magento_Captcha
 "After number of attempts to login","Megadott számú bejelentkezési kísérlet után",module,Magento_Captcha
@@ -1784,6 +1792,7 @@ Rollback,Visszaállítás,module,Magento_Backup
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
 "Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
+"Merchant ID","Kereskedő azonosító",module,Magento_Braintree
 "Public Key","Nyilvános kulcs",module,Magento_Braintree
 "Private Key","Privát kulcs",module,Magento_Braintree
 Debug,Hibakeresés,module,Magento_Braintree
@@ -1791,11 +1800,12 @@ Debug,Hibakeresés,module,Magento_Braintree
 "Credit Card Types","Hitelkártya típusok",module,Magento_Braintree
 "Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_Braintree
 "Payment from Specific Countries","Fizetés a megadott országokból",module,Magento_Braintree
+"3D Secure Verification","3D Secure ellenőrzés",module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA engedélyezése az Adminban",module,Magento_Captcha
 Font,Betűtípus,module,Magento_Captcha
 Forms,Űrlapok,module,Magento_Captcha
 "Displaying Mode","Megjelenítési mód",module,Magento_Captcha
-"Number of Unsuccessful Attempts to Login","Sikertelen kisérletek száma a belépéshez",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Sikertelen kísérletek száma a belépéshez",module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Ha 0 van megadva, a bejelentkezési űrlapon  a CAPTCHA mindig elérhető lesz.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","CAPTCHA időtúllépés (perc)",module,Magento_Captcha
 "Number of Symbols","Szimbólumok száma",module,Magento_Captcha

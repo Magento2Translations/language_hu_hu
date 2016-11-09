@@ -472,6 +472,7 @@ Invoiced,Számlázott,module,Magento_Bundle
 Shipped,Szállított,module,Magento_Bundle
 Refunded,Visszatérített,module,Magento_Bundle
 Canceled,Törölve,module,Magento_Bundle
+"Regular Price","Lista ár",module,Magento_Bundle
 From,Ettől,module,Magento_Bundle
 To,Eddig,module,Magento_Bundle
 "Buy %1 with %2 discount each","Vásároljon %1 %2 kedvezménnyel",module,Magento_Bundle
@@ -2444,7 +2445,7 @@ Type,Típus,module,Magento_Bundle
 Font,Betűtípus,module,Magento_Captcha
 Forms,Űrlapok,module,Magento_Captcha
 "Displaying Mode","Megjelenítési mód",module,Magento_Captcha
-"Number of Unsuccessful Attempts to Login","Sikertelen kisérletek száma a belépéshez",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","Sikertelen kísérletek száma a belépéshez",module,Magento_Captcha
 "If 0 is specified, CAPTCHA on the Login form will be always available.","Ha 0 van megadva, a bejelentkezési űrlapon  a CAPTCHA mindig elérhető lesz.",module,Magento_Captcha
 "CAPTCHA Timeout (minutes)","CAPTCHA időtúllépés (perc)",module,Magento_Captcha
 "Number of Symbols","Szimbólumok száma",module,Magento_Captcha

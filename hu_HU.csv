@@ -337,8 +337,11 @@ Database,Adatbázis,module,Magento_Backup
 "Magento root directory","Magento gyökérkönyvtár",module,Magento_Backup
 "Create Backup","Másolat készítése",module,Magento_Backup
 Country,Ország,module,Magento_Braintree
+"Allowed Credit Card Types","Engedélyezett hitelkártya típusok",module,Magento_Braintree
 "Add Rule","Szabály hozzáadása",module,Magento_Braintree
 "Stored Card","Tárolt kártya",module,Magento_Braintree
+"Credit Card Type",Hitelkártya-típus,module,Magento_Braintree
+"Credit Card Number",Hitelkártyaszám,module,Magento_Braintree
 "Credit card successfully added","Hitelkártya sikeresen hozzáadva",module,Magento_Braintree
 "Delete Credit Card","Bankkártya törlése",module,Magento_Braintree
 "Credit card successfully deleted","Bankkártya sikeresen törölve.",module,Magento_Braintree
@@ -347,6 +350,7 @@ Country,Ország,module,Magento_Braintree
 "There was error during saving card data","Hiba történt a kártya adatainak mentése közben.",module,Magento_Braintree
 "Payment Information","Fizetési információk",module,Magento_Braintree
 "Expiration Date","Lejárat dátuma",module,Magento_Braintree
+"Card Verification Number","Kártya ellenőrző szám",module,Magento_Braintree
 Delete,Törlés,module,Magento_Braintree
 Back,Vissza,module,Magento_Braintree
 "What is this?","Mi ez?",module,Magento_Braintree
@@ -467,6 +471,8 @@ Position,Pozició,module,Magento_Catalog
 Day,Nap,module,Magento_Catalog
 Month,Hónap,module,Magento_Catalog
 Year,Év,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>tól</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>ig</span></label>",module,Magento_Catalog
 "WYSIWYG Editor","WYSIWYG szerkesztő",module,Magento_Catalog
 "Add Product","Termék hozzáadása",module,Magento_Catalog
 label,címke,module,Magento_Catalog
@@ -483,6 +489,8 @@ label,címke,module,Magento_Catalog
 "Attribute Code",Attribútum-kód,module,Magento_Catalog
 "Default Value","Alapértelmezett érték",module,Magento_Catalog
 "Unique Value","Egyedi érték",module,Magento_Catalog
+"Unique Value (not shared with other products)","Egyedi érték (nincs megosztva más termékekkel)",module,Magento_Catalog
+"Input Validation for Store Owner","A bolt tulajdonosa ellenőrizze a beírt adatokat",module,Magento_Catalog
 "Store View","Áruház nézet",module,Magento_Catalog
 Website,Weboldal,module,Magento_Catalog
 Global,Globális,module,Magento_Catalog
@@ -1789,6 +1797,8 @@ Type,Típus,module,Magento_Backup
 Download,Letöltés,module,Magento_Backup
 Action,Művelet,module,Magento_Backup
 Rollback,Visszaállítás,module,Magento_Backup
+"Enable this Solution","A megoldás engedélyezése",module,Magento_Braintree
+"Enable PayPal through Braintree","PayPal engedélyezése Braintreen kersztül",module,Magento_Braintree
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
 "Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
@@ -1798,8 +1808,11 @@ Environment,Környezet,module,Magento_Braintree
 Debug,Hibakeresés,module,Magento_Braintree
 "CVV Verification","CVV ellenőrzés",module,Magento_Braintree
 "Credit Card Types","Hitelkártya típusok",module,Magento_Braintree
+"Advanced Fraud Protection","Fejlett adathalász védelem",module,Magento_Braintree
 "Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_Braintree
 "Payment from Specific Countries","Fizetés a megadott országokból",module,Magento_Braintree
+"Country Specific Credit Card Types","Ország specifikus hitelkártya típusok",module,Magento_Braintree
+"3D Secure Verification Settings","3D biztonsági ellenőrzés beállítások",module,Magento_Braintree
 "3D Secure Verification","3D Secure ellenőrzés",module,Magento_Braintree
 "Enable CAPTCHA in Admin","CAPTCHA engedélyezése az Adminban",module,Magento_Captcha
 Font,Betűtípus,module,Magento_Captcha

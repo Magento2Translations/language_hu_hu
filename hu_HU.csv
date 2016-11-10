@@ -416,8 +416,13 @@ Exclude,Kizárás,module,Magento_Backup
 "Magento root directory","Magento gyökérkönyvtár",module,Magento_Backup
 "Create Backup","Másolat készítése",module,Magento_Backup
 Country,Ország,module,Magento_Braintree
+"Allowed Credit Card Types","Engedélyezett hitelkártya típusok",module,Magento_Braintree
 "Add Rule","Szabály hozzáadása",module,Magento_Braintree
+"Braintree Settlement Report","Braintree elszámolási jelentés",module,Magento_Braintree
+"Sorry, but something went wrong","Sajnáljuk, de hiba történt",module,Magento_Braintree
 "We can't initialize checkout.","A fizetés nem indítható.",module,Magento_Braintree
+"Braintree error response.","Braintree hiba válasz.",module,Magento_Braintree
+"Wrong transaction status","A hibás tranzakció állapot",module,Magento_Braintree
 Authorize,Engedélyez,module,Magento_Braintree
 "Authorize and Capture","Engedélyez és levon",module,Magento_Braintree
 "--Please Select--","--Kérem válasszon--",module,Magento_Braintree
@@ -426,10 +431,29 @@ Authorize,Engedélyez,module,Magento_Braintree
 "Coinbase account","Coinbase fiók",module,Magento_Braintree
 "Europe bank account","Európa bank fiók",module,Magento_Braintree
 "Credit card",Bankkártya,module,Magento_Braintree
+"Authorization expired","Engedély lejárt",module,Magento_Braintree
 Authorizing,Engedélyezés,module,Magento_Braintree
 Authorized,Engedélyezve,module,Magento_Braintree
+"Gateway rejected","Átjáró elutasítva",module,Magento_Braintree
 Failed,Sikertelen,module,Magento_Braintree
+Settled,Elszámolva,module,Magento_Braintree
+"Submitted for settlement","Beküldött elszámolások",module,Magento_Braintree
+Voided,Érvénytelenítve,module,Magento_Braintree
+Unrecognized,Ismeretlen,module,Magento_Braintree
+"Settlement declined","Elszámolás visszautasítva",module,Magento_Braintree
+"Settlement pending","Elszámolás folyamatban",module,Magento_Braintree
+"Settlement confirmed","Elszámolás megerősítve",module,Magento_Braintree
+Sale,Eladás,module,Magento_Braintree
+Credit,Egyenleg,module,Magento_Braintree
+"Credit Card Type",Hitelkártya-típus,module,Magento_Braintree
+"Credit Card Number",Hitelkártyaszám,module,Magento_Braintree
+"Please, enter valid Credit Card Number","Kérem adjon meg érvényes hitelkártyaszámot",module,Magento_Braintree
 "Expiration Date","Lejárat dátuma",module,Magento_Braintree
+"Please, enter valid Expiration Date","Kérem adjon meg érvényes lejárati dátumot",module,Magento_Braintree
+"Card Verification Number","Kártya ellenőrző szám",module,Magento_Braintree
+"Please, enter valid Card Verification Number","Kérem adjon meg érvényes kártya ellenőrző számot",module,Magento_Braintree
+ending,befejező,module,Magento_Braintree
+expires,lejár,module,Magento_Braintree
 "Percent Discount","Százalékos kedvezmény",module,Magento_Bundle
 "-- Select --","-- Válasszon --",module,Magento_Bundle
 Dynamic,Dinamikus,module,Magento_Bundle
@@ -2054,7 +2078,10 @@ Remove,Törlés,theme,frontend/Magento/luma
 "Clear All","Mindet töröl",theme,frontend/Magento/luma
 "Shopping Options","Vásárlási beállítások",theme,frontend/Magento/luma
 "Place Order",Megrendelés,module,Magento_Authorizenet
+"Credit Card Information",Hitelkártya-adatok,module,Magento_Braintree
 "What is this?","Mi ez?",module,Magento_Braintree
+"Save for later use.","Mentés a későbbi használathoz.",module,Magento_Braintree
+"Place Order",Megrendelés,module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Figyelem: A CAPTCHA kis- és nagybetű érzékeny.",module,Magento_Captcha
 Reason,Indoklás,module,Magento_Checkout
 Customer:,Vásárló:,module,Magento_Checkout
@@ -2176,8 +2203,11 @@ Footer,Lábléc,theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","A #%order_id megrendelés #%shipment_id azonosítójú szállítása",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Változás a %store_name megrendeléssel kapcsolatban",theme,frontend/Magento/luma
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Backend
+"This payment is not available","Ez a fizetési mód nem áll rendelkezésre",module,Magento_Braintree
 MM,HH,module,Magento_Braintree
 YY,ÉÉ,module,Magento_Braintree
+"Please try again with another form of payment.","Kérem próbálja újra egy másik fizetési móddal.",module,Magento_Braintree
+"Sorry, but something went wrong.","Sajnáljuk, de hiba történt.",module,Magento_Braintree
 Submit,Elküld,module,Magento_Catalog
 Close,Bezárás,module,Magento_CheckoutAgreements
 Shipping,Szállítás,module,Magento_Checkout
@@ -2408,6 +2438,9 @@ Size(bytes),Méret(bytes),module,Magento_Backup
 Type,Típus,module,Magento_Backup
 Download,Letöltés,module,Magento_Backup
 Action,Művelet,module,Magento_Backup
+"Enable this Solution","A megoldás engedélyezése",module,Magento_Braintree
+"Enable PayPal through Braintree","PayPal engedélyezése Braintreen kersztül",module,Magento_Braintree
+"Basic Braintree Settings","Alapvető Braintree beállítások",module,Magento_Braintree
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
 "Payment Action","Fizetési művelet",module,Magento_Braintree
@@ -2416,6 +2449,8 @@ Environment,Környezet,module,Magento_Braintree
 "Private Key","Privát kulcs",module,Magento_Braintree
 "Advanced Braintree Settings","Braintree speciális beállítások",module,Magento_Braintree
 "Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
+"Advanced Fraud Protection","Fejlett adathalász védelem",module,Magento_Braintree
+"Kount Merchant ID","Kount kereskedő azonosító",module,Magento_Braintree
 Debug,Hibakeresés,module,Magento_Braintree
 "CVV Verification","CVV ellenőrzés",module,Magento_Braintree
 "Credit Card Types","Hitelkártya típusok",module,Magento_Braintree
@@ -2423,8 +2458,18 @@ Debug,Hibakeresés,module,Magento_Braintree
 "Country Specific Settings","Ország-specifikus beállítások",module,Magento_Braintree
 "Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_Braintree
 "Payment from Specific Countries","Fizetés a megadott országokból",module,Magento_Braintree
+"Country Specific Credit Card Types","Ország specifikus hitelkártya típusok",module,Magento_Braintree
+"PayPal through Braintree","PayPal a Braintreen keresztül",module,Magento_Braintree
+"Override Merchant Name","Kereskedő nevének felülírása",module,Magento_Braintree
+"Require Customer's Billing Address","Vásárló számlázási címe szükséges",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","A szállítási cím szerkesztésének engedélyezése PayPal fizetési folyamat közben",module,Magento_Braintree
+"Display on Shopping Cart","Megjelenik a kosárban",module,Magento_Braintree
+"3D Secure Verification Settings","3D biztonsági ellenőrzés beállítások",module,Magento_Braintree
 "3D Secure Verification","3D Secure ellenőrzés",module,Magento_Braintree
 "Threshold Amount",Küszöbértéket,module,Magento_Braintree
+"Verify for Applicable Countries","Alkalmazható országok ellenőrzése",module,Magento_Braintree
+"Verify for Specific Countries","Meghatározott országok ellenőrzése",module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Szűrők alkalmazása az eredményért. Csak az első 100 rekord jelenik meg a táblázatban, de lehetősége van a teljes jelentés letöltésére .csv formátumban.",module,Magento_Braintree
 Select...,Válassz...,module,Magento_Braintree
 Status,Állapot,module,Magento_Braintree
 "Transaction Type","Tranzakció típus",module,Magento_Braintree
@@ -2435,7 +2480,10 @@ Status,Állapot,module,Magento_Braintree
 Type,Típus,module,Magento_Braintree
 "Created At",Létrehozva,module,Magento_Braintree
 Amount,Összeg,module,Magento_Braintree
+"Settlement Code","Elszámolás kód",module,Magento_Braintree
+"Settlement Response Text","Elszámolás válasz szöveg",module,Magento_Braintree
 "Refund Ids","Visszatérítés azonosítók",module,Magento_Braintree
+"Settlement Batch ID","Elszámolási köteg azonosító",module,Magento_Braintree
 Currency,Pénznem,module,Magento_Braintree
 Select...,Válassz...,module,Magento_Bundle
 Status,Állapot,module,Magento_Bundle

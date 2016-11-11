@@ -586,6 +586,8 @@ Position,Pozició,module,Magento_Catalog
 Day,Nap,module,Magento_Catalog
 Month,Hónap,module,Magento_Catalog
 Year,Év,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""> <span>tól</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""> <span>ig</span></label>",module,Magento_Catalog
 "WYSIWYG Editor","WYSIWYG szerkesztő",module,Magento_Catalog
 "Add Product","Termék hozzáadása",module,Magento_Catalog
 label,címke,module,Magento_Catalog
@@ -603,6 +605,11 @@ Cancel,Mégse,module,Magento_Catalog
 "Attribute Code",Attribútum-kód,module,Magento_Catalog
 "Default Value","Alapértelmezett érték",module,Magento_Catalog
 "Unique Value","Egyedi érték",module,Magento_Catalog
+"Unique Value (not shared with other products)","Egyedi érték (nincs megosztva más termékekkel)",module,Magento_Catalog
+"Not shared with other products.","Nincs megosztva más termékkel.",module,Magento_Catalog
+"Input Validation for Store Owner","A bolt tulajdonosa ellenőrizze a beírt adatokat",module,Magento_Catalog
+"Add to Column Options","Oszlop lehetőségek hozzáadása",module,Magento_Catalog
+"Use in Filter Options","Használja szűrő lehetőségként",module,Magento_Catalog
 "Store View","Áruház nézet",module,Magento_Catalog
 Website,Weboldal,module,Magento_Catalog
 Global,Globális,module,Magento_Catalog

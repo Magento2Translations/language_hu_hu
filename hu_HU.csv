@@ -369,16 +369,25 @@ Edit,Szerkesztés,module,Magento_Braintree
 "-- Select --","-- Válasszon --",module,Magento_Bundle
 Dynamic,Dinamikus,module,Magento_Bundle
 Fixed,Rögzített,module,Magento_Bundle
+"Create New Option","Új lehetőség létrehozása",module,Magento_Bundle
+"Bundle Items","Kötegelt elemek",module,Magento_Bundle
+"Add Products to Option","Termékek hozzáadása a lehetőséghez",module,Magento_Bundle
 Close,Bezárás,module,Magento_Bundle
+"Delete Option","Lehetőség törlése",module,Magento_Bundle
 ID,Azonosító,module,Magento_Bundle
 Product,Termék,module,Magento_Bundle
 SKU,Cikkszám,module,Magento_Bundle
 Price,Ár,module,Magento_Bundle
 Delete,Törlés,module,Magento_Bundle
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","Nincs definiált fordító a ""%1"" lehetőség típushoz.",module,Magento_Bundle
+"As Low as","Olcsóbb mint",module,Magento_Bundle
 "Price Range",Ártartomány,module,Magento_Bundle
+"Please specify product option(s).","Adja meg a termék lehetőség(ek)et.",module,Magento_Bundle
 Percent,Százalék,module,Magento_Bundle
 None,"Egyik sem",module,Magento_Bundle
+"Choose a selection...","Válassz lehetőséget...",module,Magento_Bundle
+"Ship Bundle Items","Összeállított termékek szállítása",module,Magento_Bundle
 Separately,Külön-külön,module,Magento_Bundle
 Together,Együtt,module,Magento_Bundle
 "Option Title","Opció cím",module,Magento_Bundle
@@ -397,16 +406,21 @@ Invoiced,Számlázott,module,Magento_Bundle
 Shipped,Szállított,module,Magento_Bundle
 Refunded,Visszatérített,module,Magento_Bundle
 Canceled,Törölve,module,Magento_Bundle
+"As low as","Olcsóbb mint",module,Magento_Bundle
 From,Ettől,module,Magento_Bundle
 To,Eddig,module,Magento_Bundle
 "Buy %1 with %2 discount each","Vásároljon %1 %2 kedvezménnyel",module,Magento_Bundle
+"Go back to product details","Vissza a termék leíráshoz",module,Magento_Bundle
+"Customize and Add to Cart","Testreszabás és kosárba helyezés",module,Magento_Bundle
 "* Required Fields","* kitöltése kötelező",module,Magento_Bundle
+"Your Customization","Az Ön testreszabása",module,Magento_Bundle
 Availability,Elérhetőség,module,Magento_Bundle
 "In stock",Raktáron,module,Magento_Bundle
 "Out of stock","Nincs raktáron",module,Magento_Bundle
 Summary,Összefoglaló,module,Magento_Bundle
 Availability:,Elérhetőség:,module,Magento_Bundle
 "Customize %1","%1 testreszabása",module,Magento_Bundle
+"No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_Bundle
 "Gift Message","Ajándék üzenet",module,Magento_Bundle
 From:,Ettől:,module,Magento_Bundle
 To:,Eddig:,module,Magento_Bundle
@@ -460,7 +474,7 @@ Root,Gyökér,module,Magento_Catalog
 Reset,Alaphelyzet,module,Magento_Catalog
 "New Subcategory","Új alkategória",module,Magento_Catalog
 "Use Config Settings","Konfigurációs beállítások használata",module,Magento_Catalog
-"Use All Available Attributes","Minden rendelkezésre álló attribútum használata",module,Magento_Catalog
+"Use All Available Attributes","Minden rendelkezésre álló jellemző használata",module,Magento_Catalog
 ID,Azonosító,module,Magento_Catalog
 Name,Név,module,Magento_Catalog
 SKU,Cikkszám,module,Magento_Catalog
@@ -495,6 +509,7 @@ label,címke,module,Magento_Catalog
 Website,Weboldal,module,Magento_Catalog
 Global,Globális,module,Magento_Catalog
 Scope,Hatókör,module,Magento_Catalog
+"Use for Promo Rule Conditions","Használja a promóciós feltételeket",module,Magento_Catalog
 "Enable WYSIWYG","WYSIWYG engedélyezése",module,Magento_Catalog
 "Used in Product Listing","Terméklistában mutatás",module,Magento_Catalog
 "Used for Sorting in Product Listing","Termék listában sorba rendezésre használható",module,Magento_Catalog
@@ -550,7 +565,7 @@ Websites,Honlapok,module,Magento_Catalog
 "Subscribe Date","Feliratkozás dátuma",module,Magento_Catalog
 "Last Notified","Utoljára értesített",module,Magento_Catalog
 "Send Count","Számlálás küldése",module,Magento_Catalog
-"New Attribute","Új attribútum",module,Magento_Catalog
+"New Attribute","Új jellemző",module,Magento_Catalog
 Type,Típus,module,Magento_Catalog
 "Attribute Set","Jellemző halmaz",module,Magento_Catalog
 Status,Állapot,module,Magento_Catalog
@@ -609,7 +624,7 @@ Categories,Kategóriák,module,Magento_Catalog
 "A total of %1 record(s) were updated.","Összesen %1 sor frissítve.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Valami elromlott a termék(ek) jellemzőinek frissítése közben.",module,Magento_Catalog
 Catalog,Katalógus,module,Magento_Catalog
-"Manage Product Attributes","Termék-attribútumok kezelése",module,Magento_Catalog
+"Manage Product Attributes","Termék jellemzők kezelése",module,Magento_Catalog
 "This attribute no longer exists.","Ez a jellemző már nem létezik.",module,Magento_Catalog
 "This attribute cannot be edited.","Ezt a jellemzőt nem lehet szerkeszteni.",module,Magento_Catalog
 "Edit Product Attribute","Termék jellemző szerkesztése",module,Magento_Catalog
@@ -643,7 +658,10 @@ Grid,Rács,module,Magento_Catalog
 List,Lista,module,Magento_Catalog
 All,Összes,module,Magento_Catalog
 "Product is not loaded","Termék nincs betöltve",module,Magento_Catalog
+"Bad controller interface for showing product","Rossz controller interface a termék megjelenítéséhez",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","A ""%1"" jellemző értékének egyedinek kell lennie.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Az alapértelmezett termékrendezés nem létezik a rendelkezésre álló termékrendezések listájában.",module,Magento_Catalog
+"No layout updates","Nincs layout frissítés",module,Magento_Catalog
 "Products only","Csak termékek",module,Magento_Catalog
 "Static block only","Csak statikus blokk",module,Magento_Catalog
 "Static block and products","Statikus blokk és termékek",module,Magento_Catalog
@@ -657,6 +675,7 @@ Manual,Kézi,module,Magento_Catalog
 Fixed,Rögzített,module,Magento_Catalog
 Percent,Százalék,module,Magento_Catalog
 "-- Please select --","-- Kérjük válasszon --",module,Magento_Catalog
+"Parent Product Thumbnail","Szülő termék bélyegképe",module,Magento_Catalog
 "12h AM/PM","12 óra, de/du",module,Magento_Catalog
 Stretch,Nyújtás,module,Magento_Catalog
 Tile,Mozaik,module,Magento_Catalog
@@ -667,15 +686,18 @@ Bottom/Right,Lent/Jobbra,module,Magento_Catalog
 Center,Középen,module,Magento_Catalog
 "The attribute model is not defined.","A jellemző modell nincs megadva.",module,Magento_Catalog
 Category,Kategória,module,Magento_Catalog
+"Clear Price","Ár törlése",module,Magento_Catalog
 "%1 and above","%1 és felette",module,Magento_Catalog
 "The image does not exist.","A kép nem létezik.",module,Magento_Catalog
-"The value of attribute ""%1"" must be set","""%1"" attribútum értékét be kell állítani",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","A cikkszám maximum %1 karakter hosszú lehet.",module,Magento_Catalog
 Enabled,Engedélyezett,module,Magento_Catalog
 Disabled,Tiltott,module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
+"Not Visible Individually","Önmagában nem látható",module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
 "Catalog, Search","Katalógus, keresés",module,Magento_Catalog
+"Multiple Select","Többszörös kijelölés",module,Magento_Catalog
 Dropdown,"Legördülő lista",module,Magento_Catalog
 "Are you sure you want to delete this category?","Biztos abban, hogy törölni szeretné a kategóriát?",module,Magento_Catalog
 "Collapse All","Mind bezár",module,Magento_Catalog
@@ -690,6 +712,8 @@ Groups,Csoportok,module,Magento_Catalog
 "An attribute group named ""/name/"" already exists"".","""/name/"" nevű jellemző csoport már létezik"".",module,Magento_Catalog
 "Manage Stock","Készlet kezelése",module,Magento_Catalog
 Qty,Mennyiség,module,Magento_Catalog
+"Qty Increments","Mennyiség növekmény",module,Magento_Catalog
+"Stock Availability",Raktárkészlet,module,Magento_Catalog
 "In Stock",Raktáron,module,Magento_Catalog
 "Out of Stock","Nincs raktáron",module,Magento_Catalog
 "Option Title","Opció cím",module,Magento_Catalog
@@ -700,7 +724,10 @@ Required,Kötelező,module,Magento_Catalog
 "Please leave blank if it is not an image.","Kérjük, hagyja üresen, ha nem egy kép.",module,Magento_Catalog
 Title,Cím,module,Magento_Catalog
 "Max Characters","Max karakterek",module,Magento_Catalog
+"Customer Group",Vásárlócsoport,module,Magento_Catalog
+"Item Price","Cikk ára",module,Magento_Catalog
 Action,Akció,module,Magento_Catalog
+"and above","és felette",module,Magento_Catalog
 "Alt Text","Alt szöveg",module,Magento_Catalog
 "Hide from Product Page","Termék oldalon elrejteni",module,Magento_Catalog
 "Product Alerts","Termék figyelmeztetések",module,Magento_Catalog
@@ -1724,6 +1751,7 @@ Back,Vissza,module,Magento_Wishlist
 "You have no items in your wish list.","Nincsenek termékek a kívánságlistádban.",module,Magento_Wishlist
 "Shop By",Szűrés,theme,frontend/Magento/luma
 Total:,Végösszeg:,module,Magento_Checkout
+"Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_Bundle
 Cancel,Mégse,module,Magento_Catalog
 "Configure Product","Termék beállítása",module,Magento_Catalog
 "New Option","Új opció",module,Magento_Catalog
@@ -1932,6 +1960,7 @@ Forms,Űrlapok,module,Magento_Captcha
 "Time Format",Időformátum,module,Magento_Catalog
 "Year Range","Év tartomány",module,Magento_Catalog
 "Please use a four-digit year format.","Kérem, négy számjegyű évszámot adjon meg.",module,Magento_Catalog
+"Product Image Watermarks","Termék kép vízjelek",module,Magento_Catalog
 "Watermark Default Size","Vízjel alapértelmezett mérete",module,Magento_Catalog
 Watermark,Vízjel,module,Magento_Catalog
 "Watermark Position","Vízjel pozíciója",module,Magento_Catalog
@@ -1940,6 +1969,7 @@ Watermark,Vízjel,module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog
+"Category Link Block Template","Kategória link blokk sablon",module,Magento_Catalog
 "Change status","Állapot megváltoztatása",module,Magento_Catalog
 none,nincs,module,Magento_Catalog
 Overview,Áttekintés,module,Magento_Catalog

@@ -834,6 +834,7 @@ All,Összes,module,Magento_Catalog
 "Could not save product ""%1"" with position %2 to category %3","Nem lehet menteni a(z) ""%1"" terméket a(z) %2 pozícióba a(z) %3 kategóriában",module,Magento_Catalog
 "Category does not contain specified product","A kategória nem tartalmazza a megadott terméket",module,Magento_Catalog
 "Could not save product ""%product"" with position %position to category %category","A(z) ""%product"" termék a(z) %position pozícióban a(z) %category kategóriában nem menthető",module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category","Szülő kategória nem mozgatható egyetlen gyermek kategória alá sem",module,Magento_Catalog
 "Could not move category","Nem lehet mozgatni a kategóriát",module,Magento_Catalog
 "Could not save category: %1","Nem lehet menteni a %1 kategóriát",module,Magento_Catalog
 "Cannot delete category with id %1","Nem lehet törölni a %1 azonosítójú kategóriát",module,Magento_Catalog
@@ -866,12 +867,19 @@ Category,Kategória,module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Nem lehet létrehozni jellemző halmazt egy nem-termék jellemző halmaz alapján.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Nem lehet létrehozni jellemző halmazt egy nem létező jellemző halaz alapján",module,Magento_Catalog
 "Provided Attribute set non product Attribute set.","A megadott jellemző halmaz nem termék jellemző halmaz.",module,Magento_Catalog
+"Use config","Használja a beállításokat",module,Magento_Catalog
 Enabled,Engedélyezett,module,Magento_Catalog
 Disabled,Tiltott,module,Magento_Catalog
 "Attribute Set already exists.","A jellemző halmaz már létezik.",module,Magento_Catalog
+"The image content is not valid.","A kép tartalma érvénytelen.",module,Magento_Catalog
 "Cannot save product.","Nem lehet menteni a terméket.",module,Magento_Catalog
+"Failed to save new media gallery entry.","Nem sikerült menteni az új média galéria bejegyzést.",module,Magento_Catalog
+"There is no image with provided ID.","A megadott azonosítóval nincs kép.",module,Magento_Catalog
 "The image does not exist.","A kép nem létezik.",module,Magento_Catalog
+"Please correct the image file type.","Kérem javítsa a kép fájltípusát.",module,Magento_Catalog
 "ProductSku should be specified","Termék cikkszámát meg kell adni",module,Magento_Catalog
+"The file '%1' is empty. Please choose another one","A '%1' fájl üres. Válasszon másikat",module,Magento_Catalog
+"The file '%1' is invalid. Please choose another one","A '%1' fájl érvénytelen. Válasszon másikat",module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
 "Values of following attributes are invalid: %1","A következő jellemzők értékei érvénytelenek: %1",module,Magento_Catalog
 "Not Visible Individually","Önmagában nem látható",module,Magento_Catalog

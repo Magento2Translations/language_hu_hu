@@ -689,8 +689,10 @@ Category,Kategória,module,Magento_Catalog
 "Clear Price","Ár törlése",module,Magento_Catalog
 "%1 and above","%1 és felette",module,Magento_Catalog
 "The image does not exist.","A kép nem létezik.",module,Magento_Catalog
+"Please correct the image file type.","Kérem javítsa a kép fájltípusát.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","A cikkszám maximum %1 karakter hosszú lehet.",module,Magento_Catalog
+"Use config","Használja a beállításokat",module,Magento_Catalog
 Enabled,Engedélyezett,module,Magento_Catalog
 Disabled,Tiltott,module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog

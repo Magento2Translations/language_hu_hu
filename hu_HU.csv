@@ -384,10 +384,12 @@ Delete,Törlés,module,Magento_Bundle
 "As Low as","Olcsóbb mint",module,Magento_Bundle
 "Price Range",Ártartomány,module,Magento_Bundle
 "Please specify product option(s).","Adja meg a termék lehetőség(ek)et.",module,Magento_Bundle
+"The required options you selected are not available.","Kiválasztott szükséges lehetőségek nem állnak rendelkezésre.",module,Magento_Bundle
+"Please select all required options.","Kérjük, válassza ki a szükséges lehetőségeket.",module,Magento_Bundle
 Percent,Százalék,module,Magento_Bundle
 None,"Egyik sem",module,Magento_Bundle
 "Choose a selection...","Válassz lehetőséget...",module,Magento_Bundle
-"Ship Bundle Items","Összeállított termékek szállítása",module,Magento_Bundle
+"Ship Bundle Items","Összecsomagolt termékek szállítása",module,Magento_Bundle
 Separately,Külön-külön,module,Magento_Bundle
 Together,Együtt,module,Magento_Bundle
 "Option Title","Opció cím",module,Magento_Bundle
@@ -395,6 +397,7 @@ Together,Együtt,module,Magento_Bundle
 "Input Type","Beviteli mező típusa",module,Magento_Bundle
 Required,Kötelező,module,Magento_Bundle
 Position,Pozició,module,Magento_Bundle
+"There are no products in this option.","Nincsenek termékek ebben a lehetőségben.",module,Magento_Bundle
 "New Option","Új opció",module,Magento_Bundle
 Default,Alapértelmezett,module,Magento_Bundle
 Name,Név,module,Magento_Bundle
@@ -699,13 +702,23 @@ Category,Kategória,module,Magento_Catalog
 "The image does not exist.","A kép nem létezik.",module,Magento_Catalog
 "Please correct the image file type.","Kérem javítsa a kép fájltípusát.",module,Magento_Catalog
 "Group price must be a number greater than 0.","Csoport árának nagyobbnak kell lennie 0-nál.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 0 vagy annál nagyobb.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","A cikkszám maximum %1 karakter hosszú lehet.",module,Magento_Catalog
+"Please enter a valid number in this field.","Adjon meg egy érvényes számot.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","Duplikált weboldalt, árlépcsőt, vásárlói csoportot és mennyiséget találtunk.",module,Magento_Catalog
 "Use config","Használja a beállításokat",module,Magento_Catalog
 Enabled,Engedélyezett,module,Magento_Catalog
 Disabled,Tiltott,module,Magento_Catalog
+"The option type to get group instance is incorrect.","Hibás beállítási típus a csoporthoz.",module,Magento_Catalog
+"Select type options required values rows.","Válassza ki a kötelező mezők típusát!",module,Magento_Catalog
+"Please specify date required option(s).","Kérjük, határozza meg a dátum kötelező opció(i)t!",module,Magento_Catalog
+"Please specify time required option(s).","Kérjük, határozza meg az idő kötelező opció(i)t!",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Hibás beállítási példány típus a csoportban.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","Hibás termék példány típus a csoportban.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Rossz BuyRequest példány a beállítás csoportban.",module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
+"The file upload failed.","A fájl feltöltése nem sikerült.",module,Magento_Catalog
 "The product has required options.","A terméknek kötelező beállításai vannak.",module,Magento_Catalog
 "Not Visible Individually","Önmagában nem látható",module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
@@ -1854,6 +1867,8 @@ Back,Vissza,module,Magento_Wishlist
 "You have no items in your wish list.","Nincsenek termékek a kívánságlistádban.",module,Magento_Wishlist
 "Shop By",Szűrés,theme,frontend/Magento/luma
 Total:,Végösszeg:,module,Magento_Checkout
+"Add Products to New Option","Termékek hozzáadása egy új lehetőséghez",module,Magento_Bundle
+"Add Products to Option ""%1""","Termékek hozzáadása a ""%1"" lehetőséghez",module,Magento_Bundle
 "Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_Bundle
 Cancel,Mégse,module,Magento_Catalog
 "Configure Product","Termék beállítása",module,Magento_Catalog
@@ -2029,7 +2044,7 @@ Rollback,Visszaállítás,module,Magento_Backup
 "Enable PayPal through Braintree","PayPal engedélyezése Braintreen kersztül",module,Magento_Braintree
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
-"Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
+"Merchant Account ID","Kereskedői fiók azonosító",module,Magento_Braintree
 "Merchant ID","Kereskedő azonosító",module,Magento_Braintree
 "Public Key","Nyilvános kulcs",module,Magento_Braintree
 "Private Key","Privát kulcs",module,Magento_Braintree

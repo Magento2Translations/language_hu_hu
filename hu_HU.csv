@@ -421,13 +421,14 @@ Country,Ország,module,Magento_Braintree
 "Braintree Settlement Report","Braintree elszámolási jelentés",module,Magento_Braintree
 "Sorry, but something went wrong","Sajnáljuk, de hiba történt",module,Magento_Braintree
 "We can't initialize checkout.","A fizetés nem indítható.",module,Magento_Braintree
+"No authorization transaction to proceed capture.","Nincs megfelelő engedély a tranzakció folytatásához.",module,Magento_Braintree
 "Braintree error response.","Braintree hiba válasz.",module,Magento_Braintree
 "Payment method nonce can't be retrieved.","A fizetési mód nem állítható helyre.",module,Magento_Braintree
-"Wrong transaction status","A hibás tranzakció állapot",module,Magento_Braintree
+"Wrong transaction status","Hibás tranzakciós állapot",module,Magento_Braintree
 Authorize,Engedélyez,module,Magento_Braintree
 "Authorize and Capture","Engedélyez és levon",module,Magento_Braintree
 "--Please Select--","--Kérem válasszon--",module,Magento_Braintree
-"Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Braintree
+"Please agree to all the terms and conditions before placing the order.","Kérjük, fogadja el az összes általános szerződési feltételt mielőtt lead egy rendelést.",module,Magento_Braintree
 "Paypal account","PayPal fiók",module,Magento_Braintree
 "Coinbase account","Coinbase fiók",module,Magento_Braintree
 "Europe bank account","Európa bank fiók",module,Magento_Braintree
@@ -439,6 +440,7 @@ Authorized,Engedélyezve,module,Magento_Braintree
 Failed,Sikertelen,module,Magento_Braintree
 "Processor declined","Tranzakció visszautasítva",module,Magento_Braintree
 Settled,Elszámolva,module,Magento_Braintree
+Settling,Rendezés,module,Magento_Braintree
 "Submitted for settlement","Beküldött elszámolások",module,Magento_Braintree
 Voided,Érvénytelenítve,module,Magento_Braintree
 Unrecognized,Ismeretlen,module,Magento_Braintree
@@ -449,11 +451,11 @@ Sale,Eladás,module,Magento_Braintree
 Credit,Egyenleg,module,Magento_Braintree
 "Credit Card Type",Hitelkártya-típus,module,Magento_Braintree
 "Credit Card Number",Hitelkártyaszám,module,Magento_Braintree
-"Please, enter valid Credit Card Number","Kérem adjon meg érvényes hitelkártyaszámot",module,Magento_Braintree
+"Please, enter valid Credit Card Number","Kérem, adjon meg érvényes hitelkártyaszámot",module,Magento_Braintree
 "Expiration Date","Lejárat dátuma",module,Magento_Braintree
-"Please, enter valid Expiration Date","Kérem adjon meg érvényes lejárati dátumot",module,Magento_Braintree
+"Please, enter valid Expiration Date","Kérem, adjon meg érvényes lejárati dátumot",module,Magento_Braintree
 "Card Verification Number","Kártya ellenőrző szám",module,Magento_Braintree
-"Please, enter valid Card Verification Number","Kérem adjon meg érvényes kártya ellenőrző számot",module,Magento_Braintree
+"Please, enter valid Card Verification Number","Kérem, adjon meg érvényes kártya ellenőrző számot",module,Magento_Braintree
 ending,befejező,module,Magento_Braintree
 expires,lejár,module,Magento_Braintree
 "Percent Discount","Százalékos kedvezmény",module,Magento_Bundle
@@ -473,13 +475,28 @@ Price,Ár,module,Magento_Bundle
 Delete,Törlés,module,Magento_Bundle
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Nincs definiált fordító a ""%1"" lehetőség típushoz.",module,Magento_Bundle
+"Only implemented for bundle product","Csak összecsomagolt terméken hajtható végre",module,Magento_Bundle
+"Product with specified sku: ""%1"" is not a bundle product","A megadott ""%1"" cikkszámú termék nem összecsomagolt termék",module,Magento_Bundle
+"Bundle product could not contain another composite product","Összecsomagolt termék nem tartalmazhat másik összetett terméket",module,Magento_Bundle
+"Id field of product link is required","Termék link azonosító kötelező",module,Magento_Bundle
+"Can not find product link with id ""%1""","A ""%1"" azonosítójú termék link nem található",module,Magento_Bundle
 "Could not save child: ""%1""","Nem lehet menteni a gyermeket: ""%1""",module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""","A megadott ""%1"" cikkszámú termék nem nem tartalmazza a ""%2"" lehetőséget",module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","A ""%1"" cikkszámú gyermek már hozzá van rendelve a ""%2"" termékhez",module,Magento_Bundle
+"Product with specified sku: %1 is not a bundle product","A megadott %1 cikkszámú termék nem összecsomagolt termék",module,Magento_Bundle
+"%fieldName is a required field.","%fieldName -t kötelező megadni.",module,Magento_Bundle
+"Cannot delete option with id %1","Nem törölhető a %1 azonosítójú lehetőség",module,Magento_Bundle
+"Could not save option","Nem lehet menteni a lehetőséget",module,Magento_Bundle
 "Price Range",Ártartomány,module,Magento_Bundle
 "As Low as","Olcsóbb mint",module,Magento_Bundle
 Together,Együtt,module,Magento_Bundle
 Separately,Külön-külön,module,Magento_Bundle
 "Please specify product option(s).","Adja meg a termék lehetőség(ek)et.",module,Magento_Bundle
+"The options you selected are not available.","A kiválasztott lehetőség nem elérhető.",module,Magento_Bundle
+"The required options you selected are not available.","Kiválasztott szükséges lehetőségek nem állnak rendelkezésre.",module,Magento_Bundle
+"Please select all required options.","Kérjük, válassza ki a szükséges lehetőségeket.",module,Magento_Bundle
 Percent,Százalék,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.","Nem lehet menteni a Vevő által definiált lehetőségeket az összecsomagolt, dinamikus árazású termékek esetén.",module,Magento_Bundle
 Cancel,Mégse,module,Magento_Bundle
 "Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_Bundle
 "Add Option","Opció hozzáadása",module,Magento_Bundle
@@ -501,8 +518,9 @@ Name,Név,module,Magento_Bundle
 None,"Egyik sem",module,Magento_Bundle
 Quantity:,Mennyiség:,module,Magento_Bundle
 "Choose a selection...","Válassz lehetőséget...",module,Magento_Bundle
-"Ship Bundle Items","Összeállított termékek szállítása",module,Magento_Bundle
+"Ship Bundle Items","Összecsomagolt termékek szállítása",module,Magento_Bundle
 Position,Pozició,module,Magento_Bundle
+"There are no products in this option.","Nincsenek termékek ebben a lehetőségben.",module,Magento_Bundle
 Default,Alapértelmezett,module,Magento_Bundle
 Ordered,Megrendelt,module,Magento_Bundle
 Invoiced,Számlázott,module,Magento_Bundle
@@ -866,17 +884,25 @@ Center,Középen,module,Magento_Catalog
 "The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","A lapos katalógus modul csak %2$d szűrhető vagy sorba rendezhető jellemzőt tud kezelni. Most %1$d jellemző van beállítva. Kérem csökkentse a beállított jellemzők számát, hogy használható legyen a modul",module,Magento_Catalog
 "Unsupported product type ""%1"".","Nem támogatott termék típus ""%1"".",module,Magento_Catalog
 "Please correct the category.","Javítsd ki a kategóriát.",module,Magento_Catalog
+"Must be category model instance or its id.","Szükséges a kategória modell példánya vagy azonosítója.",module,Magento_Catalog
 "The attribute model is not defined.","A jellemző modell nincs megadva.",module,Magento_Catalog
 Category,Kategória,module,Magento_Catalog
 "%1 was not found in algorithms","%1 nem található az algoritmusokban",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","A szűrőnek objektumnak kell lennie. Állítsa be a megfelelő szűrőt!",module,Magento_Catalog
 "Clear Price","Ár törlése",module,Magento_Catalog
 "%1 and above","%1 és felette",module,Magento_Catalog
 "The filters must be an array.","A szűrők tömbnek kell lennie.",module,Magento_Catalog
 "Product was not registered","A termék nem lett regisztrálva",module,Magento_Catalog
 "Store was not registered","A Bolt nem lett regisztrálva",module,Magento_Catalog
 "Group price must be a number greater than 0.","Csoport árának nagyobbnak kell lennie 0-nál.",module,Magento_Catalog
+"Media Gallery converter should be an instance of EntryConverterInterface.","A médiatár konverter az EntityConverterInterface egy példányának kell lennie.",module,Magento_Catalog
+"There is no MediaGalleryEntryConverter for given type","Nincs MediaGalleryEntryConverter a típusnak",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 0 vagy annál nagyobb.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","A cikkszám maximum %1 karakter hosszú lehet.",module,Magento_Catalog
+"Please enter a valid number in this field.","Adjon meg egy érvényes számot.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","Duplikált weboldalt, árlépcsőt, vásárlói csoportot és mennyiséget találtunk.",module,Magento_Catalog
+"Invalid option id %1","Érvénytelen azonosító: %1",module,Magento_Catalog
 "Can not create attribute set based on non product attribute set.","Nem lehet létrehozni jellemző halmazt egy nem-termék jellemző halmaz alapján.",module,Magento_Catalog
 "Can not create attribute set based on not existing attribute set","Nem lehet létrehozni jellemző halmazt egy nem létező jellemző halaz alapján",module,Magento_Catalog
 "Provided Attribute set non product Attribute set.","A megadott jellemző halmaz nem termék jellemző halmaz.",module,Magento_Catalog
@@ -890,13 +916,21 @@ Disabled,Tiltott,module,Magento_Catalog
 "There is no image with provided ID.","A megadott azonosítóval nincs kép.",module,Magento_Catalog
 "The image does not exist.","A kép nem létezik.",module,Magento_Catalog
 "Please correct the image file type.","Kérem javítsa a kép fájltípusát.",module,Magento_Catalog
+"The option type to get group instance is incorrect.","Hibás beállítási típus a csoporthoz.",module,Magento_Catalog
+"Select type options required values rows.","Válassza ki a kötelező mezők típusát!",module,Magento_Catalog
 "ProductSku should be specified","Termék cikkszámát meg kell adni",module,Magento_Catalog
+"Could not remove custom option","Nem sikerült eltávolítani az egyéni beállítást",module,Magento_Catalog
+"Please specify date required option(s).","Kérjük, határozza meg a dátum kötelező opció(i)t!",module,Magento_Catalog
+"Please specify time required option(s).","Kérjük, határozza meg az idő kötelező opció(i)t!",module,Magento_Catalog
+"The option instance type in options group is incorrect.","Hibás beállítási példány típus a csoportban.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","Hibás termék példány típus a csoportban.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Rossz BuyRequest példány a beállítás csoportban.",module,Magento_Catalog
 "The file '%1' is empty. Please choose another one","A '%1' fájl üres. Válasszon másikat",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","A '%1' fájl érvénytelen. Válasszon másikat",module,Magento_Catalog
 "Option required.","Beállítás szükséges.",module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
 "Values of following attributes are invalid: %1","A következő jellemzők értékei érvénytelenek: %1",module,Magento_Catalog
+"The file upload failed.","A fájl feltöltése nem sikerült.",module,Magento_Catalog
 "The product has required options.","A terméknek kötelező beállításai vannak.",module,Magento_Catalog
 "Not Visible Individually","Önmagában nem látható",module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
@@ -914,6 +948,8 @@ Dropdown,"Legördülő lista",module,Magento_Catalog
 message,üzenet,module,Magento_Catalog
 Images,Képek,module,Magento_Catalog
 Select...,"Válassza ki...",module,Magento_Catalog
+"Advanced Pricing","Részletes ár",module,Magento_Catalog
+"Tier Price",Árlépcső,module,Magento_Catalog
 "Customer Group",Vásárlócsoport,module,Magento_Catalog
 "Special Price From","Akciós ár (ettől:)",module,Magento_Catalog
 To,Eddig,module,Magento_Catalog
@@ -926,6 +962,7 @@ Done,Kész,module,Magento_Catalog
 "New Option","Új opció",module,Magento_Catalog
 "Select Product","Válassza ki a termék",module,Magento_Catalog
 "Option Title","Opció cím",module,Magento_Catalog
+"Add Value","Érték megadás",module,Magento_Catalog
 Title,Cím,module,Magento_Catalog
 "Option Type","Opció típus",module,Magento_Catalog
 Required,Kötelező,module,Magento_Catalog
@@ -938,11 +975,16 @@ Required,Kötelező,module,Magento_Catalog
 "This item has no weight","Ennek a terméknek nincs súlya",module,Magento_Catalog
 "Set Product as New From","Újdonságnak beállítva",module,Magento_Catalog
 "Related Products, Up-Sells, and Cross-Sells","Kapcsolódó termékek, felülértékesítések, és kereszt eladások",module,Magento_Catalog
+"Add Related Products","Kapcsolódó termékek hozzáadása",module,Magento_Catalog
+"Add Up-Sell Products","Up-Sell termékek hozzáadása",module,Magento_Catalog
+"Up-Sell Products","Up-Sell termékek",module,Magento_Catalog
+"Add Cross-Sell Products","Kereszt-eladás termékek hozzáadása",module,Magento_Catalog
 "Cross-Sell Products","Kereszt-eladás termékek",module,Magento_Catalog
 "Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_Catalog
 Remove,Eltávolítás,module,Magento_Catalog
 Thumbnail,Bélyegkép,module,Magento_Catalog
 Actions,Műveletek,module,Magento_Catalog
+"Schedule Update From","Ütemezett frissítés (-tól)",module,Magento_Catalog
 "Product in Websites","Termék a honlapokon",module,Magento_Catalog
 "If your Magento site has multiple views, you can set the scope to apply to a specific view.","Ha a Magento weboldalnak több nézete van, beállítható melyik bolt nézetre vonatkozzon a hatókör.",module,Magento_Catalog
 name,név,module,Magento_Catalog
@@ -2566,8 +2608,10 @@ Footer,Lábléc,theme,frontend/Magento/luma
 "This payment is not available","Ez a fizetési mód nem áll rendelkezésre",module,Magento_Braintree
 MM,HH,module,Magento_Braintree
 YY,ÉÉ,module,Magento_Braintree
-"Please try again with another form of payment.","Kérem próbálja újra egy másik fizetési móddal.",module,Magento_Braintree
+"Please try again with another form of payment.","Kérem, próbálja újra egy másik fizetési móddal.",module,Magento_Braintree
 "Sorry, but something went wrong.","Sajnáljuk, de hiba történt.",module,Magento_Braintree
+"Add Products to New Option","Termékek hozzáadása egy új lehetőséghez",module,Magento_Bundle
+"Add Products to Option ""%1""","Termékek hozzáadása a ""%1"" lehetőséghez",module,Magento_Bundle
 "Warning message","Figyelmeztető üzenet",module,Magento_Catalog
 Submit,Elküld,module,Magento_Catalog
 "Configure Product","Termék beállítása",module,Magento_Catalog
@@ -2807,6 +2851,7 @@ Download,Letöltés,module,Magento_Backup
 Action,Művelet,module,Magento_Backup
 "Enable this Solution","A megoldás engedélyezése",module,Magento_Braintree
 "Enable PayPal through Braintree","PayPal engedélyezése Braintreen kersztül",module,Magento_Braintree
+"Vault enabled","Vault engedélyezése",module,Magento_Braintree
 "Basic Braintree Settings","Alapvető Braintree beállítások",module,Magento_Braintree
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
@@ -2814,10 +2859,11 @@ Environment,Környezet,module,Magento_Braintree
 "Merchant ID","Kereskedő azonosító",module,Magento_Braintree
 "Public Key","Nyilvános kulcs",module,Magento_Braintree
 "Private Key","Privát kulcs",module,Magento_Braintree
-"Advanced Braintree Settings","Braintree speciális beállítások",module,Magento_Braintree
-"Merchant Account ID","Kereskedő fiók azonosító",module,Magento_Braintree
+"Advanced Braintree Settings","Speciális Braintree beállítások",module,Magento_Braintree
+"Vault Title","Vault cím",module,Magento_Braintree
+"Merchant Account ID","Kereskedői fiók azonosító",module,Magento_Braintree
 "Advanced Fraud Protection","Fejlett adathalász védelem",module,Magento_Braintree
-"Kount Merchant ID","Kount kereskedő azonosító",module,Magento_Braintree
+"Kount Merchant ID","Kount kereskedői azonosító",module,Magento_Braintree
 Debug,Hibakeresés,module,Magento_Braintree
 "CVV Verification","CVV ellenőrzés",module,Magento_Braintree
 "Credit Card Types","Hitelkártya típusok",module,Magento_Braintree
@@ -2837,7 +2883,7 @@ Debug,Hibakeresés,module,Magento_Braintree
 "Verify for Applicable Countries","Alkalmazható országok ellenőrzése",module,Magento_Braintree
 "Verify for Specific Countries","Meghatározott országok ellenőrzése",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Szűrők alkalmazása az eredményért. Csak az első 100 rekord jelenik meg a táblázatban, de lehetősége van a teljes jelentés letöltésére .csv formátumban.",module,Magento_Braintree
-Select...,Válassz...,module,Magento_Braintree
+Select...,Válasszon...,module,Magento_Braintree
 Status,Állapot,module,Magento_Braintree
 "Transaction Type","Tranzakció típus",module,Magento_Braintree
 "PayPal Payment ID","PayPal fizetési azonosító",module,Magento_Braintree
@@ -2878,6 +2924,7 @@ Yes,Igen,module,Magento_CatalogRule
 No,Nem ,module,Magento_CatalogRule
 Title,Cím,module,Magento_CatalogWidget
 Conditions,Feltételek,module,Magento_CatalogWidget
+Inventory,Készletkezelés,module,Magento_Catalog
 "Mask for SKU","Cikkszám maszkja",module,Magento_Catalog
 "Mask for Meta Title","Meta cím maszk",module,Magento_Catalog
 "Mask for Meta Keywords","Meta kulcsszavak maszkja",module,Magento_Catalog

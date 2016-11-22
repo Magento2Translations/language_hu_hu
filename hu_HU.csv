@@ -924,23 +924,50 @@ Disabled,Tiltott,module,Magento_Catalog
 "Please specify time required option(s).","Kérjük, határozza meg az idő kötelező opció(i)t!",module,Magento_Catalog
 "The option instance type in options group is incorrect.","Hibás beállítási példány típus a csoportban.",module,Magento_Catalog
 "The product instance type in options group is incorrect.","Hibás termék példány típus a csoportban.",module,Magento_Catalog
+"The configuration item option instance in options group is incorrect.","A kiválasztott konfigurációs beállítás érvénytelen.",module,Magento_Catalog
+"The configuration item instance in options group is incorrect.","A kiválasztott konfigurációs beállítás érvénytelen.",module,Magento_Catalog
 "The BuyRequest instance in options group is incorrect.","Rossz BuyRequest példány a beállítás csoportban.",module,Magento_Catalog
+"The file options format is not valid.","A fájl formátuma érvénytelen.",module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","A(z) ""%1""-""%2"" file kiterjesztése érvénytelen.",module,Magento_Catalog
+"The maximum allowed image size for '%1' is %2x%3 px.","A(z) ""%1"" maximálisan megengedett kép mérete %2x%3 px.",module,Magento_Catalog
+"The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","A feltöltött file (""%1"") nagyobb, mint az engedélyezett %2 megabájt.",module,Magento_Catalog
 "The file '%1' is empty. Please choose another one","A '%1' fájl üres. Válasszon másikat",module,Magento_Catalog
 "The file '%1' is invalid. Please choose another one","A '%1' fájl érvénytelen. Válasszon másikat",module,Magento_Catalog
+"Validation failed. Required options were not filled or the file was not uploaded.","Érvényesítés sikertelen. A szükséges opciók nem kerültek kiválasztásra vagy a fájl feltöltése nem sikerült.",module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","A feltöltött fájl nagyobb, mint a szerver által engedélyezett %1 megabájt",module,Magento_Catalog
 "Option required.","Beállítás szükséges.",module,Magento_Catalog
+"The file is empty. Please choose another one","A file üres. Válasszon másikat",module,Magento_Catalog
+"Some of the selected item options are not currently available.","Némely kijelölt beállítás jelenleg elérhető.",module,Magento_Catalog
 "The text is too long.","A szöveg túl hosszú.",module,Magento_Catalog
+"Invalid data provided for tier_price","Érvénytelen adatok megadva a tier_price-hez",module,Magento_Catalog
+"Please provide valid data","Kérem érvényes adatot adjon meg",module,Magento_Catalog
 "Values of following attributes are invalid: %1","A következő jellemzők értékei érvénytelenek: %1",module,Magento_Catalog
+"Could not save group price","A csoport ár mentése sikertelen",module,Magento_Catalog
 "The file upload failed.","A fájl feltöltése nem sikerült.",module,Magento_Catalog
 "The product has required options.","A terméknek kötelező beállításai vannak.",module,Magento_Catalog
+"Something went wrong while processing the request.","Hiba a kérelem feldolgozása közben.",module,Magento_Catalog
 "Not Visible Individually","Önmagában nem látható",module,Magento_Catalog
 Search,Keresés,module,Magento_Catalog
 "Catalog, Search","Katalógus, keresés",module,Magento_Catalog
+"Something went wrong while removing products from the websites.","Hiba a termékek eltávolítása közben.",module,Magento_Catalog
+"Something went wrong while adding products to websites.","Hiba a termékek hozzáadása közben.",module,Magento_Catalog
 "Group with id ""%1"" does not exist.","""%1"" azonosítójú csoport nem létezik.",module,Magento_Catalog
 "Attribute group that contains system attributes can not be deleted","Azon Jellemző csoport amely tartalmaz rendszer jellemzőket, nem törölhető",module,Magento_Catalog
+"Collection provider is not registered","A gyűjtemény szolgáltató nincs regisztrálva",module,Magento_Catalog
+"Unknown link type: %1","Ismeretlen hivatkozás típus: %1",module,Magento_Catalog
+"Provided link type ""%1"" does not exist","A hivatkozás típus nem létezik: ""%1""",module,Magento_Catalog
+"Invalid data provided for linked products","Érvénytelen adatok vannak a kapcsolódó termékekhez megadva",module,Magento_Catalog
 "Product with SKU '%1' is not linked to product with SKU '%2'","A ""%1"" cikkszámú termék nincs összekötve a ""%2"" cikkszámú termékkel",module,Magento_Catalog
+"Requested product does not support images.","A kért termék nem támogatja a képeket.",module,Magento_Catalog
 "Product with SKU ""%1"" does not exist","A ""%1"" cikkszámú termék nem létezik",module,Magento_Catalog
 "Invalid product data: %1","Érvénytelen termék adat: %1",module,Magento_Catalog
 "Unable to remove product %1","%1 terméket nem lehet eltávolítani",module,Magento_Catalog
+"There are not websites for assign to product","Nincsenek weboldalak a termlékhozzárendeléshez kiválasztva",module,Magento_Catalog
+"Could not assign product ""%1"" to websites ""%2""","A(z) ""%1"" termék nem rendelhető a(z) ""%2"" honlaphoz",module,Magento_Catalog
+"Could not save product ""%1"" with websites %2","Nem lehet menteni a(z) ""%1"" terméket a(z) %2  weboldalakhoz",module,Magento_Catalog
+"We cannot determine the field name.","Nem tudjuk meghatározni a mező nevét.",module,Magento_Catalog
+"Do not change the scope. %1","Ne változtassa meg a hatókört. %1",module,Magento_Catalog
+"A product type is not defined for the indexer.","A terméktípus nincs definiálva az indexelőhöz.",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","A %1 cikkszámú termék nincs összekötve a %2 cikkszámú termékkel",module,Magento_Catalog
 "Multiple Select","Többszörös kijelölés",module,Magento_Catalog
 Dropdown,"Legördülő lista",module,Magento_Catalog
@@ -958,6 +985,7 @@ Done,Kész,module,Magento_Catalog
 "Select Attribute","Válasszon jellemzőt",module,Magento_Catalog
 "Create New Attribute","Új jellemző létrehozása",module,Magento_Catalog
 "Customizable Options","Testre szabható beállítások",module,Magento_Catalog
+"Custom options let customers choose the product variations they want.","Az egyéni beállítások segítségével a vevő kiválaszthatja a számára megfelelő termékvariációt.",module,Magento_Catalog
 "Add Option","Opció hozzáadása",module,Magento_Catalog
 "New Option","Új opció",module,Magento_Catalog
 "Select Product","Válassza ki a termék",module,Magento_Catalog
@@ -975,9 +1003,12 @@ Required,Kötelező,module,Magento_Catalog
 "This item has no weight","Ennek a terméknek nincs súlya",module,Magento_Catalog
 "Set Product as New From","Újdonságnak beállítva",module,Magento_Catalog
 "Related Products, Up-Sells, and Cross-Sells","Kapcsolódó termékek, felülértékesítések, és kereszt eladások",module,Magento_Catalog
+"Related products are shown to customers in addition to the item the customer is looking at.","Kapcsolódó termékek az éppen megtekintett termék mellett jelennek meg.",module,Magento_Catalog
 "Add Related Products","Kapcsolódó termékek hozzáadása",module,Magento_Catalog
+"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Az up-sell termék a jelenleg megtekintett termék drágább vagy jobb minőségű alternatívájaként jelenik meg a vevőnek.",module,Magento_Catalog
 "Add Up-Sell Products","Up-Sell termékek hozzáadása",module,Magento_Catalog
 "Up-Sell Products","Up-Sell termékek",module,Magento_Catalog
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Az ""impulzus-vásárlás"" termékek a kosár mellett a már a kosárban lévő termékek cross-sell termékeként jelennek meg.",module,Magento_Catalog
 "Add Cross-Sell Products","Kereszt-eladás termékek hozzáadása",module,Magento_Catalog
 "Cross-Sell Products","Kereszt-eladás termékek",module,Magento_Catalog
 "Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_Catalog
@@ -1006,12 +1037,16 @@ Groups,Csoportok,module,Magento_Catalog
 "Please enter a new group name.","Adjon meg egy új csoport nevet.",module,Magento_Catalog
 "An attribute group named ""/name/"" already exists"".","""/name/"" nevű jellemző csoport már létezik"".",module,Magento_Catalog
 "Sorry, we're unable to complete this request.","Sajnáljuk, de nem tudjuk teljesíteni ezt a kérést.",module,Magento_Catalog
+"Custom Options","Lekérdezési kontextus",module,Magento_Catalog
 "This is a required option.","Ez egy kötelező lehetőség.",module,Magento_Catalog
 "Compatible file extensions to upload","Kompatibilis fájl kiterjesztések a feltöltéshez",module,Magento_Catalog
 "Maximum image width","Kép maximális szélessége",module,Magento_Catalog
 "Maximum image height","Maximális képmagasság",module,Magento_Catalog
 "Maximum number of characters:","Karakterek maximális száma:",module,Magento_Catalog
 "start typing to search template","kezdjen el gépelni, a sablon kereséséhez",module,Magento_Catalog
+"Product online","A termék online",module,Magento_Catalog
+"Product offline","A termék offline",module,Magento_Catalog
+"Product online status","Termék online állapot",module,Magento_Catalog
 "Manage Stock","Készlet kezelése",module,Magento_Catalog
 Qty,Mennyiség,module,Magento_Catalog
 "Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_Catalog
@@ -1028,10 +1063,14 @@ Backorders,Előrendelések,module,Magento_Catalog
 "Add Product To Websites","Termék hozzáadása a Weboldalakhoz",module,Magento_Catalog
 "Remove Product From Websites","Termék eltávolítása a Weboldalakról",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Egy tétel elrejtéséhez a katalógusban vagy a keresésben, állítsa az állapotot ""Letiltva""-ra.",module,Magento_Catalog
+"Delete Custom Option","Egyedi opció törlése",module,Magento_Catalog
+"Sort Custom Options","Egyedi opciók rendezése",module,Magento_Catalog
 "Input Type","Beviteli mező típusa",module,Magento_Catalog
+"Sort Custom Option","Egyedi opció rendezése",module,Magento_Catalog
 "Item Price","Cikk ára",module,Magento_Catalog
 Action,Akció,module,Magento_Catalog
 "and above","és felette",module,Magento_Catalog
+"Delete Tier","Akció törlése",module,Magento_Catalog
 "Product In Websites","Termék a honlapokon",module,Magento_Catalog
 "(Copy data from: %1)","(Innen másolja az adatokat: %1)",module,Magento_Catalog
 "Browse to find or drag image here","Tallózza ki, vagy húzza ide a képet",module,Magento_Catalog
@@ -1043,9 +1082,12 @@ Role,Szerepkör,module,Magento_Catalog
 "Image Resolution",Képfelbontás,module,Magento_Catalog
 "Hide from Product Page","Termék oldalon elrejteni",module,Magento_Catalog
 "Product Alerts","Termék figyelmeztetések",module,Magento_Catalog
+"Allow Multiple Boxes for Shipping","Több csomag engedélyezése szállításkor",module,Magento_Catalog
 "start typing to search attribute","kezdjen el gépelni a jellemző kereséséhez",module,Magento_Catalog
 "Basic Settings",Alapbeállítások,module,Magento_Catalog
 "Advanced Settings","Haladó beállítások",module,Magento_Catalog
+"Changes have been made to this section that have not been saved.","A létrehozott változtatások nincsenek elmentve.",module,Magento_Catalog
+"This tab contains invalid data. Please resolve this before saving.","Ez a lap érvénytelen adatot tartalmaz. Kérem javítsa mentés előtt.",module,Magento_Catalog
 "Mass Actions","Tömeges műveletek",module,Magento_Catalog
 "Select All","Összes kijelölése",module,Magento_Catalog
 "Unselect All","Összes kijelölés megszüntetése",module,Magento_Catalog
@@ -1055,6 +1097,7 @@ Role,Szerepkör,module,Magento_Catalog
 "Regular Price","Lista ár",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Vegyen %1 -t darabját %2 -ért, és <strong class=""benefit"">spóroljon meg<span class=""percent tier-%3"">&nbsp;%4</span>%-ot</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Vegyen %1 -t darabját %2 -ért",module,Magento_Catalog
+"Shop By",Szűrés,module,Magento_Catalog
 "Shopping Options","Vásárlási beállítások",module,Magento_Catalog
 "Compare Products","Termékek összehasonlítása",module,Magento_Catalog
 "Print This Page","Oldal nyomtatása",module,Magento_Catalog
@@ -1071,8 +1114,11 @@ Prev,Előző,module,Magento_Catalog
 Next, Következő,module,Magento_Catalog
 "Learn More","További információk",module,Magento_Catalog
 "Add to Compare","Összehasonlításhoz ad",module,Magento_Catalog
+"We found other products you might like!","Találtunk pár terméket amely elnyerheti a tetszését!",module,Magento_Catalog
 "More Choices:","További lehetőségek:",module,Magento_Catalog
+"Check items to add to the cart or","Jelölje ki a termékeket a kosárhoz való hozzáadáshoz vagy",module,Magento_Catalog
 "select all","mind kiválaszt",module,Magento_Catalog
+"Items %1-%2 of %3","%1-%2/%3 termék",module,Magento_Catalog
 "%1 Item","%1 termék",module,Magento_Catalog
 "%1 Items","%1 termékek",module,Magento_Catalog
 Show,Megtekintés,module,Magento_Catalog
@@ -1080,6 +1126,7 @@ Show,Megtekintés,module,Magento_Catalog
 "Sort By",Rendezés,module,Magento_Catalog
 "Set Ascending Direction","Növekvő sorrendbe",module,Magento_Catalog
 "Set Descending Direction","Csökkenő sorrendbe",module,Magento_Catalog
+"View as",Megtekintés,module,Magento_Catalog
 "More Information","További információ",module,Magento_Catalog
 Loading...,Betöltés...,module,Magento_Catalog
 "* Required Fields","* kitöltése kötelező",module,Magento_Catalog
@@ -2615,7 +2662,10 @@ YY,ÉÉ,module,Magento_Braintree
 "Warning message","Figyelmeztető üzenet",module,Magento_Catalog
 Submit,Elküld,module,Magento_Catalog
 "Configure Product","Termék beállítása",module,Magento_Catalog
+"Select type of option.","Válassza ki a beállítás típusát.",module,Magento_Catalog
 "Please add rows to option.","Kérem adjon értékeket a beállításnak.",module,Magento_Catalog
+"Please select items.","Kérjük, válasszon elemeket.",module,Magento_Catalog
+"Choose existing category.","Létező kategóra választása.",module,Magento_Catalog
 "Image Detail","Kép részletek",module,Magento_Catalog
 Adding...,Hozzáadás...,module,Magento_Catalog
 Added,Hozzáadva,module,Magento_Catalog
@@ -2944,10 +2994,24 @@ Inventory,Készletkezelés,module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 alapbeállításként. Azonnali frissítéshez törölje a Blokk HTML kimeneti cache-t.",module,Magento_Catalog
+"Catalog Product Link","Katalógus termék link",module,Magento_Catalog
+"Link to a Specified Product","Link egy meghatározott termékhez",module,Magento_Catalog
 "Select Product...","Válassza ki a terméket...",module,Magento_Catalog
+"Anchor Custom Text","Egyedi horgony szöveg",module,Magento_Catalog
+"If empty, we'll use the product name here.","Ha üres, a termék nevét fogjuk itt használni.",module,Magento_Catalog
+"Anchor Custom Title","Egyedi horgony cím",module,Magento_Catalog
+"Product Link Block Template","Termék link blokk sablon",module,Magento_Catalog
+"Product Link Inline Template","Termék link inline sablon",module,Magento_Catalog
+"Catalog Category Link","Katalógus kategória link",module,Magento_Catalog
+"Link to a Specified Category","Link egy megadott kategóriához",module,Magento_Catalog
 "Select Category...","Válassza ki a kategóriát...",module,Magento_Catalog
 "If empty, we'll use the category name here.","Ha üres, a kategória nevét fogjuk itt használni.",module,Magento_Catalog
 "Category Link Block Template","Kategória link blokk sablon",module,Magento_Catalog
+"Category Link Inline Template","Kategória link inline sablon",module,Magento_Catalog
+Set,Beállit,module,Magento_Catalog
+"Category Information",Kategóriaadatok,module,Magento_Catalog
+"Enable Category","Kategória engedélyezése",module,Magento_Catalog
 "Include in Menu","Menü tartalmazza",module,Magento_Catalog
 Content,Tartalom,module,Magento_Catalog
 "Category Image",Kategóriakép,module,Magento_Catalog
@@ -2955,6 +3019,9 @@ Content,Tartalom,module,Magento_Catalog
 "Display Settings","Megjelenítési beállítások",module,Magento_Catalog
 Anchor,Horgony,module,Magento_Catalog
 "Sort Products By","Termékek rendezése",module,Magento_Catalog
+"Use All","Az összes használata",module,Magento_Catalog
+"Default Product Sorting","Alapértelmezett termék rendezés",module,Magento_Catalog
+"Layered Navigation Price Step","Ár beállítási fokozat nagysága a navigációs panelen",module,Magento_Catalog
 "URL Key",URL-kulcs,module,Magento_Catalog
 "Meta Title","Meta cím",module,Magento_Catalog
 "Meta Keywords","Meta kulcsszavak",module,Magento_Catalog
@@ -2977,6 +3044,7 @@ Image,Kép,module,Magento_Catalog
 Small,Kicsi,module,Magento_Catalog
 "Attribute Properties","Jellemző tulajdonságok",module,Magento_Catalog
 "Attribute Label","Jellemző cimke",module,Magento_Catalog
+"Catalog Input Type for Store Owner","Beviteli mező típusa",module,Magento_Catalog
 Values,Értékek,module,Magento_Catalog
 "Add this attribute to the list of column options in the product grid.","A jellemző a termék rács oszlop kiválaszási lehetőségei közé helyezése.",module,Magento_Catalog
 "Add this attribute to the list of filter options in the product grid.","A jellemző a termék rács szűrő lehetőségei közé helyezése.",module,Magento_Catalog

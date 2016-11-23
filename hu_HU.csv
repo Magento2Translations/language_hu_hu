@@ -435,6 +435,8 @@ Always,Mindig,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Figyelem</strong>: A CAPTCHA kis- és nagybetű érzékeny.",module,Magento_Captcha
 "Reload captcha","CAPTCHA újratöltése",module,Magento_Captcha
 "Please type the letters below","Kérlek, írd be a betűket alább",module,Magento_Captcha
+"Custom options have different types.","Az egyéni lehetőségeknek eltérő típusai vannak.",module,Magento_CatalogImportExport
+"Please correct the parameters.","Javítsa ki a paramétereket.",module,Magento_CatalogImportExport
 "Customer Group","Vásárlói csoport",module,Magento_CatalogInventory
 "Minimum Qty","Minimális mennyiség",module,Magento_CatalogInventory
 "Add Minimum Qty","Minimális mennyiség hozzáadása",module,Magento_CatalogInventory
@@ -483,6 +485,7 @@ Name,Név,module,Magento_Catalog
 SKU,Cikkszám,module,Magento_Catalog
 Price,Ár,module,Magento_Catalog
 Position,Pozició,module,Magento_Catalog
+"Category Products","Kategória termékei",module,Magento_Catalog
 "Add Subcategory","Alkategória hozzáadása",module,Magento_Catalog
 "Add Root Category","Gyökér kategória hozzáadása",module,Magento_Catalog
 Day,Nap,module,Magento_Catalog
@@ -2096,9 +2099,15 @@ Forms,Űrlapok,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
+"Product Fields Auto-Generation","Termék mezők automatikus létrehozása",module,Magento_Catalog
 "Mask for SKU","Cikkszám maszkja",module,Magento_Catalog
+"Use {{name}} as Product Name placeholder","{{name}} használva alapértelmezett névként",module,Magento_Catalog
 "Mask for Meta Title","Meta cím maszk",module,Magento_Catalog
 "Mask for Meta Keywords","Meta kulcsszavak maszkja",module,Magento_Catalog
+"Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","{{name}} mint alapértelmezett terméknév vagy {{sku}} mint alapértelmezett termék SKU használata",module,Magento_Catalog
+Comma-separated.,"Vesszővel elválasztott.",module,Magento_Catalog
+"Products per Page on Grid Default Value","Rácsnézetben a termékek alapértelmezett száma oldalanként",module,Magento_Catalog
+"Allow Dynamic Media URLs in Products and Categories","Dinamikus méia URL-ek engedélyezése a termékeknél, és a kategóriáknál",module,Magento_Catalog
 "Page Title Separator",Oldalcím-elválasztó,module,Magento_Catalog
 "Maximal Depth","Maximális mélység",module,Magento_Catalog
 "Date & Time Custom Options","Dátum és idő egyéni beállítások",module,Magento_Catalog
@@ -2112,11 +2121,20 @@ Forms,Űrlapok,module,Magento_Captcha
 Watermark,Vízjel,module,Magento_Catalog
 "Watermark Position","Vízjel pozíciója",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Használjon a statikus URL-eket a média tartalomhoz a WYSIWYG-ben katalógushoz",module,Magento_Catalog
+"Product Flat Data","Termék lapos adatok",module,Magento_Catalog
+"Category Flat Data","Kategória lapos adatok",module,Magento_Catalog
+"Product Categories",Árukategóriák,module,Magento_Catalog
 "Product Price","Termék ár",module,Magento_Catalog
 "Index product prices","Termék árak indexelés",module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
+"Number of Products per Page","Oldalankénti termékek száma",module,Magento_Catalog
+"Number of Products to Display","Megjelenített termékek száma",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog
+"New Products Grid Template","Új termék-rács sablon",module,Magento_Catalog
+"New Products List Template","Új terméklista sablon",module,Magento_Catalog
+"New Products Images and Names Template","Új termék képekés nevek sablon",module,Magento_Catalog
+"Cache Lifetime (Seconds)","Cache élettartama (másodperc)",module,Magento_Catalog
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 alapbeállításként. Azonnali frissítéshez törölje a Blokk HTML kimeneti cache-t.",module,Magento_Catalog
 "Catalog Product Link","Katalógus termék link",module,Magento_Catalog
 "Link to a Specified Product","Link egy meghatározott termékhez",module,Magento_Catalog

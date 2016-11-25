@@ -437,12 +437,17 @@ Always,Mindig,module,Magento_Captcha
 "Please type the letters below","Kérlek, írd be a betűket alább",module,Magento_Captcha
 "Custom options have different types.","Az egyéni lehetőségeknek eltérő típusai vannak.",module,Magento_CatalogImportExport
 "Please correct the parameters.","Javítsa ki a paramétereket.",module,Magento_CatalogImportExport
+"ALL GROUPS","MINDEN CSOPORT",module,Magento_CatalogInventory
 "Customer Group","Vásárlói csoport",module,Magento_CatalogInventory
 "Minimum Qty","Minimális mennyiség",module,Magento_CatalogInventory
 "Add Minimum Qty","Minimális mennyiség hozzáadása",module,Magento_CatalogInventory
 "This product is out of stock.","Ez a termék nincs készleten.",module,Magento_CatalogInventory
+"No Backorders","Nincs előrendelés",module,Magento_CatalogInventory
 "In Stock",Raktáron,module,Magento_CatalogInventory
 "Out of Stock","Nincs raktáron",module,Magento_CatalogInventory
+"Only %1 left","Csak %1 maradt",module,Magento_CatalogInventory
+"Product Name",Terméknév,module,Magento_CatalogInventory
+Qty,Db,module,Magento_CatalogInventory
 "Add New Rule","Új szabály hozzáadása",module,Magento_CatalogRule
 "Apply Rules","Szabályok alkalmazása",module,Magento_CatalogRule
 "Save and Apply","Mentés és alkalmazás",module,Magento_CatalogRule
@@ -2098,15 +2103,27 @@ Forms,Űrlapok,module,Magento_Captcha
 "Case Sensitive","Kis- és nagybetű érzékeny",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
+Inventory,Készlet,module,Magento_CatalogInventory
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
+Backorders,Előrendelések,module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Megengedett maximum mennyiség a kosárban",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_CatalogInventory
+"Notify for Quantity Below","Értesítés mennyiségnél",module,Magento_CatalogInventory
+"Enable Qty Increments","Mennyiség növekmények engedélyezése",module,Magento_CatalogInventory
+"Qty Increments","Mennyiség növekmény",module,Magento_CatalogInventory
 "Product Fields Auto-Generation","Termék mezők automatikus létrehozása",module,Magento_Catalog
 "Mask for SKU","Cikkszám maszkja",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","{{name}} használva alapértelmezett névként",module,Magento_Catalog
 "Mask for Meta Title","Meta cím maszk",module,Magento_Catalog
 "Mask for Meta Keywords","Meta kulcsszavak maszkja",module,Magento_Catalog
 "Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","{{name}} mint alapértelmezett terméknév vagy {{sku}} mint alapértelmezett termék SKU használata",module,Magento_Catalog
+"Mask for Meta Description","Meta leírás mező",module,Magento_Catalog
+"Use {{name}} and {{description}} as Product Name and Product Description placeholders","{{name}} és {{description}} használata alapértelmezett terméknév és termékleírásként",module,Magento_Catalog
+"List Mode","Lista mód",module,Magento_Catalog
+"Products per Page on Grid Allowed Values","Termék/oldal lehetséges értékei",module,Magento_Catalog
 Comma-separated.,"Vesszővel elválasztott.",module,Magento_Catalog
 "Products per Page on Grid Default Value","Rácsnézetben a termékek alapértelmezett száma oldalanként",module,Magento_Catalog
+"Must be in the allowed values list","A megengedett értékek listájában kell lennie",module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories","Dinamikus méia URL-ek engedélyezése a termékeknél, és a kategóriáknál",module,Magento_Catalog
 "Page Title Separator",Oldalcím-elválasztó,module,Magento_Catalog
 "Maximal Depth","Maximális mélység",module,Magento_Catalog

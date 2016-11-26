@@ -442,7 +442,11 @@ Always,Mindig,module,Magento_Captcha
 "Minimum Qty","Minimális mennyiség",module,Magento_CatalogInventory
 "Add Minimum Qty","Minimális mennyiség hozzáadása",module,Magento_CatalogInventory
 "This product is out of stock.","Ez a termék nincs készleten.",module,Magento_CatalogInventory
+"The stock item for Product in option is not valid.","A raktár elem a választott termékhez érvénytelen.",module,Magento_CatalogInventory
+"Undefined product type","Meghatározatlan terméktípus",module,Magento_CatalogInventory
 "No Backorders","Nincs előrendelés",module,Magento_CatalogInventory
+"Allow Qty Below 0","0 alatti készlet engedélyezése",module,Magento_CatalogInventory
+"Allow Qty Below 0 and Notify Customer","0 alatti készlet engedélyezése és a vásárló figyelmeztetése",module,Magento_CatalogInventory
 "In Stock",Raktáron,module,Magento_CatalogInventory
 "Out of Stock","Nincs raktáron",module,Magento_CatalogInventory
 "Only %1 left","Csak %1 maradt",module,Magento_CatalogInventory
@@ -2104,6 +2108,11 @@ Forms,Űrlapok,module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
 Inventory,Készlet,module,Magento_CatalogInventory
+"Stock Options","Készlet beállítások",module,Magento_CatalogInventory
+"Decrease Stock When Order is Placed","Készlet csökkentése rendeléskor",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Elem állapot beállítása Raktáron-ra ha a rendelést visszavonták",module,Magento_CatalogInventory
+"Only X left Threshold","Csak X maradt küszöbérték",module,Magento_CatalogInventory
+"Product Stock Options","Termék raktár-beállítások",module,Magento_CatalogInventory
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
 Backorders,Előrendelések,module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Megengedett maximum mennyiség a kosárban",module,Magento_CatalogInventory
@@ -2124,8 +2133,23 @@ Backorders,Előrendelések,module,Magento_CatalogInventory
 Comma-separated.,"Vesszővel elválasztott.",module,Magento_Catalog
 "Products per Page on Grid Default Value","Rácsnézetben a termékek alapértelmezett száma oldalanként",module,Magento_Catalog
 "Must be in the allowed values list","A megengedett értékek listájában kell lennie",module,Magento_Catalog
+"Products per Page on List Allowed Values","Termékek/oldal a listában engedélyezett értékek",module,Magento_Catalog
+"Products per Page on List Default Value","Termékek/oldal a listában alapértelmezett értéke",module,Magento_Catalog
+"Use Flat Catalog Category","Lapos katalógus kategóriákat használjon",module,Magento_Catalog
+"Use Flat Catalog Product","Lapos katalógus termékeket használjon",module,Magento_Catalog
+"Product Listing Sort by","Terméklista sorbarendezése",module,Magento_Catalog
+"Allow All Products per Page","Engedélyezve az összes termék oldalanként",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","Mutassa-e az ""Összes"" beállítást a ""Mutat X Oldalanként"" alopcióban",module,Magento_Catalog
 "Allow Dynamic Media URLs in Products and Categories","Dinamikus méia URL-ek engedélyezése a termékeknél, és a kategóriáknál",module,Magento_Catalog
+"E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","Például {{media url=""""path/to/image.jpg""""}} {{skin url=""""path/to/picture.gif""""}}. Dinamikus irányelvek a katalógus megfelelőségére gyakorolt hatások elemzésére.",module,Magento_Catalog
+"Product Image Placeholders","Termékkép helyfoglalók",module,Magento_Catalog
+"Search Engine Optimization","Kereső motor optimalizáció",module,Magento_Catalog
 "Page Title Separator",Oldalcím-elválasztó,module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","Egyszerűsített Meta Tag hivatkozás használata a Kategóriáknál",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","Egyszerűsített Meta Tag hivatkozás használata a Termékeknél",module,Magento_Catalog
+"Catalog Price Scope","Katalógus ár hatókör",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","Ezt az alapértelmezett pénznem határozza meg (""Pénznem beállítások"" > ""Pénznem lehetőségek"" > ""Alapértelmezett pénznem"").",module,Magento_Catalog
+"Category Top Navigation","Kategória felső navigáció",module,Magento_Catalog
 "Maximal Depth","Maximális mélység",module,Magento_Catalog
 "Date & Time Custom Options","Dátum és idő egyéni beállítások",module,Magento_Catalog
 "Use JavaScript Calendar","JavaScript naptár használata",module,Magento_Catalog
@@ -2138,19 +2162,31 @@ Comma-separated.,"Vesszővel elválasztott.",module,Magento_Catalog
 Watermark,Vízjel,module,Magento_Catalog
 "Watermark Position","Vízjel pozíciója",module,Magento_Catalog
 "Use Static URLs for Media Content in WYSIWYG for Catalog","Használjon a statikus URL-eket a média tartalomhoz a WYSIWYG-ben katalógushoz",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","Ez csak a katalógus termékekre és kategóriákra vonatkozik. A média tartalmat a szövegszerkesztőbe kell beszúrni statikus URL-ként. A Média tartalom nem fog frissülni, ha a rendszerben beállított alap URL változik.",module,Magento_Catalog
 "Product Flat Data","Termék lapos adatok",module,Magento_Catalog
+"Reorganize EAV product structure to flat structure","Az EAV termék struktúrájának újjászervezése a lapos struktúrához",module,Magento_Catalog
 "Category Flat Data","Kategória lapos adatok",module,Magento_Catalog
+"Reorganize EAV category structure to flat structure","Az EAV kategóriák struktúrájának újjászervezése a lapos struktúrához",module,Magento_Catalog
+"Indexed category/products association","Indexelt kategória/termék összerendelések",module,Magento_Catalog
 "Product Categories",Árukategóriák,module,Magento_Catalog
+"Indexed product/categories association","Indexelt termék/kategória összerendelések",module,Magento_Catalog
 "Product Price","Termék ár",module,Magento_Catalog
 "Index product prices","Termék árak indexelés",module,Magento_Catalog
+"Catalog New Products List","A katalógusban új termékek listája",module,Magento_Catalog
+"List of Products that are set as New","Az újdonságnak jelölt termékek listája",module,Magento_Catalog
+"Display Type","Megjelenítési formátum",module,Magento_Catalog
+"All products - recently added products, New products - products marked as new","Minden termék - legfrissebb, új termékek - újnak jelölt termékek",module,Magento_Catalog
 "All products","Összes termék",module,Magento_Catalog
 "New products","Új termékek",module,Magento_Catalog
+"Display Page Control","Oldal vezérlőelem megjelenítése",module,Magento_Catalog
 "Number of Products per Page","Oldalankénti termékek száma",module,Magento_Catalog
 "Number of Products to Display","Megjelenített termékek száma",module,Magento_Catalog
 Template,Sablon,module,Magento_Catalog
 "New Products Grid Template","Új termék-rács sablon",module,Magento_Catalog
 "New Products List Template","Új terméklista sablon",module,Magento_Catalog
 "New Products Images and Names Template","Új termék képekés nevek sablon",module,Magento_Catalog
+"New Products Names Only Template","Új termékek csak nevekkel sablon",module,Magento_Catalog
+"New Products Images Only Template","Új termékek csak képekkel sablon",module,Magento_Catalog
 "Cache Lifetime (Seconds)","Cache élettartama (másodperc)",module,Magento_Catalog
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 alapbeállításként. Azonnali frissítéshez törölje a Blokk HTML kimeneti cache-t.",module,Magento_Catalog
 "Catalog Product Link","Katalógus termék link",module,Magento_Catalog

@@ -579,15 +579,32 @@ Always,Mindig,module,Magento_Captcha
 "Add Minimum Qty","Minimális mennyiség hozzáadása",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogInventory
 "Invalid stock id: %1. Only default stock with id %2 allowed","Érvénytelen raktár azonosító: %1. Csak az alapértelmezett alapértelmezett %2 raktár megengedett",module,Magento_CatalogInventory
+"Invalid stock item id: %1. Should be null or numeric value greater than 0","Érvénytelen raktár elem azonosító: %1. Vagy nullának, vagy nullánál nagyobb szám szükséges",module,Magento_CatalogInventory
+"Invalid stock item id: %1. Assigned stock item id is %2","Érvénytelen raktár elem azonosító: %1. A hozzárendelt raktár elem azonosító %2",module,Magento_CatalogInventory
+"The stock item for Product is not valid.","A raktár elem a termékhez érvénytelen.",module,Magento_CatalogInventory
 "This product is out of stock.","Ez a termék nincs készleten.",module,Magento_CatalogInventory
+"Some of the products are out of stock.","Néhány termék nincs raktáron.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","A raktár elem a választott termékhez érvénytelen.",module,Magento_CatalogInventory
 "Undefined product type","Meghatározatlan terméktípus",module,Magento_CatalogInventory
+"%1 is not a correct comparison method.","%1 nem megfelelő összehasonlító módszer.",module,Magento_CatalogInventory
 "No Backorders","Nincs előrendelés",module,Magento_CatalogInventory
 "Allow Qty Below 0","0 alatti készlet engedélyezése",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","0 alatti készlet engedélyezése és a vásárló figyelmeztetése",module,Magento_CatalogInventory
 "In Stock",Raktáron,module,Magento_CatalogInventory
 "Out of Stock","Nincs raktáron",module,Magento_CatalogInventory
+"Unable to save Stock Item","Nem lehet menteni a raktár elemet",module,Magento_CatalogInventory
+"Stock Item with id ""%1"" does not exist.","A ""%1"" azonosítójú raktár elem nem létezik.",module,Magento_CatalogInventory
+"Unable to remove Stock Item with id ""%1""","A ""%1"" azonosítójú raktár elem nem távolítható el",module,Magento_CatalogInventory
+"Unable to save Stock","Nem lehet menteni a raktárat",module,Magento_CatalogInventory
+"Stock with id ""%1"" does not exist.","""%1"" azonosítójú raktár nem létezik.",module,Magento_CatalogInventory
+"Unable to remove Stock with id ""%1""","Nem törölhető a ""%1"" azonosítójú raktár",module,Magento_CatalogInventory
+"Unable to save Stock Status","Nem menthető a raktár állapot",module,Magento_CatalogInventory
+"Unable to remove Stock Status for product %1","A %1 termék raktár állapotát nem lehet eltávolítani",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Nem minden termék van raktáron a kért mennyiségben.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","A ""%1"" cikkszámú termék nem létezik",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1.",module,Magento_CatalogInventory
 "Stock Status","Raktár állapot",module,Magento_CatalogInventory
 Quantity,Mennyiség,module,Magento_CatalogInventory
 "Advanced Inventory","Továbbfejlesztett raktárkészlet",module,Magento_CatalogInventory

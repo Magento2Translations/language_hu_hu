@@ -605,9 +605,13 @@ Always,Mindig,module,Magento_Captcha
 "The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1.",module,Magento_CatalogInventory
+"You can buy %1 only in quantities of %2 at a time.","A %1 termékből csak %2 darabot vásárolhat egyszerre.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","Ebből a termékből egyszerre csak %1 darabot vásárolhat.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","Decimális mennyiség növekmény nem engedélyezett.",module,Magento_CatalogInventory
 "Stock Status","Raktár állapot",module,Magento_CatalogInventory
 Quantity,Mennyiség,module,Magento_CatalogInventory
 "Advanced Inventory","Továbbfejlesztett raktárkészlet",module,Magento_CatalogInventory
+"%1 is available to buy in increments of %2","%1 csak %2 darabonként vásárolható",module,Magento_CatalogInventory
 "Only %1 left","Csak %1 maradt",module,Magento_CatalogInventory
 "Product availability","Termék elérhetősége",module,Magento_CatalogInventory
 "Product Name",Terméknév,module,Magento_CatalogInventory
@@ -3006,11 +3010,15 @@ Forms,Űrlapok,module,Magento_Captcha
 "Case Sensitive","Kis- és nagybetű érzékeny",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA engedélyezése a Storefronton",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","A CAPTCHA a ""Felhasználó létrehozása"" és az ""Elfelejtettem a jelszavamat"" űrlapokhoz mindig engedélyezve van, ha ki van választva.",module,Magento_Captcha
+"Inventory Section","Leltár szekció",module,Magento_CatalogInventory
 Inventory,Készlet,module,Magento_CatalogInventory
 "Stock Options","Készlet beállítások",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Készlet csökkentése rendeléskor",module,Magento_CatalogInventory
 "Set Items' Status to be In Stock When Order is Cancelled","Elem állapot beállítása Raktáron-ra ha a rendelést visszavonták",module,Magento_CatalogInventory
+"Display Out of Stock Products","Raktárról lefogyott termékek megjelenítése",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","A termékek továbbra is láthatóak a Direkt URL-elken.",module,Magento_CatalogInventory
 "Only X left Threshold","Csak X maradt küszöbérték",module,Magento_CatalogInventory
+"Display Products Availability in Stock on Storefront","Termékek elérhetőségének megjelenítése a boltban",module,Magento_CatalogInventory
 "Product Stock Options","Termék raktár-beállítások",module,Magento_CatalogInventory
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
 Backorders,Előrendelések,module,Magento_CatalogInventory
@@ -3018,6 +3026,7 @@ Backorders,Előrendelések,module,Magento_CatalogInventory
 "Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_CatalogInventory
 "Notify for Quantity Below","Értesítés mennyiségnél",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","Jóváírt tétel automatikusan visszakerül raktárba",module,Magento_CatalogInventory
 "Enable Qty Increments","Mennyiség növekmények engedélyezése",module,Magento_CatalogInventory
 "Qty Increments","Mennyiség növekmény",module,Magento_CatalogInventory
 Stock,Készlet,module,Magento_CatalogInventory
@@ -3025,6 +3034,7 @@ Stock,Készlet,module,Magento_CatalogInventory
 "Use Config Settings","Konfigurációs beállítások használata",module,Magento_CatalogInventory
 "Qty Uses Decimals","Tizedes használata",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Több csomag engedélyezése szállításkor",module,Magento_CatalogInventory
+"Use Deferred Stock Update","Halasztott raktárkészlet frissítés használata",module,Magento_CatalogInventory
 Status,Állapot,module,Magento_CatalogRule
 Back,Vissza,module,Magento_CatalogRule
 Actions,Műveletek,module,Magento_CatalogRule

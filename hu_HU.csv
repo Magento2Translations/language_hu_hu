@@ -617,21 +617,53 @@ Quantity,Mennyiség,module,Magento_CatalogInventory
 "Product Name",Terméknév,module,Magento_CatalogInventory
 Qty,Db,module,Magento_CatalogInventory
 "Delete Rule","Szabály törlése",module,Magento_CatalogRule
+"Are you sure you want to do this?","Biztos benne, hogy végrehajtja a műveletet?",module,Magento_CatalogRule
 Reset,Alaphelyzet,module,Magento_CatalogRule
 "Save and Apply","Mentés és alkalmazás",module,Magento_CatalogRule
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_CatalogRule
 Save,Mentés,module,Magento_CatalogRule
+"Catalog Price Rule","Katalógus ár szabály",module,Magento_CatalogRule
 "Add New Rule","Új szabály hozzáadása",module,Magento_CatalogRule
 "Apply Rules","Szabályok alkalmazása",module,Magento_CatalogRule
 Conditions,Feltételek,module,Magento_CatalogRule
 ID,Azonosító,module,Magento_CatalogRule
 Type,Típus,module,Magento_CatalogRule
+"Attribute Set",Attribútumkészlet,module,Magento_CatalogRule
 SKU,Cikkszám,module,Magento_CatalogRule
 Product,Termék,module,Magento_CatalogRule
+Promotions,Promóciók,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","Friss szabályváltozásokat találtunk, melyek még nem kerültek mentésre. Kérjük, kattintson a ""Szabályok alkalmazása"" gombra a katalógus frissítéséhez.",module,Magento_CatalogRule
+"You deleted the rule.","Törölte a szabályt.",module,Magento_CatalogRule
+"This rule no longer exists.","Ez a szabály már nem létezik.",module,Magento_CatalogRule
 "New Catalog Price Rule","Új katalógus árszabály",module,Magento_CatalogRule
 "Edit Rule","Szabály szerkesztése",module,Magento_CatalogRule
 "New Rule","Új szabály",module,Magento_CatalogRule
 Catalog,Katalógus,module,Magento_CatalogRule
+"You saved the rule.","A szabály mentése megtörtént.",module,Magento_CatalogRule
+"Something went wrong while saving the rule data. Please review the error log.","Hiba történt aszabály adatok mentése közben. Kérjük, olvassa el a hiba log-ot.",module,Magento_CatalogRule
+Promo,Promóció,module,Magento_CatalogRule
+"Unable to save rule %1","A(z) %1 szabály mentése sikertelen",module,Magento_CatalogRule
+"Rule with specified ID ""%1"" not found.","A megadott azonosítójú ""%1"" szabály nem található.",module,Magento_CatalogRule
+"Unable to remove rule %1","A %1 szabály eltávolítása sikertelen",module,Magento_CatalogRule
+"Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","A kedvezmény százalékos értékének 0 és 100 között kell lennie.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","Kedvezmény értéke 0, vagy több legyen.",module,Magento_CatalogRule
+"Unknown action.","Ismeretlen akció.",module,Magento_CatalogRule
+"Update the Product","A termék frissítése",module,Magento_CatalogRule
+"Rule price","Szabály ár",module,Magento_CatalogRule
+"To Fixed Value","Rögzített értékre",module,Magento_CatalogRule
+"To Percentage",Százalákra,module,Magento_CatalogRule
+"By Fixed value","Fix mennyiséggel",module,Magento_CatalogRule
+"By Percentage",Százalékkal,module,Magento_CatalogRule
+"Update product's %1 %2: %3","A termék %1 %2: %3 frissítése",module,Magento_CatalogRule
+"Apply as percentage of original","Százalákos hányadaként való alkalmazás",module,Magento_CatalogRule
+"Apply as fixed amount","Fix összegként való alkalmazás",module,Magento_CatalogRule
+"Adjust final price to this percentage","A végső ár beállítása erre a százalékos értékre",module,Magento_CatalogRule
+"Adjust final price to discount value","A végső ár beállítása a kedvezményes értékre",module,Magento_CatalogRule
+"Conditions Combination",Feltételegyüttes,module,Magento_CatalogRule
+"Product Attribute","Termék attribútum",module,Magento_CatalogRule
+"Updated rules applied.","A frissített szabályok alkalmazzása.",module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%1 katalógus ár szabály kikapcsolva a(z) ""%2"" attribútum alapján.",module,Magento_CatalogRule
 Home,Kezdőlap,module,Magento_CatalogSearch
 All,Összes,module,Magento_CatalogSearch
 Yes,Igen,module,Magento_CatalogSearch
@@ -3035,8 +3067,19 @@ Stock,Készlet,module,Magento_CatalogInventory
 "Qty Uses Decimals","Tizedes használata",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Több csomag engedélyezése szállításkor",module,Magento_CatalogInventory
 "Use Deferred Stock Update","Halasztott raktárkészlet frissítés használata",module,Magento_CatalogInventory
+"Catalog Rule Product","Katalógus szabály termék",module,Magento_CatalogRule
+"Indexed rule/product association","Indexált szabály/termék-hozzárendelés",module,Magento_CatalogRule
+"Catalog Product Rule","Termék katalógus szabály",module,Magento_CatalogRule
+"Indexed product/rule association","Indexált termék/szabály-hozzárendelés",module,Magento_CatalogRule
+Rule,Szabály,module,Magento_CatalogRule
+Start,Kezdet,module,Magento_CatalogRule
+End,Vég,module,Magento_CatalogRule
 Status,Állapot,module,Magento_CatalogRule
+Active,Aktív,module,Magento_CatalogRule
+Inactive,Inaktív,module,Magento_CatalogRule
+"Web Site",Weboldal,module,Magento_CatalogRule
 Back,Vissza,module,Magento_CatalogRule
+"Rule Information",Szabály-információ,module,Magento_CatalogRule
 Actions,Műveletek,module,Magento_CatalogRule
 Yes,Igen,module,Magento_CatalogRule
 No,Nem ,module,Magento_CatalogRule

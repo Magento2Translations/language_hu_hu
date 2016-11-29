@@ -559,39 +559,82 @@ Always,Mindig,module,Magento_Captcha
 "Minimum Qty","Minimális mennyiség",module,Magento_CatalogInventory
 "Add Minimum Qty","Minimális mennyiség hozzáadása",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogInventory
+"The stock item for Product is not valid.","A raktár elem a termékhez érvénytelen.",module,Magento_CatalogInventory
 "This product is out of stock.","Ez a termék nincs készleten.",module,Magento_CatalogInventory
+"Some of the products are out of stock.","Néhány termék nincs raktáron.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","A raktár elem a választott termékhez érvénytelen.",module,Magento_CatalogInventory
 "Undefined product type","Meghatározatlan terméktípus",module,Magento_CatalogInventory
+"%1 is not a correct comparison method.","%1 nem megfelelő összehasonlító módszer.",module,Magento_CatalogInventory
 "No Backorders","Nincs előrendelés",module,Magento_CatalogInventory
 "Allow Qty Below 0","0 alatti készlet engedélyezése",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","0 alatti készlet engedélyezése és a vásárló figyelmeztetése",module,Magento_CatalogInventory
 "In Stock",Raktáron,module,Magento_CatalogInventory
 "Out of Stock","Nincs raktáron",module,Magento_CatalogInventory
+"Stock Item with id ""%1"" does not exist.","A ""%1"" azonosítójú raktár elem nem létezik.",module,Magento_CatalogInventory
+"Stock with id ""%1"" does not exist.","""%1"" azonosítójú raktár nem létezik.",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Nem minden termék van raktáron a kért mennyiségben.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","A ""%1"" cikkszámú termék nem létezik",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1.",module,Magento_CatalogInventory
+"You can buy %1 only in quantities of %2 at a time.","A %1 termékből csak %2 darabot vásárolhat egyszerre.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","Ebből a termékből egyszerre csak %1 darabot vásárolhat.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","Decimális mennyiség növekmény nem engedélyezett.",module,Magento_CatalogInventory
+"%1 is available to buy in increments of %2","%1 csak %2 darabonként vásárolható",module,Magento_CatalogInventory
 "Only %1 left","Csak %1 maradt",module,Magento_CatalogInventory
 "Product availability","Termék elérhetősége",module,Magento_CatalogInventory
 "Product Name",Terméknév,module,Magento_CatalogInventory
 Qty,Db,module,Magento_CatalogInventory
+"Catalog Price Rule","Katalógus ár szabály",module,Magento_CatalogRule
 "Add New Rule","Új szabály hozzáadása",module,Magento_CatalogRule
 "Apply Rules","Szabályok alkalmazása",module,Magento_CatalogRule
 "Save and Apply","Mentés és alkalmazás",module,Magento_CatalogRule
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_CatalogRule
 "New Rule","Új szabály",module,Magento_CatalogRule
+"Rule Information",Szabály-információ,module,Magento_CatalogRule
 Actions,Műveletek,module,Magento_CatalogRule
 Apply,Alkalmazás,module,Magento_CatalogRule
+"Apply as percentage of original","Százalákos hányadaként való alkalmazás",module,Magento_CatalogRule
+"Apply as fixed amount","Fix összegként való alkalmazás",module,Magento_CatalogRule
+"Adjust final price to this percentage","A végső ár beállítása erre a százalékos értékre",module,Magento_CatalogRule
+"Adjust final price to discount value","A végső ár beállítása a kedvezményes értékre",module,Magento_CatalogRule
 No,Nem ,module,Magento_CatalogRule
 Yes,Igen,module,Magento_CatalogRule
 Conditions,Feltételek,module,Magento_CatalogRule
 Description,Leírás,module,Magento_CatalogRule
 Status,Állapot,module,Magento_CatalogRule
+Active,Aktív,module,Magento_CatalogRule
+Inactive,Inaktív,module,Magento_CatalogRule
 "Customer Groups","Vásárlói csoportok",module,Magento_CatalogRule
 ID,Azonosító,module,Magento_CatalogRule
 Type,Típus,module,Magento_CatalogRule
+"Attribute Set",Attribútumkészlet,module,Magento_CatalogRule
 SKU,Cikkszám,module,Magento_CatalogRule
 Product,Termék,module,Magento_CatalogRule
+Promotions,Promóciók,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","Friss szabályváltozásokat találtunk, melyek még nem kerültek mentésre. Kérjük, kattintson a ""Szabályok alkalmazása"" gombra a katalógus frissítéséhez.",module,Magento_CatalogRule
+"You deleted the rule.","Törölte a szabályt.",module,Magento_CatalogRule
+"This rule no longer exists.","Ez a szabály már nem létezik.",module,Magento_CatalogRule
 "New Catalog Price Rule","Új katalógus árszabály",module,Magento_CatalogRule
 "Edit Rule","Szabály szerkesztése",module,Magento_CatalogRule
 Catalog,Katalógus,module,Magento_CatalogRule
+"You saved the rule.","A szabály mentése megtörtént.",module,Magento_CatalogRule
+"Something went wrong while saving the rule data. Please review the error log.","Hiba történt aszabály adatok mentése közben. Kérjük, olvassa el a hiba log-ot.",module,Magento_CatalogRule
+Promo,Promóció,module,Magento_CatalogRule
+"Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","A kedvezmény százalékos értékének 0 és 100 között kell lennie.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","Kedvezmény értéke 0, vagy több legyen.",module,Magento_CatalogRule
+"Unknown action.","Ismeretlen akció.",module,Magento_CatalogRule
+"Update the Product","A termék frissítése",module,Magento_CatalogRule
+"Rule price","Szabály ár",module,Magento_CatalogRule
+"To Fixed Value","Rögzített értékre",module,Magento_CatalogRule
+"To Percentage",Százalákra,module,Magento_CatalogRule
+"By Fixed value","Fix mennyiséggel",module,Magento_CatalogRule
+"By Percentage",Százalékkal,module,Magento_CatalogRule
+"Conditions Combination",Feltételegyüttes,module,Magento_CatalogRule
+"Product Attribute","Termék attribútum",module,Magento_CatalogRule
+"Updated rules applied.","A frissített szabályok alkalmazzása.",module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%1 katalógus ár szabály kikapcsolva a(z) ""%2"" attribútum alapján.",module,Magento_CatalogRule
 Home,Kezdőlap,module,Magento_CatalogSearch
 All,Összes,module,Magento_CatalogSearch
 Yes,Igen,module,Magento_CatalogSearch
@@ -2740,6 +2783,8 @@ Inventory,Készlet,module,Magento_CatalogInventory
 "Stock Options","Készlet beállítások",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Készlet csökkentése rendeléskor",module,Magento_CatalogInventory
 "Set Items' Status to be In Stock When Order is Cancelled","Elem állapot beállítása Raktáron-ra ha a rendelést visszavonták",module,Magento_CatalogInventory
+"Display Out of Stock Products","Raktárról lefogyott termékek megjelenítése",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","A termékek továbbra is láthatóak a Direkt URL-elken.",module,Magento_CatalogInventory
 "Only X left Threshold","Csak X maradt küszöbérték",module,Magento_CatalogInventory
 "Product Stock Options","Termék raktár-beállítások",module,Magento_CatalogInventory
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
@@ -2748,11 +2793,20 @@ Backorders,Előrendelések,module,Magento_CatalogInventory
 "Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_CatalogInventory
 "Notify for Quantity Below","Értesítés mennyiségnél",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","Jóváírt tétel automatikusan visszakerül raktárba",module,Magento_CatalogInventory
 "Enable Qty Increments","Mennyiség növekmények engedélyezése",module,Magento_CatalogInventory
 "Qty Increments","Mennyiség növekmény",module,Magento_CatalogInventory
 Stock,Készlet,module,Magento_CatalogInventory
 "Index stock","Készlet indexelés",module,Magento_CatalogInventory
 Quantity,Mennyiség,module,Magento_CatalogInventory
+"Catalog Rule Product","Katalógus szabály termék",module,Magento_CatalogRule
+"Indexed rule/product association","Indexált szabály/termék-hozzárendelés",module,Magento_CatalogRule
+"Catalog Product Rule","Termék katalógus szabály",module,Magento_CatalogRule
+"Indexed product/rule association","Indexált termék/szabály-hozzárendelés",module,Magento_CatalogRule
+Rule,Szabály,module,Magento_CatalogRule
+Start,Kezdet,module,Magento_CatalogRule
+End,Vég,module,Magento_CatalogRule
+"Web Site",Weboldal,module,Magento_CatalogRule
 Title,Cím,module,Magento_CatalogWidget
 Conditions,Feltételek,module,Magento_CatalogWidget
 Small,Kicsi,module,Magento_Catalog

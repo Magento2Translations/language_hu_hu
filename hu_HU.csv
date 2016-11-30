@@ -476,7 +476,7 @@ Inactive,Inaktív,module,Magento_CatalogRule
 "Customer Groups","Vásárlói csoportok",module,Magento_CatalogRule
 ID,Azonosító,module,Magento_CatalogRule
 Type,Típus,module,Magento_CatalogRule
-"Attribute Set",Attribútumkészlet,module,Magento_CatalogRule
+"Attribute Set","Jellemző halmaz",module,Magento_CatalogRule
 SKU,Cikkszám,module,Magento_CatalogRule
 Product,Termék,module,Magento_CatalogRule
 Promotions,Promóciók,module,Magento_CatalogRule
@@ -496,17 +496,30 @@ Promo,Promóció,module,Magento_CatalogRule
 "By Percentage",Százalékkal,module,Magento_CatalogRule
 "Update product's %1 %2: %3","A termék %1 %2: %3 frissítése",module,Magento_CatalogRule
 "Conditions Combination",Feltételegyüttes,module,Magento_CatalogRule
-"Product Attribute","Termék attribútum",module,Magento_CatalogRule
+"Product Attribute",Termékjellemzők,module,Magento_CatalogRule
 Home,Kezdőlap,module,Magento_CatalogSearch
+"Go to Home Page","Ugrás a honlapra",module,Magento_CatalogSearch
+"Catalog Advanced Search","Részletes katalógus keresés",module,Magento_CatalogSearch
 All,Összes,module,Magento_CatalogSearch
 Yes,Igen,module,Magento_CatalogSearch
 No,Nem ,module,Magento_CatalogSearch
+Results,Eredmények,module,Magento_CatalogSearch
 Grid,Rács,module,Magento_CatalogSearch
 List,Lista,module,Magento_CatalogSearch
+Relevance,Relevancia,module,Magento_CatalogSearch
+"Search results for: '%1'","Keresési eredmények: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","A keresés minimum hossza %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Adjon meg legalább egy keresési kifejezést.",module,Magento_CatalogSearch
+"%1 and greater","%1 és nagyobb",module,Magento_CatalogSearch
+"up to %1",%1-ig,module,Magento_CatalogSearch
 "Search Settings","Keresési beállítások",module,Magento_CatalogSearch
 Search,Keresés,module,Magento_CatalogSearch
+"Advanced Search","Részletes keresés",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","A keresési kifejezésnek <strong>%1 cikk</strong> felel meg",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","A keresési kifejezésnek <strong>%1 cikkek</strong> felelnek meg",module,Magento_CatalogSearch
 "Modify your search","Keresés módosítása",module,Magento_CatalogSearch
 name,név,module,Magento_CatalogSearch
+"Don't see what you're looking for?","Nem látja, amit keres?",module,Magento_CatalogSearch
 Root,Gyökér,module,Magento_Catalog
 "Save Category","Kategória mentése",module,Magento_Catalog
 "Delete Category","Kategória törlése",module,Magento_Catalog
@@ -907,8 +920,11 @@ State/Province,Állam/megye,module,Magento_Checkout
 "My Cart",Kosaram,module,Magento_Checkout
 "Minimum order amount is %1","Minimális rendelési összeg %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Checkout
+"We can't find the quote item.","A tétel nem található.",module,Magento_Checkout
+"We cannot configure the product.","Nem tudjuk konfigurálni a terméket.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","""%1"" kuponkód érvénytelen.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkód érvényesítése sikertelen.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 frissítve a kosárban.",module,Magento_Checkout
 Checkout,Fizetés,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Checkout
 "The product does not exist.","A termék nem létezik.",module,Magento_Checkout
@@ -924,7 +940,9 @@ Subtotal,Részösszeg,module,Magento_Checkout
 "Clear Shopping Cart","Kosár kiürítése",module,Magento_Checkout
 "Update Shopping Cart","Kosár frissítése",module,Magento_Checkout
 "Update Cart","Kosár frissítése",module,Magento_Checkout
+"See price before order confirmation.","Az ár megtekintése a megrendelés megerősítése előtt.",module,Magento_Checkout
 "What's this?","Mi ez?",module,Magento_Checkout
+"Edit item parameters","Termék paraméterek szerkesztése",module,Magento_Checkout
 Edit,Szerkesztés,module,Magento_Checkout
 "Remove item","Elem eltávolítása",module,Magento_Checkout
 "Estimate Shipping and Tax","Becsült szállítás és adó",module,Magento_Checkout
@@ -2150,6 +2168,11 @@ Backorders,Előrendelések,module,Magento_CatalogInventory
 "Qty Increments","Mennyiség növekmény",module,Magento_CatalogInventory
 Rule,Szabály,module,Magento_CatalogRule
 "Web Site",Weboldal,module,Magento_CatalogRule
+"Popular Search Terms","Népszerű keresési kifejezések",module,Magento_CatalogSearch
+"Catalog Search","Katalógus keresés",module,Magento_CatalogSearch
+"Minimal Query Length","Lekérdezés minimum hossza",module,Magento_CatalogSearch
+"Maximum Query Length","Lekérdezés maximum hossza",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Katalógus kulcsszavas keresés indexének újraépítése",module,Magento_CatalogSearch
 "Product Fields Auto-Generation","Termék mezők automatikus létrehozása",module,Magento_Catalog
 "Mask for SKU","Cikkszám maszkja",module,Magento_Catalog
 "Use {{name}} as Product Name placeholder","{{name}} használva alapértelmezett névként",module,Magento_Catalog
@@ -2239,7 +2262,10 @@ Details,Részletek,module,Magento_Catalog
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
 "Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
 "My Cart Link","Kosaram link",module,Magento_Checkout
+"Shopping Cart Sidebar","Bevásárló kosár oldalsáv",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Bevásárló kosár oldalsáv megjelenítése",module,Magento_Checkout
 "Shipping Address","Szállítási cím",module,Magento_Checkout
+"For delivery questions.","Szállítással kapcsolatos kérdések.",module,Magento_Checkout
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
 "Not yet calculated","Nincs kiszámítva",module,Magento_Checkout
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Checkout

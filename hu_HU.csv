@@ -628,7 +628,7 @@ Save,Mentés,module,Magento_CatalogRule
 Conditions,Feltételek,module,Magento_CatalogRule
 ID,Azonosító,module,Magento_CatalogRule
 Type,Típus,module,Magento_CatalogRule
-"Attribute Set",Attribútumkészlet,module,Magento_CatalogRule
+"Attribute Set","Jellemző halmaz",module,Magento_CatalogRule
 SKU,Cikkszám,module,Magento_CatalogRule
 Product,Termék,module,Magento_CatalogRule
 Promotions,Promóciók,module,Magento_CatalogRule
@@ -661,29 +661,50 @@ Promo,Promóció,module,Magento_CatalogRule
 "Adjust final price to this percentage","A végső ár beállítása erre a százalékos értékre",module,Magento_CatalogRule
 "Adjust final price to discount value","A végső ár beállítása a kedvezményes értékre",module,Magento_CatalogRule
 "Conditions Combination",Feltételegyüttes,module,Magento_CatalogRule
-"Product Attribute","Termék attribútum",module,Magento_CatalogRule
+"Product Attribute",Termékjellemzők,module,Magento_CatalogRule
 "Updated rules applied.","A frissített szabályok alkalmazzása.",module,Magento_CatalogRule
-"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%1 katalógus ár szabály kikapcsolva a(z) ""%2"" attribútum alapján.",module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%2 jellemzőn alapuló %1 katalógus ár szabály kikapcsolva.",module,Magento_CatalogRule
 Home,Kezdőlap,module,Magento_CatalogSearch
+"Go to Home Page","Ugrás a honlapra",module,Magento_CatalogSearch
+"Catalog Advanced Search","Részletes katalógus keresés",module,Magento_CatalogSearch
 All,Összes,module,Magento_CatalogSearch
 Yes,Igen,module,Magento_CatalogSearch
 No,Nem ,module,Magento_CatalogSearch
+Results,Eredmények,module,Magento_CatalogSearch
 Grid,Rács,module,Magento_CatalogSearch
 List,Lista,module,Magento_CatalogSearch
+"Search Weight","Súly keresés",module,Magento_CatalogSearch
+Relevance,Relevancia,module,Magento_CatalogSearch
+"Search results for: '%1'","Keresési eredmények: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","A keresés minimum hossza %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","Adjon meg legalább egy keresési kifejezést.",module,Magento_CatalogSearch
+"%1 and greater","%1 és nagyobb",module,Magento_CatalogSearch
+"up to %1",%1-ig,module,Magento_CatalogSearch
 Category,Kategória,module,Magento_CatalogSearch
 "%1 and above","%1 és felette",module,Magento_CatalogSearch
+"Sorry, something went wrong. You can find out more in the error log.","Sajnáljuk, de valami elromlott. Többet megtudhat a hibanaplóból.",module,Magento_CatalogSearch
+"Bucket does not exist","A tároló nem létezik",module,Magento_CatalogSearch
 Product,Termék,module,Magento_CatalogSearch
 "Search Settings","Keresési beállítások",module,Magento_CatalogSearch
 Search,Keresés,module,Magento_CatalogSearch
+"Advanced Search","Részletes keresés",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","A keresési kifejezésnek <strong>%1 cikk</strong> felel meg",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","A keresési kifejezésnek <strong>%1 cikkek</strong> felelnek meg",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Nincs a megadott feltételeknek megfelelő találat.",module,Magento_CatalogSearch
+"Modify your search.","Keresés módosítása.",module,Magento_CatalogSearch
 name,név,module,Magento_CatalogSearch
+"Don't see what you're looking for?","Nem látja, amit keres?",module,Magento_CatalogSearch
+"Your search returned no results.","A keresés nem adott vissza találatokat.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Tartós átirányítás létrehozása a régi URL-hez",module,Magento_CatalogUrlRewrite
+"Conditions Combination",Feltételegyüttes,module,Magento_CatalogWidget
 "Product Attribute",Termékjellemzők,module,Magento_CatalogWidget
 SKU,Cikkszám,module,Magento_CatalogWidget
+"Please choose a condition to add.","Válasszon feltételt.",module,Magento_CatalogWidget
 "Add to Cart","Hozzáadás a kosárhoz",module,Magento_CatalogWidget
 "In stock",Raktáron,module,Magento_CatalogWidget
 "Out of stock","Nincs raktáron",module,Magento_CatalogWidget
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_CatalogWidget
+"Add to Compare","Összehasonlításhoz ad",module,Magento_CatalogWidget
 Root,Gyökér,module,Magento_Catalog
 Delete,Törlés,module,Magento_Catalog
 Save,Mentés,module,Magento_Catalog
@@ -1254,14 +1275,21 @@ State/Province,Állam/megye,module,Magento_Checkout
 "My Cart (1 item)","Kosár (1 termék)",module,Magento_Checkout
 "My Cart (%1 items)","Kosár (%1 termék)",module,Magento_Checkout
 "My Cart",Kosaram,module,Magento_Checkout
+"For delivery questions.","Szállítással kapcsolatos kérdések.",module,Magento_Checkout
 "Customer is already registered","A vásárló már regisztrált",module,Magento_Checkout
 "Your session has expired","A munkamenet lejárt",module,Magento_Checkout
+"A letter with further instructions will be sent to your email.","A további teendőket emailben küldjük el önnek.",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Jelenleg ezt a terméket nem teheti a kosarába.",module,Magento_Checkout
 "Out of stock","Nincs raktáron",module,Magento_Checkout
+"We can't find the quote item.","A tétel nem található.",module,Magento_Checkout
+"We cannot configure the product.","Nem tudjuk konfigurálni a terméket.",module,Magento_Checkout
+"You used coupon code ""%1"".","A felhasznált kupon: ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","""%1"" kuponkód érvénytelen.",module,Magento_Checkout
+"You canceled the coupon code.","Ön nem használta fel a kupon kódot.",module,Magento_Checkout
 "We cannot apply the coupon code.","Kuponkód érvényesítése sikertelen.",module,Magento_Checkout
 "We can't remove the item.","A termék törlése sikertelen.",module,Magento_Checkout
+"%1 was updated in your shopping cart.","%1 frissítve a kosárban.",module,Magento_Checkout
 "We can't update the item right now.","A termék szerkesztése sikertelen.",module,Magento_Checkout
 "We can't update the shopping cart.","A kosár frissítése sikertelen.",module,Magento_Checkout
 "One-page checkout is turned off.","Egyoldalas fizetés kikapcsolva.",module,Magento_Checkout
@@ -1272,16 +1300,35 @@ Checkout,Fizetés,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Valami elromlott a megrendelés feldolgozása közben. Kérjük, próbálkozz később.",module,Magento_Checkout
 "We can't find the product.","A termék nem található.",module,Magento_Checkout
 "The product does not exist.","A termék nem létezik.",module,Magento_Checkout
+"We don't have some of the products you want.","Némelyik kívánt termék nem áll rendelkezésre.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Némely termékből nem áll rendelkezésre elegendő mennyiség.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","A mennyiség megváltoztatva: %1 - %2",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","Néhány termék mennyiségét megváltoztattuk hogy a kívánt darabszámnövekedést kiszolgálhassuk.",module,Magento_Checkout
+"This quote item does not exist.","A tétel nem létezik.",module,Magento_Checkout
+"Display number of items in cart","A termék-darabszám mutatása a kosárban",module,Magento_Checkout
+"Display item quantities","Termékmennyiségek megjelenítése",module,Magento_Checkout
 "Shipping address is not set","Szállítási cím nincs beállítva",module,Magento_Checkout
+"Unable to save shipping information. Please check input data.","A szállítási információ mentése sikertelen. Ellenőrizze a megadott adatokat.",module,Magento_Checkout
+"Carrier with such method not found: %1, %2","A beállításoknak megfelelő szállító nem található: %1, %2",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","A szállítási mód nem nem alkalmazható üres kosárra",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","A végösszeg számítása nem lehetséges üres kosár esetén",module,Magento_Checkout
 "Invalid data","Érvénytelen adat",module,Magento_Checkout
 "The customer address is not valid.","A vásárló címe érvénytelen.",module,Magento_Checkout
 "Invalid shipping method","Érvénytelen szállítási mód",module,Magento_Checkout
+"There are more than one shipping addresses.","Több, mint egy szállítási cím létezik.",module,Magento_Checkout
 "Sorry, guest checkout is not available.","Sajnáljuk, a vendég vásárlás nem elérhető.",module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Erősítse regisztrációját. Kérjük, ellenőrizze email fiókját és kattintson a visszaigazoló linkre, vagy <a href=""%1""> kattintson ide</a> egy új link létrehozásához.",module,Magento_Checkout
+"Load customer quote error","Vevői ajánlat hiba betöltése",module,Magento_Checkout
 "Error message!",Hibaüzenet!,module,Magento_Checkout
 Error!,Hiba!,module,Magento_Checkout
+"DB exception",Adatbázishiba,module,Magento_Checkout
+"Wrong minimum amount.","A minimális összeg hibás.",module,Magento_Checkout
 Message,Üzenet,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Számla nyomtatása</a>",module,Magento_Checkout
 "Apply Discount Code","Kupon érvényesítése",module,Magento_Checkout
+"Enter discount code","Kedvezmény-kód megadása",module,Magento_Checkout
+"Apply Discount","Engedmény alkalmazása",module,Magento_Checkout
+"Cancel Coupon","Kupon felhasználás megszakítása",module,Magento_Checkout
 "Shopping Cart Items","Kosár tartalma",module,Magento_Checkout
 Item,Elem,module,Magento_Checkout
 Price,Ár,module,Magento_Checkout
@@ -1291,9 +1338,13 @@ Subtotal,Részösszeg,module,Magento_Checkout
 "Clear Shopping Cart","Kosár kiürítése",module,Magento_Checkout
 "Update Shopping Cart","Kosár frissítése",module,Magento_Checkout
 "Update Cart","Kosár frissítése",module,Magento_Checkout
+"See price before order confirmation.","Az ár megtekintése a megrendelés megerősítése előtt.",module,Magento_Checkout
 "What's this?","Mi ez?",module,Magento_Checkout
+"Edit item parameters","Termék paraméterek szerkesztése",module,Magento_Checkout
 Edit,Szerkesztés,module,Magento_Checkout
 "Remove item","Elem eltávolítása",module,Magento_Checkout
+"You have no items in your shopping cart.","A kosár üres.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Kattintson <a href=""%1""> ide</a> a vásárlás folytatásához.",module,Magento_Checkout
 "Estimate Tax","Becsült adó",module,Magento_Checkout
 "Estimate Shipping and Tax","Becsült szállítás és adó",module,Magento_Checkout
 "Excl. Tax","Adó nélkül",module,Magento_Checkout
@@ -2608,6 +2659,8 @@ Remove,Törlés,theme,frontend/Magento/luma
 "Save for later use.","Mentés a későbbi használathoz.",module,Magento_Braintree
 "Place Order",Megrendelés,module,Magento_Braintree
 "Attention: Captcha is case sensitive.","Figyelem: A CAPTCHA kis- és nagybetű érzékeny.",module,Magento_Captcha
+"Payment Transaction Failed Reminder","Fizetés sikertelen emlékeztető",module,Magento_Checkout
+"Payment Transaction Failed","Fizetési művelet sikertelen",module,Magento_Checkout
 Reason,Indoklás,module,Magento_Checkout
 Customer:,Vásárló:,module,Magento_Checkout
 Items,Termékek,module,Magento_Checkout
@@ -3083,7 +3136,26 @@ Back,Vissza,module,Magento_CatalogRule
 Actions,Műveletek,module,Magento_CatalogRule
 Yes,Igen,module,Magento_CatalogRule
 No,Nem ,module,Magento_CatalogRule
+"Popular Search Terms","Népszerű keresési kifejezések",module,Magento_CatalogSearch
+"Catalog Search","Katalógus keresés",module,Magento_CatalogSearch
+"Minimal Query Length","Lekérdezés minimum hossza",module,Magento_CatalogSearch
+"Maximum Query Length","Lekérdezés maximum hossza",module,Magento_CatalogSearch
+"Rebuild Catalog product fulltext search index","Katalógus kulcsszavas keresés indexének újraépítése",module,Magento_CatalogSearch
+"Category URL Suffix","Kategória URL-utótag",module,Magento_CatalogUrlRewrite
+"You need to refresh the cache.","Szükséges a gyorsítótár frissítése.",module,Magento_CatalogUrlRewrite
+"Product URL Suffix","Termék URL-utótag",module,Magento_CatalogUrlRewrite
+"Use Categories Path for Product URLs","Használja a kategória útvonalat a termék URL-ekben",module,Magento_CatalogUrlRewrite
+"Create Permanent Redirect for URLs if URL Key Changed","Készítsen tartós átirányítási URL-t ha az URL kulcs megváltozik",module,Magento_CatalogUrlRewrite
+"Catalog Products List","Katalógus termékek listája",module,Magento_CatalogWidget
+"List of Products","Termékek listája",module,Magento_CatalogWidget
 Title,Cím,module,Magento_CatalogWidget
+"Display Page Control","Oldal vezérlőelem megjelenítése",module,Magento_CatalogWidget
+"Number of Products per Page","Oldalankénti termékek száma",module,Magento_CatalogWidget
+"Number of Products to Display","Megjelenített termékek száma",module,Magento_CatalogWidget
+Template,Sablon,module,Magento_CatalogWidget
+"Products Grid Template","Termék rács sablon",module,Magento_CatalogWidget
+"Cache Lifetime (Seconds)","Cache élettartama (másodperc)",module,Magento_CatalogWidget
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 alapbeállításként. Azonnali frissítéshez törölje a Blokk HTML kimeneti cache-t.",module,Magento_CatalogWidget
 Conditions,Feltételek,module,Magento_CatalogWidget
 Inventory,Készletkezelés,module,Magento_Catalog
 "Catalog Section","Katalógus szakasz",module,Magento_Catalog
@@ -3226,6 +3298,9 @@ Details,Részletek,module,Magento_Catalog
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
 "Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
 "My Cart Link","Kosaram link",module,Magento_Checkout
+"Shopping Cart Sidebar","Bevásárló kosár oldalsáv",module,Magento_Checkout
+"Display Shopping Cart Sidebar","Bevásárló kosár oldalsáv megjelenítése",module,Magento_Checkout
+"Email template chosen based on theme fallback when ""Default"" option is selected.","A kiválasztott email sablon alapján a tartalék téma amikor az ""Alapértelmezett"" opció van kiválasztva.",module,Magento_Checkout
 Summary,Összefoglaló,module,Magento_Checkout
 "Order Total","Rendelés végösszege",module,Magento_Checkout
 Payment,Fizetés,module,Magento_Checkout

@@ -1411,13 +1411,42 @@ Pages,Oldalak,module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Összesen %1 sor letiltva.",module,Magento_Cms
 "A total of %1 record(s) have been enabled.","Összesen %1 sor engedélyezve.",module,Magento_Cms
 "Page Title",Oldalcím,module,Magento_Cms
+"To apply changes you should fill in hidden required ""%1"" field","A változtatások mentéséhez töltse ki a rejtett ""%1"" mezőt",module,Magento_Cms
 "You saved the page.","Az oldal elmentve.",module,Magento_Cms
 "The directory %1 is not writable by server.","A %1 könyvtárat nem tudja írni a szerver.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Győződjön meg arról, hogy statikus blokk tartalom nem hivatkozik a blokkra magára.",module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.","CMS blokk nem létezik ezzel az azonosítóval: ""%1"".",module,Magento_Cms
 "Enabled by Default","Alapértelmezés szerint engedélyezve",module,Magento_Cms
 "Disabled by Default","Alapértelmezés szerint letiltva",module,Magento_Cms
 "Disabled Completely","Teljesen le van tiltva",module,Magento_Cms
+"This identifier is reserved for ""CMS No Route Page"" in configuration.","Ez az azonosító a ""CMS No Route Page"" oldalnak van a konfigurációban fenntartva.",module,Magento_Cms
+"This identifier is reserved for ""CMS Home Page"" in configuration.","Ez az azonosító a ""CMS Home Page"" oldalnak van a konfigurációban fenntartva.",module,Magento_Cms
+"This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Ez az azonosító a ""CMS No Cookies Page"" oldalnak van a konfigurációban fenntartva.",module,Magento_Cms
+"Could not save the page: %1","Az oldal mentése sikertelen: %1",module,Magento_Cms
+"CMS Page with id ""%1"" does not exist.","A következő azonosítóval rendelkező CMS oldal nem létezik: ""%1"".",module,Magento_Cms
+"Could not delete the page: %1","Az oldal törlése sikertelen: %1",module,Magento_Cms
+"A block identifier with the same properties already exists in the selected store.","Egy blokk azonosító ugyanezekkel a tulajdonságokkal már létezik a kiválasztott áruházban.",module,Magento_Cms
+"The page URL key contains capital letters or disallowed symbols.","Az oldal URL-kulcs nagybetűket, vagy nem engedélyezett a szimbólumokat tartalmaz.",module,Magento_Cms
+"The page URL key cannot be made of only numbers.","Az oldal URL-kulcs nem állhat csak számokból.",module,Magento_Cms
+"Please rename the folder using only letters, numbers, underscores and dashes.","Nevezze át a mappát úgy, hogy a név csak betűket, számokat, aláhúzásjeleket és kötőjeleket tartalmazzon.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","Találtunk egy ugyanolyan nevű könyvtárat. Kérjük, adjon meg másik mappanevet.",module,Magento_Cms
+"We cannot create a new directory.","Nem hozható létre új könyvtár.",module,Magento_Cms
+"We cannot delete directory %1.","Nem lehet törölni a könyvtárt: %1.",module,Magento_Cms
+"Directory %1 is not under storage root path.","A(z) %1 könyvtár nem található a tárolási útvonal gyökér elérési út alatt.",module,Magento_Cms
+"Privacy and Cookie Policy","Adatvédelmi és cookie irányelv",module,Magento_Cms
+Exception,Kivétel,module,Magento_Cms
+"Could not create a directory.","Nem sikerült létrehozni a könyvtárat.",module,Magento_Cms
+"All Store Views","Minden bolt nézet",module,Magento_Cms
 Edit,Szerkesztés,module,Magento_Cms
 Delete,Törlés,module,Magento_Cms
+"Delete ${ $.$data.title }","${ $.$data.title } törlése",module,Magento_Cms
+"Delete ""${ $.$data.title }""","""${ $.$data.title }"" törlése",module,Magento_Cms
+"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Biztos, hogy törli a(z) ""${ $.$data.title }"" rekordot?",module,Magento_Cms
+View,Nézet,module,Magento_Cms
+"No files found","Nem található fájl",module,Magento_Cms
+"Browse Files...","Fájlok tallózása...",module,Magento_Cms
+"Collapse All","Összes bezárása",module,Magento_Cms
+"Expand All","Összes kibontása",module,Magento_Cms
 "Default Config","Alapértelmezett beállítás",module,Magento_Config
 Add,Hozzáadás,module,Magento_Config
 "Delete File","Fájl törlése",module,Magento_Config
@@ -2662,6 +2691,7 @@ Remove,Törlés,theme,frontend/Magento/luma
 "Payment Transaction Failed Reminder","Fizetés sikertelen emlékeztető",module,Magento_Checkout
 "Payment Transaction Failed","Fizetési művelet sikertelen",module,Magento_Checkout
 Reason,Indoklás,module,Magento_Checkout
+"Checkout Type","Fizetés típusa",module,Magento_Checkout
 Customer:,Vásárló:,module,Magento_Checkout
 Items,Termékek,module,Magento_Checkout
 Total:,Végösszeg:,module,Magento_Checkout
@@ -2680,13 +2710,16 @@ Cancel,Mégse,module,Magento_Checkout
 "Save in address book","Mentés a címjegyzékbe",module,Magento_Checkout
 "Estimated Total","Becsült végösszeg",module,Magento_Checkout
 "You can create an account after checkout.","Vásárlás után létrehozhatja fiókját.",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","Ön már regisztrálva van nálunk. Lépjen be, vagy folytassa vendégként.",module,Magento_Checkout
 Login,Bejelentkezés,module,Magento_Checkout
 Close,Bezárás,module,Magento_Checkout
 item,tétel,module,Magento_Checkout
 items,tétel,module,Magento_Checkout
+"Go to Checkout","Tovább a fizetéshez",module,Magento_Checkout
 "Recently added item(s)","Legutóbb hozzáadott termék(ek)",module,Magento_Checkout
 "View and edit cart","Kosár megtekintése és szerkesztése",module,Magento_Checkout
 "See Details",Részletek,module,Magento_Checkout
+"Options Details","Lehetőségek ismertetése",module,Magento_Checkout
 Remove,Eltávolítás,module,Magento_Checkout
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
 "No Payment Methods","Nincsenek fizetési módok",module,Magento_Checkout
@@ -2694,6 +2727,7 @@ Remove,Eltávolítás,module,Magento_Checkout
 "No Payment method available.","Fizetési módok nem elérhetőek.",module,Magento_Checkout
 "You can track your order status by creating an account.","Ha fiókot hoz létre, követheti rendelése állapotát.",module,Magento_Checkout
 "Place Order","Rendelés feladása",module,Magento_Checkout
+"Forgot an Item?","Elfelejtett egy tételt?",module,Magento_Checkout
 "Edit Your Cart","Kosár szerkesztése",module,Magento_Checkout
 "Ship Here","Szállítás ide",module,Magento_Checkout
 "Ship To:","Szállítási cím:",module,Magento_Checkout
@@ -2701,7 +2735,11 @@ edit,szerkesztés,module,Magento_Checkout
 "Shipping Address","Szállítási cím",module,Magento_Checkout
 "New Address","Új cím",module,Magento_Checkout
 "Shipping Methods","Szállítási módok",module,Magento_Checkout
+"Select Method","Módszer kiválasztása",module,Magento_Checkout
+"Method Title","A módszer megnevezése",module,Magento_Checkout
+"Carrier Title","Szállító megnevezése",module,Magento_Checkout
 Next, Következő,module,Magento_Checkout
+"Sorry, no quotes are available for this order at this time","Sajnáljuk, de jelenleg erre a megrendelésre nem tudunk ajánlatot adni",module,Magento_Checkout
 "Order Summary","Rendelési összesítő",module,Magento_Checkout
 "Item in Cart","Termék a kosárban",module,Magento_Checkout
 "Items in Cart","Termék a kosárban",module,Magento_Checkout
@@ -2801,8 +2839,12 @@ Adding...,Hozzáadás...,module,Magento_Catalog
 Added,Hozzáadva,module,Magento_Catalog
 "unselect all","összes kijelölés megszüntetése",module,Magento_Catalog
 Close,Bezárás,module,Magento_CheckoutAgreements
+"Provided Zip/Postal Code seems to be invalid.","A megadott irányítószám, érvénytelennek tűnik.",module,Magento_Checkout
+"If you believe it is the right one you can ignore this notice.","Ha úgy véli, hogy ez a megfelelő, nyugodtan hagyja figyelmen kívül ezt az értesítést.",module,Magento_Checkout
+"Review & Payments","Felülvizsgálat & kifizetések",module,Magento_Checkout
 Shipping,Szállítás,module,Magento_Checkout
 "Save Address","Cím mentése",module,Magento_Checkout
+"We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Cms
 "Incl. Tax",Adóval,module,Magento_ConfigurableProduct
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
 "Video not found","Videó nem található",module,Magento_ProductVideo
@@ -3297,16 +3339,30 @@ Details,Részletek,module,Magento_Catalog
 "Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
 "Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
+"Quote Lifetime (days)","Ajánlat érvényessége (nap)",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","A termék kosárba helyezése után a kosár megjelenítése",module,Magento_Checkout
 "My Cart Link","Kosaram link",module,Magento_Checkout
+"Display Cart Summary","Kosár összefoglaló megjelenítése",module,Magento_Checkout
 "Shopping Cart Sidebar","Bevásárló kosár oldalsáv",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Bevásárló kosár oldalsáv megjelenítése",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","Maximálisan megjelenítendő nemrégiben hozzáadott elemek száma",module,Magento_Checkout
+"Payment Failed Emails","Fizetés sikertelen e-mailek",module,Magento_Checkout
+"Payment Failed Email Sender","Fizetés sikertelen e-mail feladó",module,Magento_Checkout
+"Payment Failed Email Receiver","Fizetés sikertelen e-mail címzett",module,Magento_Checkout
+"Payment Failed Template","Fizetés sikertelen sablon",module,Magento_Checkout
 "Email template chosen based on theme fallback when ""Default"" option is selected.","A kiválasztott email sablon alapján a tartalék téma amikor az ""Alapértelmezett"" opció van kiválasztva.",module,Magento_Checkout
+"Send Payment Failed Email Copy To","Fizetés sikertelen e-mail másolat küldése",module,Magento_Checkout
+"Separate by "","".","Elválasztás "",""-vel.",module,Magento_Checkout
+"Send Payment Failed Email Copy Method","Fizetés sikertelen e-mail mésolat küldési mód",module,Magento_Checkout
 Summary,Összefoglaló,module,Magento_Checkout
 "Order Total","Rendelés végösszege",module,Magento_Checkout
+"We'll send your order confirmation here.","Itt küldjük a rendelés-visszaigazolást.",module,Magento_Checkout
 Payment,Fizetés,module,Magento_Checkout
 "Not yet calculated","Nincs kiszámítva",module,Magento_Checkout
 "We received your order!","Rendelését rögzítettük!",module,Magento_Checkout
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Checkout
+"Media Gallery",Médiagaléria,module,Magento_Cms
+"Content Management",Tartalom-kezelés,module,Magento_Cms
 Content,Tartalom,module,Magento_Cms
 ID,Azonosító,module,Magento_ConfigurableProduct
 Required,Kötelező,module,Magento_ConfigurableProduct

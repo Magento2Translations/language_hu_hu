@@ -1010,9 +1010,21 @@ Blocks,Blokkok,module,Magento_Cms
 Pages,Oldalak,module,Magento_Cms
 "Something went wrong while saving the page.","Hiba történt az oldal mentése közben.",module,Magento_Cms
 "The directory %1 is not writable by server.","A %1 könyvtárat nem tudja írni a szerver.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","Győződjön meg arról, hogy statikus blokk tartalom nem hivatkozik a blokkra magára.",module,Magento_Cms
 "Enabled by Default","Alapértelmezés szerint engedélyezve",module,Magento_Cms
 "Disabled by Default","Alapértelmezés szerint letiltva",module,Magento_Cms
 "Disabled Completely","Teljesen le van tiltva",module,Magento_Cms
+"A block identifier with the same properties already exists in the selected store.","Egy blokk azonosító ugyanezekkel a tulajdonságokkal már létezik a kiválasztott áruházban.",module,Magento_Cms
+"The page URL key contains capital letters or disallowed symbols.","Az oldal URL-kulcs nagybetűket, vagy nem engedélyezett a szimbólumokat tartalmaz.",module,Magento_Cms
+"The page URL key cannot be made of only numbers.","Az oldal URL-kulcs nem állhat csak számokból.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","Találtunk egy ugyanolyan nevű könyvtárat. Kérjük, adjon meg másik mappanevet.",module,Magento_Cms
+"We cannot create a new directory.","Nem hozható létre új könyvtár.",module,Magento_Cms
+"We cannot delete directory %1.","Nem lehet törölni a könyvtárt: %1.",module,Magento_Cms
+"Directory %1 is not under storage root path.","A(z) %1 könyvtár nem található a tárolási útvonal gyökér elérési út alatt.",module,Magento_Cms
+"No files found","Nem található fájl",module,Magento_Cms
+"Browse Files...","Fájlok tallózása...",module,Magento_Cms
+"Collapse All","Összes bezárása",module,Magento_Cms
+"Expand All","Összes kibontása",module,Magento_Cms
 Price,Ár,module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
@@ -2271,14 +2283,26 @@ Details,Részletek,module,Magento_Catalog
 "Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
 "Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
+"Quote Lifetime (days)","Ajánlat érvényessége (nap)",module,Magento_Checkout
+"After Adding a Product Redirect to Shopping Cart","A termék kosárba helyezése után a kosár megjelenítése",module,Magento_Checkout
 "My Cart Link","Kosaram link",module,Magento_Checkout
+"Display Cart Summary","Kosár összefoglaló megjelenítése",module,Magento_Checkout
 "Shopping Cart Sidebar","Bevásárló kosár oldalsáv",module,Magento_Checkout
 "Display Shopping Cart Sidebar","Bevásárló kosár oldalsáv megjelenítése",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","Maximálisan megjelenítendő nemrégiben hozzáadott elemek száma",module,Magento_Checkout
+"Payment Failed Emails","Fizetés sikertelen e-mailek",module,Magento_Checkout
+"Payment Failed Email Sender","Fizetés sikertelen e-mail feladó",module,Magento_Checkout
+"Payment Failed Email Receiver","Fizetés sikertelen e-mail címzett",module,Magento_Checkout
+"Payment Failed Template","Fizetés sikertelen sablon",module,Magento_Checkout
+"Send Payment Failed Email Copy To","Fizetés sikertelen e-mail másolat küldése",module,Magento_Checkout
+"Separate by "","".","Elválasztás "",""-vel.",module,Magento_Checkout
+"Send Payment Failed Email Copy Method","Fizetés sikertelen e-mail mésolat küldési mód",module,Magento_Checkout
 "Shipping Address","Szállítási cím",module,Magento_Checkout
 "For delivery questions.","Szállítással kapcsolatos kérdések.",module,Magento_Checkout
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
 "Not yet calculated","Nincs kiszámítva",module,Magento_Checkout
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Checkout
+"Content Management",Tartalom-kezelés,module,Magento_Cms
 ID,Azonosító,module,Magento_ConfigurableProduct
 Contacts,Névjegyek,module,Magento_Contact
 "Contact Us","Lépj velünk kapcsolatba",module,Magento_Contact

@@ -928,9 +928,17 @@ State/Province,Állam/megye,module,Magento_Checkout
 Checkout,Fizetés,module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Checkout
 "The product does not exist.","A termék nem létezik.",module,Magento_Checkout
+"We don't have some of the products you want.","Némelyik kívánt termék nem áll rendelkezésre.",module,Magento_Checkout
+"We don't have as many of some products as you want.","Némely termékből nem áll rendelkezésre elegendő mennyiség.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","A mennyiség megváltoztatva: %1 - %2",module,Magento_Checkout
+"This quote item does not exist.","A tétel nem létezik.",module,Magento_Checkout
+"Display number of items in cart","A termék-darabszám mutatása a kosárban",module,Magento_Checkout
+"Display item quantities","Termékmennyiségek megjelenítése",module,Magento_Checkout
 "Invalid data","Érvénytelen adat",module,Magento_Checkout
 "The customer address is not valid.","A vásárló címe érvénytelen.",module,Magento_Checkout
 "Invalid shipping method","Érvénytelen szállítási mód",module,Magento_Checkout
+"Load customer quote error","Vevői ajánlat hiba betöltése",module,Magento_Checkout
+"Cancel Coupon","Kupon felhasználás megszakítása",module,Magento_Checkout
 "Shopping Cart Items","Kosár tartalma",module,Magento_Checkout
 Item,Elem,module,Magento_Checkout
 Price,Ár,module,Magento_Checkout
@@ -945,6 +953,8 @@ Subtotal,Részösszeg,module,Magento_Checkout
 "Edit item parameters","Termék paraméterek szerkesztése",module,Magento_Checkout
 Edit,Szerkesztés,module,Magento_Checkout
 "Remove item","Elem eltávolítása",module,Magento_Checkout
+"You have no items in your shopping cart.","A kosár üres.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Kattintson <a href=""%1""> ide</a> a vásárlás folytatásához.",module,Magento_Checkout
 "Estimate Shipping and Tax","Becsült szállítás és adó",module,Magento_Checkout
 "Excl. Tax","Adó nélkül",module,Magento_Checkout
 Loading...,Betöltés...,module,Magento_Checkout

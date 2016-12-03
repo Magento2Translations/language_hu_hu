@@ -1448,14 +1448,36 @@ View,Nézet,module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
 "Default Config","Alapértelmezett beállítás",module,Magento_Config
+"Use Default","Alapértelmezés használata",module,Magento_Config
 Add,Hozzáadás,module,Magento_Config
 "Delete File","Fájl törlése",module,Magento_Config
+"Search String",Keresőkifejezés,module,Magento_Config
+"-- No Theme --","--Nincs téma--",module,Magento_Config
+Enable,Engedélyezés,module,Magento_Config
+Disable,Letiltás,module,Magento_Config
+Configuration,Konfiguráció,module,Magento_Config
 System,Rendszer,module,Magento_Config
 "Page not found.","Az oldal nem található.",module,Magento_Config
+"Invalid %1. %2","Érvénytelen %1. %2",module,Magento_Config
+"Please correct the email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Config
+"Default scope","Alapértelmezett hatókör",module,Magento_Config
+"Base currency","Alap pénznem",module,Magento_Config
+"Always (during development)","Mindig (fejlesztés során)",module,Magento_Config
+"Only Once (version upgrade)","Csak egyszer (verziófrissítés)",module,Magento_Config
+Bcc,"Titkos másolat",module,Magento_Config
+"%1 (Default)","%1 (alapértelmezett)",module,Magento_Config
+title,cím,module,Magento_Config
 No,Nem ,module,Magento_Config
+Optional,Opcionális,module,Magento_Config
 Required,Kötelező,module,Magento_Config
+Website,Weboldal,module,Magento_Config
+Store,Bolt,module,Magento_Config
+"Store View","Bolt nézet",module,Magento_Config
+"HTTP (unsecure)","HTTP (nem biztonságos)",module,Magento_Config
+"Yes (301 Moved Permanently)","Igen (301 véglegesen áthelyezve)",module,Magento_Config
 Yes,Igen,module,Magento_Config
 Delete,Törlés,module,Magento_Config
+Stores,Boltok,module,Magento_Config
 "Create New Attribute","Új jellemző létrehozása",module,Magento_ConfigurableProduct
 Summary,Összefoglaló,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
@@ -3363,7 +3385,73 @@ Payment,Fizetés,module,Magento_Checkout
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Checkout
 "Media Gallery",Médiagaléria,module,Magento_Cms
 "Content Management",Tartalom-kezelés,module,Magento_Cms
+"Show Breadcrumbs for CMS Pages","Zsemlemorzsák mutatása a CMS oldalakon",module,Magento_Cms
+"Browser Capabilities Detection","Böngésző képességek felismerése",module,Magento_Cms
+"Redirect to CMS-page if Cookies are Disabled","Visszairányítás a CMS-oldalra, ha a sütik tiltva vannak",module,Magento_Cms
+"Show Notice if JavaScript is Disabled","Figyelmeztetés ha a JavaScript ki van kapcsolva",module,Magento_Cms
+"Show Notice if Local Storage is Disabled","Figyelmeztetés, ha a helyi tároló ki van kapcsolva",module,Magento_Cms
+"WYSIWYG Options","WYSIWYG beállítások",module,Magento_Cms
+"Enable WYSIWYG Editor","WYSIWYG-szerkesztő engedélyezése",module,Magento_Cms
+"CMS Page Link","CMS oldalhivatkozás",module,Magento_Cms
+"Link to a CMS Page","CMS oldarla mutató hivatkozás",module,Magento_Cms
+"CMS Page","CMS oldal",module,Magento_Cms
+"Select Page...","Válassza ki az oldalt...",module,Magento_Cms
+"Anchor Custom Text","Egyedi horgony szöveg",module,Magento_Cms
+"If empty, the Page Title will be used","Ha üres, akkor az oldal neve lesz használva",module,Magento_Cms
+"Anchor Custom Title","Egyedi horgony cím",module,Magento_Cms
+Template,Sablon,module,Magento_Cms
+"CMS Page Link Block Template","CMS oldalhivatkozás blokk sablon",module,Magento_Cms
+"CMS Page Link Inline Template","CMS oldal Link egysoros sablon",module,Magento_Cms
+"CMS Static Block","CMS statikus blokk",module,Magento_Cms
+"Contents of a Static Block","Egy statikus blokk tartalma",module,Magento_Cms
+Block,Blokk,module,Magento_Cms
+"Select Block...","Blokk kiválasztás...",module,Magento_Cms
+"CMS Static Block Default Template","CMS statikus blokk alapértelmezett sablon",module,Magento_Cms
+"General Information","Általános információ",module,Magento_Cms
+"Enable Block","Blokk engedélyezése",module,Magento_Cms
+"Block Title","Blokk címe",module,Magento_Cms
+"Delete items","Elemek törlése",module,Magento_Cms
+"Are you sure you wan't to delete selected items?","Biztosan törli a kijelölt elemeket?",module,Magento_Cms
+"Page Information","Oldal információ",module,Magento_Cms
+"Enable Page","Oldal engedélyezése",module,Magento_Cms
 Content,Tartalom,module,Magento_Cms
+"Content Heading","Tartalom fejléc",module,Magento_Cms
+"Search Engine Optimisation","Kereső motor optimalizáció",module,Magento_Cms
+"Meta Title","Meta cím",module,Magento_Cms
+"Meta Keywords","Meta kulcsszavak",module,Magento_Cms
+"Meta Description","Meta leírás",module,Magento_Cms
+"Page in Websites","Oldal a Weboldalakon",module,Magento_Cms
+"Layout Update XML","Elrendezés frissítés XML",module,Magento_Cms
+"Custom Design Update","Egyedi design frissítése",module,Magento_Cms
+From,Ettől,module,Magento_Cms
+To,Eddig,module,Magento_Cms
+"New Theme","Új téma",module,Magento_Cms
+"-- Please Select --","-- Kérjük válasszon --",module,Magento_Cms
+"New Layout","Új elrendezés",module,Magento_Cms
+Disable,Letiltás,module,Magento_Cms
+Enable,Engedélyez,module,Magento_Cms
+"Custom design from","Egyedi Design ettől",module,Magento_Cms
+"Custom design to","Egyedi Design eddig",module,Magento_Cms
+"Custom Theme","Egyedi téma",module,Magento_Cms
+"Custom Layout","Egyedi elrendezés",module,Magento_Cms
+"Allow everything","Mindent engedélyez",module,Magento_Config
+Dashboard,Vezérlőpult,module,Magento_Config
+"Manage Stores","Boltok kezelése",module,Magento_Config
+"Field 2","Mező 2",module,Magento_Config
+"Field 3","Mező 3",module,Magento_Config
+"Field 3.1","Mező 3.1",module,Magento_Config
+"Field 3.1.1","Mező 3.1.1",module,Magento_Config
+"Field 4","Mező 4",module,Magento_Config
+"Advanced Section","Haladó szekció",module,Magento_Config
+"Advanced Admin Section","Haladó admin szekció",module,Magento_Config
+"Design Section","Design szekció",module,Magento_Config
+"General Section","Általános szekció",module,Magento_Config
+"System Section","Rendszer szekció",module,Magento_Config
+"Currency Setup Section","Pénznem beállítások szekció",module,Magento_Config
+"Developer Section","Fejlesztő szekció",module,Magento_Config
+"Web Section","Web szekció",module,Magento_Config
+"Store Email Addresses Section","Bolt e-mail címek szekció",module,Magento_Config
+"Email to a Friend","E-mail egy barátnak",module,Magento_Config
 ID,Azonosító,module,Magento_ConfigurableProduct
 Required,Kötelező,module,Magento_ConfigurableProduct
 System,Rendszer,module,Magento_ConfigurableProduct
@@ -3569,6 +3657,10 @@ Edit,Szerkesztés,module,Magento_UrlRewrite
 "All Users","Összes felhasználó",module,Magento_User
 "User Roles","Felhasználói szerepkörök",module,Magento_User
 "User Notification Template","Felhasználó értesítési sablon",module,Magento_User
+"Email template chosen based on theme fallback when ""Default"" option is selected.","A kiválasztott email sablon alapján a tartalék téma amikor az ""Alapértelmezett"" opció van kiválasztva.",module,Magento_User
+"Maximum Login Failures to Lockout Account","Hibás bejelentkezések maximális száma a fiók zárolásáig",module,Magento_User
+"We will disable this feature if the value is empty.","Ez a szolgáltatás ki lesz kapcsolva, ha a mező üres.",module,Magento_User
+"Lockout Time (minutes)","Zárolási idő (perc)",module,Magento_User
 "Password Lifetime (days)","Jelszó élettartama (nap)",module,Magento_User
 "Password Change",Jelszómódosítás,module,Magento_User
 Unlock,Feloldás,module,Magento_User

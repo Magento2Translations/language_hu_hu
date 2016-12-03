@@ -968,6 +968,8 @@ Loading...,Betöltés...,module,Magento_Checkout
 "Delete Block","Blokk törlése",module,Magento_Cms
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_Cms
 "New Block","Új blokk",module,Magento_Cms
+"General Information","Általános információ",module,Magento_Cms
+"Block Title","Blokk címe",module,Magento_Cms
 Identifier,Azonosító,module,Magento_Cms
 "Store View","Bolt nézet",module,Magento_Cms
 Status,Állapot,module,Magento_Cms
@@ -981,10 +983,18 @@ Title,Cím,module,Magento_Cms
 "Save Page","Oldal Mentése",module,Magento_Cms
 "Delete Page","Oldal törlése",module,Magento_Cms
 "New Page","Új Oldal",module,Magento_Cms
+"Content Heading","Tartalom fejléc",module,Magento_Cms
 Layout,Elrendezés,module,Magento_Cms
+"Layout Update XML","Elrendezés frissítés XML",module,Magento_Cms
+"-- Please Select --","-- Kérjük válasszon --",module,Magento_Cms
+"Custom Theme","Egyedi téma",module,Magento_Cms
+"Custom Layout","Egyedi elrendezés",module,Magento_Cms
+"Page Information","Oldal információ",module,Magento_Cms
 "Page Title",Oldalcím,module,Magento_Cms
 "URL Key",URL-kulcs,module,Magento_Cms
+"Meta Keywords","Meta kulcsszavak",module,Magento_Cms
 Description,Leírás,module,Magento_Cms
+"Meta Description","Meta leírás",module,Magento_Cms
 Created,Létrehozva,module,Magento_Cms
 Modified,Módosítva,module,Magento_Cms
 Action,Akció,module,Magento_Cms
@@ -1025,6 +1035,7 @@ Pages,Oldalak,module,Magento_Cms
 "Browse Files...","Fájlok tallózása...",module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
+Configuration,Konfiguráció,module,Magento_Config
 Price,Ár,module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
@@ -2302,7 +2313,27 @@ Details,Részletek,module,Magento_Catalog
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
 "Not yet calculated","Nincs kiszámítva",module,Magento_Checkout
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Checkout
+"Show Breadcrumbs for CMS Pages","Zsemlemorzsák mutatása a CMS oldalakon",module,Magento_Cms
+"Browser Capabilities Detection","Böngésző képességek felismerése",module,Magento_Cms
+"Redirect to CMS-page if Cookies are Disabled","Visszairányítás a CMS-oldalra, ha a sütik tiltva vannak",module,Magento_Cms
+"Show Notice if JavaScript is Disabled","Figyelmeztetés ha a JavaScript ki van kapcsolva",module,Magento_Cms
+"Show Notice if Local Storage is Disabled","Figyelmeztetés, ha a helyi tároló ki van kapcsolva",module,Magento_Cms
 "Content Management",Tartalom-kezelés,module,Magento_Cms
+"WYSIWYG Options","WYSIWYG beállítások",module,Magento_Cms
+"Enable WYSIWYG Editor","WYSIWYG-szerkesztő engedélyezése",module,Magento_Cms
+"CMS Page Link","CMS oldalhivatkozás",module,Magento_Cms
+"Link to a CMS Page","CMS oldarla mutató hivatkozás",module,Magento_Cms
+"CMS Page","CMS oldal",module,Magento_Cms
+"Anchor Custom Text","Egyedi horgony szöveg",module,Magento_Cms
+"If empty, the Page Title will be used","Ha üres, akkor az oldal neve lesz használva",module,Magento_Cms
+"Anchor Custom Title","Egyedi horgony cím",module,Magento_Cms
+Template,Sablon,module,Magento_Cms
+"CMS Page Link Block Template","CMS oldalhivatkozás blokk sablon",module,Magento_Cms
+"CMS Page Link Inline Template","CMS oldal Link egysoros sablon",module,Magento_Cms
+"CMS Static Block","CMS statikus blokk",module,Magento_Cms
+"Contents of a Static Block","Egy statikus blokk tartalma",module,Magento_Cms
+Block,Blokk,module,Magento_Cms
+"CMS Static Block Default Template","CMS statikus blokk alapértelmezett sablon",module,Magento_Cms
 ID,Azonosító,module,Magento_ConfigurableProduct
 Contacts,Névjegyek,module,Magento_Contact
 "Contact Us","Lépj velünk kapcsolatba",module,Magento_Contact
@@ -2455,6 +2486,9 @@ Title,Cím,module,Magento_Ups
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Ups
 Action,Akció,module,Magento_UrlRewrite
 Edit,Szerkesztés,module,Magento_UrlRewrite
+"Maximum Login Failures to Lockout Account","Hibás bejelentkezések maximális száma a fiók zárolásáig",module,Magento_User
+"We will disable this feature if the value is empty.","Ez a szolgáltatás ki lesz kapcsolva, ha a mező üres.",module,Magento_User
+"Lockout Time (minutes)","Zárolási idő (perc)",module,Magento_User
 "Password Lifetime (days)","Jelszó élettartama (nap)",module,Magento_User
 "Password Change",Jelszómódosítás,module,Magento_User
 Unlock,Feloldás,module,Magento_User

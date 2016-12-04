@@ -1448,20 +1448,33 @@ View,Nézet,module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
 "Default Config","Alapértelmezett beállítás",module,Magento_Config
+"Save Config","Beállítások mentése",module,Magento_Config
+"Use system value","Rendszer érték használata",module,Magento_Config
 "Use Default","Alapértelmezés használata",module,Magento_Config
+"Use Website","Honlap használata",module,Magento_Config
 Add,Hozzáadás,module,Magento_Config
 "Delete File","Fájl törlése",module,Magento_Config
 "Search String",Keresőkifejezés,module,Magento_Config
+"Design Theme","Téma design",module,Magento_Config
+"Add \Exception","\Exception hozzáfűzése",module,Magento_Config
 "-- No Theme --","--Nincs téma--",module,Magento_Config
 Enable,Engedélyezés,module,Magento_Config
 Disable,Letiltás,module,Magento_Config
 Configuration,Konfiguráció,module,Magento_Config
 System,Rendszer,module,Magento_Config
+"You saved the configuration.","Beállítások elmentve.",module,Magento_Config
+"Something went wrong while saving this configuration:","Hiba történt a beállítás mentése közben:",module,Magento_Config
 "Page not found.","Az oldal nem található.",module,Magento_Config
+"Please specify the admin custom URL.","Adja meg az admin egyéni URL-címet.",module,Magento_Config
 "Invalid %1. %2","Érvénytelen %1. %2",module,Magento_Config
+"Selected allowed currency ""%1"" is not available in installed currencies.","""%1"" engedélyezett pénznem nem szerepel a telepített pénznemek között.",module,Magento_Config
+"Default display currency ""%1"" is not available in allowed currencies.","""%1"" alapértelmezetten megjelenített pénznem nem szerepel az engedélyezett pénznemek között.",module,Magento_Config
 "Please correct the email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Config
 "Default scope","Alapértelmezett hatókör",module,Magento_Config
 "Base currency","Alap pénznem",module,Magento_Config
+"Display default currency","Alapértelmezett pénznem megjelenítése",module,Magento_Config
+"website(%1) scope","weboldal(%1) hatókör",module,Magento_Config
+"store(%1) scope","bolt(%1) hatókör",module,Magento_Config
 "Always (during development)","Mindig (fejlesztés során)",module,Magento_Config
 "Only Once (version upgrade)","Csak egyszer (verziófrissítés)",module,Magento_Config
 Bcc,"Titkos másolat",module,Magento_Config
@@ -1476,6 +1489,9 @@ Store,Bolt,module,Magento_Config
 "HTTP (unsecure)","HTTP (nem biztonságos)",module,Magento_Config
 "Yes (301 Moved Permanently)","Igen (301 véglegesen áthelyezve)",module,Magento_Config
 Yes,Igen,module,Magento_Config
+test,teszt,module,Magento_Config
+test2,teszt2,module,Magento_Config
+"Add after","Mögé rak",module,Magento_Config
 Delete,Törlés,module,Magento_Config
 Stores,Boltok,module,Magento_Config
 "Create New Attribute","Új jellemző létrehozása",module,Magento_ConfigurableProduct
@@ -1487,9 +1503,27 @@ Quantity,Mennyiség,module,Magento_ConfigurableProduct
 Weight,Súly,module,Magento_ConfigurableProduct
 Status,Állapot,module,Magento_ConfigurableProduct
 Actions,Műveletek,module,Magento_ConfigurableProduct
+"Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
+"Step 2: Attribute Values","2. lépés: Jellemző értékek",module,Magento_ConfigurableProduct
+"Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
 Options,Opciók,module,Magento_ConfigurableProduct
 "Select All","Összes kijelölése",module,Magento_ConfigurableProduct
+"Deselect All","Összes kijelölés törlése",module,Magento_ConfigurableProduct
+"Remove Attribute","Jellemző eltávolítása",module,Magento_ConfigurableProduct
+Images,Képek,module,Magento_ConfigurableProduct
+"Browse Files...","Fájlok tallózása...",module,Magento_ConfigurableProduct
+"Browse to find or drag image here","Tallózza ki, vagy húzza ide a képet",module,Magento_ConfigurableProduct
+Hidden,Rejtett,module,Magento_ConfigurableProduct
 "Alt Text","Alt szöveg",module,Magento_ConfigurableProduct
+Role,Szerep,module,Magento_ConfigurableProduct
+"Image Size",Képméret,module,Magento_ConfigurableProduct
+"Image Resolution",Képfelbontás,module,Magento_ConfigurableProduct
+"Hide from Product Page","Termék oldalon elrejteni",module,Magento_ConfigurableProduct
+"Select attribute","Válasszon jellemzőt",module,Magento_ConfigurableProduct
+Select,Válasszon,module,Magento_ConfigurableProduct
+"Upload Image","Kép feltöltése",module,Magento_ConfigurableProduct
+"Upload image","Kép feltöltés",module,Magento_ConfigurableProduct
+"No Image","Nincs kép",module,Magento_ConfigurableProduct
 "Remove Product","Termék eltávolítása",module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
 "Page not found.","Az oldal nem található.",module,Magento_Contact
@@ -2868,6 +2902,9 @@ Shipping,Szállítás,module,Magento_Checkout
 "Save Address","Cím mentése",module,Magento_Checkout
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Cms
 "Incl. Tax",Adóval,module,Magento_ConfigurableProduct
+"Please choose image(s).","Válasszon képe(ke)t.",module,Magento_ConfigurableProduct
+"We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_ConfigurableProduct
+"Something went wrong.","Valami elromlott.",module,Magento_ConfigurableProduct
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
 "Video not found","Videó nem található",module,Magento_ProductVideo
 "New Video","Új videó",module,Magento_ProductVideo
@@ -3434,6 +3471,8 @@ Enable,Engedélyez,module,Magento_Cms
 "Custom design to","Egyedi Design eddig",module,Magento_Cms
 "Custom Theme","Egyedi téma",module,Magento_Cms
 "Custom Layout","Egyedi elrendezés",module,Magento_Cms
+"Group Label","Csoport címke",module,Magento_Config
+"Tab Label","Fül címke",module,Magento_Config
 "Allow everything","Mindent engedélyez",module,Magento_Config
 Dashboard,Vezérlőpult,module,Magento_Config
 "Manage Stores","Boltok kezelése",module,Magento_Config
@@ -3452,9 +3491,15 @@ Dashboard,Vezérlőpult,module,Magento_Config
 "Web Section","Web szekció",module,Magento_Config
 "Store Email Addresses Section","Bolt e-mail címek szekció",module,Magento_Config
 "Email to a Friend","E-mail egy barátnak",module,Magento_Config
+Select...,Válasszon...,module,Magento_ConfigurableProduct
 ID,Azonosító,module,Magento_ConfigurableProduct
+Thumbnail,Bélyegkép,module,Magento_ConfigurableProduct
+"Attribute Code","Jellemző kód",module,Magento_ConfigurableProduct
+"Attribute Label","Jellemző cimke",module,Magento_ConfigurableProduct
 Required,Kötelező,module,Magento_ConfigurableProduct
 System,Rendszer,module,Magento_ConfigurableProduct
+Visible,Látható,module,Magento_ConfigurableProduct
+Scope,Hatókör,module,Magento_ConfigurableProduct
 Searchable,Kereshető,module,Magento_ConfigurableProduct
 Comparable,Összehasonlítható,module,Magento_ConfigurableProduct
 "Contacts Section","Névjegyek szekció",module,Magento_Contact

@@ -1036,11 +1036,16 @@ Pages,Oldalak,module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
 Configuration,Konfiguráció,module,Magento_Config
+"Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
+"Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
+Select,Válasszon,module,Magento_ConfigurableProduct
 Price,Ár,module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
 SKU,Cikkszám,module,Magento_ConfigurableProduct
 Weight,Súly,module,Magento_ConfigurableProduct
+"Upload Image","Kép feltöltése",module,Magento_ConfigurableProduct
+"No Image","Nincs kép",module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
 "* Required Fields","* kitöltése kötelező",module,Magento_Contact
 Name,Név,module,Magento_Contact

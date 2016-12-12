@@ -1036,16 +1036,22 @@ Pages,Oldalak,module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
 Configuration,Konfiguráció,module,Magento_Config
+"New attribute set name","Új jellemző halmaz név",module,Magento_ConfigurableProduct
+"Choose an Option...","Válasszon egy lehetőséget...",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products.","Ezt a jellemző használatban van beállítható termékeknél.",module,Magento_ConfigurableProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
 "Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
 Select,Válasszon,module,Magento_ConfigurableProduct
 Price,Ár,module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
+"Current Variations","Jelenlegi variációk",module,Magento_ConfigurableProduct
+Image,Kép,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
 SKU,Cikkszám,module,Magento_ConfigurableProduct
 Weight,Súly,module,Magento_ConfigurableProduct
 "Upload Image","Kép feltöltése",module,Magento_ConfigurableProduct
 "No Image","Nincs kép",module,Magento_ConfigurableProduct
+Confirm,Megerősít,module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
 "* Required Fields","* kitöltése kötelező",module,Magento_Contact
 Name,Név,module,Magento_Contact
@@ -1093,6 +1099,7 @@ Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
+"End Date","Záró dátum",module,Magento_Customer
 Subject,Tárgy,module,Magento_Customer
 Status,Állapot,module,Magento_Customer
 Sent,Elküldve,module,Magento_Customer
@@ -1105,6 +1112,7 @@ Order,Rendelés,module,Magento_Customer
 "Bill-to Name","Számlázási név",module,Magento_Customer
 "Ship-to Name","Szállítási név",module,Magento_Customer
 "Order Total","Rendelés végösszege",module,Magento_Customer
+"Customer View","Vevő nézet",module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
@@ -1128,11 +1136,15 @@ Download,Letöltés,module,Magento_Customer
 "Group Information","Csoport információ",module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
 "Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
+"Tax Class","Adó osztály",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
+"Bad request.","Hibás kérés.",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
 "Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
+"Account Information",Fiókadatok,module,Magento_Customer
 "Invalid input","Érvénytelen adat",module,Magento_Customer
+"Please correct the email address.","Kérjük javítsa az email címet.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
 "New Group","Új csoport",module,Magento_Customer
@@ -1953,6 +1965,7 @@ Page,Oldal,module,Magento_Widget
 "Wish List Sharing","Kívánságlista megosztása",module,Magento_Wishlist
 "My Wish List",Kívánságlistám,module,Magento_Wishlist
 "%1's Wish List","%1 kívánságlistája",module,Magento_Wishlist
+"You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Wishlist
 "This product(s) is out of stock.","Ez a termék nincs készleten.",module,Magento_Wishlist
 "Your wish list has been shared.","A kívánságlistád megosztva.",module,Magento_Wishlist
 "%1 items","%1 elem",module,Magento_Wishlist
@@ -1970,6 +1983,8 @@ Availability,Elérhetőség,module,Magento_Wishlist
 Edit,Szerkesztés,module,Magento_Wishlist
 "Remove Item","Elem eltávolítása",module,Magento_Wishlist
 "Remove item","Elem eltávolítása",module,Magento_Wishlist
+"Add to Compare","Összehasonlításhoz ad",module,Magento_Wishlist
+"Options Details","Lehetőségek leírása",module,Magento_Wishlist
 "RSS link to %1's wishlist","%1 kívánságlistájának RSS linkje",module,Magento_Wishlist
 Back,Vissza,module,Magento_Wishlist
 "Wish List is empty now.","A kívánságlista most üres.",module,Magento_Wishlist
@@ -2339,6 +2354,7 @@ Template,Sablon,module,Magento_Cms
 "Contents of a Static Block","Egy statikus blokk tartalma",module,Magento_Cms
 Block,Blokk,module,Magento_Cms
 "CMS Static Block Default Template","CMS statikus blokk alapértelmezett sablon",module,Magento_Cms
+"Configurable Product Image","Beállítható termék képe",module,Magento_ConfigurableProduct
 ID,Azonosító,module,Magento_ConfigurableProduct
 Contacts,Névjegyek,module,Magento_Contact
 "Contact Us","Lépj velünk kapcsolatba",module,Magento_Contact
@@ -2519,6 +2535,7 @@ Height,Magasság,module,Magento_Usps
 "General Options","Általános beállítások",module,Magento_Wishlist
 Enabled,Engedélyezve,module,Magento_Wishlist
 "My Wish List Link","Kívánságlistám linkje",module,Magento_Wishlist
+"Product Name",Terméknév,module,Magento_Wishlist
 Quantity,Mennyiség,module,Magento_Wishlist
 "Add Date","Dátum hozzáadása",module,Magento_Wishlist
 Action,Akció,module,Magento_Wishlist

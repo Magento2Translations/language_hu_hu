@@ -1039,11 +1039,15 @@ Configuration,Konfiguráció,module,Magento_Config
 "New attribute set name","Új jellemző halmaz név",module,Magento_ConfigurableProduct
 "Choose an Option...","Válasszon egy lehetőséget...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Ezt a jellemző használatban van beállítható termékeknél.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Valamelyik termék variáció mező nem érvényes.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Ez a csoport olyan jellemzőket tartalmaz, amelyek beállítható termékeknél használatban vannak. Kérem mozgassa át ezeket a jellemzőket egy másik csoportba, és próbálja újra.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Ezt a jellemzőt használja egy beállítható termék. Nem távolítható el a jellemző halmazból.",module,Magento_ConfigurableProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
 "Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
 Select,Válasszon,module,Magento_ConfigurableProduct
 Price,Ár,module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
+"Add Products Manually","Termékek kézi hozzáadása",module,Magento_ConfigurableProduct
 "Current Variations","Jelenlegi variációk",module,Magento_ConfigurableProduct
 Image,Kép,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
@@ -1051,6 +1055,7 @@ SKU,Cikkszám,module,Magento_ConfigurableProduct
 Weight,Súly,module,Magento_ConfigurableProduct
 "Upload Image","Kép feltöltése",module,Magento_ConfigurableProduct
 "No Image","Nincs kép",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Válassza ki az érintett jellemző halmazt",module,Magento_ConfigurableProduct
 Confirm,Megerősít,module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
 "* Required Fields","* kitöltése kötelező",module,Magento_Contact
@@ -1072,6 +1077,7 @@ Import,Importálás,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Minden érvényes árfolyam elmentve.",module,Magento_CurrencySymbol
 System,Rendszer,module,Magento_CurrencySymbol
 "Old rate:","Régi árfolyam:",module,Magento_CurrencySymbol
+"You subscribe to our newsletter.","Hírlevelünkre feliratkozott.",module,Magento_Customer
 "You have not set a default shipping address.","Nem állított be alapértelmezett szállítási címet.",module,Magento_Customer
 "You have not set a default billing address.","Nem állított be alapértelmezett számlázási címet.",module,Magento_Customer
 "Address Book",Címjegyzék,module,Magento_Customer
@@ -1097,6 +1103,7 @@ Configure,Konfigurálás,module,Magento_Customer
 Delete,Törlés,module,Magento_Customer
 Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
+"Subscribed to Newsletter","Feliratkozott a hírlevélre",module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
 "End Date","Záró dátum",module,Magento_Customer
@@ -1104,6 +1111,7 @@ Subject,Tárgy,module,Magento_Customer
 Status,Állapot,module,Magento_Customer
 Sent,Elküldve,module,Magento_Customer
 Cancel,Mégse,module,Magento_Customer
+"Not Sent","Nincs elküldve",module,Magento_Customer
 Sending,Küldés,module,Magento_Customer
 Paused,Szüneteltetve,module,Magento_Customer
 View,Megnéz,module,Magento_Customer
@@ -1112,10 +1120,12 @@ Order,Rendelés,module,Magento_Customer
 "Bill-to Name","Számlázási név",module,Magento_Customer
 "Ship-to Name","Szállítási név",module,Magento_Customer
 "Order Total","Rendelés végösszege",module,Magento_Customer
+"Purchase Point","Vásárlási pont",module,Magento_Customer
 "Customer View","Vevő nézet",module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
+"Confirmation Not Required","Megerősítés nem szükséges",module,Magento_Customer
 Indeterminate,Meghatározatlan,module,Magento_Customer
 "The customer does not have default billing address.","Az ügyfél nem rendelkezik alapértelmezett számlázási címmel.",module,Magento_Customer
 Offline,"Nem elérhető",module,Magento_Customer
@@ -1137,7 +1147,9 @@ Download,Letöltés,module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
 "Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
 "Tax Class","Adó osztály",module,Magento_Customer
+"Validate VAT Number","Adószám ellenőrzése",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
+"Create New Customer Account","Új vevő fiók létrehozása",module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Bad request.","Hibás kérés.",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer

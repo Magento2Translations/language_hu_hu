@@ -1447,6 +1447,13 @@ Summary,Összefoglaló,module,Magento_ConfigurableProduct
 "Option attribute ID is not specified.","Lehetőség jellemző azonosító nincs megadva.",module,Magento_ConfigurableProduct
 "Option label is not specified.","Lehetőség név nincs megadva.",module,Magento_ConfigurableProduct
 "Option values are not specified.","Lehetőség értékek nincsenek megadva.",module,Magento_ConfigurableProduct
+"Value index is not specified for an option.","Érték index nincs megadva egy lehetőséghez.",module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".","A ""%1"" azonosítójú termék nem tartalmazza a ""%2"" kötelező jellemzőt.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","Meg kell adnia a termék jellemzőit.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Valamelyik termék variáció mező nem érvényes.",module,Magento_ConfigurableProduct
+"Configuration must have specified attributes","A beállításnak szüksége van a megadott jellemzőkre",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Ez a csoport olyan jellemzőket tartalmaz, amelyek beállítható termékeknél használatban vannak. Kérem mozgassa át ezeket a jellemzőket egy másik csoportba, és próbálja újra.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Ezt a jellemzőt használja egy beállítható termék. Nem távolítható el a jellemző halmazból.",module,Magento_ConfigurableProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","2. lépés: Jellemző értékek",module,Magento_ConfigurableProduct
 "Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
@@ -1456,9 +1463,13 @@ Options,Opciók,module,Magento_ConfigurableProduct
 "Remove Attribute","Jellemző eltávolítása",module,Magento_ConfigurableProduct
 "Save Option","Lehetőség mentése",module,Magento_ConfigurableProduct
 "Remove Option","Lehetőség eltávolítása",module,Magento_ConfigurableProduct
+"Create New Value","Új érték létrehozása",module,Magento_ConfigurableProduct
 Images,Képek,module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","Minden cikkszámhoz ugyan azok a képek alkalmazása",module,Magento_ConfigurableProduct
+"Skip image uploading at this time","Kép feltöltésének átugrása",module,Magento_ConfigurableProduct
 "Browse Files...","Fájlok tallózása...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","Tallózza ki, vagy húzza ide a képet",module,Magento_ConfigurableProduct
+"Remove image","Kép etávolítása",module,Magento_ConfigurableProduct
 Hidden,Rejtett,module,Magento_ConfigurableProduct
 "Alt Text","Alt szöveg",module,Magento_ConfigurableProduct
 Role,Szerep,module,Magento_ConfigurableProduct
@@ -1466,7 +1477,19 @@ Role,Szerep,module,Magento_ConfigurableProduct
 "Select attribute","Válasszon jellemzőt",module,Magento_ConfigurableProduct
 Select,Válasszon,module,Magento_ConfigurableProduct
 Price,Ár,module,Magento_ConfigurableProduct
+"Apply single price to all SKUs","Egységes ár minden cikkszámhoz",module,Magento_ConfigurableProduct
+"Skip price at this time","Ár megadásának átugrása",module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
+"Apply single quantity to each SKUs","Egy mennyiség alkalmazása minden cikkszámhoz",module,Magento_ConfigurableProduct
+"Skip quantity at this time","Mennyiség megadásának átugrása",module,Magento_ConfigurableProduct
+"Step 1: Select Attributes","1. lépés: Válasszon jellemzőket",module,Magento_ConfigurableProduct
+"Selected Attributes:","Kiválasztott jellemzők:",module,Magento_ConfigurableProduct
+"Step 4: Summary","4. lépés: Összegzés",module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color).
+            You need to create a simple product for each configuration (Ex: a product for each color).","A beállítható termékek lehetővé teszik, hogy a vásárló különböző lehetőségek közül válasszon (pl. póló színe). Ehhez szükség van annyi egyszerű termékre, ahány változat elérhető lesz (pl. minden színhez egy termék).",module,Magento_ConfigurableProduct
+"Edit Configurations","Beállítások szerkesztése",module,Magento_ConfigurableProduct
+"Create Configurations","Beállítás létrehozása",module,Magento_ConfigurableProduct
+"Add Products Manually","Termékek kézi hozzáadása",module,Magento_ConfigurableProduct
 "Current Variations","Jelenlegi variációk",module,Magento_ConfigurableProduct
 Image,Kép,module,Magento_ConfigurableProduct
 Name,Név,module,Magento_ConfigurableProduct
@@ -1476,7 +1499,10 @@ Actions,Műveletek,module,Magento_ConfigurableProduct
 "Upload Image","Kép feltöltése",module,Magento_ConfigurableProduct
 "Upload image","Kép feltöltés",module,Magento_ConfigurableProduct
 "No Image","Nincs kép",module,Magento_ConfigurableProduct
+"Choose a different Product","Válasszon egy másik terméket",module,Magento_ConfigurableProduct
 "Remove Product","Termék eltávolítása",module,Magento_ConfigurableProduct
+"Create Product Configurations","Termék beállítások létrehozása",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Válassza ki az érintett jellemző halmazt",module,Magento_ConfigurableProduct
 Confirm,Megerősít,module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
 "Page not found.","Az oldal nem található.",module,Magento_Contact
@@ -1521,6 +1547,7 @@ System,Rendszer,module,Magento_CurrencySymbol
 "We can't find that email and website combination.","Ez az email és website kombináció nem található.",module,Magento_CustomerImportExport
 "Sign Out",Kijelentkezés,module,Magento_Customer
 "Sign In",Bejelentkezés,module,Magento_Customer
+"You subscribe to our newsletter.","Hírlevelünkre feliratkozott.",module,Magento_Customer
 "You don't subscribe to our newsletter.","Nem iratkozik fel a hírlevelünkre.",module,Magento_Customer
 "You have not set a default shipping address.","Nem állított be alapértelmezett szállítási címet.",module,Magento_Customer
 "You have not set a default billing address.","Nem állított be alapértelmezett számlázási címet.",module,Magento_Customer
@@ -1549,6 +1576,7 @@ Configure,Konfigurálás,module,Magento_Customer
 Delete,Törlés,module,Magento_Customer
 Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
+"Subscribed to Newsletter","Feliratkozott a hírlevélre",module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
 "End Date","Záró dátum",module,Magento_Customer
@@ -1556,6 +1584,7 @@ Subject,Tárgy,module,Magento_Customer
 Status,Állapot,module,Magento_Customer
 Sent,Elküldve,module,Magento_Customer
 Cancel,Mégse,module,Magento_Customer
+"Not Sent","Nincs elküldve",module,Magento_Customer
 Sending,Küldés,module,Magento_Customer
 Paused,Szüneteltetve,module,Magento_Customer
 View,Megnéz,module,Magento_Customer
@@ -1565,11 +1594,13 @@ Purchased,Megvásárolva,module,Magento_Customer
 "Bill-to Name","Számlázási név",module,Magento_Customer
 "Ship-to Name","Szállítási név",module,Magento_Customer
 "Order Total","Rendelés végösszege",module,Magento_Customer
+"Purchase Point","Vásárlási pont",module,Magento_Customer
 "Customer View","Vevő nézet",module,Magento_Customer
 "There are no items in customer's shopping cart.","A vevő bevásárlókosara üres.",module,Magento_Customer
 Qty,Mennyiség,module,Magento_Customer
 Confirmed,Megerősítve,module,Magento_Customer
 "Confirmation Required","Megerősítés szükséges",module,Magento_Customer
+"Confirmation Not Required","Megerősítés nem szükséges",module,Magento_Customer
 Indeterminate,Meghatározatlan,module,Magento_Customer
 "The customer does not have default billing address.","Az ügyfél nem rendelkezik alapértelmezett számlázási címmel.",module,Magento_Customer
 Offline,"Nem elérhető",module,Magento_Customer
@@ -1594,7 +1625,9 @@ Download,Letöltés,module,Magento_Customer
 "Tax Class","Adó osztály",module,Magento_Customer
 "The VAT ID is valid.","Az adószám érvényes.",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","A megadott adószám (%s) nem érvényes.",module,Magento_Customer
+"Validate VAT Number","Adószám ellenőrzése",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
+"Create New Customer Account","Új vevő fiók létrehozása",module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Bad request.","Hibás kérés.",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
@@ -2750,7 +2783,11 @@ Submit,Elküld,module,Magento_Catalog
 "unselect all","összes kijelölés megszüntetése",module,Magento_Catalog
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Cms
 "Incl. Tax",Adóval,module,Magento_ConfigurableProduct
+"Select Associated Product","Válassza ki a hozzárendelendő terméket",module,Magento_ConfigurableProduct
 Done,Kész,module,Magento_ConfigurableProduct
+"For better results, add attributes and attribute values to your products.","A jobb eredmény érdekében adjon hozzá jellemzőket és jellemző értékeket a termékekhez.",module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","Egy jellemző eltávolítva. Ez a jellemző többé nem jelenik meg a beállításokban.",module,Magento_ConfigurableProduct
+"Select options for all attributes or remove unused attributes.","Válasszon lehetőségeket minden jellemzőhöz, vagy távolítsa el a használaton kívüli jellemzőket.",module,Magento_ConfigurableProduct
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_ConfigurableProduct
 "Generate Products","Termékek generálása",module,Magento_ConfigurableProduct
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping

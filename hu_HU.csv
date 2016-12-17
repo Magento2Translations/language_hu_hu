@@ -1577,6 +1577,8 @@ Delete,Törlés,module,Magento_Customer
 Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
 "Subscribed to Newsletter","Feliratkozott a hírlevélre",module,Magento_Customer
+"Last Date Subscribed","Utolsó feliratkozás dátuma",module,Magento_Customer
+"Last Date Unsubscribed","Utolsó leiratkozás dátuma",module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
 "End Date","Záró dátum",module,Magento_Customer
@@ -1608,6 +1610,7 @@ Online,Elérhető,module,Magento_Customer
 Never,Soha,module,Magento_Customer
 "Deleted Stores","Törölt üzletek",module,Magento_Customer
 "Add Date","Dátum hozzáadása",module,Magento_Customer
+"Days in Wish List","Napok a kívánságlistán",module,Magento_Customer
 No,Nem ,module,Magento_Customer
 Yes,Igen,module,Magento_Customer
 "Delete File","Fájl törlése",module,Magento_Customer
@@ -1618,7 +1621,9 @@ Download,Letöltés,module,Magento_Customer
 "Customer Groups","Vevői csoportok",module,Magento_Customer
 "Add New Customer Group","Új vevői csoport hozzáadása",module,Magento_Customer
 "Save Customer Group","Vevői csoport mentése",module,Magento_Customer
+"Delete Customer Group","Vevőcsoport törlése",module,Magento_Customer
 "New Customer Group","Új vevői csoport",module,Magento_Customer
+"Edit Customer Group ""%1""","""%1"" vevőcsoport szerkesztése",module,Magento_Customer
 "Group Information","Csoport információ",module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
 "Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
@@ -1630,9 +1635,13 @@ Download,Letöltés,module,Magento_Customer
 "Create New Customer Account","Új vevő fiók létrehozása",module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Bad request.","Hibás kérés.",module,Magento_Customer
+"Thank you for registering with %1.","A %1 elfogadta a regisztrációt. Köszönjük.",module,Magento_Customer
+"Please check your email for confirmation key.","Kérem ellenőrizze email fiókját a megerősítő kulcsért.",module,Magento_Customer
+"This email does not require confirmation.","Ez az email nem igényel megerősítést.",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
 "Your password reset link has expired.","Az új jelszó link érvényessége lejárt.",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Erősítse regisztrációját. Kérjük, ellenőrizze email fiókját és kattintson a visszaigazoló linkre, vagy <a href=""%1""> kattintson ide</a> egy új link létrehozásához.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Már van egy felhasználói fiók ezzel az email címmel. Ha biztos benne, hogy ez az Ön email címe, <a href=""%1"">kattintson ide</a> Hogy megkapja a jelszavát, és hozzáférjen fiókjához.",module,Magento_Customer
 "We can't save the customer.","Nem tudjuk menteni a vevőt.",module,Magento_Customer
 "Account Information",Fiókadatok,module,Magento_Customer
 "Invalid input","Érvénytelen adat",module,Magento_Customer
@@ -1640,6 +1649,7 @@ Download,Letöltés,module,Magento_Customer
 "Something went wrong while changing the password.","Valami nem sikerült a jelszó megváltoztatása közben.",module,Magento_Customer
 "Please correct the email address.","Kérjük javítsa az email címet.",module,Magento_Customer
 "We're unable to send the password reset email.","Nem tudunk jelszó módosító levelet küldeni.",module,Magento_Customer
+"Please enter your email.","Adja meg az email címét.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
 "A login and a password are required.","Azonosító és jelszó megadása szükséges.",module,Magento_Customer
 "Please enter a new password.","Adjon meg egy új jelszót.",module,Magento_Customer

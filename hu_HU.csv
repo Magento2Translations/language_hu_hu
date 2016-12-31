@@ -1101,6 +1101,7 @@ Total,Összesen,module,Magento_Customer
 Action,Akció,module,Magento_Customer
 Configure,Konfigurálás,module,Magento_Customer
 Delete,Törlés,module,Magento_Customer
+"Shopping Cart from %1","Kosár %1",module,Magento_Customer
 Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
 "Subscribed to Newsletter","Feliratkozott a hírlevélre",module,Magento_Customer
@@ -1109,6 +1110,7 @@ Newsletter,Hírlevél,module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
 "End Date","Záró dátum",module,Magento_Customer
+"Receive Date","Fogadási dátum",module,Magento_Customer
 Subject,Tárgy,module,Magento_Customer
 Status,Állapot,module,Magento_Customer
 Sent,Elküldve,module,Magento_Customer
@@ -1133,6 +1135,7 @@ Indeterminate,Meghatározatlan,module,Magento_Customer
 Offline,"Nem elérhető",module,Magento_Customer
 Never,Soha,module,Magento_Customer
 "Deleted Stores","Törölt üzletek",module,Magento_Customer
+"Add Locale","Hely hozzáadása",module,Magento_Customer
 "Add Date","Dátum hozzáadása",module,Magento_Customer
 "Days in Wish List","Napok a kívánságlistán",module,Magento_Customer
 No,Nem ,module,Magento_Customer
@@ -1152,11 +1155,15 @@ Download,Letöltés,module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
 "Maximum length must be less then %1 symbols","Maximális hossz kevesebb mint %1 szimbólum kell legyen",module,Magento_Customer
 "Tax Class","Adó osztály",module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Megváltoztatja a vásárlói csoportot ennél a rendelésnél?",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","Az adóazonosító érvényes. A jelenlegi vásárlói csoport lesz használva.",module,Magento_Customer
 "Validate VAT Number","Adószám ellenőrzése",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
 "Create New Customer Account","Új vevő fiók létrehozása",module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Bad request.","Hibás kérés.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Az ellenőrző kulcs érvénytelen vagy lejárt.",module,Magento_Customer
+"There was an error confirming the account","Hiba történt a fiók érvényesítése során",module,Magento_Customer
 "Thank you for registering with %1.","A %1 elfogadta a regisztrációt. Köszönjük.",module,Magento_Customer
 "This email does not require confirmation.","Ez az email nem igényel megerősítést.",module,Magento_Customer
 "Wrong email.","Hibás email cím.",module,Magento_Customer
@@ -1166,7 +1173,9 @@ Download,Letöltés,module,Magento_Customer
 "Invalid input","Érvénytelen adat",module,Magento_Customer
 "Please correct the email address.","Kérjük javítsa az email címet.",module,Magento_Customer
 "Please enter your email.","Adja meg az email címét.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Ha a megadott email címhez (%1) tartozik felhasználó, akkor kapni fog egy emailt, amellyel visszaállíthatja a jelszavát.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
+"Invalid login or password.","Érvénytelen email cím vagy jelszó.",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
 "New Group","Új csoport",module,Magento_Customer
 "New Customer Groups","Új vevői csoport",module,Magento_Customer
@@ -1179,8 +1188,14 @@ Customers,Vásárlók,module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
 "Please correct this email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Customer
+label,címke,module,Magento_Customer
+"Customer Group","Vásárlói csoport",module,Magento_Customer
+"PHP SOAP extension is required.","PHP SOAP kiterjesztés szükséges.",module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer
+Visitor,Látogató,module,Magento_Customer
 Customer,Vásárló,module,Magento_Customer
+Store,Bolt,module,Magento_Customer
+"Store View","Bolt nézet",module,Magento_Customer
 Change,Módosítás,module,Magento_Customer
 "Default Shipping Address","Alapértelmezett szállítási cím",module,Magento_Customer
 or,vagy,module,Magento_Customer
@@ -1199,6 +1214,7 @@ Submit,Beküldés,module,Magento_Customer
 Password,Jelszó,module,Magento_Customer
 Login,Bejelentkezés,module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
+Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
 "Client side less compilation","Kliens oldali LESS fordítás",module,Magento_Developer
@@ -2392,12 +2408,22 @@ Contacts,Névjegyek,module,Magento_Contact
 "Failure History Lifetime","Sikertelen-napló élettartama",module,Magento_Cron
 "Use Separate Process","Külön eljárások használata",module,Magento_Cron
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
+"Default Group","Alapértelmezett csoport",module,Magento_Customer
+"Password Options","Jelszó beállítások",module,Magento_Customer
 "Recovery Link Expiration Period (days)","Helyreállítási link lejárati idő (nap)",module,Magento_Customer
+"Always optional.","Mindig választható.",module,Magento_Customer
 "Show Tax/VAT Number","Adószám megjelenítése",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
+Group,Csoport,module,Magento_Customer
+"Add New Customer","Új vásárló hozzáadása",module,Magento_Customer
+"Subscribe to Newsletter","Feliratkozás a hírlevélre",module,Magento_Customer
+"Unsubscribe from Newsletter","Leiratkozás a hírlevélről",module,Magento_Customer
+Phone,Telefon,module,Magento_Customer
+ZIP,Irányítószám,module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer
 "Last Name",Vezetéknév,module,Magento_Customer
 Type,Típus,module,Magento_Customer
+"My Dashboard",Vezérlőpult,module,Magento_Customer
 "Workflow type","Munkafolyamat típus",module,Magento_Developer
 "Not available in production mode","Éles üzemmódban nem elérhető",module,Magento_Developer
 "Developer Client Restrictions","Fejlesztői kliens korlátozások",module,Magento_Developer

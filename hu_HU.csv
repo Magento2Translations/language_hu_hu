@@ -1692,6 +1692,7 @@ Total,Összesen,module,Magento_Customer
 Action,Akció,module,Magento_Customer
 Configure,Konfigurálás,module,Magento_Customer
 Delete,Törlés,module,Magento_Customer
+"Shopping Cart from %1","Kosár %1",module,Magento_Customer
 Newsletter,Hírlevél,module,Magento_Customer
 "Newsletter Information","Hírlevél információk",module,Magento_Customer
 "Subscribed to Newsletter","Feliratkozott a hírlevélre",module,Magento_Customer
@@ -1700,6 +1701,7 @@ Newsletter,Hírlevél,module,Magento_Customer
 "No Newsletter Found","Nem található hírlevél",module,Magento_Customer
 "Start date","Kezdő dátum",module,Magento_Customer
 "End Date","Záró dátum",module,Magento_Customer
+"Receive Date","Fogadási dátum",module,Magento_Customer
 Subject,Tárgy,module,Magento_Customer
 Status,Állapot,module,Magento_Customer
 Sent,Elküldve,module,Magento_Customer
@@ -1729,6 +1731,7 @@ Never,Soha,module,Magento_Customer
 Unlocked,Feloldva,module,Magento_Customer
 Locked,Zárolt,module,Magento_Customer
 "Deleted Stores","Törölt üzletek",module,Magento_Customer
+"Add Locale","Hely hozzáadása",module,Magento_Customer
 "Add Date","Dátum hozzáadása",module,Magento_Customer
 "Days in Wish List","Napok a kívánságlistán",module,Magento_Customer
 Unlock,Feloldás,module,Magento_Customer
@@ -1749,13 +1752,25 @@ Download,Letöltés,module,Magento_Customer
 "Group Name","Csoport neve",module,Magento_Customer
 "Maximum length must be less then %1 characters.","A Maximális hossz legfeljebb %1 karakter lehet.",module,Magento_Customer
 "Tax Class","Adó osztály",module,Magento_Customer
+"The customer is now assigned to Customer Group %s.","%s vásárlói csoporthoz a vásárló hozzá lett rendelve.",module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Megváltoztatja a vásárlói csoportot ennél a rendelésnél?",module,Magento_Customer
 "The VAT ID is valid.","Az adószám érvényes.",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","A megadott adószám (%s) nem érvényes.",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","Az adóazonosító érvényes. A jelenlegi vásárlói csoport lesz használva.",module,Magento_Customer
+"The VAT ID is valid but no Customer Group is assigned for it.","Az adóazonosító érvényes, de nincs vásárlói csoport kijelölve hozzá.",module,Magento_Customer
+"Based on the VAT ID, the customer belongs to the Customer Group %s.","Az adóazonosító alapján, a vásárló a következő vásárlói csoportba tartozik: %s.",module,Magento_Customer
+"Something went wrong while validating the VAT ID.","Hiba történt az adóazonosító érvényesítése során.",module,Magento_Customer
+"The customer would belong to Customer Group %s.","%s vásárlói csoportba tartozik a vásárló.",module,Magento_Customer
+"There was an error detecting Customer Group.","Hiba a vásárlói csoportban.",module,Magento_Customer
 "Validate VAT Number","Adószám ellenőrzése",module,Magento_Customer
 "Customer Login",Belépés,module,Magento_Customer
 "Create New Customer Account","Új vevő fiók létrehozása",module,Magento_Customer
 "Date of Birth","Születési dátum",module,Magento_Customer
 "Bad request.","Hibás kérés.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Az ellenőrző kulcs érvénytelen vagy lejárt.",module,Magento_Customer
+"There was an error confirming the account","Hiba történt a fiók érvényesítése során",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","Ha regisztrált adóalany, <a href=""%1"">kattintson ide</a>, hogy megadja a szállítási címet az adó kiszámításához!",module,Magento_Customer
+"If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","Ha regisztrált adóalany, <a href=""%1"">kattintson ide</a>, hogy megadja a számlázási címet az adó kiszámításához!",module,Magento_Customer
 "Thank you for registering with %1.","A %1 elfogadta a regisztrációt. Köszönjük.",module,Magento_Customer
 "Please check your email for confirmation key.","Kérem ellenőrizze email fiókját a megerősítő kulcsért.",module,Magento_Customer
 "This email does not require confirmation.","Ez az email nem igényel megerősítést.",module,Magento_Customer
@@ -1764,13 +1779,21 @@ Download,Letöltés,module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Erősítse regisztrációját. Kérjük, ellenőrizze email fiókját és kattintson a visszaigazoló linkre, vagy <a href=""%1""> kattintson ide</a> egy új link létrehozásához.",module,Magento_Customer
 "There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Már van egy felhasználói fiók ezzel az email címmel. Ha biztos benne, hogy ez az Ön email címe, <a href=""%1"">kattintson ide</a> Hogy megkapja a jelszavát, és hozzáférjen fiókjához.",module,Magento_Customer
 "We can't save the customer.","Nem tudjuk menteni a vevőt.",module,Magento_Customer
+"Please make sure your passwords match.","Ellenőrizze, hogy a jelszavak megegyeznek-e!",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Ha regisztrált adóalany, <a href=""%1"">kattintson ide</a>, hogy megadja a szállítási címet az adó kiszámításához!",module,Magento_Customer
+"If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Ha regisztrált adóalany, <a href=""%1"">kattintson ide</a>, hogy megadja a számlázási címet az adó kiszámításához!",module,Magento_Customer
 "Account Information",Fiókadatok,module,Magento_Customer
+"You saved the account information.","A fiók információk elmentve.",module,Magento_Customer
 "The account is locked. Please wait and try again or contact %1.","A fiók zárolva. Kérem próbálja később újra, vagy lépjen velünk kapcsolatba: %1.",module,Magento_Customer
+"Password confirmation doesn't match entered password.","A jelszó megerősítésének és a jelszónak meg kell egyeznie!",module,Magento_Customer
 "The password doesn't match this account.","Az azonosító jelszava nem megfelelő.",module,Magento_Customer
 "Please correct the email address.","Kérjük javítsa az email címet.",module,Magento_Customer
 "We're unable to send the password reset email.","Nem tudunk jelszó módosító levelet küldeni.",module,Magento_Customer
 "Please enter your email.","Adja meg az email címét.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Ha a megadott email címhez (%1) tartozik felhasználó, akkor kapni fog egy emailt, amellyel visszaállíthatja a jelszavát.",module,Magento_Customer
 "My Account","Saját fiók",module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","A fiók nem megerősített. Az email újraküldéséhez <a href=""%1"">kattintson ide</a>.",module,Magento_Customer
+"Invalid login or password.","Érvénytelen email cím vagy jelszó.",module,Magento_Customer
 "A login and a password are required.","Azonosító és jelszó megadása szükséges.",module,Magento_Customer
 "Please enter a new password.","Adjon meg egy új jelszót.",module,Magento_Customer
 "You updated your password.","Frissítette a jelszót.",module,Magento_Customer
@@ -1799,9 +1822,21 @@ Customers,Vásárlók,module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","Nem tudjuk megosztani vevő azonosítókat globálisan ha az e-mail címek megegyeznek több weblapon.",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
+label,címke,module,Magento_Customer
+"Customer Group","Vásárlói csoport",module,Magento_Customer
+"PHP SOAP extension is required.","PHP SOAP kiterjesztés szükséges.",module,Magento_Customer
+"VAT Number is valid.","Érvényes adószám.",module,Magento_Customer
 message,üzenet,module,Magento_Customer
+Exception,Kivétel,module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","A fiók nem megerősített. Az email újraküldéséhez <a href=""%1"">kattintson ide</a>.",module,Magento_Customer
+"Exception message","Kivétel üzenet",module,Magento_Customer
+Label,Címke,module,Magento_Customer
+Select...,Válasszon...,module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer
+Visitor,Látogató,module,Magento_Customer
 Customer,Vásárló,module,Magento_Customer
+Store,Bolt,module,Magento_Customer
+"Store View","Bolt nézet",module,Magento_Customer
 Change,Módosítás,module,Magento_Customer
 "Default Shipping Address","Alapértelmezett szállítási cím",module,Magento_Customer
 or,vagy,module,Magento_Customer
@@ -1818,6 +1853,7 @@ Country,Ország,module,Magento_Customer
 Save,Mentés,module,Magento_Customer
 Password,Jelszó,module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
+Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
 "Cannot switch into given mode ""%1""","""%1"" módba nem lehet átváltani",module,Magento_Deploy
@@ -2928,6 +2964,9 @@ Next, Következő,module,Magento_Checkout
 "Email: %email","E-mail: %email",module,Magento_Contact
 "Phone Number: %telephone","Telefonszám: %telephone",module,Magento_Contact
 "Comment: %comment","Hozzászólás: %comment",module,Magento_Contact
+Password:,Jelszó:,module,Magento_Customer
+"Hello,","Üdvözlöm,",module,Magento_Customer
+"Email Address","Email cím",module,Magento_Customer
 "Gift Message (optional)","Ajándék üzenet (opcionális)",module,Magento_GiftMessage
 To:,Címzett:,module,Magento_GiftMessage
 From:,Feladó:,module,Magento_GiftMessage
@@ -3042,6 +3081,11 @@ Shipping,Szállítás,module,Magento_Checkout
 "Please select attribute(s).","Válasszon jellemző(ke)t.",module,Magento_ConfigurableProduct
 "Generate Products","Termékek generálása",module,Magento_ConfigurableProduct
 "Something went wrong.","Valami elromlott.",module,Magento_ConfigurableProduct
+Weak,Gyenge,module,Magento_Customer
+Medium,Közepes,module,Magento_Customer
+Strong,Erős,module,Magento_Customer
+"Very Strong","Nagyon erős",module,Magento_Customer
+"Guest checkout is disabled.","Vendég vásárlás letiltva.",module,Magento_Customer
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
 "Video not found","Videó nem található",module,Magento_ProductVideo
 "New Video","Új videó",module,Magento_ProductVideo
@@ -3666,12 +3710,25 @@ Contacts,Névjegyek,module,Magento_Contact
 "Failure History Lifetime","Sikertelen-napló élettartama",module,Magento_Cron
 "Use Separate Process","Külön eljárások használata",module,Magento_Cron
 Currency,Pénznem,module,Magento_CurrencySymbol
+"All Customers","Összes vásárló",module,Magento_Customer
+"Now Online","Most online",module,Magento_Customer
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
+"Default Group","Alapértelmezett csoport",module,Magento_Customer
+"Password Options","Jelszó beállítások",module,Magento_Customer
+"Always optional.","Mindig választható.",module,Magento_Customer
 "Show Tax/VAT Number","Adószám megjelenítése",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
+Group,Csoport,module,Magento_Customer
+"Add New Customer","Új vásárló hozzáadása",module,Magento_Customer
+"Subscribe to Newsletter","Feliratkozás a hírlevélre",module,Magento_Customer
+"Unsubscribe from Newsletter","Leiratkozás a hírlevélről",module,Magento_Customer
+Phone,Telefon,module,Magento_Customer
+ZIP,Irányítószám,module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer
 "Last Name",Vezetéknév,module,Magento_Customer
 Type,Típus,module,Magento_Customer
+"My Dashboard",Vezérlőpult,module,Magento_Customer
+"You are signed out","Ön kijelentkezett",module,Magento_Customer
 "Frontend Development Workflow","Frontend fejlesztési munkafolyamat",module,Magento_Developer
 "Workflow type","Munkafolyamat típus",module,Magento_Developer
 "Not available in production mode","Éles üzemmódban nem elérhető",module,Magento_Developer

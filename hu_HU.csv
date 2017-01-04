@@ -1187,7 +1187,12 @@ Customers,Vásárlók,module,Magento_Customer
 "You saved the customer.","Vásárló elmentve.",module,Magento_Customer
 "Billing Address","Számlázási cím",module,Magento_Customer
 "Shipping Address","Szállítási cím",module,Magento_Customer
+"-- Please Select --","-- Kérjük válasszon --",module,Magento_Customer
 "Please correct this email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Customer
+"The password can not begin or end with a space.","A jelszó nem kezdődhet vagy végződhet szóközzel.",module,Magento_Customer
+"""%1"" contains non-alphabetic characters.","""%1"" a nem alfabetikus karaktereket tartalmaz.",module,Magento_Customer
+"""%1"" is not a valid email address.","""%1"" nem egy érvényes email cím.",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" nem érvényes host név.",module,Magento_Customer
 label,címke,module,Magento_Customer
 "Customer Group","Vásárlói csoport",module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAP kiterjesztés szükséges.",module,Magento_Customer
@@ -1814,18 +1819,34 @@ Themes,Témák,module,Magento_Theme
 "Theme: %1","Téma: %1",module,Magento_Theme
 "New Theme","Új téma",module,Magento_Theme
 "Theme CSS","Téma CSS",module,Magento_Theme
+"Theme CSS Assets","Téma CSS eszközei",module,Magento_Theme
 "Custom CSS","Egyéni CSS",module,Magento_Theme
+"Select CSS File to Upload","Válassza ki a feltöltendő CSS file-t",module,Magento_Theme
+"Upload CSS File","CSS file feltöltése",module,Magento_Theme
+"Download CSS File","CSS file letöltése",module,Magento_Theme
 Manage,Kezelés,module,Magento_Theme
 "Upload Images","Képek feltöltése",module,Magento_Theme
+"Images Assets","Kép eszközök",module,Magento_Theme
 "Upload Fonts","Betűtípus feltöltése",module,Magento_Theme
+"Fonts Assets","Szöveg eszközök",module,Magento_Theme
 "Edit custom.css","Custom.css szerkesztése",module,Magento_Theme
+"Allowed file types *.css.","Engedélyezett file típusok *.css.",module,Magento_Theme
+"Max file size to upload %1M","Maximálisan feltölthető file méret %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","Hiba történt a fájl feltöltési beállításokkal.",module,Magento_Theme
 "CSS Editor","CSS szerkesztő",module,Magento_Theme
 "Theme Settings","Téma beállítások",module,Magento_Theme
+"Parent Theme","Fölérendelt téma",module,Magento_Theme
 "Theme Path","Téma elérési útja",module,Magento_Theme
 "Theme Title","Téma címe",module,Magento_Theme
+"Theme Preview Image","Téma előnézeti kép",module,Magento_Theme
 General,Általános,module,Magento_Theme
 "Copy of %1","%1 másolata",module,Magento_Theme
+"Max image size %1M","Maximális képméret %1M",module,Magento_Theme
+"Theme JavaScript","JavaScript téma",module,Magento_Theme
+"Select JS Files to Upload","Válassza ki a feltöltendő JS fájlt",module,Magento_Theme
+"Upload JS Files","JS file feltöltése",module,Magento_Theme
 "JS Editor","JS szerkesztő",module,Magento_Theme
+"Allowed file types *.js.","Engedélyezett file típusok *.js.",module,Magento_Theme
 Theme,Téma,module,Magento_Theme
 "Media Storage",Médiatár,module,Magento_Theme
 "Create Folder","Mappa létrehozása",module,Magento_Theme
@@ -1835,7 +1856,14 @@ Theme,Téma,module,Magento_Theme
 "New Folder Name:","Új mappanév:",module,Magento_Theme
 "Are you sure you want to delete this folder?","Biztosan törölni akarod ezt a mappát?",module,Magento_Theme
 "Are you sure you want to delete this file?","Biztosan törölni akarod ezt a fájlt?",module,Magento_Theme
+"Storage Root","Gyökér könyvtár",module,Magento_Theme
+"You deleted the theme.","A Témát törölte.",module,Magento_Theme
+"We cannot delete the theme.","A Téma nem törölhető.",module,Magento_Theme
 "File not found: ""%1"".","Fájl nem található: ""%1"".",module,Magento_Theme
+"We cannot find theme ""%1"".","""%1"" Téma nem található.",module,Magento_Theme
+"We cannot find the theme.","Téma nem található.",module,Magento_Theme
+"You saved the theme.","A Témát elmentette.",module,Magento_Theme
+"We cannot find a theme with id ""%1"".","A ""%1"" azonosítójú Téma nem található.",module,Magento_Theme
 label,címke,module,Magento_Theme
 Copy,Másolás,module,Magento_Theme
 "Browse Files","Fájlok tallózása",module,Magento_Theme
@@ -2004,13 +2032,19 @@ Page,Oldal,module,Magento_Widget
 "%1's Wish List","%1 kívánságlistája",module,Magento_Wishlist
 "You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Wishlist
 "This product(s) is out of stock.","Ez a termék nincs készleten.",module,Magento_Wishlist
+"%1 has been moved to your wish list.","%1 átkerült a kívánságlistájára.",module,Magento_Wishlist
 "Your wish list has been shared.","A kívánságlistád megosztva.",module,Magento_Wishlist
 "%1 items","%1 elem",module,Magento_Wishlist
 "1 item","1 elem",module,Magento_Wishlist
 Comment,Hozzászólás,module,Magento_Wishlist
+"Display number of items in wish list","A kívánság lista elemeinek a száma",module,Magento_Wishlist
+"Display item quantities","Termékmennyiségek megjelenítése",module,Magento_Wishlist
+"Cannot specify product.","Nem meghatározható termék.",module,Magento_Wishlist
+"Invalid item option format.","Érvénytelen opció formátum.",module,Magento_Wishlist
 "The product does not exist.","A termék nem létezik.",module,Magento_Wishlist
 Message,Üzenet,module,Magento_Wishlist
 "Share Wish List","Kívánságlista megosztása",module,Magento_Wishlist
+"Add All to Cart","Minden elem kosárhoz adása",module,Magento_Wishlist
 "Update Wish List","Kívánságlista frissítése",module,Magento_Wishlist
 "View Product","Termék megtekintése",module,Magento_Wishlist
 "Add to Cart","Hozzáadás a kosárhoz",module,Magento_Wishlist
@@ -2021,6 +2055,7 @@ Edit,Szerkesztés,module,Magento_Wishlist
 "Remove Item","Elem eltávolítása",module,Magento_Wishlist
 "Remove item","Elem eltávolítása",module,Magento_Wishlist
 "Add to Compare","Összehasonlításhoz ad",module,Magento_Wishlist
+"This Wish List has no Items","A kívánság lista üres",module,Magento_Wishlist
 "Options Details","Lehetőségek leírása",module,Magento_Wishlist
 "RSS link to %1's wishlist","%1 kívánságlistájának RSS linkje",module,Magento_Wishlist
 Back,Vissza,module,Magento_Wishlist
@@ -2049,6 +2084,7 @@ Cancel,Mégse,module,Magento_Catalog
 "unselect all","összes kijelölés megszüntetése",module,Magento_Catalog
 "Incl. Tax",Adóval,module,Magento_ConfigurableProduct
 "Add Products","Termékek hozzáadása",module,Magento_Sales
+"We don't recognize this file extension.","Ez a fájl kiterjesztés nem ismert.",module,Magento_Theme
 "Use HTTPS to Get Feed","HTTPS használata hírcsatornához",module,Magento_AdminNotification
 "Update Frequency","Frissítési gyakoriság",module,Magento_AdminNotification
 "Last Update","Utolsó frissítés",module,Magento_AdminNotification
@@ -2537,6 +2573,7 @@ Empty,Üres,module,Magento_Theme
 "Default Description","Alapértelmezett leírás",module,Magento_Theme
 "Default Keywords","Alapértelmezett kulcsszavak",module,Magento_Theme
 "Search Engine Robots","Kereső robotok",module,Magento_Theme
+"Default Robots","Alapértelmezett Robotok",module,Magento_Theme
 Header,Fejléc,module,Magento_Theme
 "Logo Image","Logo kép",module,Magento_Theme
 "Welcome Text","Üdvözlő szöveg",module,Magento_Theme
@@ -2579,11 +2616,17 @@ Height,Magasság,module,Magento_Usps
 "Share Options","Megosztási beállítások",module,Magento_Wishlist
 "Email Sender","Email feladója",module,Magento_Wishlist
 "Email Template","Email sablon",module,Magento_Wishlist
+"Max Emails Allowed to be Sent","Maximálisan kiküldhető Emailek száma",module,Magento_Wishlist
+"Email Text Length Limit","Email szövegének maximális hossza",module,Magento_Wishlist
 "General Options","Általános beállítások",module,Magento_Wishlist
 Enabled,Engedélyezve,module,Magento_Wishlist
 "My Wish List Link","Kívánságlistám linkje",module,Magento_Wishlist
+"Display Wish List Summary","Kívánságlista összefoglalójának mutatása",module,Magento_Wishlist
+"No Items Found","A keresett termék nem található",module,Magento_Wishlist
 "Product Name",Terméknév,module,Magento_Wishlist
+"User Description","Felhasználói Leírás",module,Magento_Wishlist
 Quantity,Mennyiség,module,Magento_Wishlist
+"Add Locale","Hely hozzáadása",module,Magento_Wishlist
 "Add Date","Dátum hozzáadása",module,Magento_Wishlist
 Action,Akció,module,Magento_Wishlist
 Configure,Konfigurálás,module,Magento_Wishlist

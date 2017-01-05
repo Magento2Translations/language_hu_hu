@@ -1574,10 +1574,12 @@ Weight,Súly,module,Magento_ConfigurableProduct
 Status,Állapot,module,Magento_ConfigurableProduct
 Attributes,Jellemzők,module,Magento_ConfigurableProduct
 Actions,Műveletek,module,Magento_ConfigurableProduct
+"Custom options with price type ""percent"" is not available for configurable product.","Testre szabható ""százalék"" opció nem elérhető a beállítható termékre.",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Ez a csoport olyan jellemzőket tartalmaz, amelyek beállítható termékeknél használatban vannak. Kérem mozgassa át ezeket a jellemzőket egy másik csoportba, és próbálja újra.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Ezt a jellemzőt használja egy beállítható termék. Nem távolítható el a jellemző halmazból.",module,Magento_ConfigurableProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","2. lépés: Jellemző értékek",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Válassza ki azon terméktulajdonságok értékeit melyeket tartalmazza ez a termék. Minden egyedi érték kombináció egy egyedi SKU terméket generál.",module,Magento_ConfigurableProduct
 "Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
 Options,Opciók,module,Magento_ConfigurableProduct
 "Select All","Összes kijelölése",module,Magento_ConfigurableProduct
@@ -1590,6 +1592,7 @@ Options,Opciók,module,Magento_ConfigurableProduct
 "Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.","A kiválasztásai alapján %1 új termék lesz létrehozva. Használja ezt a lépést, hogy meghatározza a képeket és az árakat ezekhez az új termékekhez.",module,Magento_ConfigurableProduct
 Images,Képek,module,Magento_ConfigurableProduct
 "Apply single set of images to all SKUs","Minden cikkszámhoz ugyan azok a képek alkalmazása",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","Egyedi kép tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
 "Skip image uploading at this time","Kép feltöltésének átugrása",module,Magento_ConfigurableProduct
 "Browse Files...","Fájlok tallózása...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","Tallózza ki, vagy húzza ide a képet",module,Magento_ConfigurableProduct
@@ -1603,8 +1606,10 @@ Role,Szerep,module,Magento_ConfigurableProduct
 "Select attribute","Válasszon jellemzőt",module,Magento_ConfigurableProduct
 Select,Válasszon,module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","Egységes ár minden cikkszámhoz",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","Egyedi ár tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
 "Skip price at this time","Ár megadásának átugrása",module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","Egy mennyiség alkalmazása minden cikkszámhoz",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Egyedi mennyiségi tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
 "Skip quantity at this time","Mennyiség megadásának átugrása",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","1. lépés: Válasszon jellemzőket",module,Magento_ConfigurableProduct
 "Selected Attributes:","Kiválasztott jellemzők:",module,Magento_ConfigurableProduct
@@ -3118,6 +3123,7 @@ Close,Bezárás,module,Magento_CheckoutAgreements
 Shipping,Szállítás,module,Magento_Checkout
 "Save Address","Cím mentése",module,Magento_Checkout
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Cms
+"New Product Review","Új termék áttekintés",module,Magento_ConfigurableProduct
 "Here are the products you're about to create.","Itt vannak a termékek, amiket létrehozott.",module,Magento_ConfigurableProduct
 "You created these products for this configuration.","Ezeket a termékeket hozta létre a beállításhoz.",module,Magento_ConfigurableProduct
 "Disassociated Products","Már nem hozzárendelt termékek",module,Magento_ConfigurableProduct

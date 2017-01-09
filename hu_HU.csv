@@ -1456,7 +1456,7 @@ Summary,Összefoglaló,module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Ezt a jellemzőt használja egy beállítható termék. Nem távolítható el a jellemző halmazból.",module,Magento_ConfigurableProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","2. lépés: Jellemző értékek",module,Magento_ConfigurableProduct
-"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Válassza ki azon terméktulajdonságok értékeit melyeket tartalmazza ez a termék. Minden egyedi érték kombináció egy egyedi SKU terméket generál.",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Válassza ki azon terméktulajdonságok értékeit melyeket tartalmazza ez a termék. Minden egyedi érték kombináció egy egyedi termék cikkszámot generál.",module,Magento_ConfigurableProduct
 "Sort Variations","Rendezés variációk",module,Magento_ConfigurableProduct
 Options,Opciók,module,Magento_ConfigurableProduct
 "Select All","Összes kijelölése",module,Magento_ConfigurableProduct
@@ -1467,7 +1467,7 @@ Options,Opciók,module,Magento_ConfigurableProduct
 "Create New Value","Új érték létrehozása",module,Magento_ConfigurableProduct
 Images,Képek,module,Magento_ConfigurableProduct
 "Apply single set of images to all SKUs","Minden cikkszámhoz ugyan azok a képek alkalmazása",module,Magento_ConfigurableProduct
-"Apply unique images by attribute to each SKU","Egyedi kép tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","Egyedi képek alkalmazása minden egyes cikkszámhoz",module,Magento_ConfigurableProduct
 "Skip image uploading at this time","Kép feltöltésének átugrása",module,Magento_ConfigurableProduct
 "Browse Files...","Fájlok tallózása...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","Tallózza ki, vagy húzza ide a képet",module,Magento_ConfigurableProduct
@@ -1480,11 +1480,11 @@ Role,Szerep,module,Magento_ConfigurableProduct
 Select,Válasszon,module,Magento_ConfigurableProduct
 Price,Ár,module,Magento_ConfigurableProduct
 "Apply single price to all SKUs","Egységes ár minden cikkszámhoz",module,Magento_ConfigurableProduct
-"Apply unique prices by attribute to each SKU","Egyedi ár tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","Egyedi árak alkalmazása minden egyes cikkszámhoz",module,Magento_ConfigurableProduct
 "Skip price at this time","Ár megadásának átugrása",module,Magento_ConfigurableProduct
 Quantity,Mennyiség,module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","Egy mennyiség alkalmazása minden cikkszámhoz",module,Magento_ConfigurableProduct
-"Apply unique quantity by attribute to each SKU","Egyedi mennyiségi tulajdonság alkalmazása SKU-ként",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Egyedi mennyiségek alkalmazása minden egyes cikkszámhoz",module,Magento_ConfigurableProduct
 "Skip quantity at this time","Mennyiség megadásának átugrása",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","1. lépés: Válasszon jellemzőket",module,Magento_ConfigurableProduct
 "Selected Attributes:","Kiválasztott jellemzők:",module,Magento_ConfigurableProduct
@@ -1764,10 +1764,15 @@ Global,Globális,module,Magento_Customer
 """%1"" length must be equal or less than %2 characters.","""%1"" hossza egyenlő vagy kevesebb mint %2 karakter kell legyen.",module,Magento_Customer
 label,címke,module,Magento_Customer
 "Customer Group","Vásárlói csoport",module,Magento_Customer
+"Customer Group already exists.","A vevőcsoport már létezik.",module,Magento_Customer
+"Cannot delete group.","A csoport nem törölhető.",module,Magento_Customer
+"Error during VAT Number verification.","Hiba történt az adószám ellenőrzésekor.",module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAP kiterjesztés szükséges.",module,Magento_Customer
 "VAT Number is valid.","Érvényes adószám.",module,Magento_Customer
 "Please enter a valid VAT number.","Adjon meg egy érvényes adószámot.",module,Magento_Customer
 "Your VAT ID was successfully validated.","Az adószám sikeresen ellenőrizve.",module,Magento_Customer
+"You will be charged tax.","Önnek az ÁFA-val növelt árat kell fizetnie.",module,Magento_Customer
+"You will not be charged tax.","Önnek nem kell ÁFA-t fizetnie.",module,Magento_Customer
 "The VAT ID entered (%1) is not a valid VAT ID.","A megadott adószám (%1) nem érvényes.",module,Magento_Customer
 Male,Férfi,module,Magento_Customer
 Female,Nő,module,Magento_Customer
@@ -1844,9 +1849,11 @@ Login,Bejelentkezés,module,Magento_Customer
 "Forgot Your Password?","Elfelejtette jelszavát?",module,Magento_Customer
 "Subscription option","Feliratkozási lehetőségek",module,Magento_Customer
 "Sign Up for Newsletter","Iratkozzon fel hírlevelünkre",module,Magento_Customer
+"Address Information",Címadatok,module,Magento_Customer
 "Sign-in Information","Bejelentkezési adatok",module,Magento_Customer
 "Confirm Password","Jelszó megerősítése",module,Magento_Customer
 "Create an Account","Felhasználó létrehozása",module,Magento_Customer
+"Set a New Password","Állítson be egy új jelszót",module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
 Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer

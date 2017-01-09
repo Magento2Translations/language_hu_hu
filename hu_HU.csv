@@ -1222,6 +1222,7 @@ Global,Globális,module,Magento_Customer
 """%1"" length must be equal or less than %2 characters.","""%1"" hossza egyenlő vagy kevesebb mint %2 karakter kell legyen.",module,Magento_Customer
 label,címke,module,Magento_Customer
 "Customer Group","Vásárlói csoport",module,Magento_Customer
+"Customer Group already exists.","A vevőcsoport már létezik.",module,Magento_Customer
 "PHP SOAP extension is required.","PHP SOAP kiterjesztés szükséges.",module,Magento_Customer
 Edit,Szerkesztés,module,Magento_Customer
 Visitor,Látogató,module,Magento_Customer
@@ -1281,6 +1282,7 @@ Login,Bejelentkezés,module,Magento_Customer
 "Forgot Your Password?","Elfelejtette jelszavát?",module,Magento_Customer
 "Subscription option","Feliratkozási lehetőségek",module,Magento_Customer
 "Sign Up for Newsletter","Iratkozzon fel hírlevelünkre",module,Magento_Customer
+"Address Information",Címadatok,module,Magento_Customer
 "Confirm Password","Jelszó megerősítése",module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
 Gender,Nem,module,Magento_Customer

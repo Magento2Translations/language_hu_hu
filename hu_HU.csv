@@ -2065,16 +2065,24 @@ None,"Egyik sem",module,Magento_Usps
 "All Websites","Minden weboldal",module,Magento_Weee
 Tax,Adó,module,Magento_Weee
 Action,Akció,module,Magento_Weee
+"Widget Insertion","Felületi elem beszúrás",module,Magento_Widget
 "Insert Widget","Felületi elem beszúrása",module,Magento_Widget
 label,címke,module,Magento_Widget
+Choose...,Válasszon...,module,Magento_Widget
 Close,Bezárás,module,Magento_Widget
+"Not Selected","Nem kijelölt",module,Magento_Widget
 Widget,"Felületi elem",module,Magento_Widget
 "Widget Type","Felületi elem típusa",module,Magento_Widget
+"-- Please Select --","-- Kérjük válasszon --",module,Magento_Widget
+"Manage Widget Instances","Felületi elem példány kezelése",module,Magento_Widget
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_Widget
+"Widget ""%1""","Felületi elem ""%1""",module,Magento_Widget
+"New Widget Instance","Új felületi elem példány",module,Magento_Widget
 "Custom Layouts","Egyedi elrendezések",module,Magento_Widget
 "Page Layouts","Oldal elrendezések",module,Magento_Widget
 Type,Típus,module,Magento_Widget
 "Sort Order","Rendezési sorrend",module,Magento_Widget
+"Layout Updates","Elrendezés frissítések",module,Magento_Widget
 Categories,Kategóriák,module,Magento_Widget
 "Anchor Categories","Horgony kategóriák",module,Magento_Widget
 "All Product Types","Összes terméktípus",module,Magento_Widget
@@ -2082,8 +2090,10 @@ Products,Termékek,module,Magento_Widget
 "Generic Pages","Általános oldalak",module,Magento_Widget
 "All Pages","Minden oldal",module,Magento_Widget
 "Specified Page","Meghatározott oldal",module,Magento_Widget
+"Remove Layout Update","Elrendezés frissítés eltávolítása",module,Magento_Widget
 "Widget Options","Felületi elem beállítások",module,Magento_Widget
 Settings,Beállítások,module,Magento_Widget
+Continue,Folytatás,module,Magento_Widget
 "New Widget","Új felületi elem",module,Magento_Widget
 Widgets,"Felületi elemek",module,Magento_Widget
 name,név,module,Magento_Widget

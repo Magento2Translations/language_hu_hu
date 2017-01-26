@@ -1527,7 +1527,11 @@ Preview,Előnézet,module,Magento_Newsletter
 "No Templates Found","Nem találhatóak sablonok",module,Magento_Newsletter
 ID,Azonosító,module,Magento_Newsletter
 Action,Akció,module,Magento_Newsletter
+"Newsletter Subscribers","Hírlevél feliratkozók",module,Magento_Newsletter
+Subscribers,Feliratkozók,module,Magento_Newsletter
 Cancelled,Törölve,module,Magento_Newsletter
+"Enter your email address","Adja meg e-mail címét",module,Magento_Newsletter
+Subscribe,Feliratkozás,module,Magento_Newsletter
 Country,Ország,module,Magento_OfflineShipping
 Region/State,Régió/állam,module,Magento_OfflineShipping
 "Zip/Postal Code",Irányítószám,module,Magento_OfflineShipping
@@ -2036,7 +2040,7 @@ Forced,Kényszerített,module,Magento_User
 "Your password confirmation must match your password.","A jelszó megerősítés meg kell egyezzen a jelszóval.",module,Magento_User
 "Your password has expired; please contact your administrator.","Jelszó lejárt; Értesítse az adminisztrátort.",module,Magento_User
 "Retrieve Password","Jelszó visszaállítása",module,Magento_User
-"Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
+"Forgot your password?","Elfelejtette a jelszavát?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
 "Confirm New Password","Új jelszó megerősítése",module,Magento_User
 "Reset Password","Jelszó visszaállítása",module,Magento_User
@@ -2599,11 +2603,15 @@ Status,Állapot,module,Magento_Integration
 "Layered Navigation","Réteges navigáció",module,Magento_LayeredNavigation
 Options,Opciók,module,Magento_Multishipping
 "Review Order","Rendelés áttekintése",module,Magento_Multishipping
+Subscriber,Feliratkozó,module,Magento_Newsletter
 Status,Állapot,module,Magento_Newsletter
+Unsubscribe,Leiratkozás,module,Magento_Newsletter
 Delete,Törlés,module,Magento_Newsletter
 Type,Típus,module,Magento_Newsletter
 Guest,Vendég,module,Magento_Newsletter
 Customer,Vásárló,module,Magento_Newsletter
+Subscribed,Feliratkozott,module,Magento_Newsletter
+Unsubscribed,Leiratkozott,module,Magento_Newsletter
 Enabled,Engedélyezett,module,Magento_OfflinePayments
 "Sort Order","Rendezési sorrend",module,Magento_OfflinePayments
 Title,Cím,module,Magento_OfflinePayments

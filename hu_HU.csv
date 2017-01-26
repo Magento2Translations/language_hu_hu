@@ -1855,6 +1855,7 @@ Login,Bejelentkezés,module,Magento_Customer
 "Create an Account","Felhasználó létrehozása",module,Magento_Customer
 "Set a New Password","Állítson be egy új jelszót",module,Magento_Customer
 "New Customers","Új vásárlók",module,Magento_Customer
+"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Új fiók létrehozásának számos előnye van: gyorsabb vásárlás, akár több cím mentése, megrendeléseit nyomon követheti, stb.",module,Magento_Customer
 Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
@@ -2137,8 +2138,12 @@ Preview,Előnézet,module,Magento_Newsletter
 "No Templates Found","Nem találhatóak sablonok",module,Magento_Newsletter
 ID,Azonosító,module,Magento_Newsletter
 Action,Akció,module,Magento_Newsletter
+"Newsletter Subscribers","Hírlevél feliratkozók",module,Magento_Newsletter
+Subscribers,Feliratkozók,module,Magento_Newsletter
 "We can't delete this template right now.","A sablon jelenleg nem törölhető.",module,Magento_Newsletter
 Cancelled,Törölve,module,Magento_Newsletter
+"Enter your email address","Adja meg e-mail címét",module,Magento_Newsletter
+Subscribe,Feliratkozás,module,Magento_Newsletter
 Country,Ország,module,Magento_OfflineShipping
 Region/State,Régió/állam,module,Magento_OfflineShipping
 "Zip/Postal Code",Irányítószám,module,Magento_OfflineShipping
@@ -2758,7 +2763,7 @@ Forced,Kényszerített,module,Magento_User
 "Email address","Email cím",module,Magento_User
 "Retrieve Password","Jelszó visszaállítása",module,Magento_User
 "Back to Sign in","Vissza a bejelentkezéshez",module,Magento_User
-"Forgot your password?","Elfelejtetted a jelszavad?",module,Magento_User
+"Forgot your password?","Elfelejtette a jelszavát?",module,Magento_User
 "Reset a Password","Jelszó visszaállítása",module,Magento_User
 "Confirm New Password","Új jelszó megerősítése",module,Magento_User
 "Reset Password","Jelszó visszaállítása",module,Magento_User
@@ -2936,7 +2941,7 @@ Total:,Végösszeg:,module,Magento_Checkout
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","A bejelentkezéshez használja ezeket az adatokat fizetés közben vagy a <a href=""%customer_url"">Saját fiók</a> oldalon:",module,Magento_Customer
 Password:,Jelszó:,module,Magento_Customer
 "Password you set when creating account","Jelszó beállítva a felhasználói fiók létrehozásakor",module,Magento_Customer
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Elfelejtetted a jelszavad? <a href=""%reset_url"">Kattints ide</a> a visszaállításhoz.",module,Magento_Customer
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Elfelejtette a jelszavát? <a href=""%reset_url"">Kattintson ide</a> a visszaállításhoz.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Ha bejelentkezel a felhasználói fiókodba, képes leszel:",module,Magento_Customer
 "Proceed through checkout faster","Gyorsabb vásárlásra",module,Magento_Customer
 "Check the status of orders","Rendelések állapotának ellenőrzésére",module,Magento_Customer
@@ -3581,11 +3586,15 @@ Options,Opciók,module,Magento_Multishipping
 "Review Order","Rendelés áttekintése",module,Magento_Multishipping
 "We received your order!","Rendelését rögzítettük!",module,Magento_Multishipping
 General,Általános,module,Magento_NewRelicReporting
+Subscriber,Feliratkozó,module,Magento_Newsletter
 Status,Állapot,module,Magento_Newsletter
+Unsubscribe,Leiratkozás,module,Magento_Newsletter
 Delete,Törlés,module,Magento_Newsletter
 Type,Típus,module,Magento_Newsletter
 Guest,Vendég,module,Magento_Newsletter
 Customer,Vásárló,module,Magento_Newsletter
+Subscribed,Feliratkozott,module,Magento_Newsletter
+Unsubscribed,Leiratkozott,module,Magento_Newsletter
 Enabled,Engedélyezett,module,Magento_OfflinePayments
 "Sort Order","Rendezési sorrend",module,Magento_OfflinePayments
 Title,Cím,module,Magento_OfflinePayments

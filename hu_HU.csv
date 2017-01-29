@@ -3939,9 +3939,19 @@ Contacts,Névjegyek,module,Magento_Contact
 Currency,Pénznem,module,Magento_CurrencySymbol
 "All Customers","Összes vásárló",module,Magento_Customer
 "Now Online","Most online",module,Magento_Customer
+"Customer Configuration","Vevő beállítás",module,Magento_Customer
+"Account Sharing Options","Fiók megosztási lehetőségek",module,Magento_Customer
+"Enable Automatic Assignment to Customer Group","Vevőcsoport automatikus hozzárendelésének engedélyezése",module,Magento_Customer
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
 "Default Group","Alapértelmezett csoport",module,Magento_Customer
+"Default Email Domain","Alapértelmezett E-mail tartomány",module,Magento_Customer
+"Default Welcome Email","Alapértelmezett üdvözlő E-mail üzenet",module,Magento_Customer
+"Email Sender","Email feladója",module,Magento_Customer
+"Require Emails Confirmation","E-mail megerősítés szükséges",module,Magento_Customer
+"Confirmation Link Email","Megerősítő link e-mail",module,Magento_Customer
+"Welcome Email","Üdvözlő e-mail",module,Magento_Customer
 "Password Options","Jelszó beállítások",module,Magento_Customer
+"Forgot Email Template","Elfelejtett e-mail sablon",module,Magento_Customer
 "Recovery Link Expiration Period (hours)","Helyreállítási Link lejárati idő (óra)",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 1 vagy annál nagyobb.",module,Magento_Customer
 "Maximum Login Failures to Lockout Account","Hibás bejelentkezések maximális száma a fiók zárolásáig",module,Magento_Customer

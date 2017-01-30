@@ -1810,6 +1810,7 @@ Download,Letöltés,module,Magento_Customer
 "You saved the address.","Mentette a címet.",module,Magento_Customer
 "We can't save the address.","Nem tudjuk menteni a címet.",module,Magento_Customer
 "No customer ID defined.","Nincs vevő azonosító megadva.",module,Magento_Customer
+"Please correct the quote items and try again.","Kérjük, javítsa a jelzett cikkeket, majd próbálja újra.",module,Magento_Customer
 "You have revoked the customer's tokens.","Visszavonta a vevő tokenjeit.",module,Magento_Customer
 "We can't find a customer to revoke.","Nem találtuk a vevőt a visszavonáshoz.",module,Magento_Customer
 "You deleted the customer group.","Vevőcsoport törölve.",module,Magento_Customer
@@ -1836,6 +1837,8 @@ Customers,Vásárlók,module,Magento_Customer
 "Customer has been unlocked successfully.","Vevő sikeresen feloldva.",module,Magento_Customer
 "Online Customers","Online vásárlók",module,Magento_Customer
 "Customers Now Online","Jelenleg bejelentkezett vevők",module,Magento_Customer
+"Please define Wish List item ID.","Adja meg a kívánságlista elemének azonosítóját.",module,Magento_Customer
+"Please load Wish List item.","Kérjük, töltse be a kívánságlista elemet.",module,Magento_Customer
 "Login successful.","Sikeres bejelentkezés.",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 nem a \Magento\Customer\CustomerData\SectionSourceInterface kiterjesztése",module,Magento_Customer
 "No confirmation needed.","Nincs szükség megerősítésre.",module,Magento_Customer

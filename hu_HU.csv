@@ -1178,6 +1178,7 @@ Download,Letöltés,module,Magento_Customer
 "Invalid login or password.","Érvénytelen email cím vagy jelszó.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Az új jelszó és a jelszó megerősítése nem egyezik.",module,Magento_Customer
 "No customer ID defined.","Nincs vevő azonosító megadva.",module,Magento_Customer
+"Please correct the quote items and try again.","Kérjük, javítsa a jelzett cikkeket, majd próbálja újra.",module,Magento_Customer
 "The customer group no longer exists.","A vevőcsoport már nem létezik.",module,Magento_Customer
 Customers,Vásárlók,module,Magento_Customer
 "New Group","Új csoport",module,Magento_Customer

@@ -1716,14 +1716,19 @@ Customers,Vásárlók,module,Magento_Customer
 "Please define Wish List item ID.","Adja meg a kívánságlista elemének azonosítóját.",module,Magento_Customer
 "Please load Wish List item.","Kérjük, töltse be a kívánságlista elemet.",module,Magento_Customer
 "Login successful.","Sikeres bejelentkezés.",module,Magento_Customer
+"""%1"" section source is not supported","""%1"" szakasz forrás nem támogatott",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","%1 nem a \Magento\Customer\CustomerData\SectionSourceInterface kiterjesztése",module,Magento_Customer
 "No confirmation needed.","Nincs szükség megerősítésre.",module,Magento_Customer
 "Account already active","A fiók már aktív",module,Magento_Customer
 "Invalid confirmation token","Érvénytelen megerősítő kulcs",module,Magento_Customer
 "This account is not confirmed.","Ez a fiók még nem lett megerősítve.",module,Magento_Customer
 "This customer already exists in this store.","Ez a vevő már létezik ebben a boltban.",module,Magento_Customer
+"A customer with the same email already exists in an associated website.","Egy ügyfél ugyanazzal emailcímmel már létezik a kapcsolódó website-on.",module,Magento_Customer
 "The password doesn't match this account.","Az azonosító jelszava nem megfelelő.",module,Magento_Customer
+"Please enter a password with at least %1 characters.","Kérjük, írja be a jelszót a legalább %1 karakterekkel.",module,Magento_Customer
 "The password can't begin or end with a space.","A jelszó nem kezdődhet vagy végződhet szóközzel.",module,Magento_Customer
+"Reset password token mismatch.","Jelszó törlő token-érték eltérés.",module,Magento_Customer
+"Reset password token expired.","Jelszó törlő token-érték lejárt.",module,Magento_Customer
 "Please enter the first name.","Kérjük, adja meg a utónevet.",module,Magento_Customer
 "Please enter the last name.","Kérjük, adja meg a vezetéknevet.",module,Magento_Customer
 "Please enter the street.","Kérjük, adja meg az utcát.",module,Magento_Customer

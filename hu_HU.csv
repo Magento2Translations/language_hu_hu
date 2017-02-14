@@ -1207,6 +1207,11 @@ Global,Globális,module,Magento_Customer
 "-- Please Select --","-- Kérjük válasszon --",module,Magento_Customer
 "Please correct this email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Customer
 "The password can not begin or end with a space.","A jelszó nem kezdődhet vagy végződhet szóközzel.",module,Magento_Customer
+"Attribute object is undefined","Jellemző objektum nincs definiálva",module,Magento_Customer
+"""%1"" invalid type entered.","A megadott ""%1"" típus érvénytelen.",module,Magento_Customer
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" nem alfabetikus vagy nem numerikus karaktereket tartalmaz.",module,Magento_Customer
+"""%1"" is an empty string.","""%1"" egy üres karakterlánc.",module,Magento_Customer
+"""%1"" contains non-numeric characters.","""%1"" nem numerikus karaktereket tartalmaz.",module,Magento_Customer
 """%1"" contains non-alphabetic characters.","""%1"" a nem alfabetikus karaktereket tartalmaz.",module,Magento_Customer
 """%1"" is not a valid email address.","""%1"" nem egy érvényes email cím.",module,Magento_Customer
 """%1"" is not a valid hostname.","""%1"" nem érvényes host név.",module,Magento_Customer
@@ -2534,6 +2539,11 @@ Contacts,Névjegyek,module,Magento_Contact
 "Enable Automatic Assignment to Customer Group","Vevőcsoport automatikus hozzárendelésének engedélyezése",module,Magento_Customer
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
 "Default Group","Alapértelmezett csoport",module,Magento_Customer
+"Group for Valid VAT ID - Domestic","Érvényes adószám csoportja - Belföldi",module,Magento_Customer
+"Group for Valid VAT ID - Intra-Union","Érvényes adószám csoport - Unión belüli",module,Magento_Customer
+"Group for Invalid VAT ID","Érvénytelen adószám csoport",module,Magento_Customer
+"Validation Error Group","Adószám ellenőrzési hiba csoport",module,Magento_Customer
+"Validate on Each Transaction","Ellenőrzés minden tranzakciónál",module,Magento_Customer
 "Default Email Domain","Alapértelmezett E-mail tartomány",module,Magento_Customer
 "Default Welcome Email","Alapértelmezett üdvözlő E-mail üzenet",module,Magento_Customer
 "Email Sender","Email feladója",module,Magento_Customer
@@ -2546,12 +2556,16 @@ Contacts,Névjegyek,module,Magento_Contact
 "Please enter a number 1 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 1 vagy annál nagyobb.",module,Magento_Customer
 "Show Prefix","Előtag megjelenítése",module,Magento_Customer
 "Prefix Dropdown Options","Előtag legördülő lehetősévek",module,Magento_Customer
+"Show Middle Name (initial)","Középső név megjelenítése (elöl)",module,Magento_Customer
 "Always optional.","Mindig választható.",module,Magento_Customer
 "Show Suffix","Utótag megjelenítése",module,Magento_Customer
+"The suffix that goes after name (Jr., Sr., etc.)","Az utótag, ami a név után van (Ifj., Id., stb.)",module,Magento_Customer
 "Suffix Dropdown Options","Utótag legördülő lehetőségek",module,Magento_Customer
 "Show Date of Birth","Születési dátum megjelenítése",module,Magento_Customer
 "Show Tax/VAT Number","Adószám megjelenítése",module,Magento_Customer
 "Show Gender","Nem megjelenítése",module,Magento_Customer
+"Login Options","Bejelentkezési beállítások",module,Magento_Customer
+"Redirect Customer to Account Dashboard after Logging in","Vevő átirányítása a saját fiókjának irányítópultjára bejelentkezés után",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
 "Leave empty for default (15 minutes).","Hagyja üresen az alapértelmezett értékhez (15 perc).",module,Magento_Customer
 Group,Csoport,module,Magento_Customer
@@ -2561,6 +2575,7 @@ Group,Csoport,module,Magento_Customer
 Phone,Telefon,module,Magento_Customer
 ZIP,Irányítószám,module,Magento_Customer
 "Confirmed email","Visszaigazolt email",module,Magento_Customer
+"Tax VAT Number",Adószám,module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer
 "Last Name",Vezetéknév,module,Magento_Customer
 "Last Activity","Utolsó aktivitás",module,Magento_Customer

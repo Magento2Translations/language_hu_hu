@@ -1218,6 +1218,9 @@ Global,Globális,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" nem egy érvényes URL.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" nem egy érvényes dátum.",module,Magento_Customer
 """%1"" does not fit the entered date format.","""%1"" nem a megadott dátum formátumban van.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","Adjon meg egy dátumot %1 és %2 között a %3-nál (-nél).",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","Adjon meg egy dátumot, ami nagyobb vagy egyenlő, mint %1 a %2-nál (-nél).",module,Magento_Customer
+"Please enter a valid date less than or equal to %1 at %2.","Adjon meg egy dátumot, ami kisebb mint %1 a %2-nál (-nél).",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1"" nem egy érvényes fájlkiterjesztés.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" nem egy érvényes fájl.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" meghaladja a megengedett fájlméretet.",module,Magento_Customer
@@ -1239,6 +1242,7 @@ Customer,Vásárló,module,Magento_Customer
 "Last Logged In (%1):","Utolsó bejelentkezés (%1):",module,Magento_Customer
 "Confirmed email:","Visszaigazolt email:",module,Magento_Customer
 "Account Created on (%1):","A fiók itt lett létrehozva (%1):",module,Magento_Customer
+"Account Created in:","Fiók létrehozva itt:",module,Magento_Customer
 "Customer Group:",Vevőcsoport:,module,Magento_Customer
 "Default Billing Address","Alapértelmezett számlázási cím",module,Magento_Customer
 "Sales Statistics","Értékesítési statisztika",module,Magento_Customer
@@ -1287,6 +1291,7 @@ Password,Jelszó,module,Magento_Customer
 Login,Bejelentkezés,module,Magento_Customer
 "Forgot Your Password?","Elfelejtette jelszavát?",module,Magento_Customer
 "Subscription option","Feliratkozási lehetőségek",module,Magento_Customer
+"General Subscription","Általános feliratkozás",module,Magento_Customer
 "Sign Up for Newsletter","Iratkozzon fel hírlevelünkre",module,Magento_Customer
 "Address Information",Címadatok,module,Magento_Customer
 "Confirm Password","Jelszó megerősítése",module,Magento_Customer
@@ -2536,6 +2541,8 @@ Contacts,Névjegyek,module,Magento_Contact
 "Use Separate Process","Külön eljárások használata",module,Magento_Cron
 "Customer Configuration","Vevő beállítás",module,Magento_Customer
 "Account Sharing Options","Fiók megosztási lehetőségek",module,Magento_Customer
+"Share Customer Accounts","Ügyfél fiók megosztás",module,Magento_Customer
+"Create New Account Options","Új fiók létrehozásának lehetóségei",module,Magento_Customer
 "Enable Automatic Assignment to Customer Group","Vevőcsoport automatikus hozzárendelésének engedélyezése",module,Magento_Customer
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Customer
 "Default Group","Alapértelmezett csoport",module,Magento_Customer
@@ -2544,17 +2551,29 @@ Contacts,Névjegyek,module,Magento_Contact
 "Group for Invalid VAT ID","Érvénytelen adószám csoport",module,Magento_Customer
 "Validation Error Group","Adószám ellenőrzési hiba csoport",module,Magento_Customer
 "Validate on Each Transaction","Ellenőrzés minden tranzakciónál",module,Magento_Customer
+"Default Value for Disable Automatic Group Changes Based on VAT ID","Az adószám alapján történő vevőcsoport váltás alapértelmezett értéke",module,Magento_Customer
+"Show VAT Number on Storefront","Adószám megjelenítése a boltban",module,Magento_Customer
+"To show VAT number on Storefront, set Show VAT Number on Storefront option to Yes.","Ahhoz, hogy az adószám megjelenjen a bolt nézetben, állítsa az Adószám megjelenítése a boltban értékét Igenre.",module,Magento_Customer
 "Default Email Domain","Alapértelmezett E-mail tartomány",module,Magento_Customer
 "Default Welcome Email","Alapértelmezett üdvözlő E-mail üzenet",module,Magento_Customer
+"Default Welcome Email Without Password","Alapértelmezett üdvözlő e-mail jelszó nélkül",module,Magento_Customer
 "Email Sender","Email feladója",module,Magento_Customer
 "Require Emails Confirmation","E-mail megerősítés szükséges",module,Magento_Customer
 "Confirmation Link Email","Megerősítő link e-mail",module,Magento_Customer
 "Welcome Email","Üdvözlő e-mail",module,Magento_Customer
+"Generate Human-Friendly Customer ID","Emberbarát ügyfélazonosító létrehozása",module,Magento_Customer
 "Password Options","Jelszó beállítások",module,Magento_Customer
 "Forgot Email Template","Elfelejtett e-mail sablon",module,Magento_Customer
+"Remind Email Template","Emlékeztető e-mail sablon",module,Magento_Customer
+"Reset Password Template","Jelszó visszaállítás saboln",module,Magento_Customer
+"Password Template Email Sender","Jelszó sablon e-mail feladó",module,Magento_Customer
 "Recovery Link Expiration Period (days)","Helyreállítási link lejárati idő (nap)",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 1 vagy annál nagyobb.",module,Magento_Customer
+"Name and Address Options","Név és cím beállítások",module,Magento_Customer
+"Number of Lines in a Street Address","A címben az utcanév sorainak száma",module,Magento_Customer
+"Leave empty for default (2). Valid range: 1-4","Hagyja üresen az alapértelmezett értékhez (2). Érvényes értéktartomány: 1-4",module,Magento_Customer
 "Show Prefix","Előtag megjelenítése",module,Magento_Customer
+"The title that goes before name (Mr., Mrs., etc.)","Az előtag, ami a név előtt van (Mr., Mrs., stb.)",module,Magento_Customer
 "Prefix Dropdown Options","Előtag legördülő lehetősévek",module,Magento_Customer
 "Show Middle Name (initial)","Középső név megjelenítése (elöl)",module,Magento_Customer
 "Always optional.","Mindig választható.",module,Magento_Customer
@@ -2566,15 +2585,21 @@ Contacts,Névjegyek,module,Magento_Contact
 "Show Gender","Nem megjelenítése",module,Magento_Customer
 "Login Options","Bejelentkezési beállítások",module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in","Vevő átirányítása a saját fiókjának irányítópultjára bejelentkezés után",module,Magento_Customer
+"Customer will stay on the current page if ""No"" is selected.","A vevő az aktuális oldalon marad ha a ""Nem"" van kiválasztva.",module,Magento_Customer
 "Address Templates","Cím sablonok",module,Magento_Customer
+"Online Customers Options","Online vásárlók beállítások",module,Magento_Customer
+"Online Minutes Interval","Bejelentkezés időtartama percben",module,Magento_Customer
 "Leave empty for default (15 minutes).","Hagyja üresen az alapértelmezett értékhez (15 perc).",module,Magento_Customer
 Group,Csoport,module,Magento_Customer
 "Add New Customer","Új vásárló hozzáadása",module,Magento_Customer
 "Subscribe to Newsletter","Feliratkozás a hírlevélre",module,Magento_Customer
 "Unsubscribe from Newsletter","Leiratkozás a hírlevélről",module,Magento_Customer
+"Assign a Customer Group","Vevőcsoport hozzárendelése",module,Magento_Customer
 Phone,Telefon,module,Magento_Customer
 ZIP,Irányítószám,module,Magento_Customer
+"Customer Since","Első vásárlás",module,Magento_Customer
 "Confirmed email","Visszaigazolt email",module,Magento_Customer
+"Account Created in","Fiók létrehozva",module,Magento_Customer
 "Tax VAT Number",Adószám,module,Magento_Customer
 "First Name",Keresztnév,module,Magento_Customer
 "Last Name",Vezetéknév,module,Magento_Customer

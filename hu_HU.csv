@@ -429,26 +429,6 @@ Authorize,Engedélyez,module,Magento_Braintree
 "Authorize and Capture","Engedélyez és levon",module,Magento_Braintree
 "--Please Select--","--Kérem válasszon--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Kérjük, fogadja el az összes általános szerződési feltételt mielőtt lead egy rendelést.",module,Magento_Braintree
-"Paypal account","PayPal fiók",module,Magento_Braintree
-"Coinbase account","Coinbase fiók",module,Magento_Braintree
-"Europe bank account","Európa bank fiók",module,Magento_Braintree
-"Credit card",Bankkártya,module,Magento_Braintree
-"Authorization expired","Engedély lejárt",module,Magento_Braintree
-Authorizing,Engedélyezés,module,Magento_Braintree
-Authorized,Engedélyezve,module,Magento_Braintree
-"Gateway rejected","Átjáró elutasítva",module,Magento_Braintree
-Failed,Sikertelen,module,Magento_Braintree
-"Processor declined","Tranzakció visszautasítva",module,Magento_Braintree
-Settled,Elszámolva,module,Magento_Braintree
-Settling,Rendezés,module,Magento_Braintree
-"Submitted for settlement","Beküldött elszámolások",module,Magento_Braintree
-Voided,Érvénytelenítve,module,Magento_Braintree
-Unrecognized,Ismeretlen,module,Magento_Braintree
-"Settlement declined","Elszámolás visszautasítva",module,Magento_Braintree
-"Settlement pending","Elszámolás folyamatban",module,Magento_Braintree
-"Settlement confirmed","Elszámolás megerősítve",module,Magento_Braintree
-Sale,Eladás,module,Magento_Braintree
-Credit,Egyenleg,module,Magento_Braintree
 "Credit Card Type",Hitelkártya-típus,module,Magento_Braintree
 "Credit Card Number",Hitelkártyaszám,module,Magento_Braintree
 "Please, enter valid Credit Card Number","Kérem, adjon meg érvényes hitelkártyaszámot",module,Magento_Braintree
@@ -1550,7 +1530,6 @@ Summary,Összefoglaló,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Meg kell adnia a termék jellemzőit.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Valamelyik termék variáció mező nem érvényes.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","A beállításnak szüksége van a megadott jellemzőkre",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","A ""%1"" beállítható terméknek nincsenek altermékei",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","A %1 nem példánya %2-nek",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Válassza ki az érintett jellemző halmazt",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Beállítható jellemző hozzáadása a jelenlegi jellemző halmazhoz",module,Magento_ConfigurableProduct
@@ -2662,13 +2641,11 @@ SKU,Cikkszám,module,Magento_Shipping
 "Tracking Number:","Nyomkövetési szám:",module,Magento_Shipping
 Carrier:,Szállító:,module,Magento_Shipping
 Error:,Hiba:,module,Magento_Shipping
-Status:,Állapot:,module,Magento_Shipping
-Weight:,Súly:,module,Magento_Shipping
+"Close Window","Ablak bezárása",module,Magento_Shipping
 Location,Hely,module,Magento_Shipping
 Date,Dátum,module,Magento_Shipping
 "Local Time","Helyi idő",module,Magento_Shipping
 Description,Leírás,module,Magento_Shipping
-"Close Window","Ablak bezárása",module,Magento_Shipping
 "Save & Generate","Mentés & generálás",module,Magento_Sitemap
 "Edit Sitemap","Oldaltérkép szerkesztése",module,Magento_Sitemap
 "New Sitemap","Új oldaltérkép",module,Magento_Sitemap
@@ -3181,7 +3158,6 @@ items,tétel,module,Magento_Checkout
 "Options Details","Lehetőségek ismertetése",module,Magento_Checkout
 Remove,Eltávolítás,module,Magento_Checkout
 "Cart Subtotal","Kosár részösszeg",module,Magento_Checkout
-"No Payment Methods","Nincsenek fizetési módok",module,Magento_Checkout
 "Payment Information","Fizetési információk",module,Magento_Checkout
 "No Payment method available.","Fizetési módok nem elérhetőek.",module,Magento_Checkout
 "You can track your order status by creating an account.","Ha fiókot hoz létre, követheti rendelése állapotát.",module,Magento_Checkout
@@ -3596,7 +3572,6 @@ Download,Letöltés,module,Magento_Backup
 Action,Művelet,module,Magento_Backup
 "Enable this Solution","A megoldás engedélyezése",module,Magento_Braintree
 "Enable PayPal through Braintree","PayPal engedélyezése Braintreen kersztül",module,Magento_Braintree
-"Vault enabled","Vault engedélyezése",module,Magento_Braintree
 "Basic Braintree Settings","Alapvető Braintree beállítások",module,Magento_Braintree
 Title,Cím,module,Magento_Braintree
 Environment,Környezet,module,Magento_Braintree
@@ -3631,12 +3606,12 @@ Debug,Hibakeresés,module,Magento_Braintree
 Select...,Válasszon...,module,Magento_Braintree
 Status,Állapot,module,Magento_Braintree
 "Transaction Type","Tranzakció típus",module,Magento_Braintree
+"Payment Type","Fizetési mód",module,Magento_Braintree
 "PayPal Payment ID","PayPal fizetési azonosító",module,Magento_Braintree
+"Created At",Létrehozva,module,Magento_Braintree
 "Transaction ID","Tranzakció azonosító",module,Magento_Braintree
 "Order ID","Megrendelés azonosító",module,Magento_Braintree
-"Payment Type","Fizetési mód",module,Magento_Braintree
 Type,Típus,module,Magento_Braintree
-"Created At",Létrehozva,module,Magento_Braintree
 Amount,Összeg,module,Magento_Braintree
 "Settlement Code","Elszámolás kód",module,Magento_Braintree
 "Settlement Response Text","Elszámolás válasz szöveg",module,Magento_Braintree

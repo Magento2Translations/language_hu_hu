@@ -1035,7 +1035,7 @@ Pages,Oldalak,module,Magento_Cms
 "Browse Files...","Fájlok tallózása...",module,Magento_Cms
 "Collapse All","Összes bezárása",module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
-Configuration,Konfiguráció,module,Magento_Config
+Configuration,Beállítás,module,Magento_Config
 "New attribute set name","Új jellemző halmaz név",module,Magento_ConfigurableProduct
 "Choose an Option...","Válasszon egy lehetőséget...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Ezt a jellemző használatban van beállítható termékeknél.",module,Magento_ConfigurableProduct
@@ -1077,6 +1077,9 @@ Import,Importálás,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Minden érvényes árfolyam elmentve.",module,Magento_CurrencySymbol
 System,Rendszer,module,Magento_CurrencySymbol
 "Old rate:","Régi árfolyam:",module,Magento_CurrencySymbol
+"Customer address id column is not specified","Nincs megadva vásárlói címazonosító-oszlop",module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors","Kihagyandó árva sorok a hibák elkerülése érdekében",module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)","Érvénytelen érték a Bolt oszlopban (Nem létező bolt?)",module,Magento_CustomerImportExport
 "You subscribe to our newsletter.","Hírlevelünkre feliratkozott.",module,Magento_Customer
 "You have not set a default shipping address.","Nem állított be alapértelmezett szállítási címet.",module,Magento_Customer
 "You have not set a default billing address.","Nem állított be alapértelmezett számlázási címet.",module,Magento_Customer

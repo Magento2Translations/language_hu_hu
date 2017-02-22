@@ -1429,44 +1429,44 @@ View,Nézet,module,Magento_Cms
 "Expand All","Összes kibontása",module,Magento_Cms
 "Default Config","Alapértelmezett beállítás",module,Magento_Config
 "Save Config","Beállítások mentése",module,Magento_Config
-"Use system value","Rendszer érték használata",module,Magento_Config
-"Use Default","Alapértelmezés használata",module,Magento_Config
+"Use system value","Rendszerérték használata",module,Magento_Config
+"Use Default","Alapértelmezett használata",module,Magento_Config
 "Use Website","Honlap használata",module,Magento_Config
 Add,Hozzáadás,module,Magento_Config
 "Delete File","Fájl törlése",module,Magento_Config
 "Search String",Keresőkifejezés,module,Magento_Config
-"Design Theme","Téma design",module,Magento_Config
-"Add \Exception","\Exception hozzáfűzése",module,Magento_Config
-"-- No Theme --","--Nincs téma--",module,Magento_Config
-Enable,Engedélyezés,module,Magento_Config
-Disable,Letiltás,module,Magento_Config
-Configuration,Konfiguráció,module,Magento_Config
+"Design Theme","Téma tervezése",module,Magento_Config
+"Add \Exception","\Kivétel hozzáadása",module,Magento_Config
+"-- No Theme --","-- Nincs téma --",module,Magento_Config
+Enable,Engedélyez,module,Magento_Config
+Disable,Letilt,module,Magento_Config
+Configuration,Beállítás,module,Magento_Config
 System,Rendszer,module,Magento_Config
 "You saved the configuration.","Beállítások elmentve.",module,Magento_Config
 "Something went wrong while saving this configuration:","Hiba történt a beállítás mentése közben:",module,Magento_Config
 "Page not found.","Az oldal nem található.",module,Magento_Config
-"Please specify the admin custom URL.","Adja meg az admin egyéni URL-címet.",module,Magento_Config
+"Please specify the admin custom URL.","Kérjük, adja meg az egyedi admin URL-címet!",module,Magento_Config
 "Invalid %1. %2","Érvénytelen %1. %2",module,Magento_Config
-"Value must be a URL or one of placeholders: %1","Az megadott szövegnek URL-nek vagy az alapértelmezett kifejezések egyikének kell lennie: %1",module,Magento_Config
-"Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".","Adjon meg egy URL-t vagy elérési utat, amely a következő szöveggel kezdődik: %1, és ""/""-el végződik.",module,Magento_Config
+"Value must be a URL or one of placeholders: %1","Az érték URL vagy az alapértelmezett kifejezések egyike kell legyen: %1",module,Magento_Config
+"Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".","Adjon meg egy URL-t vagy elérési utat, melynek kezdete %1, a vége pedig ""/""!",module,Magento_Config
 "%1 An empty value is allowed as well.","%1 üres érték is megengedett.",module,Magento_Config
-"Specify a fully qualified URL.","Teljes URL-t adjon meg.",module,Magento_Config
-"Selected allowed currency ""%1"" is not available in installed currencies.","""%1"" engedélyezett pénznem nem szerepel a telepített pénznemek között.",module,Magento_Config
-"Default display currency ""%1"" is not available in allowed currencies.","""%1"" alapértelmezetten megjelenített pénznem nem szerepel az engedélyezett pénznemek között.",module,Magento_Config
-"Sorry, the default display currency you selected is not available in allowed currencies.","Sajnáljuk, de a kiválasztott alapértelmezett pénznem nem szerepel a választható pénznemek listájában.",module,Magento_Config
-"Please correct the email address: ""%1"".","Kérjük javítsa ki az e-mail címet: ""%1"".",module,Magento_Config
-"The sender name ""%1"" is not valid. Please use only visible characters and spaces.","A feladó neve ""%1"" érvénytelen. Kérjük, csak látható karaktereket és szóközöket használjon.",module,Magento_Config
-"Maximum sender name length is 255. Please correct your settings.","A feladó név maximális hossza 255. Kérjük, javítsa a beállításokat.",module,Magento_Config
-"The base directory to upload file is not specified.","Nincs megadva a file-ok feltöltéséhez alapértelmezett könyvtár.",module,Magento_Config
-"The specified image adapter cannot be used because of: %1","A megadott kép-adapter nem használható, mert: %1",module,Magento_Config
+"Specify a fully qualified URL.","Teljes URL-t adjon meg!",module,Magento_Config
+"Selected allowed currency ""%1"" is not available in installed currencies.","Az engedélyezni kívánt pénznem (%1) nem szerepel a telepített pénznemek között.",module,Magento_Config
+"Default display currency ""%1"" is not available in allowed currencies.","Az alapértelmezetten megjeleníteni kívánt pénznem (%1) nincs az engedélyezett pénznemek között.",module,Magento_Config
+"Sorry, the default display currency you selected is not available in allowed currencies.","Sajnáljuk, de a kiválasztott alapértelmezett pénznem nincs az engedélyezett pénznemek között.",module,Magento_Config
+"Please correct the email address: ""%1"".","Kérjük, javítsa ki az e-mail címet: %1!",module,Magento_Config
+"The sender name ""%1"" is not valid. Please use only visible characters and spaces.","A feladó neve (%1) érvénytelen. Kérjük, csak látható karaktereket és szóközöket használjon!",module,Magento_Config
+"Maximum sender name length is 255. Please correct your settings.","A feladó név maximális hossza 255. Kérjük, javítsa a beállításokat!",module,Magento_Config
+"The base directory to upload file is not specified.","A fájlok feltöltéséhez nincs megadva mappa.",module,Magento_Config
+"The specified image adapter cannot be used because of: %1","A megadott képadapter nem használható, mert: %1",module,Magento_Config
 "Default scope","Alapértelmezett hatókör",module,Magento_Config
 "Base currency","Alap pénznem",module,Magento_Config
 "Display default currency","Alapértelmezett pénznem megjelenítése",module,Magento_Config
-"website(%1) scope","weboldal(%1) hatókör",module,Magento_Config
-"store(%1) scope","bolt(%1) hatókör",module,Magento_Config
-"Currency ""%1"" is used as %2 in %3.","A ""%1"" pénznem használatban van mint %2 a %3-ban.",module,Magento_Config
-"Please correct the timezone.","Javítsa ki az időzónát.",module,Magento_Config
-"The file ""%1"" does not exist","Nem létezik a ""%1"" fájl",module,Magento_Config
+"website(%1) scope","honlap(%1) hatóköre",module,Magento_Config
+"store(%1) scope","bolt(%1) hatóköre",module,Magento_Config
+"Currency ""%1"" is used as %2 in %3.","A(z) %1 pénznem használatban van, mint %2 ennél: %3.",module,Magento_Config
+"Please correct the timezone.","Kérjük, javítsa az időzónát!",module,Magento_Config
+"The file ""%1"" does not exist","""%1"" fájl nem létezik",module,Magento_Config
 "Always (during development)","Mindig (fejlesztés során)",module,Magento_Config
 "Only Once (version upgrade)","Csak egyszer (verziófrissítés)",module,Magento_Config
 "Never (production)","Soha (gyártás)",module,Magento_Config
@@ -1474,28 +1474,29 @@ Bcc,"Titkos másolat",module,Magento_Config
 "Separate Email","Külön e-mail",module,Magento_Config
 "%1 (Default)","%1 (alapértelmezett)",module,Magento_Config
 title,cím,module,Magento_Config
-No,Nem ,module,Magento_Config
-Optional,Opcionális,module,Magento_Config
+No,Nem,module,Magento_Config
+Optional,Elhagyható,module,Magento_Config
 Required,Kötelező,module,Magento_Config
-Website,Weboldal,module,Magento_Config
+Website,Honlap,module,Magento_Config
 Store,Bolt,module,Magento_Config
-"Store View","Bolt nézet",module,Magento_Config
+"Store View",Boltnézet,module,Magento_Config
 "HTTP (unsecure)","HTTP (nem biztonságos)",module,Magento_Config
-"Yes (302 Found)","Igen (302 található)",module,Magento_Config
+"Yes (302 Found)","Igen (302 megtalálható)",module,Magento_Config
 "Yes (301 Moved Permanently)","Igen (301 véglegesen áthelyezve)",module,Magento_Config
 Yes,Igen,module,Magento_Config
-Specified,Megadott,module,Magento_Config
-"Invalid XML in file %1:\n%2","Érvénytelen XML a %1 fájlban:\n%2",module,Magento_Config
+Specified,Megadva,module,Magento_Config
+"Config form fieldset clone model required to be able to clone fields","Mezőcsoport klónmodell szükséges a mezők klónozásához",module,Magento_Config
+"Invalid XML in file %1:\n%2","Érvénytelen XML a(z) %1 fájlban:\n%2",module,Magento_Config
 "some prefix","néhány előtag",module,Magento_Config
-"element label","elem címke",module,Magento_Config
-"element hint","elem tipp",module,Magento_Config
+"element label","elem címkéje",module,Magento_Config
+"element hint","elem útmutatója",module,Magento_Config
 "element comment","elem megjegyzés",module,Magento_Config
-"element tooltip","elem tooltip",module,Magento_Config
+"element tooltip","elem gyorstippje",module,Magento_Config
 test,teszt,module,Magento_Config
 test2,teszt2,module,Magento_Config
 "Add after","Mögé rak",module,Magento_Config
 Delete,Törlés,module,Magento_Config
-"Current Configuration Scope:","A jelenlegi konfigurációs hatókörben:",module,Magento_Config
+"Current Configuration Scope:","Jelenlegi konfigurációs hatókör:",module,Magento_Config
 Stores,Boltok,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Beállítható jellemző hozzáadása a jelenlegi jellemző halmazhoz (""%1"")",module,Magento_ConfigurableProduct
 "Add configurable attributes to the new Attribute Set based on current","Beállítható jellemző hozzáadása egy új jellemző halmazhoz, ami a jelenlegin alapul",module,Magento_ConfigurableProduct
@@ -1643,9 +1644,21 @@ System,Rendszer,module,Magento_CurrencySymbol
 "You applied the custom currency symbols.","Egyéni pénznem szimbólumok lettek alkalmazva.",module,Magento_CurrencySymbol
 "You must first configure currency options before being able to see currency rates.","Be kell állítani a pénznem lehetőségeket mielőtt láthatóvá válnak a valuta árfolyamok.",module,Magento_CurrencySymbol
 "Old rate:","Régi árfolyam:",module,Magento_CurrencySymbol
+"Please specify a website.","Kérjük, adjon meg egy honlapot!",module,Magento_CustomerImportExport
+"Please specify an email.","Kérjük, adjon meg egy e-mail címet!",module,Magento_CustomerImportExport
+"We found an invalid value in a website column.","Érvénytelen érték található a honlap oszlopban.",module,Magento_CustomerImportExport
+"Please enter a valid email.","Kérjük, érvényes e-mail címet adjon meg!",module,Magento_CustomerImportExport
+"Please make sure attribute ""%s"" is not empty.","Kérjük, győződjön meg róla, hogy a(z) ""%s"" attribútum nem üres!",module,Magento_CustomerImportExport
 "We can't find a customer who matches this email and website code.","Nem található felhasználó ezzel az email címmel és website kóddal.",module,Magento_CustomerImportExport
+"Customer address id column is not specified","Nincs megadva vásárlói címazonosító-oszlop",module,Magento_CustomerImportExport
 "We can't find that customer address.","A cím nem található.",module,Magento_CustomerImportExport
+"Please enter a valid region.","Kérjük, érvényes régiót adjon meg!",module,Magento_CustomerImportExport
+"We found another row with this email, website and address ID combination.","Egy másik sor ugyanezen e-mail, honlap és címazonosító kombinációval rendelkezik.",module,Magento_CustomerImportExport
+"This email is found more than once in the import file.","Az e-mail cím többször szerepel az importfájlban.",module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors","Kihagyandó árva sorok a hibák elkerülése érdekében",module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)","Érvénytelen érték a Bolt oszlopban (Nem létező bolt?)",module,Magento_CustomerImportExport
 "We can't find that email and website combination.","Ez az email és website kombináció nem található.",module,Magento_CustomerImportExport
+"Please enter a password with a valid length.","Kérjük, érvényes hosszúságú jelszót adjon meg!",module,Magento_CustomerImportExport
 "Sign Out",Kijelentkezés,module,Magento_Customer
 "Sign In",Bejelentkezés,module,Magento_Customer
 "You subscribe to our newsletter.","Hírlevelünkre feliratkozott.",module,Magento_Customer
@@ -3910,9 +3923,9 @@ Enable,Engedélyez,module,Magento_Cms
 "Custom design to","Egyedi Design eddig",module,Magento_Cms
 "Custom Theme","Egyedi téma",module,Magento_Cms
 "Custom Layout","Egyedi elrendezés",module,Magento_Cms
-"Group Label","Csoport címke",module,Magento_Config
+"Group Label","Csoport címkéje",module,Magento_Config
 "Some Label","Néhány címke",module,Magento_Config
-"Tab Label","Fül címke",module,Magento_Config
+"Tab Label","Fül címkéje",module,Magento_Config
 "Allow everything","Mindent engedélyez",module,Magento_Config
 Dashboard,Vezérlőpult,module,Magento_Config
 "Manage Stores","Boltok kezelése",module,Magento_Config
@@ -3926,10 +3939,10 @@ Dashboard,Vezérlőpult,module,Magento_Config
 "Design Section","Design szekció",module,Magento_Config
 "General Section","Általános szekció",module,Magento_Config
 "System Section","Rendszer szekció",module,Magento_Config
-"Currency Setup Section","Pénznem beállítások szekció",module,Magento_Config
-"Developer Section","Fejlesztő szekció",module,Magento_Config
+"Currency Setup Section","Pénznem-beállítások szekció",module,Magento_Config
+"Developer Section","Fejlesztői szekció",module,Magento_Config
 "Web Section","Web szekció",module,Magento_Config
-"Store Email Addresses Section","Bolt e-mail címek szekció",module,Magento_Config
+"Store Email Addresses Section","Bolti e-mail címek szekció",module,Magento_Config
 "Email to a Friend","E-mail egy barátnak",module,Magento_Config
 "Configurable Product Image","Beállítható termék képe",module,Magento_ConfigurableProduct
 Select...,Válasszon...,module,Magento_ConfigurableProduct

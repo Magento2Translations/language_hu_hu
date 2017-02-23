@@ -1302,34 +1302,63 @@ Login,Bejelentkezés,module,Magento_Customer
 Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
-"Client side less compilation","Kliens oldali LESS fordítás",module,Magento_Developer
-"Server side less compilation","Szerver oldali LESS fordítás",module,Magento_Developer
+"Client side less compilation","Kliens oldali LESS-fordítás",module,Magento_Developer
+"Server side less compilation","Szerver oldali LESS-fordítás",module,Magento_Developer
 "Wrong Content Type","Hibás tartalomtípus",module,Magento_Dhl
 Pounds,Font,module,Magento_Dhl
 Kilograms,Kilogramm,module,Magento_Dhl
-Inches,Inch,module,Magento_Dhl
+Inches,Hüvelyk,module,Magento_Dhl
 Centimeters,Centiméter,module,Magento_Dhl
+inch,hüvelyk,module,Magento_Dhl
 Height,Magasság,module,Magento_Dhl
 Depth,Mélység,module,Magento_Dhl
 Width,Szélesség,module,Magento_Dhl
-"Medical express","Orvosi express",module,Magento_Dhl
-"Express worldwide","Express világszerte",module,Magento_Dhl
+Regular,Normál,module,Magento_Dhl
+Specific,Különleges,module,Magento_Dhl
+"Medical express","Orvosi futár",module,Magento_Dhl
+"Express worldwide","Futár világszerte",module,Magento_Dhl
+"Express 9:00","Futár 9.00",module,Magento_Dhl
+"Express 10:30","Futár 10.30",module,Magento_Dhl
+"Domestic economy select","Belföldi gazdaság választása",module,Magento_Dhl
+"Economy select","Gazdaság kiválasztása",module,Magento_Dhl
+"Domestic express","Belföldi gyorsposta",module,Magento_Dhl
 Others,Egyéb,module,Magento_Dhl
-"Same day","Ugyanazon a napon",module,Magento_Dhl
-"Express envelope","Express boríték",module,Magento_Dhl
+"Globalmail business","Globalmail - üzleti",module,Magento_Dhl
+"Same day","Napon belül",module,Magento_Dhl
+"Express 12:00","Futár 12.00",module,Magento_Dhl
+"Express envelope","Futár - boríték",module,Magento_Dhl
 "Customer services",Ügyfélszolgálat,module,Magento_Dhl
 "Freight worldwide","Szállítás világszerte",module,Magento_Dhl
 "DHL service is not available at %s date","DHL szolgáltatás nem áll rendelkezésre %s időpontban",module,Magento_Dhl
+"The response is in wrong format.","A válasz hibás formátumú!",module,Magento_Dhl
 "Error #%1 : %2","Hiba #%1: %2",module,Magento_Dhl
+"Zero shipping charge for '%1'","Díjmentes szállítás - %1",module,Magento_Dhl
+"Cannot identify measure unit for %1","%1 mértékegysége ismeretlen",module,Magento_Dhl
+"Cannot identify weight unit for %1","%1 súlyegysége ismeretlen",module,Magento_Dhl
+"There is no items in this order","Nincs tétel e megrendelésben",module,Magento_Dhl
 Documents,Dokumentumok,module,Magento_Dhl
+"Non Documents","Nem dokumentumok",module,Magento_Dhl
 "Height, width and length should be equal or greater than %1","A magasságnak, szélességnek és hosszúságnak nagyobb vagy egyenlőnek kell lennie mint %1",module,Magento_Dhl
 "Wrong Region","Hibás régió",module,Magento_Dhl
+"Unable to retrieve tracking","A követés lekérdezése sikertelen",module,Magento_Dhl
+"Response is in the wrong format","A válasz hibás formátumú",module,Magento_Dhl
+"No packages for request","Nincs csomagkérés",module,Magento_Dhl
+"Non documents","Nem dokumentumok",module,Magento_Dhl
 None,"Egyik sem",module,Magento_Dhl
 State/Province,Állam/megye,module,Magento_Directory
 "--Please Select--","--Kérem válasszon--",module,Magento_Directory
+"Please correct the target currency.","Kérjük, javítsa a kívánt pénznemet!",module,Magento_Directory
+"Undefined rate from ""%1-%2"".","Ismeretlen árfolyam ""%1-%2"".",module,Magento_Directory
 label,címke,module,Magento_Directory
+"FATAL ERROR:","VÉGZETES HIBA:",module,Magento_Directory
+"Please specify the correct Import Service.","Kérjük, megfelelő importálási szolgáltatást adjon meg!",module,Magento_Directory
 WARNING:,FIGYELMEZTETÉS:,module,Magento_Directory
+"Please correct the country code: %1.","Kérjük, javítsa az ország kódját: %1!",module,Magento_Directory
+"Country and Format Type combination should be unique","Az Ország és a formátumtípus kombinációja egyedi kell legyen!",module,Magento_Directory
+"Please correct the rates received","Kérjük, javítsa a lekért árfolyamot!",module,Magento_Directory
 Currency,Pénznem,module,Magento_Directory
+"Your current currency is: %1.","Jelenlegi pénzneme: %1.",module,Magento_Directory
+Continue,Folytatás,module,Magento_Directory
 "Upload Files","Fájlok feltöltése",module,Magento_Downloadable
 "All Files","Minden fájl",module,Magento_Downloadable
 Unlimited,Korlátlan,module,Magento_Downloadable
@@ -2614,30 +2643,45 @@ Addresses,Címek,module,Magento_Customer
 "Edit Account Information","Fiókadatok módosítása",module,Magento_Customer
 "Password forgotten","Elfelejtett jelszó",module,Magento_Customer
 "My Dashboard",Vezérlőpult,module,Magento_Customer
-"Workflow type","Munkafolyamat típus",module,Magento_Developer
-"Not available in production mode","Éles üzemmódban nem elérhető",module,Magento_Developer
-"Developer Client Restrictions","Fejlesztői kliens korlátozások",module,Magento_Developer
-"Allowed IPs (comma separated)","Engedélyezett IP címek (vesszővel elválasztva)",module,Magento_Developer
-"Leave empty for access from any location.","Hagyd üresen, hogy bárhonnan hozzáférj.",module,Magento_Developer
+"Workflow type",Munkafolyamat-típus,module,Magento_Developer
+"Not available in production mode","Éles üzemmódban nem érhető el",module,Magento_Developer
+"Developer Client Restrictions","Fejlesztői ügyfélkorlátozások",module,Magento_Developer
+"Allowed IPs (comma separated)","Engedélyezett IP-címek (vesszővel elválasztva)",module,Magento_Developer
+"Leave empty for access from any location.","Hagyja üresen, hogy bárhonnan hozzáférjen!",module,Magento_Developer
+"Enabled for Checkout","Engedélyezve a pénztárnál",module,Magento_Dhl
 "Gateway URL","Átjáró URL",module,Magento_Dhl
 Title,Cím,module,Magento_Dhl
+"Access ID","Hozzáférési azonosító",module,Magento_Dhl
 Password,Jelszó,module,Magento_Dhl
+"Account Number",Számlaszám,module,Magento_Dhl
 "Content Type",Tartalomtípus,module,Magento_Dhl
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Dhl
+"Handling Applied","Kezelés alatt",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","A ""Rendelésenként"" egyszeri kezelési költséget tesz lehetővé a teljes megrendelésre. A ""Csomagonként"" egyéni kezelési költséget tesz lehetővé minden egyes csomag esetében.",module,Magento_Dhl
 "Handling Fee","Kezelési költség",module,Magento_Dhl
-"Divide Order Weight","Rendelés súlyának megosztása",module,Magento_Dhl
-"Weight Unit","Súly mértékegység",module,Magento_Dhl
+"Divide Order Weight","A rendelési súly megosztása",module,Magento_Dhl
+"Weight Unit","Súly mértékegysége",module,Magento_Dhl
 Size,Méret,module,Magento_Dhl
 "Allowed Methods","Alkalmazható módok",module,Magento_Dhl
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Dhl
-"Free Method","Ingyenes ód",module,Magento_Dhl
+"Free Method","Ingyenes mód",module,Magento_Dhl
 "Free Shipping Amount Threshold","Ingyenes szállítás határérték",module,Magento_Dhl
 "Ship to Applicable Countries","Szállítás az alkalmazható országokba",module,Magento_Dhl
 "Ship to Specific Countries","Szállítás megadott országokba",module,Magento_Dhl
-"Show Method if Not Applicable","Mód mutatása, ha nem alkalmazható",module,Magento_Dhl
-"Sort Order","Rendezési sorrend",module,Magento_Dhl
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Dhl
+"Sort Order",Sorrend,module,Magento_Dhl
 Debug,Hibakeresés,module,Magento_Dhl
+"Currency Setup","Pénznem beállítása",module,Magento_Directory
+"Currency Options",Pénznemopciók,module,Magento_Directory
 "Base Currency","Alap pénznem",module,Magento_Directory
+"Default Display Currency","Alapértelmezetten megjelenő pénznem",module,Magento_Directory
+"Allowed Currencies","Engedélyezett pénznemek",module,Magento_Directory
+"Connection Timeout in Seconds","Kapcsolat időtúllépése másodpercben",module,Magento_Directory
+"Scheduled Import Settings","Ütemezett import beállításai",module,Magento_Directory
+Enabled,Engedélyezve,module,Magento_Directory
+"Error Email Recipient","Hiba e-mail címzettje",module,Magento_Directory
+"Error Email Sender","Hiba e-mail feladója",module,Magento_Directory
+"Error Email Template","Hiba e-mail sablon",module,Magento_Directory
 Frequency,Gyakoriság,module,Magento_Directory
 "No Templates Found","Nem találhatóak sablonok",module,Magento_Email
 ID,Azonosító,module,Magento_Email

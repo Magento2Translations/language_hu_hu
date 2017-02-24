@@ -1346,7 +1346,7 @@ Documents,Dokumentumok,module,Magento_Dhl
 "Non documents","Nem dokumentumok",module,Magento_Dhl
 None,"Egyik sem",module,Magento_Dhl
 State/Province,Állam/megye,module,Magento_Directory
-"--Please Select--","--Kérem válasszon--",module,Magento_Directory
+"--Please Select--","--Kérem, válasszon--",module,Magento_Directory
 "Please correct the target currency.","Kérjük, javítsa a kívánt pénznemet!",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","Ismeretlen árfolyam ""%1-%2"".",module,Magento_Directory
 label,címke,module,Magento_Directory
@@ -1357,79 +1357,128 @@ WARNING:,FIGYELMEZTETÉS:,module,Magento_Directory
 "Country and Format Type combination should be unique","Az Ország és a formátumtípus kombinációja egyedi kell legyen!",module,Magento_Directory
 "Please correct the rates received","Kérjük, javítsa a lekért árfolyamot!",module,Magento_Directory
 Currency,Pénznem,module,Magento_Directory
-"Your current currency is: %1.","Jelenlegi pénzneme: %1.",module,Magento_Directory
+"Your current currency is: %1.","Jelenlegi pénznem: %1.",module,Magento_Directory
 Continue,Folytatás,module,Magento_Directory
+"Downloadable Information","Letölthető információk",module,Magento_Downloadable
 "Upload Files","Fájlok feltöltése",module,Magento_Downloadable
 "All Files","Minden fájl",module,Magento_Downloadable
 Unlimited,Korlátlan,module,Magento_Downloadable
+"Something went wrong while getting the requested content.","Hiba történt a tartalom lekérése közben.",module,Magento_Downloadable
 "My Downloadable Products","Letölthető termékek",module,Magento_Downloadable
+"We can't find the link you requested.","A kért link nem található.",module,Magento_Downloadable
+"The link has expired.","A hivatkozás érvényességi ideje lejárt!",module,Magento_Downloadable
+"The link is not available.","A hivatkozás nem elérhető!",module,Magento_Downloadable
+"Sorry, there was an error getting requested content. Please contact the store owner.","Sajnáljuk, de hiba történt a tartalom lekérése közben! Kérjük, lépjen kapcsolatba a bolt tulajdonosával!",module,Magento_Downloadable
+"Please set resource file and link type.","Kérjük, állítsa be a forrásfájlt és a hivatkozás típusát!",module,Magento_Downloadable
+"Invalid download link type.","Érvénytelen letöltési hivatkozástípus!",module,Magento_Downloadable
+"Something went wrong while saving the file(s).","Hiba történt a fájl(ok) mentése során!",module,Magento_Downloadable
+"Order id cannot be null","A megrendelésazonosító nem lehet üres!",module,Magento_Downloadable
+"Order item id cannot be null","A tételazonosító nem lehet üres!",module,Magento_Downloadable
+"Please specify product link(s).","Kérjük, adja meg a termék(ek) hivatkozását!",module,Magento_Downloadable
+attachment,csatolmány,module,Magento_Downloadable
+inline,beágyazás,module,Magento_Downloadable
+Pending,Függő,module,Magento_Downloadable
 Invoiced,Számlázott,module,Magento_Downloadable
+sample,minta,module,Magento_Downloadable
 Title,Cím,module,Magento_Downloadable
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Downloadable
+"Links can be purchased separately","A hivatkozások külön-külön is megvásárolhatók",module,Magento_Downloadable
 Price,Ár,module,Magento_Downloadable
+Sample,Minta,module,Magento_Downloadable
+Shareable,Megosztható,module,Magento_Downloadable
+"Max. Downloads","Max. letöltés",module,Magento_Downloadable
 File,Fájl,module,Magento_Downloadable
 Delete,Törlés,module,Magento_Downloadable
+Samples,Minták,module,Magento_Downloadable
 SKU,Cikkszám,module,Magento_Downloadable
 Availability,Elérhetőség,module,Magento_Downloadable
-"In stock",Raktáron,module,Magento_Downloadable
-"Out of stock","Nincs raktáron",module,Magento_Downloadable
+"In stock",Készleten,module,Magento_Downloadable
+"Out of stock","Nincs készleten",module,Magento_Downloadable
 Date,Dátum,module,Magento_Downloadable
 Status,Állapot,module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","Még nem vásárolt letölthető terméket.",module,Magento_Downloadable
 Back,Vissza,module,Magento_Downloadable
-Ordered,Megrendelt,module,Magento_Downloadable
-Shipped,Szállított,module,Magento_Downloadable
+Ordered,Megrendelve,module,Magento_Downloadable
+Shipped,Kiszállítva,module,Magento_Downloadable
 Canceled,Törölve,module,Magento_Downloadable
-Refunded,Visszatérített,module,Magento_Downloadable
+Refunded,Visszatérítve,module,Magento_Downloadable
 "Attribute Properties","Attribútum tulajdonságok",module,Magento_Eav
 "Default label","Alapértelmezett címke",module,Magento_Eav
 "Attribute Code",Attribútum-kód,module,Magento_Eav
+"Catalog Input Type for Store Owner","Beviteli mező típusa a bolttulajdonosnak",module,Magento_Eav
+"Values Required","Érték szükséges",module,Magento_Eav
 "Default Value","Alapértelmezett érték",module,Magento_Eav
 "Unique Value","Egyedi érték",module,Magento_Eav
 "Unique Value (not shared with other products)","Egyedi érték (nincs megosztva más termékekkel)",module,Magento_Eav
+"Input Validation for Store Owner","A bolttulajdonos ellenőrzi a bevitt adatokat",module,Magento_Eav
 Required,Kötelező,module,Magento_Eav
 Yes,Igen,module,Magento_Eav
 No,Nem ,module,Magento_Eav
 System,Rendszer,module,Magento_Eav
 None,"Egyik sem",module,Magento_Eav
-"Decimal Number","Decimális szám",module,Magento_Eav
+"Decimal Number",Tizedesszám,module,Magento_Eav
 "Integer Number","Egész szám",module,Magento_Eav
+Email,E-mail,module,Magento_Eav
+URL,URL-cím,module,Magento_Eav
 Letters,Betűk,module,Magento_Eav
+"Letters (a-z, A-Z) or Numbers (0-9)","Betűk (a-z, A-Z) és számok (0-9)",module,Magento_Eav
 "Text Field",Szövegmező,module,Magento_Eav
-"Text Area","Szöveg terület",module,Magento_Eav
+"Text Area",Szövegterület,module,Magento_Eav
 Date,Dátum,module,Magento_Eav
 Yes/No,Igen/Nem,module,Magento_Eav
-Dropdown,"Legördülő lista",module,Magento_Eav
+"Multiple Select","Többszörös kiválasztás",module,Magento_Eav
+Dropdown,Legördülőlista,module,Magento_Eav
+"Input type ""%value%"" not found in the input types list.","%value% beviteli típus nem található a típuslistában!",module,Magento_Eav
+"Attribute object is undefined","A jellemző tárgya nincs megadva",module,Magento_Eav
+"Entity object is undefined","Az entitás tárgya nincs megadva",module,Magento_Eav
+"""%1"" invalid type entered.","A megadott ""%1"" típus érvénytelen!",module,Magento_Eav
+"""%1"" contains non-alphabetic or non-numeric characters.","""%1"" nem alfabetikus vagy nem numerikus karaktereket tartalmaz!",module,Magento_Eav
+"""%1"" is an empty string.","""%1"" egy üres karakterlánc!",module,Magento_Eav
+"""%1"" contains non-numeric characters.","""%1"" nem numerikus karaktereket tartalmaz!",module,Magento_Eav
+"""%1"" contains non-alphabetic characters.","""%1"" a nem alfabetikus karaktereket tartalmaz!",module,Magento_Eav
+"""%1"" is not a valid email address.","A(z) ""%1"" e-mail cím érvénytelen!",module,Magento_Eav
+"""%1"" is not a valid hostname.","A(z) ""%1"" kiszolgálónév érvénytelen!",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" nem egy érvényes URL.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" nem egy érvényes dátum.",module,Magento_Eav
-"""%1"" does not fit the entered date format.","""%1"" nem a megadott dátum formátumban van.",module,Magento_Eav
+"""%1"" does not fit the entered date format.","""%1"" nem a megadott dátumformátumban van!",module,Magento_Eav
 """%1"" is a required value.","""%1"" egy szükséges érték.",module,Magento_Eav
-"""%1"" is not a valid file extension.","""%1"" nem egy érvényes fájlkiterjesztés.",module,Magento_Eav
-"""%1"" is not a valid file.","""%1"" nem egy érvényes fájl.",module,Magento_Eav
-"""%1"" exceeds the allowed file size.","""%1"" meghaladja a megengedett fájlméretet.",module,Magento_Eav
-"""%1"" is not a valid image format","""%1"" nem egy érvényes képformátum",module,Magento_Eav
-"""%1"" width exceeds allowed value of %2 px.","""%1"" szélessége meghaladja az engedélyezett méretet (%2 px).",module,Magento_Eav
-"""%1"" height exceeds allowed value of %2 px.","""%1"" magassága meghaladja az engedélyezett méretet (%2 px).",module,Magento_Eav
-"""%1"" length must be equal or greater than %2 characters.","""%1"" hossza egyenlő vagy több mint %2 karakter kell legyen.",module,Magento_Eav
-"""%1"" length must be equal or less than %2 characters.","""%1"" hossza egyenlő vagy kevesebb mint %2 karakter kell legyen.",module,Magento_Eav
+"Please enter a valid date between %1 and %2 at %3.","Kérjük, érvényes adatot adjon meg %1 és %2 között ennél: %3!",module,Magento_Eav
+"Please enter a valid date equal to or greater than %1 at %2.","Kérjük, érvényes dátumot adjon meg, mely nagyobb vagy egyenlő, mint %1 ennél: %2!",module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.","Kérjük, érvényes dátumot adjon meg, mely kisebb, mint %1 ennél: %2!",module,Magento_Eav
+"""%1"" is not a valid file extension.","""%1"" nem érvényes fájlkiterjesztés.",module,Magento_Eav
+"""%1"" is not a valid file.","""%1"" egy érvénytelen fájl!",module,Magento_Eav
+"""%1"" exceeds the allowed file size.","""%1"" meghaladja a megengedett fájlméretet!",module,Magento_Eav
+"""%1"" is not a valid image format","""%1"" egy érvénytelen képformátum",module,Magento_Eav
+"""%1"" width exceeds allowed value of %2 px.","""%1"" szélessége meghaladja az engedélyezett méretet (%2 px)!",module,Magento_Eav
+"""%1"" height exceeds allowed value of %2 px.","""%1"" magassága meghaladja az engedélyezett méretet (%2 px)!",module,Magento_Eav
+"""%1"" length must be equal or greater than %2 characters.","""%1"" hossza legalább %2 karakter kell legyen!",module,Magento_Eav
+"""%1"" length must be equal or less than %2 characters.","""%1"" hossza legföljebb %2 karakter kell legyen!",module,Magento_Eav
+"Invalid entity_type specified: %1","Érvénytelen entitás_típus lett megadva: %1",module,Magento_Eav
+"Entity is not initialized","Entitás nincs megadva",module,Magento_Eav
 "Unknown parameter","Ismeretlen paraméter",module,Magento_Eav
-"Invalid default decimal value","Érvénytelen alapértelmezett decimális érték",module,Magento_Eav
+"Invalid default decimal value","Érvénytelen alapértelmezett tizedesérték",module,Magento_Eav
 "Invalid default date","Érvénytelen alapértelmezett dátum",module,Magento_Eav
+"Invalid entity supplied","Érvénytelen megadott entitás",module,Magento_Eav
+"Invalid backend model specified: %1","Érvénytelen adminisztrációs felület-modell megadva: %1",module,Magento_Eav
+"Source model ""%1"" not found for attribute ""%2""","A(z) ""%1"" forrásmodell nem található a(z) ""%2"" jellemzőhöz",module,Magento_Eav
+"The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Eav
 "Invalid date","Érvénytelen dátum",module,Magento_Eav
-"No options found.","Nincsenek választási lehetőségek.",module,Magento_Eav
+"No options found.","Nincs választási lehetőség.",module,Magento_Eav
 label,címke,module,Magento_Eav
 "Invalid foreign key","Érvénytelen idegen kulcs",module,Magento_Eav
-"Invalid entity type","Érvénytelen entitás típus",module,Magento_Eav
-"Invalid attribute type","Érvénytelen attribútumtípus",module,Magento_Eav
+"Invalid entity type","Érvénytelen entitástípus",module,Magento_Eav
+"Invalid attribute type","Érvénytelen jellemzőtípus",module,Magento_Eav
 "Invalid joint fields","Érvénytelen kapcsolt mezők",module,Magento_Eav
-"Invalid attribute name: %1","Érvénytelen attribútum név: %1",module,Magento_Eav
-"Invalid form type.","Érvénytelen űrlap típus.",module,Magento_Eav
-"Invalid EAV attribute","Érvénytelen EAV-attribútum",module,Magento_Eav
+"Invalid attribute name: %1","Érvénytelen jellemzőnév: %1",module,Magento_Eav
+"Invalid form type.","Érvénytelen űrlaptípus!",module,Magento_Eav
+"Invalid EAV attribute","Érvénytelen EAV-jellemző",module,Magento_Eav
 "Add New Template","Új sablon hozzáadása",module,Magento_Email
+"Transactional Emails","Kereskedési e-mailek",module,Magento_Email
 Back,Vissza,module,Magento_Email
 Reset,Alaphelyzet,module,Magento_Email
 "Delete Template","Sablon törlése",module,Magento_Email
 "Convert to Plain Text","Egyszerű szöveges üzenetté konvertálás",module,Magento_Email
+"Return Html Version","Vissza a Html-verzióhoz",module,Magento_Email
 "Preview Template","Sablon előnézet",module,Magento_Email
 "Save Template","Sablon mentése",module,Magento_Email
 "Load Template","Sablon betöltése",module,Magento_Email
@@ -1443,12 +1492,14 @@ Reset,Alaphelyzet,module,Magento_Email
 "Template Styles","Sablon stílusa",module,Magento_Email
 Preview,Előnézet,module,Magento_Email
 Unknown,Ismeretlen,module,Magento_Email
+"The email template is currently being used.","Az e-mailsablon jelenleg használatban van.",module,Magento_Email
 "Edit Template","Sablon szerkesztése",module,Magento_Email
 "Edit System Template","Rendszersablon szerkesztése",module,Magento_Email
 "New Template","Új sablon",module,Magento_Email
 "New System Template","Új rendszersablon",module,Magento_Email
 "Email Templates","Email sablonok",module,Magento_Email
 "Email Preview","Email előnézet",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Hiba történt! Az e-mailsablon előnézete nem nyitható meg.",module,Magento_Email
 "This email template no longer exists.","Ez az email sablon már nem létezik.",module,Magento_Email
 "General Contact Name","Általános kapcsolattartó neve",module,Magento_Email
 "General Contact Email","Általános kapcsolattartó email címe",module,Magento_Email
@@ -1464,6 +1515,8 @@ Country,Ország,module,Magento_Email
 Region/State,Régió/állam,module,Magento_Email
 "Zip/Postal Code",Irányítószám,module,Magento_Email
 City,Város,module,Magento_Email
+"Street Address 1","Utca, házszám 1",module,Magento_Email
+"Street Address 2","Utca, házszám 2",module,Magento_Email
 "Template Variables","Sablon változók",module,Magento_Email
 "Load default template","Alapértelmezett sablon betöltése",module,Magento_Email
 Template,Sablon,module,Magento_Email
@@ -2683,6 +2736,13 @@ Enabled,Engedélyezve,module,Magento_Directory
 "Error Email Sender","Hiba e-mail feladója",module,Magento_Directory
 "Error Email Template","Hiba e-mail sablon",module,Magento_Directory
 Frequency,Gyakoriság,module,Magento_Directory
+Service,Szolgáltatás,module,Magento_Directory
+"Start Time","Kezdés ideje",module,Magento_Directory
+"Installed Currencies","Telepített pénznemek",module,Magento_Directory
+"Zip/Postal Code is Optional for","Irányítószám (választható) ennél:",module,Magento_Directory
+"State Options","Állami beállításai",module,Magento_Directory
+"State is Required for","Állam (szükséges) ennél:",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Lehetővé teszi az állam kiválasztását, ha az választható az országnál",module,Magento_Directory
 "No Templates Found","Nem találhatóak sablonok",module,Magento_Email
 ID,Azonosító,module,Magento_Email
 Added,Hozzáadva,module,Magento_Email

@@ -1382,24 +1382,40 @@ inline,beágyazás,module,Magento_Downloadable
 Pending,Függő,module,Magento_Downloadable
 Invoiced,Számlázott,module,Magento_Downloadable
 sample,minta,module,Magento_Downloadable
+Links,Linkek,module,Magento_Downloadable
+"[STORE VIEW]","[BOLT NÉZET]",module,Magento_Downloadable
 Title,Cím,module,Magento_Downloadable
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Downloadable
 "Links can be purchased separately","A hivatkozások külön-külön is megvásárolhatók",module,Magento_Downloadable
+"Sort Order",Sorrend,module,Magento_Downloadable
 Price,Ár,module,Magento_Downloadable
 Sample,Minta,module,Magento_Downloadable
 Shareable,Megosztható,module,Magento_Downloadable
 "Max. Downloads","Max. letöltés",module,Magento_Downloadable
 File,Fájl,module,Magento_Downloadable
+"Browse Files...","Fájl tallózása...",module,Magento_Downloadable
 Delete,Törlés,module,Magento_Downloadable
 Samples,Minták,module,Magento_Downloadable
 SKU,Cikkszám,module,Magento_Downloadable
 Availability,Elérhetőség,module,Magento_Downloadable
 "In stock",Készleten,module,Magento_Downloadable
 "Out of stock","Nincs készleten",module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Ugrás a <a href=""%1""> Letölthető termékeim</a>hez",module,Magento_Downloadable
+"Downloadable Products","Letölthető termékek",module,Magento_Downloadable
+"Order #","Rendelés #",module,Magento_Downloadable
 Date,Dátum,module,Magento_Downloadable
 Status,Állapot,module,Magento_Downloadable
+"Remaining Downloads","Fennmaradó letöltések",module,Magento_Downloadable
+"View Order","Rendelés áttekintése",module,Magento_Downloadable
+"Start Download","Letöltés indítása",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","Még nem vásárolt letölthető terméket.",module,Magento_Downloadable
 Back,Vissza,module,Magento_Downloadable
+download,letöltés,module,Magento_Downloadable
+"Gift Message","Ajándék üzenet",module,Magento_Downloadable
+From:,Ettől:,module,Magento_Downloadable
+To:,Címzett:,module,Magento_Downloadable
+Message:,Üzenet:,module,Magento_Downloadable
+Qty,db,module,Magento_Downloadable
 Ordered,Megrendelve,module,Magento_Downloadable
 Shipped,Kiszállítva,module,Magento_Downloadable
 Canceled,Törölve,module,Magento_Downloadable
@@ -2761,6 +2777,15 @@ Service,Szolgáltatás,module,Magento_Directory
 "State Options","Állami beállításai",module,Magento_Directory
 "State is Required for","Állam (szükséges) ennél:",module,Magento_Directory
 "Allow to Choose State if It is Optional for Country","Lehetővé teszi az állam kiválasztását, ha az választható az országnál",module,Magento_Directory
+"Downloadable Product Options","Letölthető termék lehetőségek",module,Magento_Downloadable
+"Order Item Status to Enable Downloads","Rendelés tétel állapot a letöltés engedélyezéséhez",module,Magento_Downloadable
+"Default Maximum Number of Downloads","Maximális letöltésszám alapértelmezett értéke",module,Magento_Downloadable
+"Default Sample Title","Alapértelmezett minta cím",module,Magento_Downloadable
+"Default Link Title","Alapértelmezett Link cím",module,Magento_Downloadable
+"Open Links in New Window","Linkek megnyitása új ablakban",module,Magento_Downloadable
+"Use Content-Disposition","Tartalom-diszpozíció használata",module,Magento_Downloadable
+"Disable Guest Checkout if Cart Contains Downloadable Items","Vendégként vásárlás tiltása, ha a kosár letölthető termékeket tartalmaz",module,Magento_Downloadable
+"Guest checkout will only work with shareable.","Vendégként fizetés csak megoszthatóval fog működni.",module,Magento_Downloadable
 "No Templates Found","Nincsenek sablonok",module,Magento_Email
 ID,Azonosító,module,Magento_Email
 Added,Hozzáadva,module,Magento_Email

@@ -632,6 +632,7 @@ Promo,Promóció,module,Magento_CatalogRule
 "Rule with specified ID ""%1"" not found.","A megadott azonosítójú ""%1"" szabály nem található.",module,Magento_CatalogRule
 "Unable to remove rule %1","A %1 szabály eltávolítása sikertelen",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","Katalógus szabály indexelése nem sikerült. A részletek a kivételnaplóban találhatók.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","A kedvezmény százalékos értékének 0 és 100 között kell lennie.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","Kedvezmény értéke 0, vagy több legyen.",module,Magento_CatalogRule
 "Unknown action.","Ismeretlen akció.",module,Magento_CatalogRule
@@ -1282,6 +1283,7 @@ Checkout,Fizetés,module,Magento_Checkout
 "Page not found.","Az oldal nem található.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","Kérjük, fogadd el az összes általános szerződési feltételt mielőtt leadsz egy rendelést.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Valami elromlott a megrendelés feldolgozása közben. Kérjük, próbálkozz később.",module,Magento_Checkout
+"Payment Page","Fizetési oldal",module,Magento_Checkout
 "We can't find the product.","A termék nem található.",module,Magento_Checkout
 "The product does not exist.","A termék nem létezik.",module,Magento_Checkout
 "We don't have some of the products you want.","Némelyik kívánt termék nem áll rendelkezésre.",module,Magento_Checkout
@@ -1603,6 +1605,8 @@ Select,Válasszon,module,Magento_ConfigurableProduct
 "Remove Product","Termék eltávolítása",module,Magento_ConfigurableProduct
 "Create Product Configurations","Termék beállítások létrehozása",module,Magento_ConfigurableProduct
 Cancel,Mégse,module,Magento_ConfigurableProduct
+"Special Price","Akciós ár",module,Magento_ConfigurableProduct
+"Regular Price","Lista ár",module,Magento_ConfigurableProduct
 "Page not found.","Az oldal nem található.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Köszönjük, hogy kapcsolatba léptél velünk! Hamarosan válaszolni fogunk.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","Nem tudjuk feldolgozni a kérésed jelenleg. Sajnos, ez minden amit tudunk.",module,Magento_Contact
@@ -2134,6 +2138,7 @@ Pending,Függő,module,Magento_Downloadable
 Invoiced,Számlázott,module,Magento_Downloadable
 "To enable the option set the weight to no","A lehetőség engedélyezéséhez állítsa a súlyt nemre",module,Magento_Downloadable
 "Is this downloadable Product?","Letölthető e termék?",module,Magento_Downloadable
+Links,Linkek,module,Magento_Downloadable
 Title,Cím,module,Magento_Downloadable
 "Links can be purchased separately","A hivatkozások külön-külön is megvásárolhatók",module,Magento_Downloadable
 "Add Link","Hivatkozás hozzáadása",module,Magento_Downloadable
@@ -2146,15 +2151,40 @@ Samples,Minták,module,Magento_Downloadable
 "Use Default Value","Alapértelmezett érték használata",module,Magento_Downloadable
 sample,minta,module,Magento_Downloadable
 "Add links to your product files here.","Itt adjon hivatkozásokat termékfájljaihoz!",module,Magento_Downloadable
+"[STORE VIEW]","[BOLT NÉZET]",module,Magento_Downloadable
+"Sort Order",Sorrend,module,Magento_Downloadable
+"Attach File or Enter Link","Fájl csatolása vagy link megadása",module,Magento_Downloadable
+"Sort Variations","Rendezés variációk",module,Magento_Downloadable
+"Browse Files...","Fájl tallózása...",module,Magento_Downloadable
 Delete,Törlés,module,Magento_Downloadable
+"Add product preview files here.","Termék előnézet fájl hozzáadása itt.",module,Magento_Downloadable
 SKU,Cikkszám,module,Magento_Downloadable
+"Select all","Összes kijelölése",module,Magento_Downloadable
+"Unselect all","Összes kijelölés megszüntetése",module,Magento_Downloadable
 Availability,Elérhetőség,module,Magento_Downloadable
 "In stock",Készleten,module,Magento_Downloadable
 "Out of stock","Nincs készleten",module,Magento_Downloadable
+"Go to <a href=""%1"">My Downloadable Products</a>","Ugrás a <a href=""%1""> Letölthető termékeim</a>hez",module,Magento_Downloadable
+"Downloadable Products","Letölthető termékek",module,Magento_Downloadable
+"Order #","Rendelés #",module,Magento_Downloadable
 Date,Dátum,module,Magento_Downloadable
 Status,Állapot,module,Magento_Downloadable
+"Remaining Downloads","Fennmaradó letöltések",module,Magento_Downloadable
+"View Order","Rendelés áttekintése",module,Magento_Downloadable
+"Start Download","Letöltés indítása",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","Még nem vásárolt letölthető terméket.",module,Magento_Downloadable
 Back,Vissza,module,Magento_Downloadable
+download,letöltés,module,Magento_Downloadable
+"Gift Message","Ajándék üzenet",module,Magento_Downloadable
+From:,Ettől:,module,Magento_Downloadable
+To:,Címzett:,module,Magento_Downloadable
+Message:,Üzenet:,module,Magento_Downloadable
+"Product Name",Terméknév,module,Magento_Downloadable
+Qty,db,module,Magento_Downloadable
+Subtotal,Részösszeg,module,Magento_Downloadable
+"Discount Amount","Engedmény összege",module,Magento_Downloadable
+"Row Total","Sor összeg",module,Magento_Downloadable
+"Qty Invoiced","Számlázott mennyiség",module,Magento_Downloadable
 Ordered,Megrendelve,module,Magento_Downloadable
 Shipped,Kiszállítva,module,Magento_Downloadable
 Canceled,Törölve,module,Magento_Downloadable
@@ -3493,6 +3523,7 @@ Close,Bezárás,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","A megadott irányítószám, érvénytelennek tűnik.",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","Ha úgy véli, hogy ez a megfelelő, nyugodtan hagyja figyelmen kívül ezt az értesítést.",module,Magento_Checkout
 "Review & Payments","Felülvizsgálat & kifizetések",module,Magento_Checkout
+"Select a new payment method","Válasszon új fizetési módot",module,Magento_Checkout
 Shipping,Szállítás,module,Magento_Checkout
 "Save Address","Cím mentése",module,Magento_Checkout
 "We could not detect a size.","Nem tudjuk megállapítani a méretet.",module,Magento_Cms
@@ -3522,6 +3553,7 @@ Medium,Közepes,module,Magento_Customer
 Strong,Erős,module,Magento_Customer
 "Very Strong","Nagyon erős",module,Magento_Customer
 "Guest checkout is disabled.","Vendég vásárlás letiltva.",module,Magento_Customer
+"We could not detect a size.","A méret nem állapítható meg.",module,Magento_Downloadable
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
 "Video not found","Videó nem található",module,Magento_ProductVideo
 "New Video","Új videó",module,Magento_ProductVideo
@@ -4021,6 +4053,7 @@ Details,Részletek,module,Magento_Catalog
 "Checkout Options","Fizetési lehetőségek",module,Magento_Checkout
 "Enable Onepage Checkout","Egyoldalas fizetés engedélyezése",module,Magento_Checkout
 "Allow Guest Checkout","Vendég fizetés engedélyezése",module,Magento_Checkout
+"Display Billing Address On","Számlázási cím megjelenítése",module,Magento_Checkout
 "Quote Lifetime (days)","Ajánlat érvényessége (nap)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","A termék kosárba helyezése után a kosár megjelenítése",module,Magento_Checkout
 "My Cart Link","Kosaram link",module,Magento_Checkout
@@ -4300,6 +4333,17 @@ Service,Szolgáltatás,module,Magento_Directory
 "State is Required for","Állam (szükséges) ennél:",module,Magento_Directory
 "Allow to Choose State if It is Optional for Country","Lehetővé teszi az állam kiválasztását, ha az választható az országnál",module,Magento_Directory
 "Weight Unit","Súly mértékegysége",module,Magento_Directory
+"Downloadable Product Section","Letölthető termékek",module,Magento_Downloadable
+Downloads,Letöltések,module,Magento_Downloadable
+"Downloadable Product Options","Letölthető termék lehetőségek",module,Magento_Downloadable
+"Order Item Status to Enable Downloads","Rendelés tétel állapot a letöltés engedélyezéséhez",module,Magento_Downloadable
+"Default Maximum Number of Downloads","Maximális letöltésszám alapértelmezett értéke",module,Magento_Downloadable
+"Default Sample Title","Alapértelmezett minta cím",module,Magento_Downloadable
+"Default Link Title","Alapértelmezett Link cím",module,Magento_Downloadable
+"Open Links in New Window","Linkek megnyitása új ablakban",module,Magento_Downloadable
+"Use Content-Disposition","Tartalom-diszpozíció használata",module,Magento_Downloadable
+"Disable Guest Checkout if Cart Contains Downloadable Items","Vendégként vásárlás tiltása, ha a kosár letölthető termékeket tartalmaz",module,Magento_Downloadable
+"Guest checkout will only work with shareable.","Vendégként fizetés csak megoszthatóval fog működni.",module,Magento_Downloadable
 Communications,Kommunikáció,module,Magento_Email
 "No Templates Found","Nincsenek sablonok",module,Magento_Email
 ID,Azonosító,module,Magento_Email

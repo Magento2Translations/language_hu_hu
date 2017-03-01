@@ -1052,6 +1052,7 @@ Search,Keresés,module,Magento_Catalog
 "Could not save product ""%1"" with websites %2","Nem lehet menteni a(z) ""%1"" terméket a(z) %2  weboldalakhoz",module,Magento_Catalog
 "We cannot determine the field name.","Nem tudjuk meghatározni a mező nevét.",module,Magento_Catalog
 "Do not change the scope. %1","Ne változtassa meg a hatókört. %1",module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface","%1 Processzor nem hajtotta végre a BaseSelectProcessorInterface -t",module,Magento_Catalog
 "A product type is not defined for the indexer.","A terméktípus nincs definiálva az indexelőhöz.",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","A %1 cikkszámú termék nincs összekötve a %2 cikkszámú termékkel",module,Magento_Catalog
 "Multiple Select","Többszörös kijelölés",module,Magento_Catalog

@@ -1481,6 +1481,7 @@ Dropdown,Legördülőlista,module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","A(z) ""%1"" forrásmodell nem található a(z) ""%2"" jellemzőhöz",module,Magento_Eav
 "The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Eav
 "Invalid date","Érvénytelen dátum",module,Magento_Eav
+"Attribute set name is empty.","Jellemző halmaz név üres.",module,Magento_Eav
 "No options found.","Nincs választási lehetőség.",module,Magento_Eav
 label,címke,module,Magento_Eav
 "Invalid foreign key","Érvénytelen idegen kulcs",module,Magento_Eav
@@ -1490,6 +1491,8 @@ label,címke,module,Magento_Eav
 "Invalid attribute name: %1","Érvénytelen jellemzőnév: %1",module,Magento_Eav
 "Invalid form type.","Érvénytelen űrlaptípus!",module,Magento_Eav
 "Invalid EAV attribute","Érvénytelen EAV-jellemző",module,Magento_Eav
+"Wrong attribute set ID","Rossz Jellemző halmaz azonosító",module,Magento_Eav
+"Wrong attribute group ID","Rossz jellemző csoport azonosító",module,Magento_Eav
 "Add New Template","Új sablon hozzáadása",module,Magento_Email
 "Transactional Emails","Kereskedési e-mailek",module,Magento_Email
 Back,Vissza,module,Magento_Email

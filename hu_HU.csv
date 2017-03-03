@@ -2284,6 +2284,8 @@ Dropdown,Legördülőlista,module,Magento_Eav
 "Empty attribute code","Üres jellemzőkód",module,Magento_Eav
 "Cannot save attribute %1","A(z) %1 jellemző nem menthető",module,Magento_Eav
 "Cannot load options for attribute %1","A(z) ""%1"" jellemző opciói nem tölthetők be",module,Magento_Eav
+"Attribute set name is empty.","Jellemző halmaz név üres.",module,Magento_Eav
+"An attribute set named ""%1"" already exists.","""%1"" nevű jellemző halmaz már létezik.",module,Magento_Eav
 "No options found.","Nincs választási lehetőség.",module,Magento_Eav
 label,címke,module,Magento_Eav
 "Invalid foreign key","Érvénytelen idegen kulcs",module,Magento_Eav
@@ -2293,6 +2295,9 @@ label,címke,module,Magento_Eav
 "Invalid attribute name: %1","Érvénytelen jellemzőnév: %1",module,Magento_Eav
 "Invalid form type.","Érvénytelen űrlaptípus!",module,Magento_Eav
 "Invalid EAV attribute","Érvénytelen EAV-jellemző",module,Magento_Eav
+"Wrong attribute set ID","Rossz Jellemző halmaz azonosító",module,Magento_Eav
+"Wrong attribute group ID","Rossz jellemző csoport azonosító",module,Magento_Eav
+"AttributeSet does not exist.","Jellemzőhalmaz nem létezik.",module,Magento_Eav
 hello,Szia,module,Magento_Eav
 "Add New Template","Új sablon hozzáadása",module,Magento_Email
 "Transactional Emails","Kereskedési e-mailek",module,Magento_Email

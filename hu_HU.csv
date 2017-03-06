@@ -2256,12 +2256,22 @@ Yes,Igen,module,Magento_EncryptionKey
 "Deployment configuration file is not writable.","A telepítési konfigurációs fájl nem írható.",module,Magento_EncryptionKey
 "Please enter an encryption key.","Kérjük, írjon be egy titkosítókulcsot!",module,Magento_EncryptionKey
 "The encryption key has been changed.","A titkosítókulcs módosítva.",module,Magento_EncryptionKey
+"Europe First Priority","Európa elsőbbségi",module,Magento_Fedex
+"1 Day Freight","1 napos szállítás",module,Magento_Fedex
+"2 Day Freight","2 napos szállítás",module,Magento_Fedex
 "2 Day","2 nap",module,Magento_Fedex
+"2 Day AM","2 nap délelőtt",module,Magento_Fedex
+"3 Day Freight","3 napos szállítás",module,Magento_Fedex
+Ground,Alap,module,Magento_Fedex
 "Home Delivery",Házhozszállítás,module,Magento_Fedex
 "FedEx Envelope","FedEx boríték",module,Magento_Fedex
 Adult,Felnőtt,module,Magento_Fedex
+Direct,Közvetlen,module,Magento_Fedex
+Indirect,Közvetett,module,Magento_Fedex
 Pounds,Font,module,Magento_Fedex
 Kilograms,Kilogramm,module,Magento_Fedex
+status,állapot,module,Magento_Fedex
+"Empty response","Üres válasz",module,Magento_Fedex
 None,"Egyik sem",module,Magento_Fedex
 "Unknown entity type","Ismeretlen entitástípus",module,Magento_GiftMessage
 From,Feladó,module,Magento_GiftMessage
@@ -3906,11 +3916,23 @@ Updated,Frissítve,module,Magento_Email
 Subject,Tárgy,module,Magento_Email
 "Template Type","Sablon típusa",module,Magento_Email
 Action,Művelet,module,Magento_Email
+"Enabled for Checkout","Engedélyezve a pénztárnál",module,Magento_Fedex
 Title,Cím,module,Magento_Fedex
+"Account ID",Fiókazonosító,module,Magento_Fedex
+Key,Kulcs,module,Magento_Fedex
 Password,Jelszó,module,Magento_Fedex
+"Sandbox Mode","Sandbox mód",module,Magento_Fedex
+"Weight Unit","Súly mértékegysége",module,Magento_Fedex
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Fedex
 "Handling Fee","Kezelési költség",module,Magento_Fedex
+"Allowed Methods","Alkalmazható módok",module,Magento_Fedex
+"Free Shipping Amount Threshold","Ingyenes szállítás határérték",module,Magento_Fedex
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Fedex
+"Ship to Applicable Countries","Szállítás az alkalmazható országokba",module,Magento_Fedex
+"Ship to Specific Countries","Szállítás megadott országokba",module,Magento_Fedex
+Debug,Hibakeresés,module,Magento_Fedex
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Fedex
+"Sort Order",Sorrend,module,Magento_Fedex
 ID,Azonosító,module,Magento_ImportExport
 Summary,Összefoglaló,module,Magento_ImportExport
 Description,Leírás,module,Magento_Indexer

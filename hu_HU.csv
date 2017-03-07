@@ -4388,7 +4388,14 @@ Password,Jelszó,module,Magento_Fedex
 "Weight Unit","Súly mértékegysége",module,Magento_Fedex
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Fedex
 "Handling Fee","Kezelési költség",module,Magento_Fedex
+"Allowed Methods","Alkalmazható módok",module,Magento_Fedex
+"Free Shipping Amount Threshold","Ingyenes szállítás határérték",module,Magento_Fedex
+"Enable Free Shipping Threshold","Ingyenes szállítás határértékének engedélyezése",module,Magento_Fedex
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Fedex
+"Ship to Applicable Countries","Szállítás az alkalmazható országokba",module,Magento_Fedex
+"Ship to Specific Countries","Szállítás megadott országokba",module,Magento_Fedex
+Debug,Hibakeresés,module,Magento_Fedex
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Fedex
 "Sort Order",Sorrend,module,Magento_Fedex
 Quantity,Mennyiség,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_ImportExport

@@ -2815,6 +2815,7 @@ Password,Jelszó,module,Magento_Fedex
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Fedex
 "Handling Fee","Kezelési költség",module,Magento_Fedex
 "Allowed Methods","Alkalmazható módok",module,Magento_Fedex
+"Free Method","Ingyenes mód",module,Magento_Fedex
 "Free Shipping Amount Threshold","Ingyenes szállítás határérték",module,Magento_Fedex
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Fedex
 "Ship to Applicable Countries","Szállítás az alkalmazható országokba",module,Magento_Fedex

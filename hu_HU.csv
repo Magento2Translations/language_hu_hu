@@ -1580,6 +1580,9 @@ Cancel,Mégse,module,Magento_GiftMessage
 "Gift Options","Ajándék beállítások",module,Magento_GiftMessage
 "Gift Message","Ajándék üzenet",module,Magento_GiftMessage
 Dynamic,Dinamikus,module,Magento_GoogleAdwords
+"Product View Optimization","Termék nézet optimalizálás",module,Magento_GoogleOptimizer
+"Page View Optimization","Lap nézet optimalizálás",module,Magento_GoogleOptimizer
+"Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_GroupedProduct

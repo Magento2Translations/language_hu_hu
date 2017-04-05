@@ -2410,6 +2410,8 @@ Cancel,Mégse,module,Magento_GiftMessage
 "Gift Options","Ajándék beállítások",module,Magento_GiftMessage
 "Gift Message","Ajándék üzenet",module,Magento_GiftMessage
 Dynamic,Dinamikus,module,Magento_GoogleAdwords
+"Product View Optimization","Termék nézet optimalizálás",module,Magento_GoogleOptimizer
+"Page View Optimization","Lap nézet optimalizálás",module,Magento_GoogleOptimizer
 Cancel,Mégse,module,Magento_GroupedProduct
 Remove,Eltávolítás,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_GroupedProduct
@@ -4398,6 +4400,7 @@ Password,Jelszó,module,Magento_Fedex
 Debug,Hibakeresés,module,Magento_Fedex
 "Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Fedex
 "Sort Order",Sorrend,module,Magento_Fedex
+"Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
 Quantity,Mennyiség,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_ImportExport
 Summary,Összefoglaló,module,Magento_ImportExport

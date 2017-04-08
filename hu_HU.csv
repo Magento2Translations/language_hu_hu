@@ -2211,6 +2211,7 @@ None,"Egyik sem",module,Magento_Usps
 "Add Tax","Adó hozzáadása",module,Magento_Weee
 "Delete Tax","Adó törlése",module,Magento_Weee
 "All Websites","Minden weboldal",module,Magento_Weee
+Website,Weboldal,module,Magento_Weee
 Tax,Adó,module,Magento_Weee
 Action,Akció,module,Magento_Weee
 "Widget Insertion","Felületi elem beszúrás",module,Magento_Widget

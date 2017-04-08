@@ -3229,9 +3229,12 @@ Message,Üzenet,module,Magento_Webapi
 "Delete Tax","Adó törlése",module,Magento_Weee
 "All Websites","Minden weboldal",module,Magento_Weee
 Tax,Adó,module,Magento_Weee
+Website,Weboldal,module,Magento_Weee
 Action,Akció,module,Magento_Weee
 "Excl. Tax","Adó nélkül",module,Magento_Weee
+Total,Összesen,module,Magento_Weee
 "Incl. Tax",Adóval,module,Magento_Weee
+"Total Incl. Tax","Öszzesen ÁFA-val",module,Magento_Weee
 "Final Price","Végső ár",module,Magento_Weee
 "Widget Insertion","Felületi elem beszúrás",module,Magento_Widget
 "Insert Widget","Felületi elem beszúrása",module,Magento_Widget

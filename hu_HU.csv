@@ -3382,6 +3382,7 @@ Login,Bejelentkezés,module,Magento_Checkout
 item,tétel,module,Magento_Checkout
 items,tétel,module,Magento_Checkout
 "Go to Checkout","Tovább a fizetéshez",module,Magento_Checkout
+"View and edit cart","Kosár megtekintése és szerkesztése",module,Magento_Checkout
 "See Details",Részletek,module,Magento_Checkout
 "Options Details","Lehetőségek ismertetése",module,Magento_Checkout
 Remove,Eltávolítás,module,Magento_Checkout

@@ -3405,6 +3405,7 @@ edit,szerkesztés,module,Magento_Checkout
 Next, Következő,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Sajnáljuk, de jelenleg erre a megrendelésre nem tudunk ajánlatot adni",module,Magento_Checkout
 "Order Summary","Rendelési összesítő",module,Magento_Checkout
+"Item in Cart","Termék a kosárban",module,Magento_Checkout
 "View Details","Részletek megjelenítése",module,Magento_Checkout
 "Contact Form","Kapcsolatfelvételi űrlap",module,Magento_Contact
 "Name: %name","Név: %name",module,Magento_Contact

@@ -580,6 +580,8 @@ Always,Mindig,module,Magento_Captcha
 "The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nincs annyi ""%1"" raktáron, mint amennyit kért, de megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nincs ""%1"" a kért mennyiségben raktáron, így megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","A %1 termékből csak %2 darabot vásárolhat egyszerre.",module,Magento_CatalogInventory
 "You can buy this product only in quantities of %1 at a time.","Ebből a termékből egyszerre csak %1 darabot vásárolhat.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","Decimális mennyiség növekmény nem engedélyezett.",module,Magento_CatalogInventory
@@ -673,7 +675,7 @@ name,név,module,Magento_CatalogSearch
 "Product Attribute",Termékjellemzők,module,Magento_CatalogWidget
 SKU,Cikkszám,module,Magento_CatalogWidget
 "Please choose a condition to add.","Válasszon feltételt.",module,Magento_CatalogWidget
-"Add to Cart","Hozzáadás a kosárhoz",module,Magento_CatalogWidget
+"Add to Cart",Kosárba,module,Magento_CatalogWidget
 "In stock",Raktáron,module,Magento_CatalogWidget
 "Out of stock","Nincs raktáron",module,Magento_CatalogWidget
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_CatalogWidget
@@ -1118,7 +1120,7 @@ Actions,Műveletek,module,Magento_Catalog
 "Compare Products","Termékek összehasonlítása",module,Magento_Catalog
 "Print This Page","Oldal nyomtatása",module,Magento_Catalog
 "Remove Product","Termék eltávolítása",module,Magento_Catalog
-"Add to Cart","Hozzáadás a kosárhoz",module,Magento_Catalog
+"Add to Cart",Kosárba,module,Magento_Catalog
 "In stock",Raktáron,module,Magento_Catalog
 "Out of stock","Nincs raktáron",module,Magento_Catalog
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_Catalog
@@ -2154,14 +2156,22 @@ Dropdown,Legördülőlista,module,Magento_Eav
 "Invalid backend model specified: %1","Érvénytelen adminisztrációs felület-modell megadva: %1",module,Magento_Eav
 "Source model ""%1"" not found for attribute ""%2""","A(z) ""%1"" forrásmodell nem található a(z) ""%2"" jellemzőhöz",module,Magento_Eav
 "The value of attribute ""%1"" must be set","""%1"" jellemző értékét be kell állítani",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","A %1 attribútum értékének egyedinek kell lennie",module,Magento_Eav
 "Invalid date","Érvénytelen dátum",module,Magento_Eav
 "Empty attribute code","Üres jellemzőkód",module,Magento_Eav
 "Cannot save attribute %1","A(z) %1 jellemző nem menthető",module,Magento_Eav
+"Attribute %1 does not contain option with Id %2","A(z) %1 tulajdonság nem tartalmazza a(z) %2 azonosítójú opciót",module,Magento_Eav
 "Cannot load options for attribute %1","A(z) ""%1"" jellemző opciói nem tölthetők be",module,Magento_Eav
 "Attribute set name is empty.","Jellemző halmaz név üres.",module,Magento_Eav
 "An attribute set named ""%1"" already exists.","""%1"" nevű jellemző halmaz már létezik.",module,Magento_Eav
 "No options found.","Nincs választási lehetőség.",module,Magento_Eav
 label,címke,module,Magento_Eav
+"Invalid entity supplied: %1","Érvénytelen attribútum: %1",module,Magento_Eav
+"Attempt to add an invalid object","Érvénytelen objektumot kísérelt meg hozzáadni",module,Magento_Eav
+"Invalid attribute identifier for filter (%1)","Érvénytelen attribútumazonosító a szűrőhöz (%1)",module,Magento_Eav
+"Invalid attribute requested: %1","A kért attribútum: %1 érvénytelen",module,Magento_Eav
+"Joint field or attribute expression with this alias is already declared","A közös mező vagy attribútum kifejezés ezzel az álnévvel már deklarálva van",module,Magento_Eav
+"Invalid alias, already exists in joint attributes","Érvénytelen álnév, már létezik a közös attribútumokban",module,Magento_Eav
 "Invalid foreign key","Érvénytelen idegen kulcs",module,Magento_Eav
 "Invalid entity type","Érvénytelen entitástípus",module,Magento_Eav
 "Invalid attribute type","Érvénytelen jellemzőtípus",module,Magento_Eav
@@ -2169,6 +2179,9 @@ label,címke,module,Magento_Eav
 "Invalid attribute name: %1","Érvénytelen jellemzőnév: %1",module,Magento_Eav
 "Invalid form type.","Érvénytelen űrlaptípus!",module,Magento_Eav
 "Invalid EAV attribute","Érvénytelen EAV-jellemző",module,Magento_Eav
+"Form Type with the same code","Form Típus azonos kóddal",module,Magento_Eav
+"The value of attribute ""%1"" is invalid.","A(z) ""%1"" attribútum értéke érvénytelen.",module,Magento_Eav
+"Wrong entity ID","Rossz entitás ID",module,Magento_Eav
 "Wrong attribute set ID","Rossz Jellemző halmaz azonosító",module,Magento_Eav
 "Wrong attribute group ID","Rossz jellemző csoport azonosító",module,Magento_Eav
 "AttributeSet does not exist.","Jellemzőhalmaz nem létezik.",module,Magento_Eav
@@ -2264,7 +2277,12 @@ Yes,Igen,module,Magento_EncryptionKey
 "3 Day Freight","3 napos szállítás",module,Magento_Fedex
 Ground,Alap,module,Magento_Fedex
 "Home Delivery",Házhozszállítás,module,Magento_Fedex
+Freight,Fuvar,module,Magento_Fedex
+"National Freight","Belföldi fuvar",module,Magento_Fedex
+"Regular Pickup","Normál felvétel",module,Magento_Fedex
+"Request Courier","Futár kérés",module,Magento_Fedex
 "FedEx Envelope","FedEx boríték",module,Magento_Fedex
+"Not Required","Nem szükséges",module,Magento_Fedex
 Adult,Felnőtt,module,Magento_Fedex
 Direct,Közvetlen,module,Magento_Fedex
 Indirect,Közvetett,module,Magento_Fedex
@@ -2273,6 +2291,13 @@ Kilograms,Kilogramm,module,Magento_Fedex
 status,állapot,module,Magento_Fedex
 "Empty response","Üres válasz",module,Magento_Fedex
 None,"Egyik sem",module,Magento_Fedex
+"Gift Message is not available","Ajándéküzenet nem áll rendelkezésre",module,Magento_GiftMessage
+"Could not add gift message to shopping cart","Nem lehet ajándéküzenetet adni a kosárhoz",module,Magento_GiftMessage
+"There is no item with provided id in the cart","A kosárban nem található a megadott azonosítójú elem",module,Magento_GiftMessage
+"There is no product with provided  itemId: %1 in the cart","Nincs termék a megadott %1 tételazonosítóval a kosárban",module,Magento_GiftMessage
+"There is no item with provided id in the order","A rendelésben nem található a megadott azonosítójú elem",module,Magento_GiftMessage
+"Could not add gift message to order: ""%1""","Nem lehet ajándéküzenetet fűzni a következő rendeléshez: ""%1""",module,Magento_GiftMessage
+"There is no order with provided id","A megadott azonosítóval nincs megrendelés",module,Magento_GiftMessage
 "Unknown entity type","Ismeretlen entitástípus",module,Magento_GiftMessage
 From,Feladó,module,Magento_GiftMessage
 To,Címzett,module,Magento_GiftMessage
@@ -2280,9 +2305,22 @@ Message,Üzenet,module,Magento_GiftMessage
 Cancel,Mégse,module,Magento_GiftMessage
 "Gift Options","Ajándék beállítások",module,Magento_GiftMessage
 "Gift Message","Ajándék üzenet",module,Magento_GiftMessage
+"Do you have any gift items in your order?","Van olyan tétel a rendelésben ami ajándék?",module,Magento_GiftMessage
+"Add gift options","Ajándék lehetőségek hozzáadása",module,Magento_GiftMessage
+"Gift Options for the Entire Order","Ajándék lehetőségek a teljes rendelésre",module,Magento_GiftMessage
+"Gift Options for Individual Items","Ajándék lehetőségek az egyes tételekhez",module,Magento_GiftMessage
+"<span>Item %1</span> of %2","<span>%1 cikk</span> a %2 -ból (-ből)",module,Magento_GiftMessage
+"Add Gift Options for the Entire Order","Ajándék lehetőségek hozzáadása a teljes rendeléshez",module,Magento_GiftMessage
+"Add gift options for Individual Items","Ajándék lehetőségek hozzáadása az egyes tételekhez",module,Magento_GiftMessage
 Dynamic,Dinamikus,module,Magento_GoogleAdwords
+Constant,Állandó,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","A ""%1"" konverzió szín értéke nem érvényes. Adjon meg hexadecimális 6 számjegyű értéket.",module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","""%1"" Konverzió azonosító nem érvényes. A konverzió azonosítónak egész számnak kell lennie.",module,Magento_GoogleAdwords
 "Product View Optimization","Termék nézet optimalizálás",module,Magento_GoogleOptimizer
 "Page View Optimization","Lap nézet optimalizálás",module,Magento_GoogleOptimizer
+"Google Analytics Content Experiments Code","Google Analytics tartalmi kísérletek kódja",module,Magento_GoogleOptimizer
+"Experiment Code","Kísérlet kódja",module,Magento_GoogleOptimizer
+"Experiment code should be added to the original page only.","Kísérletkódot csak az eredeti oldalhoz kell hozzáadni.",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct
@@ -2299,10 +2337,23 @@ Filter,Szűrés,module,Magento_ImportExport
 Import,Importálás,module,Magento_ImportExport
 History,Előzmények,module,Magento_ImportExport
 Status,Állapot,module,Magento_ImportExport
+"Show more","Mutass többet",module,Magento_ImportExport
 Delete,Törlés,module,Magento_ImportExport
+"Indexer Management","Indexelő kezelés",module,Magento_Indexer
+"Update by Schedule","Ütemezett frissítés",module,Magento_Indexer
+"Update on Save","Frissítés mentéskor",module,Magento_Indexer
 "Reindex required","Újraindexelése szükséges",module,Magento_Indexer
 Ready,Kész,module,Magento_Indexer
+Processing,"Feldolgozás alatt",module,Magento_Indexer
 Never,Soha,module,Magento_Indexer
+"Index Management","Index kezelés",module,Magento_Indexer
+"Please select indexers.","Kérjük, válassza ki az indexelőket.",module,Magento_Indexer
+"%1 indexer(s) are in ""Update by Schedule"" mode.","%1 indexelő ""Ütemezett frissítés"" üzemmódban van.",module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.","Nem sikerült módosítani az indexelő(k) módját, hiba miatt.",module,Magento_Indexer
+"%1 indexer(s) are in ""Update on Save"" mode.","%1 indexelő ""Frissítés mentéskor"" üzemmódban van.",module,Magento_Indexer
+"One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Egy vagy több <a href=""%1"">indexelő érvénytelen</a>. Ellenőrizze, hogy a <a href=""%2"" target=""_blank"">Magento cron ütemező</a> fut-e.",module,Magento_Indexer
+"Some Exception Message","Néhány kivétel üzenet",module,Magento_Indexer
+"Test Phrase","Teszt mondat",module,Magento_Indexer
 Integrations,Integrációk,module,Magento_Integration
 "Add New Integration","Új integráció hozzáadása",module,Magento_Integration
 Save,Mentés,module,Magento_Integration
@@ -2315,10 +2366,19 @@ Remove,Eltávolítás,module,Magento_Integration
 Edit,Szerkesztés,module,Magento_Integration
 Custom,Egyedi,module,Magento_Integration
 All,Összes,module,Magento_Integration
+"Filterable (with results)","Szűrhető (eredményekkel)",module,Magento_LayeredNavigation
+"Filterable (no results)","Szűrhető (eredmények nélkül)",module,Magento_LayeredNavigation
 No,Nem ,module,Magento_LayeredNavigation
+"Use in Layered Navigation","Használás réteges navigációban",module,Magento_LayeredNavigation
 Position,Pozició,module,Magento_LayeredNavigation
+"Position in Layered Navigation","Pozíció a réteges navigációban",module,Magento_LayeredNavigation
+item,elem,module,Magento_LayeredNavigation
+items,elemek,module,Magento_LayeredNavigation
+"Now Shopping by","Aktív szűrőfeltételek",module,Magento_LayeredNavigation
 Previous,Előző,module,Magento_LayeredNavigation
 Remove,Eltávolítás,module,Magento_LayeredNavigation
+"Remove This Item","Az elem eltávolítása",module,Magento_LayeredNavigation
+"Shop By",Szűrés,module,Magento_LayeredNavigation
 "Clear All","Összes törlése",module,Magento_LayeredNavigation
 "Shopping Options","Vásárlási beállítások",module,Magento_LayeredNavigation
 Partners,Partnerek,module,Magento_Marketplace
@@ -2342,7 +2402,7 @@ Database,Adatbázis,module,Magento_MediaStorage
 "You will see the order total before you submit the order.","Látni fogja a teljes rendelési összeget a megrendelés ladásakor.",module,Magento_Msrp
 Price,Ár,module,Magento_Msrp
 "Actual Price","Aktuális ár",module,Magento_Msrp
-"Add to Cart","Hozzáadás a kosárhoz",module,Magento_Msrp
+"Add to Cart",Kosárba,module,Magento_Msrp
 "Change Billing Address","Számlázási cím módosítása",module,Magento_Multishipping
 "Billing Information - %1","Számlázási információk - %1",module,Magento_Multishipping
 "Review Order - %1","Rendelés áttekintése - %1",module,Magento_Multishipping
@@ -2382,38 +2442,136 @@ Subtotal,Részösszeg,module,Magento_Multishipping
 "Continue to Billing Information","Tovább a számlázási információkhoz",module,Magento_Multishipping
 "Thank you for your purchase!","Köszönjük a vásárlást!",module,Magento_Multishipping
 "Continue Shopping","Vásárlás folytatása",module,Magento_Multishipping
+"Delete Selected Problems","Kijelölt problémák törlése",module,Magento_Newsletter
+"Unsubscribe Selected","Kiválasztottak leiratkoztatása",module,Magento_Newsletter
 Back,Vissza,module,Magento_Newsletter
 Reset,Alaphelyzet,module,Magento_Newsletter
+"Preview Template","Sablon előnézete",module,Magento_Newsletter
 "Save Newsletter","Hírlevél mentése",module,Magento_Newsletter
+"Save and Resume","Mentés és folytatás",module,Magento_Newsletter
 "View Newsletter","Hírlevél megtekintése",module,Magento_Newsletter
 "Edit Newsletter","Hírlevél szerkesztése",module,Magento_Newsletter
+"Queue Information","Sor információ",module,Magento_Newsletter
+"Queue Date Start","Sor kezdő dátum",module,Magento_Newsletter
+"Subscribers From","Feliratkozottak innen",module,Magento_Newsletter
 Subject,Tárgy,module,Magento_Newsletter
 "Sender Name","Feladó neve",module,Magento_Newsletter
+"Sender Email","Küldő email címe",module,Magento_Newsletter
 Message,Üzenet,module,Magento_Newsletter
+"Newsletter Styles","Hírlevél stílusok",module,Magento_Newsletter
+Start,Indítás,module,Magento_Newsletter
+Pause,Szünet,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Biztosan megszakítja a sort?",module,Magento_Newsletter
 Cancel,Mégse,module,Magento_Newsletter
+Resume,Folytatás,module,Magento_Newsletter
 Preview,Előnézet,module,Magento_Newsletter
+"Add New Template","Új sablon hozzáadása",module,Magento_Newsletter
 "Newsletter Templates","Hírlevél sablonok",module,Magento_Newsletter
+"Convert to Plain Text","Egyszerű szöveggé konvertálás",module,Magento_Newsletter
+"Return HTML Version","HTML verzió visszaadása",module,Magento_Newsletter
+"Delete Template","Sablon törlése",module,Magento_Newsletter
 "Save As","Mentés másként",module,Magento_Newsletter
 "Save Template","Sablon mentése",module,Magento_Newsletter
+"Edit Newsletter Template","Hírlevél sablon szerkesztése",module,Magento_Newsletter
+"New Newsletter Template","Új hírlevél sablon",module,Magento_Newsletter
+"Template Information","Sablon információk",module,Magento_Newsletter
 "Template Name","Sablon neve",module,Magento_Newsletter
+"Template Subject","Sablon tárgya",module,Magento_Newsletter
+"Template Content","Sablon tartalma",module,Magento_Newsletter
+"Template Styles","Sablon stílusa",module,Magento_Newsletter
 "No Templates Found","Nem találhatóak sablonok",module,Magento_Newsletter
 ID,Azonosító,module,Magento_Newsletter
+Template,Sablon,module,Magento_Newsletter
+Added,Hozzáadva,module,Magento_Newsletter
+Updated,Frissítve,module,Magento_Newsletter
+Sender,Feladó,module,Magento_Newsletter
+"Template Type","Sablon típusa",module,Magento_Newsletter
 Action,Akció,module,Magento_Newsletter
+"Queue Newsletter","Hírlevél sor",module,Magento_Newsletter
+"We unsubscribed the people you identified.","Leiratkoztattuk a kiválasztott embereket.",module,Magento_Newsletter
+"The problems you identified have been deleted.","Az azonosított problémák törlésre kerültek.",module,Magento_Newsletter
+"Newsletter Problems Report","Hírlevél problémák jelentése",module,Magento_Newsletter
+"Newsletter Problem Reports","Hírlevél problémák jelentése",module,Magento_Newsletter
+"Newsletter Queue","Hírlevél sor",module,Magento_Newsletter
+"Edit Queue","Sor szerkesztése",module,Magento_Newsletter
+"Please correct the newsletter template and try again.","Kérjük javítsa ki a hírlevél sablont, majd próbálja újra.",module,Magento_Newsletter
+"You saved the newsletter queue.","Elmentette a hírlevél sort.",module,Magento_Newsletter
 "Newsletter Subscribers","Hírlevél feliratkozók",module,Magento_Newsletter
+Newsletter,Hírlevél,module,Magento_Newsletter
 Subscribers,Feliratkozók,module,Magento_Newsletter
+"Please select one or more subscribers.","Kérjük jelöljön ki egy vagy több feliratkozót.",module,Magento_Newsletter
+"Total of %1 record(s) were deleted.","Összesen %1 sor törölve.",module,Magento_Newsletter
+"A total of %1 record(s) were updated.","Összesen %1 sor frissítve.",module,Magento_Newsletter
+"The newsletter template has been deleted.","A hírlevél sablon törölve lett.",module,Magento_Newsletter
 "We can't delete this template right now.","A sablon jelenleg nem törölhető.",module,Magento_Newsletter
+"Edit Template","Sablon szerkesztése",module,Magento_Newsletter
+"New Template","Új sablon",module,Magento_Newsletter
+"Create Newsletter Template","Hírlevél sablon létrehozása",module,Magento_Newsletter
+"The newsletter template has been saved.","A hírlevél sablon elmentve.",module,Magento_Newsletter
+"Something went wrong while saving this template.","Valami nem sikerült a sablon mentése közben.",module,Magento_Newsletter
+"Newsletter Subscription","Hírlevél feliratkozás",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Valami nem sikerült a feliratkozás mentése közben.",module,Magento_Newsletter
+"We saved the subscription.","Elmentettük a feliratkozást.",module,Magento_Newsletter
+"We removed the subscription.","Megszüntettük a feliratkozást.",module,Magento_Newsletter
+"Your subscription has been confirmed.","A feliratkozása megerősítésre került.",module,Magento_Newsletter
+"This is an invalid subscription confirmation code.","Érvénytelen feliratkozás megerősítő kód.",module,Magento_Newsletter
+"This is an invalid subscription ID.","Érvénytelen feliratkozás ID.",module,Magento_Newsletter
+"This email address is already assigned to another user.","Az email cím már hozzá van rendelve egy másik felhasználóhoz.",module,Magento_Newsletter
+"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Sajnáljuk, de az adminisztrátor nem engedélyezi a feliratkozást vendégek számára. Kérjük <a href=""%1"">regisztráljon</a>.",module,Magento_Newsletter
+"Please enter a valid email address.","Kérjük, adjon meg egy érvényes email címet.",module,Magento_Newsletter
+"The confirmation request has been sent.","A megerősítő kérelem elküldve.",module,Magento_Newsletter
+"Thank you for your subscription.","Köszönjük, hogy feliratkozott.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Probléma merült fel a feliratkozással: %1",module,Magento_Newsletter
+"Something went wrong with the subscription.","Valami nem sikerült a feliratkozás közben.",module,Magento_Newsletter
+"You unsubscribed.","Ön leiratkozott.",module,Magento_Newsletter
+"Something went wrong while unsubscribing you.","Valami nem sikerült a leiratkozás közben.",module,Magento_Newsletter
+Sent,Elküldve,module,Magento_Newsletter
 Cancelled,Törölve,module,Magento_Newsletter
+"Not Sent","Nincs elküldve",module,Magento_Newsletter
+Sending,Küldés,module,Magento_Newsletter
+Paused,Szüneteltetve,module,Magento_Newsletter
+"There are no subscribers selected.","Nincs kijelölt feliratkozó.",module,Magento_Newsletter
+"You selected an invalid queue.","Érvénytelen sort választott.",module,Magento_Newsletter
+"Duplicate template code","Duplikált sablon kód",module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Kövesse ezt a linket a leiratkozáshoz <!-- Ez a tag a leiratkozási link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
+"Choose Store View:","Válasszon Boltnézetet:",module,Magento_Newsletter
+"Newsletter Message Preview","Hírlevél előnézet",module,Magento_Newsletter
+"Add to Queue","Hozzáadás egy listához",module,Magento_Newsletter
+"Please enter a new template name.","Kérem adjon meg egy új sablon nevet.",module,Magento_Newsletter
+"Are you sure you want to delete this template?","Biztos törölni szeretné a sablont?",module,Magento_Newsletter
+"Sign Up for Our Newsletter:","Iratkozzon fel hírlevelünkre:",module,Magento_Newsletter
 "Enter your email address","Adja meg e-mail címét",module,Magento_Newsletter
 Subscribe,Feliratkozás,module,Magento_Newsletter
+"Purchase Order Number","Beszerzési rendelési szám: %1",module,Magento_OfflinePayments
+"Purchase Order Number: %1","Beszerzési rendelési szám: %1",module,Magento_OfflinePayments
 Country,Ország,module,Magento_OfflineShipping
 Region/State,Régió/állam,module,Magento_OfflineShipping
 "Zip/Postal Code",Irányítószám,module,Magento_OfflineShipping
 "Shipping Price","Szállítási költség",module,Magento_OfflineShipping
+"Export CSV","CSV exportálása",module,Magento_OfflineShipping
+"Store Pickup","Átvétel a boltban",module,Magento_OfflineShipping
+"Weight vs. Destination","Tömeg vs. cél",module,Magento_OfflineShipping
+"Price vs. Destination","Ár vs. cél",module,Magento_OfflineShipping
+"# of Items vs. Destination","Elemek száma vs. cél",module,Magento_OfflineShipping
+"Weight (and above)","Súly (és felette)",module,Magento_OfflineShipping
+"Order Subtotal (and above)","Részösszeg (és felette)",module,Magento_OfflineShipping
+"# of Items (and above)","Elemek száma (és felette)",module,Magento_OfflineShipping
+"Please correct Table Rate code type: %1.","Kérjük, javítsa a táblázatérték kódtípust: %1.",module,Magento_OfflineShipping
+"Please correct Table Rate code for type %1: %2.","Kérjük, javítsa a táblázatérték %1:%2 típusát.",module,Magento_OfflineShipping
 None,"Egyik sem",module,Magento_OfflineShipping
+"Per Order",Rendelésenként,module,Magento_OfflineShipping
+"Per Item",Termékenként,module,Magento_OfflineShipping
+"Something went wrong while importing table rates.","Hiba történt a táblázatértékek importálása közben.",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","A fájl nem tölthető be az alábbi hibák miatt: %1",module,Magento_OfflineShipping
+"Please correct Country ""%1"" in the Row #%2.","Kérjük javítsa az országot ""%1"" a #%2 sorban.",module,Magento_OfflineShipping
+"Please correct Region/State ""%1"" in the Row #%2.","Kérjük javítsa a régiót/államot ""%1"" a #%2 sorban.",module,Magento_OfflineShipping
+"Please correct %1 ""%2"" in the Row #%3.","Kérjük javítsa a %1 ""%2""-t a #%3 sorban.",module,Magento_OfflineShipping
+"Please correct Shipping Price ""%1"" in the Row #%2.","Kérjük javítsa a szállítási költséget ""%1"" a #%2 sorban.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","Ismétlődő sor #%1 (ország ""%2"", régió/állam ""%3"", irányítószám ""%4"" és érték ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","Ingyenes szállítás",module,Magento_OfflineShipping
 No,Nem ,module,Magento_OfflineShipping
+"For matching items only","Csak az egyező elemekre",module,Magento_OfflineShipping
+"For shipment with matching items","Szállításra egyező elemekkel",module,Magento_OfflineShipping
 "Built-in Application (Not Recommended for Production Use)","Beépített alkalmazás (Éles használatra nem javasolt)",module,Magento_PageCache
 "Varnish Caching","Varnish gyorstárazás",module,Magento_PageCache
 Month,Hónap,module,Magento_Payment
@@ -2428,6 +2586,7 @@ No,Nem ,module,Magento_Payment
 "Switch/Solo/Maestro Only","Kizárólag Switch/Solo/Maestro",module,Magento_Payment
 "Issue Number",Ügyszám,module,Magento_Payment
 "Start Date","Kezdő dátum",module,Magento_Payment
+"Please Select","Kérem válasszon",module,Magento_Payment
 "We'll ask for your payment details before you place an order.","A megrendelés feladása előtt szükségünk lesz az adataira.",module,Magento_Payment
 "--Please Select--","--Kérem válasszon--",module,Magento_Payment
 "What is this?","Mi ez?",module,Magento_Payment
@@ -2461,13 +2620,40 @@ Edit,Szerkesztés,module,Magento_Paypal
 Item,Elem,module,Magento_Paypal
 Price,Ár,module,Magento_Paypal
 or,vagy,module,Magento_Paypal
+"Not you?","Nem Ön az?",module,Magento_Persistent
+"Your shopping cart has been updated with new prices.","Az Ön kosara frissítve lett az új árakra.",module,Magento_Persistent
 "Welcome, %1!","Üdvözlet %1!",module,Magento_Persistent
+"We cannot load the configuration from file %1.","Nem sikerült betölteni a konfigurációt a %1 fájlból.",module,Magento_Persistent
+"Method ""%1"" is not defined in ""%2""","A ""%1"" metódus nincs definiálva ""%2""-ben",module,Magento_Persistent
+"To check out, please sign in using your email address.","A fizetéshez kérjük jelentkezzen be email címével.",module,Magento_Persistent
 "Remember Me","Emlékezz rám",module,Magento_Persistent
 "What's this?","Mi ez?",module,Magento_Persistent
+"Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Kattinsta be a &quot;Emlékezz rám&quot; mezőt, hogy akkor is elérje kosarát, amikor nincs bejelentkezve.",module,Magento_Persistent
+"You saved the alert subscription.","Elmentette a riasztási feliratkozást.",module,Magento_ProductAlert
+"There are not enough parameters.","Nincs elég paraméter.",module,Magento_ProductAlert
+"Alert subscription has been saved.","Riasztási feliratkozás elmentve.",module,Magento_ProductAlert
+"You deleted the alert subscription.","Törölte a riasztási feliratkozást.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","Nem fog a továbbiakban ár értesítést kapni erről a termékről.",module,Magento_ProductAlert
+"Unable to update the alert subscription.","Nem lehet frissíteni a riasztási feliratkozást.",module,Magento_ProductAlert
+"You will no longer receive stock alerts for this product.","Nem fog a továbbiakban készlet értesítést kapni erről a termékről.",module,Magento_ProductAlert
+"The product was not found.","A termék nem található.",module,Magento_ProductAlert
+"You will no longer receive stock alerts.","Nem fog a továbbiakban készlet értesítést kapni.",module,Magento_ProductAlert
+"Invalid block type: %1","Érvénytelen blokk típus: %1",module,Magento_ProductAlert
+"Price change alert! We wanted you to know that prices have changed for these products:","Értesítés árváltozásról! Szerettük volna, ha tudja, hogy az alábbi termékek árai megváltoztak:",module,Magento_ProductAlert
 Price:,Ár:,module,Magento_ProductAlert
+"Click here to stop alerts for this product.","Kattintson ide, hogy leállítsa ennek a terméknek az értesítéseit.",module,Magento_ProductAlert
+"Unsubscribe from all price alerts","Leiratkozás az összes ár értesítésről",module,Magento_ProductAlert
+"In stock alert! We wanted you to know that these products are now available:","Árukészlet értesítés! Szerettük volna, ha tudja, hogy az alábbi termékeink most elérhetőek:",module,Magento_ProductAlert
+"Unsubscribe from all stock alerts","Leiratkozás az összes készlet értesítésről",module,Magento_ProductAlert
 Title,Cím,module,Magento_ProductVideo
 Description,Leírás,module,Magento_ProductVideo
+"Preview Image","Előnézeti kép",module,Magento_ProductVideo
+"Get Video Information","Videó információk lekérése",module,Magento_ProductVideo
+"Hide from Product Page","Termék oldalon elrejteni",module,Magento_ProductVideo
 Role,Szerepkör,module,Magento_ProductVideo
+"YouTube and Vimeo supported.","YouTube és Vimeo támogatott.",module,Magento_ProductVideo
+"Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo támogatott.<br />YouTube videó hozzáadásához, kérjük először <a href=""%1"">adja meg YouTube API kulcsát</a>.",module,Magento_ProductVideo
+"Could not get preview image information. Please check your connection and try again.","Nem sikerült beolvasni az előnézeti kép információit. Kérjük ellenőrizze kapcsolatát és próbálja meg újra.",module,Magento_ProductVideo
 "New Video","Új videó",module,Magento_ProductVideo
 "Add Video","Videó hozzáadása",module,Magento_ProductVideo
 "Delete video","Videó törlése",module,Magento_ProductVideo
@@ -2475,35 +2661,80 @@ Role,Szerepkör,module,Magento_ProductVideo
 Hidden,Rejtett,module,Magento_ProductVideo
 "Alt Text","Alt szöveg",module,Magento_ProductVideo
 Title:,Cím:,module,Magento_ProductVideo
+Uploaded:,Feltöltve:,module,Magento_ProductVideo
+Uploader:,Feltöltő:,module,Magento_ProductVideo
+Duration:,Hossz:,module,Magento_ProductVideo
 "Unable to save address. Please, check input data.","A cím mentése sikertelen. Kérjük ellenőrizze a megadott adatokat.",module,Magento_Quote
 "Cart %1 doesn't contain products","%1 kosara nem tartalmaz termékeket",module,Magento_Quote
+"Could not apply coupon code","Nem alkalmazható a kupon kód",module,Magento_Quote
+"Coupon code is not valid","A kupon kód nem érvényes",module,Magento_Quote
+"Could not delete coupon code","Nem sikerült törölni a kupon kódot",module,Magento_Quote
 "Shipping address is not set","Szállítási cím nincs beállítva",module,Magento_Quote
+"The requested Payment Method is not available.","A kért Fizetési mód nem elérhető.",module,Magento_Quote
+"We found an invalid request for adding product to quote.","Érvénytelen kérést találtunk a termék ajánlathoz adásakor.",module,Magento_Quote
+"This shipping method is not available. To use this shipping method, please contact us.","Ez a szállítási mód nem elérhető. A szállítási mód igénybevételéhez kérjük lépjen kapcsolatba velünk.",module,Magento_Quote
+"The address model is not defined.","A címzési modell nincs definiálva.",module,Magento_Quote
+"The address total model should be extended from
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","Az address total modell a
+                    \Magento\Quote\Model\Quote\Address\Total\AbstractTotal -ból származtatható.",module,Magento_Quote
 "Grand Total",Mindösszesen,module,Magento_Quote
 "Shipping & Handling (%1)","Szállítás & kezelés (%1)",module,Magento_Quote
 "Shipping & Handling","Szállítás & kezelés",module,Magento_Quote
 Shipping,Szállítás,module,Magento_Quote
 Subtotal,Részösszeg,module,Magento_Quote
+"We found an invalid item option format.","Érvénytelen cikk lehetőség formátum.",module,Magento_Quote
+"An item option with code %1 already exists.","Egy cikk lehetőség a %1 kóddal már létezik.",module,Magento_Quote
+"Item qty declaration error","Cikk darabszám hiba",module,Magento_Quote
+"Some of the products below do not have all the required options.","Az alábbi néhány terméknek nincs meg az összes szükséges opciója.",module,Magento_Quote
+"Something went wrong during the item options declaration.","Valami nem sikerült a cikk lehetőségek megadása közben.",module,Magento_Quote
+"Some of the selected options are not currently available.","Némely kijelölt beállítás jelenleg elérhető.",module,Magento_Quote
+"Selected option(s) or their combination is not currently available.","A kijelölt lehetőség(ek) vagy kombinációik jelenleg nem elérhetőek.",module,Magento_Quote
+"Some item options or their combination are not currently available.","Néhány cikk lehetőség vagy kombinációik jelenleg nem elérhetőek.",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","%1 kosár nem tartalmazza %2 elemet",module,Magento_Quote
+"Could not save quote","Nem lehet menteni az ajánlatot",module,Magento_Quote
+"Could not remove item from quote","Nem lehet eltávolítani az elemet az ajánlatból",module,Magento_Quote
+"The qty value is required to update quote item.","A ""qty"" értéke szükséges az ajánlat elem frissítéséhez.",module,Magento_Quote
+"Invalid customer id %1","Érvénytelen ügyfél azonosító %1",module,Magento_Quote
+"Invalid address id %1","Érvénytelen cím azonosító %1",module,Magento_Quote
+"Cannot create quote","Nem hozható létre az ajánlat",module,Magento_Quote
+"Cannot assign customer to the given cart. The cart belongs to different store.","Nem sikerült a vásárló hozzárendelése a kosárhoz. A kosár egy másik bolthoz tartozik.",module,Magento_Quote
+"Cannot assign customer to the given cart. The cart is not anonymous.","Nem sikerült a vásárló hozzárendelése a kosárhoz. A kosár névtelen.",module,Magento_Quote
+"Cannot assign customer to the given cart. Customer already has active cart.","Nem sikerült a vásárló hozzárendelése a kosárhoz. A vásárlónak már van egy aktív kosara.",module,Magento_Quote
 "Cannot place order.","Rendelés sikertelen.",module,Magento_Quote
+"This item price or quantity is not valid for checkout.","A cikk ára vagy mennyisége érvénytelen a fizetéshez.",module,Magento_Quote
+"Please check the shipping address information. %1","Kérjük ellenőrizze a szállítási címet. %1",module,Magento_Quote
+"Please specify a shipping method.","Kérjük adjon meg egy szállítási módszert.",module,Magento_Quote
+"Please check the billing address information. %1","Kérjük ellenőrizze a számlázási címet. %1",module,Magento_Quote
+"Please select a valid payment method.","Kérjük válasszon egy érvényes fizetési módot.",module,Magento_Quote
+"Store Credit","Bolti hitel",module,Magento_Quote
 Discount,Kedvezmény,module,Magento_Quote
 Tax,Adó,module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping address is not applicable.","A kosárban csak virtuális termék(ek) vannak. Szállítási cím megadása nem szükséges.",module,Magento_Quote
+"Shipping address not set.","Szállítási cím nincs megadva.",module,Magento_Quote
+"Shipping method is not applicable for empty cart","A szállítási mód nem nem alkalmazható üres kosárra",module,Magento_Quote
+"Cart contains virtual product(s) only. Shipping method is not applicable.","A kosárban csak virtuális termék(ek) vannak. Szállítási módszer megadása nem szükséges.",module,Magento_Quote
 "Carrier with such method not found: %1, %2","A beállításoknak megfelelő szállító nem található: %1, %2",module,Magento_Quote
+"Cannot set shipping method. %1","Nem állítható be a szállítási módszer. %1",module,Magento_Quote
 Day,Nap,module,Magento_Reports
 Month,Hónap,module,Magento_Reports
 Year,Év,module,Magento_Reports
 Yes,Igen,module,Magento_Reports
 No,Nem ,module,Magento_Reports
 Refresh,Frissítés,module,Magento_Reports
+"Show Reviews","Vélemények megjelenítése",module,Magento_Reports
 Product,Termék,module,Magento_Reports
 SKU,Cikkszám,module,Magento_Reports
 Unlimited,Korlátlan,module,Magento_Reports
 "Low stock","Alacsony készlet",module,Magento_Reports
 "Most Viewed",Legnézettebb,module,Magento_Reports
+"Show Report","Jelentés megjelenítése",module,Magento_Reports
 Price,Ár,module,Magento_Reports
 "Refresh Statistics","Statisztika frissítése",module,Magento_Reports
 "Customers Reviews",Vélemények,module,Magento_Reports
+"Reviews for %1","Vélemények %1 -hez",module,Magento_Reports
 Customer,Vásárló,module,Magento_Reports
 Title,Cím,module,Magento_Reports
+"Products Reviews","Termékek véleményei",module,Magento_Reports
 Discount,Kedvezmény,module,Magento_Reports
 Orders,Rendelések,module,Magento_Reports
 Invoiced,Számlázott,module,Magento_Reports
@@ -2518,25 +2749,40 @@ ID,Azonosító,module,Magento_Reports
 "First Name",Keresztnév,module,Magento_Reports
 "Last Name",Vezetéknév,module,Magento_Reports
 Name,Név,module,Magento_Reports
+Reviews,Vélemények,module,Magento_Reports
+"Product Reviews","Termék vélemények",module,Magento_Reports
 "Shipping Report","Szállítási jelentés",module,Magento_Reports
 "Shopping Cart",Kosár,module,Magento_Reports
 Bestsellers,Bestsellerek,module,Magento_Reports
 Error,Hiba,module,Magento_Reports
-"Add to Cart","Hozzáadás a kosárhoz",module,Magento_Reports
+"Add to Cart",Kosárba,module,Magento_Reports
 "In stock",Raktáron,module,Magento_Reports
 "Out of stock","Nincs raktáron",module,Magento_Reports
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_Reports
 "Save Review","Vélemény mentése",module,Magento_Review
+"New Review","Új értékelés",module,Magento_Review
+"Review Details","Értékelés részletei",module,Magento_Review
 Product,Termék,module,Magento_Review
+"Product Rating","Termék értékelése",module,Magento_Review
 Status,Állapot,module,Magento_Review
 Visibility,Láthatóság,module,Magento_Review
+Nickname,Becenév,module,Magento_Review
+"Summary of Review","Értékelés összefoglalása",module,Magento_Review
+Review,Értékelés,module,Magento_Review
 Previous,Előző,module,Magento_Review
+"Save and Previous","Mentés és a korábbi",module,Magento_Review
+"Save and Next","A Mentés és a következő",module,Magento_Review
 Next, Következő,module,Magento_Review
 "Delete Review","Vélemény törlése",module,Magento_Review
+"Are you sure you want to do this?","Biztosan ezt akarja tenni?",module,Magento_Review
+"Edit Review '%1'","'%1' értékelés szerkesztése",module,Magento_Review
 Administrator,Adminisztrátor,module,Magento_Review
 Guest,Vendég,module,Magento_Review
 Author,Szerző,module,Magento_Review
+"Summary Rating","Összefoglaló értékelés",module,Magento_Review
+"Detailed Rating","Részletes értékelés",module,Magento_Review
 ID,Azonosító,module,Magento_Review
+Created,Létrehozva,module,Magento_Review
 Title,Cím,module,Magento_Review
 Type,Típus,module,Magento_Review
 SKU,Cikkszám,module,Magento_Review
@@ -2544,24 +2790,89 @@ Action,Akció,module,Magento_Review
 Edit,Szerkesztés,module,Magento_Review
 Delete,Törlés,module,Magento_Review
 "Are you sure?","Biztos benne?",module,Magento_Review
+"Update Status","Státusz frissítése",module,Magento_Review
 Customer,Vásárló,module,Magento_Review
+"Pending Reviews of Customer `%1`","`%1` vevő folyamatban lévő véleménye",module,Magento_Review
+"Pending Reviews","Folyamatban lévő vélemények",module,Magento_Review
+"All Reviews of Customer `%1`","`%1` vevő összes értékelése",module,Magento_Review
+"All Reviews of Product `%1`","`%1` termék összes értékelése",module,Magento_Review
 "All Reviews","Összes vélemény",module,Magento_Review
 Name,Név,module,Magento_Review
+"Product Store Name","Termék bolti neve",module,Magento_Review
 Price,Ár,module,Magento_Review
 Quantity,Mennyiség,module,Magento_Review
+Websites,Weboldalak,module,Magento_Review
+"Manage Ratings","Értékelések kezelése",module,Magento_Review
+"Add New Rating","Új értékelés hozzáadása",module,Magento_Review
+"Save Rating","Értékelés mentése",module,Magento_Review
+"Delete Rating","Értékelés törlése",module,Magento_Review
+"Edit Rating #%1","#%1 értékelés szerkesztése",module,Magento_Review
+"New Rating","Új Értékelés",module,Magento_Review
+"Rating Title","Értékelés címe",module,Magento_Review
 "Default Value","Alapértelmezett érték",module,Magento_Review
+"Rating Visibility","Értékelés láthatósága",module,Magento_Review
+"Is Active",Aktív,module,Magento_Review
+"Sort Order","Rendezési sorrend",module,Magento_Review
+"Rating Information","Értékelési információ",module,Magento_Review
+"Product Reviews","Termék értékelései",module,Magento_Review
+"Pending product review(s)","Függőben lévő termék értékelés(ek)",module,Magento_Review
+"Product: <a href=""%1"" target=""_blank"">%2</a> <br/>","Termék: <a href=""%1"" target=""_blank"">%2</a> <br/>",module,Magento_Review
+"Summary of review: %1 <br/>","Értékelés összefoglalása: %1 <br/>",module,Magento_Review
+"Review: %1 <br/>","Értékelés: %1 <br/>",module,Magento_Review
+"Store: %1 <br/>","Bolt: %1 <br/>",module,Magento_Review
+"Click <a href=""%1"">here</a> to see the review.","Kattintson <a href=""%1"">ide</a> az értékelés megtekintéséhez.",module,Magento_Review
+"Product: ""%1"" reviewed by: %2","Termék: ""%1"" értékelte: %2",module,Magento_Review
+"Reviews %1","%1 vélemények",module,Magento_Review
+Reviews,Vélemények,module,Magento_Review
+"The review has been deleted.","Az értékelés törölve.",module,Magento_Review
+"Something went wrong  deleting this review.","Valami nem sikerült az értékelés törlése közben.",module,Magento_Review
+"Customer Reviews","Vevő vélemények",module,Magento_Review
+"Edit Review","Értékelés szerkesztése",module,Magento_Review
+"Please select review(s).","Kérjük, válassza ki az értékelést/értékeléseket.",module,Magento_Review
+"A total of %1 record(s) have been deleted.","Összesen %1 sor törölve.",module,Magento_Review
+"Something went wrong while deleting these records.","Valami nem sikerült a rekordok törlése közben.",module,Magento_Review
+"A total of %1 record(s) have been updated.","Összesen %1 sor frissítve.",module,Magento_Review
+"My Product Reviews","Termék véleményeim",module,Magento_Review
 Actions,Műveletek,module,Magento_Review
+"You have submitted no reviews.","Ön még nem adott le véleményt.",module,Magento_Review
 Back,Vissza,module,Magento_Review
+"My Recent Reviews","Friss véleményeim",module,Magento_Review
+"Back to My Reviews","Vissza a véleményeimhez",module,Magento_Review
 Summary,Összefoglaló,module,Magento_Review
+"Back to Product Reviews","Vissza a termék véleményekhez",module,Magento_Review
 "Page not found.","Az oldal nem található.",module,Magento_Rss
 Feed,Hírcsatorna,module,Magento_Rss
 Apply,Alkalmazás,module,Magento_Rule
+"Please choose a valid discount amount.","Kérjük válasszon egy érvényes kedvezményt.",module,Magento_Rule
+"End Date must follow Start Date.","A záró dátumnak a kezdő dátum után kell következnie.",module,Magento_Rule
+"Please specify a website.","Kérem adjon meg egy weblapot.",module,Magento_Rule
+"Please specify Customer Groups.","Kérem adjon meg egy vásárlói csoportot.",module,Magento_Rule
+to,eddig,module,Magento_Rule
+by,készítette,module,Magento_Rule
+"Please choose an action to add.","Kérem válasszon egy műveletet a hozzáadáshoz.",module,Magento_Rule
+"Perform following actions","Végezze el a következő műveleteket",module,Magento_Rule
+"equals or greater than","egyenlő vagy nagyobb, mint",module,Magento_Rule
 "equals or less than","egyenlő vagy kisebb mint",module,Magento_Rule
+"greater than","nagyobb, mint",module,Magento_Rule
 "less than","kisebb, mint",module,Magento_Rule
+contains,tartalmaz,module,Magento_Rule
+"does not contain","nem tartalmaz",module,Magento_Rule
+"is one of","egy ebből",module,Magento_Rule
+"is not one of","nem egy ebből",module,Magento_Rule
+"Please choose a condition to add.","Kérem válasszon egy feltételt.",module,Magento_Rule
 Add,Hozzáadás,module,Magento_Rule
 Remove,Eltávolítás,module,Magento_Rule
+ALL,MIND,module,Magento_Rule
+ANY,BÁRMELYIK,module,Magento_Rule
 TRUE,IGAZ,module,Magento_Rule
+FALSE,HAMIS,module,Magento_Rule
+"If %1 of these conditions are %2:","Ha %1 ezek közül a feltételek közül %2:",module,Magento_Rule
+"Conditions Combination","Feltétel kombináció",module,Magento_Rule
+"Attribute Set",Attribútumkészlet,module,Magento_Rule
 Category,Kategória,module,Magento_Rule
+"Open Chooser","Választó megnyitása",module,Magento_Rule
+"Unknown condition operator","Ismeretlen feltétel operátor",module,Magento_Rule
+"There is no information about associated entity type ""%1"".","Nincs információ a hozzárendelt entitás típusról ""%1"".",module,Magento_Rule
 "Cart Price Rules","Kosár árszabályok",module,Magento_SalesRule
 "Add New Rule","Új szabály hozzáadása",module,Magento_SalesRule
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_SalesRule
@@ -2586,33 +2897,133 @@ Discount,Kedvezmény,module,Magento_SalesRule
 Orders,Rendelések,module,Magento_Sales
 Invoices,Számlák,module,Magento_Sales
 "Create New Order","Új rendelés létrehozása",module,Magento_Sales
+"Save Order Address","Rendelési cím mentése",module,Magento_Sales
 Shipping,Szállítás,module,Magento_Sales
+Billing,Számlázás,module,Magento_Sales
+"Edit Order %1 %2 Address","Rendelés %1 %2 cím szerkesztése",module,Magento_Sales
+"Order Address Information","Rendelési cím információ",module,Magento_Sales
+"Please correct the parent block for this block.","Kérem javítsa a blokk szülő blokkját.",module,Magento_Sales
+"Submit Comment","Hozzászólás beküldése",module,Magento_Sales
+"Submit Order","Megrendelés elküldése",module,Magento_Sales
+"Are you sure you want to cancel this order?","Biztosan visszavonja a megrendelést?",module,Magento_Sales
 Cancel,Mégse,module,Magento_Sales
 "Billing Address","Számlázási cím",module,Magento_Sales
 "Payment Method","Fizetési mód",module,Magento_Sales
+"Order Comment","Megjegyzés a megrendeléshez",module,Magento_Sales
 Coupons,Kuponok,module,Magento_Sales
+"Please select a customer","Kérem válasszon egy ügyfelet",module,Magento_Sales
 "Create New Customer","Új vásárló létrehozása",module,Magento_Sales
+"Account Information",Fiókadatok,module,Magento_Sales
+From,Feladó,module,Magento_Sales
+To,Címzett,module,Magento_Sales
 Message,Üzenet,module,Magento_Sales
+"Edit Order #%1","#%1 megrendelés szerkesztése",module,Magento_Sales
+"Create New Order for %1 in %2","Új rendelés létrehozása %1 számára %2-ben",module,Magento_Sales
+"Create New Order for %1","Hozzon létre új rendelést %1 számára",module,Magento_Sales
+"Create New Order for New Customer","Új rendelés létrehozása új felhasználó számára",module,Magento_Sales
+"Items Ordered","Megrendelt cikkek",module,Magento_Sales
+"This product is disabled.","Ez a terméket le van tiltva.",module,Magento_Sales
+"Buy %1 for price %2","Vegyen %1-t %2 áron",module,Magento_Sales
+"Item ordered qty","Cikkből rendelt mennyiség",module,Magento_Sales
+"%1 with %2 discount each","%1 %2 kedvezménnyel mindegyikre",module,Magento_Sales
+"%1 for %2","%1 %2-hez",module,Magento_Sales
+"* - Enter custom price including tax","* - Adjon meg egyedi árat adóval együtt",module,Magento_Sales
+"* - Enter custom price excluding tax","* - Adjon meg egyedi árat adó nélkül",module,Magento_Sales
 Configure,Konfigurálás,module,Magento_Sales
+"This product does not have any configurable options","Ez a termék nem rendelkezik konfigurálható beállításokkal",module,Magento_Sales
+"Newsletter Subscription","Hírlevél feliratkozás",module,Magento_Sales
+"Please select products","Kérem válasszon termékeket",module,Magento_Sales
+"Add Selected Product(s) to Order","Adja hozzá a kiválasztott termék(ek)et a rendeléshez",module,Magento_Sales
 ID,Azonosító,module,Magento_Sales
 Product,Termék,module,Magento_Sales
 SKU,Cikkszám,module,Magento_Sales
 Price,Ár,module,Magento_Sales
+Select,Kiválasztás,module,Magento_Sales
 Quantity,Mennyiség,module,Magento_Sales
 "Shipping Address","Szállítási cím",module,Magento_Sales
 "Shipping Method","Szállítási mód",module,Magento_Sales
+"Update Changes","Változások frissítése",module,Magento_Sales
 "Shopping Cart",Kosár,module,Magento_Sales
+"Are you sure you want to delete all items from shopping cart?","Biztosan törli az összes elemet a kosárból?",module,Magento_Sales
+"Clear Shopping Cart","Kosár kiürítése",module,Magento_Sales
+"Products in Comparison List","Termékek az összehasonlító listában",module,Magento_Sales
+"Recently Compared Products","Nemrég összehasonlított termékek",module,Magento_Sales
+"Recently Viewed Products","Nemrég megtekintett termékek",module,Magento_Sales
+"Last Ordered Items","Utoljára rendelt elemek",module,Magento_Sales
+"Recently Viewed","Nemrég megtekintve",module,Magento_Sales
+"Wish List",Kívánságlista,module,Magento_Sales
+"Please select a store","Kérem válasszon ki egy boltot",module,Magento_Sales
+"Order Totals","Rendelés összesen",module,Magento_Sales
+"Shipping Incl. Tax (%1)","Szállítás ÁFA-val (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","Szállítás ÁFA-nélkül (%1)",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","Szállítás visszatérítés (adóval)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","Szállítás visszatérítés (adó nélkül)",module,Magento_Sales
+"Refund Shipping","Szállítás visszatérítés",module,Magento_Sales
+Refund,Visszatérítés,module,Magento_Sales
 "Shipping Refund","Szállítási visszatérítés",module,Magento_Sales
 Print,Nyomtatás,module,Magento_Sales
 Edit,Szerkesztés,module,Magento_Sales
+"Are you sure you want to accept this payment?","Biztosan elfogadja a kifizetést?",module,Magento_Sales
+"Accept Payment","Kifizetés elfogadása",module,Magento_Sales
+"Are you sure you want to deny this payment?","Biztosan elutasítja ezt a kifizetést?",module,Magento_Sales
+"Deny Payment","Kifizetés elutasítása",module,Magento_Sales
+"Get Payment Update","Kifizetési állapot frissítése",module,Magento_Sales
 Invoice,Számla,module,Magento_Sales
+Ship,Szállítás,module,Magento_Sales
+Reorder,Újrarendelés,module,Magento_Sales
+"Order # %1 %2 | %3","Rendelés # %1 %2 | %3",module,Magento_Sales
+"This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Ez a rendelés (%1) elemet tartalmaz, ezért nem lehet szerkeszteni az admin felületről. Ha szeretné folytatni a szerkesztést, a (%2) elemek törölve lesznek, a rendelés vissza lesz vonva és egy új rendelés kerül elküldésre.",module,Magento_Sales
+"Are you sure? This order will be canceled and a new one will be created instead.","Biztos benne? A rendelés törlésre kerül és egy új rendelés kerül elküldésre.",module,Magento_Sales
+"Save Gift Message","Ajándék üzenet mentése",module,Magento_Sales
+"Shipment #%1 created","Szállítás #%1 létrehozva",module,Magento_Sales
+"Shipment #%1 comment added","Szállítás #%1 megjegyzés hozzáadva",module,Magento_Sales
+"Comments History","Megjegyzések előzményei",module,Magento_Sales
+"Order History","Korábbi rendelések",module,Magento_Sales
+Information,Információ,module,Magento_Sales
+"Order Information","Rendelés adatai",module,Magento_Sales
+Shipments,Szállítmányok,module,Magento_Sales
+"Order Shipments","Rendelés szállítmányok",module,Magento_Sales
+Transactions,Tranzakciók,module,Magento_Sales
+"Order View","Rendelési nézet",module,Magento_Sales
 Any,Bármely,module,Magento_Sales
+Specified,Megadott,module,Magento_Sales
+"Applies to Any of the Specified Order Statuses except canceled orders","Mindegyik megadott Rendelési státuszra vonatkozik, kivétel a visszavont rendelésekre",module,Magento_Sales
+"Cart Price Rule","Kosár árszabályok",module,Magento_Sales
 Yes,Igen,module,Magento_Sales
 No,Nem ,module,Magento_Sales
+"Show Actual Values","Tényleges értékek megjelenítése",module,Magento_Sales
+Subtotal,Részösszeg,module,Magento_Sales
 "Shipping & Handling","Szállítás & kezelés",module,Magento_Sales
+"Discount (%1)","Kedvezmény (%1)",module,Magento_Sales
 Discount,Kedvezmény,module,Magento_Sales
+"Grand Total",Mindösszesen,module,Magento_Sales
 Back,Vissza,module,Magento_Sales
+"Transaction # %1 | %2","Tranzakció # %1 | %2",module,Magento_Sales
+Key,Kulcs,module,Magento_Sales
+Value,Érték,module,Magento_Sales
+"We found an invalid entity model.","Egy érvénytelen entitás modellt találtunk.",module,Magento_Sales
+"Order # %1","Megrendelés #%1",module,Magento_Sales
 "Back to My Orders","Vissza a rendelésekhez",module,Magento_Sales
+"View Another Order","Másik rendelés megtekintése",module,Magento_Sales
+"About Your Refund","A visszatérítéséről",module,Magento_Sales
+"My Orders",Rendeléseim,module,Magento_Sales
+"Subscribe to Order Status","Feliratkozás a Rendelési Állapotra",module,Magento_Sales
+"Cannot update item quantity.","Nem lehet frissíteni a cikkmennyiséget.",module,Magento_Sales
+"%1 order(s) cannot be canceled.","%1 rendelést nem lehet visszavonni.",module,Magento_Sales
+"You cannot cancel the order(s).","Nem lehet visszavonni a rendelést/rendeléseket.",module,Magento_Sales
+"We canceled %1 order(s).","Visszavontunk %1 rendelést.",module,Magento_Sales
+"There are no printable documents related to selected orders.","Nincsenek nyomtatható dokumentumok a kiválasztott rendelésekhez kapcsolódóan.",module,Magento_Sales
+"The payment has been accepted.","A kifizetés elfogadva.",module,Magento_Sales
+"The payment has been denied.","A kifizetés elutasítva.",module,Magento_Sales
+"Transaction has been approved.","Tranzakció jóváhagyva.",module,Magento_Sales
+"Transaction has been voided/declined.","Tranzakció érvénytelenítve/elutasítva.",module,Magento_Sales
+"There is no update for the transaction.","Nincs frissítés a tranzakcióhoz.",module,Magento_Sales
+"You assigned the order status.","Megadta a rendelés státuszát.",module,Magento_Sales
+"Something went wrong while assigning the order status.","Valami nem sikerült a rendelés státuszának megadása közben.",module,Magento_Sales
+"Create New Order Status","Új rendelési állapot létrehozása",module,Magento_Sales
+"We found another order status with the same order status code.","Találtunk egy másik rendelési állapotot ugyanezzel a rendelési állapot kóddal.",module,Magento_Sales
+"You saved the order status.","Elmentette a rendelési állapotot.",module,Magento_Sales
+"You have unassigned the order status.","Megszüntette a rendelési állapot hozzárendelést.",module,Magento_Sales
 Home,Kezdőlap,module,Magento_Sales
 Guest,Vendég,module,Magento_Sales
 Refunded,Visszatérített,module,Magento_Sales
@@ -2672,67 +3083,190 @@ Store,Áruház,module,Magento_Search
 "Number of Uses","Használatok száma",module,Magento_Search
 "Redirect URL","Átirányítási URL",module,Magento_Search
 "ex. http://domain.com","pl. http://domain.com",module,Magento_Search
+"Display in Suggested Terms","Megjelenítés a Javasolt kifejezések között",module,Magento_Search
+"You deleted the search.","Törölte a keresést.",module,Magento_Search
+"This search no longer exists.","Ez a keresés többé nem létezik.",module,Magento_Search
+"Edit Search","Keresés szerkesztése",module,Magento_Search
+"Please select searches.","Kérem válassza ki a kereséseket.",module,Magento_Search
+"Total of %1 record(s) were deleted.","Összesen %1 sor törölve.",module,Magento_Search
+Reports,Jelentések,module,Magento_Search
+"Search Terms Report","Keresési kifejezések jelentése",module,Magento_Search
+"You saved the search term.","Elmentette a keresési kifejezést.",module,Magento_Search
+"Something went wrong while saving the search query.","Valami nem sikerült a kereső lekérdezés mentése közben.",module,Magento_Search
+"You already have an identical search term query.","Már van egy azonos kereső kifejezés lekérdezés.",module,Magento_Search
 "Search entire store here...",Keresés...,module,Magento_Search
+"There are no search terms available.","Nincs elérhető keresési kifejezés.",module,Magento_Search
 "Page not found.","Az oldal nem található.",module,Magento_SendFriend
+"The link to a friend was sent.","A link elküldve egy barátnak.",module,Magento_SendFriend
+"We found some problems with the data.","Probléma adódott az adatokkal.",module,Magento_SendFriend
+"Some emails were not sent.","Néhány email nem lett elküldve.",module,Magento_SendFriend
+"Please enter a sender name.","Kérem adja meg a küldő nevét.",module,Magento_SendFriend
+"Invalid Sender Email","Érvénytelen feladó email",module,Magento_SendFriend
+"Please enter a message.","Írjon be egy üzenetet.",module,Magento_SendFriend
+"Please specify at least one recipient.","Kérem adjon meg legalább egy címzettet.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","Kérem megfelelő címzett email címet adjon meg.",module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","Maximum %1 email küldhető egyszerre.",module,Magento_SendFriend
+"Please define a correct product instance.","Kérjük, adjon meg helyes Termék példányt.",module,Magento_SendFriend
+"Invalid Sender Information","Érvénytelen küldő információ",module,Magento_SendFriend
+"Please define the correct sender information.","Kérjük, adja meg a feladó helyes adatait.",module,Magento_SendFriend
 "IP Address","IP cím",module,Magento_SendFriend
 "Cookie (unsafe)","Süti (nem biztonságos)",module,Magento_SendFriend
+"No Product Exception.","Nincs ilyen termék.",module,Magento_SendFriend
+"No Category Exception.","Nincs ilyen kategória.",module,Magento_SendFriend
+"Some error","Valami hiba",module,Magento_SendFriend
+Exception.,Kivétel.,module,Magento_SendFriend
+"Remove Recipent","Címzett eltávolítása",module,Magento_SendFriend
 Remove,Eltávolítás,module,Magento_SendFriend
 Name,Név,module,Magento_SendFriend
 "* Required Fields","* kitöltése kötelező",module,Magento_SendFriend
 Sender,Feladó,module,Magento_SendFriend
 Message,Üzenet,module,Magento_SendFriend
 Invitee,Meghívott,module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","Maximum %1 email cím engedélyezett.",module,Magento_SendFriend
+"Send Email","E-mail küldése",module,Magento_SendFriend
 Back,Vissza,module,Magento_SendFriend
+"New Shipment for Order #%1","Új szállítmány a #%1 számú rendeléshez",module,Magento_Shipping
+"Submit Shipment","Szállítmány küldése",module,Magento_Shipping
+"Products should be added to package(s)","A termékeket csomagokhoz kellene adni",module,Magento_Shipping
+"The value that you entered is not valid.","A megadott érték nem érvényes.",module,Magento_Shipping
 "Add Tracking Number","Nyomkövetési szám hozzáadása",module,Magento_Shipping
 "Custom Value","Egyéni érték",module,Magento_Shipping
+Add,Hozzáadás,module,Magento_Shipping
 "Send Tracking Information","Nyomkövetési információk küldése",module,Magento_Shipping
+"Are you sure you want to send a Shipment email to customer?","Biztosan el akar küldeni egy Szállítás emailt az ügyfélnek?",module,Magento_Shipping
 Print,Nyomtatás,module,Magento_Shipping
+"the shipment email was sent","a szállítás email elküldve",module,Magento_Shipping
+"the shipment email is not sent","a szállítás email nincs elküldve",module,Magento_Shipping
+"Shipment #%1 | %3 (%2)","Szállítmány #%1 | %3 (%2)",module,Magento_Shipping
 "Create Shipping Label...","Szállítási címke létrehozása...",module,Magento_Shipping
 "Print Shipping Label","Szállítási címke nyomtatása",module,Magento_Shipping
+"Show Packages","Csomagok megjelenítése",module,Magento_Shipping
+"About Your Shipment","Az Ön szállítmányáról",module,Magento_Shipping
+"Order # %1","Megrendelés #%1",module,Magento_Shipping
 "Back to My Orders","Vissza a rendelésekhez",module,Magento_Shipping
+"View Another Order","Másik rendelés megtekintése",module,Magento_Shipping
+"Please enter a comment.","Kérem írjon egy hozzászólást.",module,Magento_Shipping
+"Cannot add new comment.","Nem adhat hozzá új megjegyzést.",module,Magento_Shipping
+"Please specify a carrier.","Kérjük válasszon ki egy szállítót.",module,Magento_Shipping
+"Please enter a tracking number.","Kérem adjon meg egy nyomonkövetési számot.",module,Magento_Shipping
+Shipments,Szállítmányok,module,Magento_Shipping
+"Cannot add tracking number.","Nem lehet hozzáadni a nyomonkövetési számot.",module,Magento_Shipping
+"You created the shipping label.","Létrehozta a szállítási címkét.",module,Magento_Shipping
+"An error occurred while creating shipping label.","Hiba történt a szállítási címke létrehozása közben.",module,Magento_Shipping
+"You sent the shipment.","Ön elküldte a szállítmányt.",module,Magento_Shipping
+"Cannot send shipment information.","Nem lehetett elküldeni a szállítási információt.",module,Magento_Shipping
+"There are no shipping labels related to selected orders.","Nem tartozik szállítási címke a kijelölt rendelésekhez.",module,Magento_Shipping
+"New Shipment","Új Szállítmány",module,Magento_Shipping
+"The shipment has been created.","A szállítmány létrejött.",module,Magento_Shipping
+"Cannot save shipment.","Nem lehet menteni a szállítmányt.",module,Magento_Shipping
+"The order no longer exists.","A rendelés nem létezik többé.",module,Magento_Shipping
+"Cannot do shipment for the order separately from invoice.","Nem lehet szállítani a rendelést a számla nélkül.",module,Magento_Shipping
+"Cannot do shipment for the order.","Nem lehet szállítani a rendelést.",module,Magento_Shipping
+"There are no shipping labels related to selected shipments.","Nincsenek szállítási címkék a kijelölt szállítmányokhoz.",module,Magento_Shipping
 "Page not found.","Az oldal nem található.",module,Magento_Shipping
 "Tracking Information","Nyomkövetési információk",module,Magento_Shipping
+"The shipping module is not available.","A szállítás modul nem érhető el.",module,Magento_Shipping
+"This shipping method is not available. Please specify the zip code.","Ez a szállítási módszer nem áll rendelkezésre. Kérem adja meg az irányítószámot.",module,Magento_Shipping
+"No packages for request","Nincs csomagkérés",module,Magento_Shipping
+"Security validation of XML document has been failed.","Az XML dokumentum biztonsági ellenőrzése nem sikerült.",module,Magento_Shipping
+"All Allowed Countries","Minden engedélyezett ország",module,Magento_Shipping
+"Specific Countries","Bizonyos országok",module,Magento_Shipping
+Development,Fejlesztés,module,Magento_Shipping
+Live,Élő,module,Magento_Shipping
+"Divide to equal weight (one request)","Egyenlő súlyokra osztás (egy kérelem)",module,Magento_Shipping
+"Use origin weight (few requests)","Használjon összsúlyt (néhány kérelem)",module,Magento_Shipping
+Packages,Csomagok,module,Magento_Shipping
 Package,Csomag,module,Magento_Shipping
 Type,Típus,module,Magento_Shipping
+Length,Hossz,module,Magento_Shipping
+"Signature Confirmation","Aláírás megerősítése",module,Magento_Shipping
+"Customs Value","Vám érték",module,Magento_Shipping
 Width,Szélesség,module,Magento_Shipping
+Contents,Tartalom,module,Magento_Shipping
+"Total Weight",Összsúly,module,Magento_Shipping
 Height,Magasság,module,Magento_Shipping
 Size,Méret,module,Magento_Shipping
+Girth,Vastagság,module,Magento_Shipping
+"Items in the Package","Cikkek a csomagban",module,Magento_Shipping
 Product,Termék,module,Magento_Shipping
 Weight,Súly,module,Magento_Shipping
 "Qty Ordered","Rendelt mennyiség",module,Magento_Shipping
+Qty,Db,module,Magento_Shipping
+"No detail for number ""%1""","Nincs részlet a ""%1"" számra",module,Magento_Shipping
+"Shipping labels is not available.","Nem érhetőek el a szállítási címkék.",module,Magento_Shipping
+"Response info is not exist.","Válasz információ nem érhető el.",module,Magento_Shipping
 "Invalid carrier: %1","Érvénytelen szállító: %1",module,Magento_Shipping
+"Per Order",Rendelésenként,module,Magento_Shipping
+"Per Package",Csomagonként,module,Magento_Shipping
 Fixed,Rögzített,module,Magento_Shipping
 Percent,Százalék,module,Magento_Shipping
+"Tracking information is unavailable.","Nem érhető el nyomonkövetési információ.",module,Magento_Shipping
 message,üzenet,module,Magento_Shipping
+"Email has not been sent","Az email nem lett elküldve",module,Magento_Shipping
 "Payment &amp; Shipping Method","Fizetési &amp; szállítási mód",module,Magento_Shipping
 "Payment Information","Fizetési információk",module,Magento_Shipping
+"The order was placed using %1.","A rendelés %1 használatával lett elküldve.",module,Magento_Shipping
 "Shipping Information","Szállítási információk",module,Magento_Shipping
+"Total Shipping Charges","Teljes szállítási költség",module,Magento_Shipping
 "Incl. Tax",Adóval,module,Magento_Shipping
+"Items to Ship","Szállítandó elemek",module,Magento_Shipping
+"Qty to Ship","Szállítandó mennyiség",module,Magento_Shipping
+Ship,Szállítás,module,Magento_Shipping
+"Shipment Total","Szállítmány összesen",module,Magento_Shipping
+"Shipment Comments","Szállítmány megjegyzések",module,Magento_Shipping
+"Comment Text","Megjegyzés szövege",module,Magento_Shipping
+"Shipment Options","Szállítmány opciók",module,Magento_Shipping
 "Create Shipping Label","Szállítási címke létrehozása",module,Magento_Shipping
+"Append Comments","Megjegyzések hozzáfűzése",module,Magento_Shipping
+"Email Copy of Shipment","Szállítmány másolatának küldése emailben",module,Magento_Shipping
+"Invalid value(s) for Qty to Ship","Érvénytelen érték a szállítandó mennyiségnél",module,Magento_Shipping
 "Select All","Összes kijelölése",module,Magento_Shipping
+"Product Name","Termék neve",module,Magento_Shipping
 Delete,Törlés,module,Magento_Shipping
 "Create Packages","Csomagok létrehozása",module,Magento_Shipping
 Cancel,Mégse,module,Magento_Shipping
 Save,Mentés,module,Magento_Shipping
 "Add Package","Csomag hozzáadása",module,Magento_Shipping
+"Add Selected Product(s) to Package","Kiválasztott termék(ek) hozzáadása a csomaghoz",module,Magento_Shipping
+"Add Products to Package","Termékek hozzáadása a csomaghoz",module,Magento_Shipping
+in,ebben,module,Magento_Shipping
 "Delete Package","Csomag törlése",module,Magento_Shipping
+Explanation,Magyarázat,module,Magento_Shipping
 Carrier,Szállító,module,Magento_Shipping
 Title,Cím,module,Magento_Shipping
+Number,Szám,module,Magento_Shipping
 Action,Akció,module,Magento_Shipping
 "Are you sure?","Biztos benne?",module,Magento_Shipping
 "Shipping &amp; Handling Information","Szállítási &amp; kezelési információk",module,Magento_Shipping
+"Track Order",Nyomonkövetés,module,Magento_Shipping
+"No shipping information available","Nincs elérhető szállítási információ",module,Magento_Shipping
 "Shipping and Tracking Information","Szállítási és nyomkövetési információk",module,Magento_Shipping
+"Track this shipment","A szállítás nyomonkövetése",module,Magento_Shipping
+"Items Shipped","Szállított cikkek",module,Magento_Shipping
+"Order Total","Rendelés összesen",module,Magento_Shipping
+"Shipment History","Szállítási előzmények",module,Magento_Shipping
+"Qty Shipped","Szállított mennyiség",module,Magento_Shipping
+"Print All Shipments","Összes szállítás nyomtatása",module,Magento_Shipping
+"Shipment #","Szállítmány #",module,Magento_Shipping
+"Print Shipment","Szállítmány nyomtatása",module,Magento_Shipping
 "Tracking Number(s):","Nyomkövetési szám(ok):",module,Magento_Shipping
 SKU,Cikkszám,module,Magento_Shipping
+"Order tracking",Rendeléskövetés,module,Magento_Shipping
 "Tracking Number:","Nyomkövetési szám:",module,Magento_Shipping
 Carrier:,Szállító:,module,Magento_Shipping
 Error:,Hiba:,module,Magento_Shipping
+"contact us","lépjen kapcsolatba velünk",module,Magento_Shipping
+Track:,Követés:,module,Magento_Shipping
 Status:,Állapot:,module,Magento_Shipping
+"Delivered on:",Kiszállítva:,module,Magento_Shipping
 Weight:,Súly:,module,Magento_Shipping
+"Track history","Nyomonkövetési előzmények",module,Magento_Shipping
 Location,Hely,module,Magento_Shipping
 Date,Dátum,module,Magento_Shipping
 "Local Time","Helyi idő",module,Magento_Shipping
 Description,Leírás,module,Magento_Shipping
+"There is no tracking available for this shipment.","Nincs nyomonkövetés ehhez a szállítmányhoz.",module,Magento_Shipping
+"There is no tracking available.","Nem áll rendelkezésre nyomonkövetés.",module,Magento_Shipping
 "Close Window","Ablak bezárása",module,Magento_Shipping
 "Save & Generate","Mentés & generálás",module,Magento_Sitemap
 "Edit Sitemap","Oldaltérkép szerkesztése",module,Magento_Sitemap
@@ -2748,9 +3282,18 @@ Monthly,Havi,module,Magento_Sitemap
 Yearly,Éves,module,Magento_Sitemap
 None,"Egyik sem",module,Magento_Sitemap
 All,Összes,module,Magento_Sitemap
+"Current store is not active.","Az aktuális bolt nem aktív.",module,Magento_Store
+"Requested store is inactive","A kért bolt inaktív",module,Magento_Store
+"Requested store is not found","A kért bolt nem található",module,Magento_Store
 "Name is required","Név megadása kötelező",module,Magento_Store
+"Store is inactive","A bolt inaktív",module,Magento_Store
 "Default store is inactive","Alapértelmezett webáruház inaktív",module,Magento_Store
 "All Store Views","Minden webáruház nézet",module,Magento_Store
+"-- Please Select --","-- Kérem válasszon --",module,Magento_Store
+"More than one default website is defined","Több, mint egy alapértelmezett weboldal van megadva",module,Magento_Store
+"Default website is not defined","Nincs megadva alapértelmezett webhely",module,Magento_Store
+"Your Language:","Az ön nyelve:",module,Magento_Store
+"Your Language","Az ön nyelve",module,Magento_Store
 Language,Nyelv,module,Magento_Store
 "Select Store","Webáruház kiválasztása",module,Magento_Store
 Delete,Törlés,module,Magento_Swatches
@@ -2826,24 +3369,51 @@ Tax,Adó,module,Magento_Tax
 "The Rate Percent should be a positive number.","A százalékos értéknek pozitív számnak kell lennie.",module,Magento_Tax
 "Maximum zip code length is 9.","A maximális irányítószám hossz 9.",module,Magento_Tax
 "Use digits only for the zip code.","Az irányítószámban csak szám szerepelhet.",module,Magento_Tax
+"Range To should be equal or greater than Range From.","A Tartomány felső értéke egyenlő vagy nagyobb kell, hogy legyen mint a Tartomány alsó értéke.",module,Magento_Tax
+"The tax rate cannot be removed. It exists in a tax rule.","Az adót nem lehet eltávolítani. Egy adózási szabályban van.",module,Magento_Tax
+"This class no longer exists.","Ez az osztály már nem létezik.",module,Magento_Tax
+"You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","Ez az adó osztály nem törölhető, mert használatban van az adózási szabályoknál. Először a szabályokat kell eltávolítania.",module,Magento_Tax
+"You cannot delete this tax class because it is used in existing %1(s).","Ez az adó osztály nem törölhető, mert használatban van a %1.",module,Magento_Tax
+"Custom price if available","Egyedi ár ha rendelkezésre áll",module,Magento_Tax
+"Original price only","Csak eredeti ár",module,Magento_Tax
 "Shipping Address","Szállítási cím",module,Magento_Tax
 "Billing Address","Számlázási cím",module,Magento_Tax
+"Shipping Origin","Feladási hely",module,Magento_Tax
 "No (price without tax)","Nem (ár, adó nélkül)",module,Magento_Tax
 "Yes (only price with tax)","Igen (csak ár, adóval)",module,Magento_Tax
 "Both (without and with tax)","Mindkettő (adó nélkül és adóval)",module,Magento_Tax
+"Invalid attribute %1","%1 érvénytelen jellemző",module,Magento_Tax
+Code,Kód,module,Magento_Tax
+"Invalid type supplied","Érvénytelen típus",module,Magento_Tax
+"Class name and class type","Osztály neve és típusa",module,Magento_Tax
+"Grand Total (Excl. Tax)","Végösszeg (adó nélkül)",module,Magento_Tax
+"Grand Total (Incl. Tax)","Végösszeg (adó nélkül)",module,Magento_Tax
 "Shipping (Excl. Tax)","Szállítás (Adó nélkül)",module,Magento_Tax
 "Shipping (Incl. Tax)","Szállítás (Adóval)",module,Magento_Tax
+"Subtotal (Excl. Tax)","Részösszeg (adó nélkül)",module,Magento_Tax
+"Subtotal (Incl. Tax)","Részösszeg (adóval)",module,Magento_Tax
+Subtotal,Részösszeg,module,Magento_Tax
 "Unit Price",Egységár,module,Magento_Tax
+"Row Total","Sor összeg",module,Magento_Tax
+Total,Összesen,module,Magento_Tax
+"Before Discount","Kedvezmény nélkül",module,Magento_Tax
+"After Discount",Kedvezményesen,module,Magento_Tax
 "Excluding Tax","Adó nélkül",module,Magento_Tax
 "Including Tax",Adóval,module,Magento_Tax
 None,"Egyik sem",module,Magento_Tax
 "Including and Excluding Tax","Adóval és adó nélkül",module,Magento_Tax
+"Click on the link to <a href=""%1"">ignore this notification</a>","Kattintson a linkre, hogy <a href=""%1"">figyelmen kívül hagyja az értesítést</a>",module,Magento_Tax
 product,termék,module,Magento_Tax
 "Excl. tax:","Adó nélkül:",module,Magento_Tax
 "Incl. Tax",Adóval,module,Magento_Tax
+"Something went wrong","Valami hiba történt",module,Magento_Tax
+"Could not save","Nem sikerült menteni",module,Magento_Tax
 "Excl. Tax","Adó nélkül",module,Magento_Tax
 Note:,Megjegyzés:,module,Magento_Tax
+"An error occurred","Hiba történt",module,Magento_Tax
 Save,Mentés,module,Magento_Tax
+"Grand Total Excl. Tax","Végösszeg adó nélkül",module,Magento_Tax
+"Grand Total Incl. Tax","Végösszeg adóval",module,Magento_Tax
 Themes,Témák,module,Magento_Theme
 "Save and Continue Edit","Mentés és szerkesztés folytatása",module,Magento_Theme
 "Are you sure you want to delete this theme?","Biztosan törölni akarod ezt a témát?",module,Magento_Theme
@@ -2898,15 +3468,27 @@ Theme,Téma,module,Magento_Theme
 "We cannot find a theme with id ""%1"".","A ""%1"" azonosítójú Téma nem található.",module,Magento_Theme
 "Invalid type","Érvénytelen típus",module,Magento_Theme
 label,címke,module,Magento_Theme
+"-- Please Select --","-- Kérem válasszon --",module,Magento_Theme
 Copy,Másolás,module,Magento_Theme
 Message,Üzenet,module,Magento_Theme
 "Browse Files","Fájlok tallózása",module,Magento_Theme
 Remove,Eltávolítás,module,Magento_Theme
+"JavaScript seems to be disabled in your browser.","Úgy tűnik a JavaScript ki van kapcsolva a böngésződben.",module,Magento_Theme
+"For the best experience on our site, be sure to turn on Javascript in your browser.","A legjobb élményhez az oldalunkon, győződjön meg róla, hogy a JavaScript be van kapcsolva a böngészőjében.",module,Magento_Theme
+"Local Storage seems to be disabled in your browser.","Úgy tűnik a helyi tárolás ki van kapcsolva a böngészőjében.",module,Magento_Theme
+"For the best experience on our site, be sure to turn on Local Storage in your browser.","A legjobb élményhez az oldalunkon, győződjön meg róla, hogy a helyi tárolás be van kapcsolva a böngészőjében.",module,Magento_Theme
+"This is demo store. No orders will be fulfilled.","Ez egy demo bolt. Egyetlen rendelés sem lesz teljesítve.",module,Magento_Theme
+"Items %1 to %2 of %3 total","Elem %1-%2/%3",module,Magento_Theme
 "%1 Item","%1 elem",module,Magento_Theme
+"%1 Item(s)","%1 elem",module,Magento_Theme
 Page,Oldal,module,Magento_Theme
 Previous,Előző,module,Magento_Theme
 Next, Következő,module,Magento_Theme
+Show,Megjelenítés,module,Magento_Theme
+"per page",oldalanként,module,Magento_Theme
+"About the calendar","A naptár névjegye",module,Magento_Theme
 Close,Bezárás,module,Magento_Theme
+"Go Today","Ugrás a mai napra",module,Magento_Theme
 Time,Idő,module,Magento_Theme
 Hour,Óra,module,Magento_Theme
 Minute,Perc,module,Magento_Theme
@@ -2917,6 +3499,7 @@ Minute,Perc,module,Magento_Theme
 "Remove %1","%1 eltávolítása",module,Magento_Ui
 "Add New %1","Új %1 hozzáadása",module,Magento_Ui
 "New %1","Új %1",module,Magento_Ui
+"Please select item(s).","Kérjük, válasszon elem(ek)et.",module,Magento_Ui
 "Unsupported bookmark action.","Nem támogatott könyvjelző művelet.",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","""%1"" azonosítójú könyvjelző nem létezik.",module,Magento_Ui
 Next, Következő,module,Magento_Ui
@@ -3155,7 +3738,7 @@ error-message,hibaüzenet,module,Magento_Wishlist
 "Move to Wishlist",Kívánságlistára,module,Magento_Wishlist
 "View Product","Termék megtekintése",module,Magento_Wishlist
 Qty,Mennyiség,module,Magento_Wishlist
-"Add to Cart","Hozzáadás a kosárhoz",module,Magento_Wishlist
+"Add to Cart",Kosárba,module,Magento_Wishlist
 Availability,Elérhetőség,module,Magento_Wishlist
 "In stock",Raktáron,module,Magento_Wishlist
 "Out of stock","Nincs raktáron",module,Magento_Wishlist
@@ -3222,6 +3805,13 @@ Password:,Jelszó:,module,Magento_Customer
 "If you did not request this change, please contact us.","Ha ezt a változást nem kérte, kérjük lépjen kapcsolatba velünk.",module,Magento_Customer
 "Currency Update Warnings","Pénznem-frissítési figyelmeztetések",module,Magento_Directory
 "Thank you, %store_name","Köszönettel: %store_name",module,Magento_Email
+"Thank you for subscribing to our newsletter.","Köszönjük, hogy feliratkozott a hírlevelünkre.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Ahhoz hogy megkapja a hírlevelet, először meg kell erősítenie a feliratkozást úgy, hogy erre a linkre kattint:",module,Magento_Newsletter
+"You have been successfully subscribed to our newsletter.","Sikeresen feliratkozott a hírlevelünkre.",module,Magento_Newsletter
+"You have been unsubscribed from the newsletter.","Sikeresen leiratkozott a hírlevelünkről.",module,Magento_Newsletter
+"Product alerts cron warnings","Termék értesítés cron figyelmeztetés",module,Magento_ProductAlert
+"%sender_name wants to share this product with you:","%sender_name szeretné megosztani Önnel ezt a terméket:",module,Magento_SendFriend
+"Message from %sender_name:","%sender_name üzenete:",module,Magento_SendFriend
 "Thank you,","Köszönönjük,",module,Magento_User
 "There was recently a request to change the password for your account.","Nemrég kérelmezték a fiók jelszavának megváltoztatását.",module,Magento_User
 "If you requested this change, reset your password here:","Ha Ön nyújtotta be ezt a kérelmet, állítsa alaphelyzetbe jelszavát itt:",module,Magento_User
@@ -3292,16 +3882,60 @@ Done,Kész,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","Biztos, hogy törli ezt a címet?",module,Magento_Customer
 "We could not detect a size.","A méret nem állapítható meg.",module,Magento_Downloadable
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
+"Video Error",Videóhiba,module,Magento_ProductVideo
+"Unknown video type","Ismeretlen videó típus",module,Magento_ProductVideo
+"Invalid video url","Érvénytelen videó url",module,Magento_ProductVideo
+"Youtube API key is invalid","Érvénytelen a YouTube API-kulcs",module,Magento_ProductVideo
 "Video not found","Videó nem található",module,Magento_ProductVideo
 Save,Mentés,module,Magento_ProductVideo
 Cancel,Mégse,module,Magento_ProductVideo
 Delete,Törlés,module,Magento_ProductVideo
 "Edit Video","Videó szerkesztése",module,Magento_ProductVideo
+"Images and Videos","Képek és Videók",module,Magento_ProductVideo
 "Add Products","Termékek hozzáadása",module,Magento_Sales
+"We could not detect a size.","A méret nem állapítható meg.",module,Magento_Theme
 "Go to Details Page","Tovább a részletek oldalra",module,Magento_Ui
+"Please enter more or equal than {0} symbols.","Kérem adjon meg {0} vagy több szimbólumot.",module,Magento_Ui
+"Please enter less or equal than {0} symbols.","Kérem adjon meg {0} vagy kevesebb szimbólumot.",module,Magento_Ui
+"Please enter {0} words or less.","Kérem {0} vagy kevesebb szót írjon be.",module,Magento_Ui
+"Please enter at least {0} words.","Kérem legalább {0} szót adjon meg.",module,Magento_Ui
+"Please enter between {0} and {1} words.","Kérem {0} és {1} darab közötti szót írjon be.",module,Magento_Ui
+"Letters or punctuation only please","Kérem csak betűt vagy pontot adjon meg",module,Magento_Ui
+"Letters, numbers, spaces or underscores only please","Kérem csak betűt, számot, szóközt vagy alulvonást adjon meg",module,Magento_Ui
+"Letters only please","Kérem csak betűket adjon meg",module,Magento_Ui
+"No white space please","Kérem ne adjon meg nem látható karaktereket",module,Magento_Ui
+"A positive or negative non-decimal number please","Kérem pozitív vagy negatív törtszámot adjon meg",module,Magento_Ui
+"The specified vehicle identification number (VIN) is invalid.","A megadott alvázszám érvénytelen.",module,Magento_Ui
+"Please enter a correct date","Kérem érvényes dátumot adjon meg",module,Magento_Ui
+"Please enter a valid time, between 00:00 and 23:59","Kérem adjon meg egy érvényes időpontot 00:00 és 23:59 között",module,Magento_Ui
+"Please enter a valid time, between 00:00 am and 12:00 pm","Kérem adjon meg egy érvényes időpontot 00:00 AM és 12:00 PM között",module,Magento_Ui
+"Please specify a valid phone number","Kérem adjon meg egy érvényes telefonszámot",module,Magento_Ui
+"Please specify a valid mobile number","Kérem adjon meg egy érvényes mobil számot",module,Magento_Ui
+"Please enter at least {0} characters","Kérem adjon meg legalább {0} karaktert",module,Magento_Ui
+"Please enter a valid credit card number.","Kérem adjon meg egy érvényes bankkártya számot.",module,Magento_Ui
+"Please enter a valid IP v4 address.","Kérem adjon meg egy érvényes IP v4 címet.",module,Magento_Ui
+"Please enter a valid IP v6 address.","Kérem adjon meg egy érvényes IP v6 címet.",module,Magento_Ui
 "Invalid format.","Érvénytelen formátum.",module,Magento_Ui
 "HTML tags are not allowed.","HTML címkék nem engedélyezettek.",module,Magento_Ui
+"Please select an option.","Kérem válasszon opciót.",module,Magento_Ui
 "Empty Value.","Üres érték.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Ebben a mezőben csak betűket (a-z vagy A-Z), számokat (0-9) vagy szóközöket használhat.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Ebben a mezőben csak betűket (a-z vagy A-Z), számokat (0-9) vagy alulvonást (_) használhat, és az első karakternek betűnek kell lennie.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Ebben a mezőben csak betűket (a-z vagy A-Z), számokat (0-9), szóközt vagy ""#""-t használhat.",module,Magento_Ui
+"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Kérem adjon meg egy érvényes telefonszámot. Például (123) 456-7890 vagy 123-456-7890.",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","Kérem adjon meg egy érvényes email címet (Például: johndoe@domain.com).",module,Magento_Ui
+"Please enter 7 or more characters, using both numeric and alphabetic.","Kérem írjon be 7 vagy több karaktert, számokat és betűket is használjon.",module,Magento_Ui
+"Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Kérem adjon meg egy érvényes URL-t. A protokoll megadása szükséges (http://, https:// or ftp://).",module,Magento_Ui
+"Please enter a valid URL. For example http://www.example.com or www.example.com.","Kérem adjon meg egy érvényes URL-t. Például http://www.example.com vagy www.example.com.",module,Magento_Ui
+"Please enter a number 0 or greater in this field.","Ebben a mezőben adjon meg egy számot, ami 0 vagy annál nagyobb.",module,Magento_Ui
+"Please enter a number greater than 0 in this field.","Ebben a mezőben adjon meg egy számot, ami 0-nál nagyobb.",module,Magento_Ui
+"Please enter a valid number in this field.","Kérem adjon meg egy érvényes számot.",module,Magento_Ui
+"Please use letters only (a-z or A-Z) in this field.","Kérem csak betűket használjon (a-z vagy A-Z) ebben a mezőben.",module,Magento_Ui
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Ebben a mezőben csak betűket (a-z), számokat (0-9) vagy alulvonást (_) használhat, és az első karakternek betűnek kell lennie.",module,Magento_Ui
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Ebben a mezőben csak betűket (a-z vagy A-Z) vagy számokat (0-9) használhat. Szóköz vagy más karakter nem megengedett.",module,Magento_Ui
+"Please enter a valid date.","Kérem adjon meg egy érvényes dátumot.",module,Magento_Ui
+"Please enter a valid zip code.","Kérem adjon meg egy érvényes irányítószámot.",module,Magento_Ui
+"Please select State/Province.","Kérem válasszon államot/megyét.",module,Magento_Ui
 "This is a required field.","Ez egy szükséges mező.",module,Magento_Ui
 Attention,Figyelem,module,Magento_Ui
 Close,Bezárás,module,Magento_Ui
@@ -3906,6 +4540,7 @@ Service,Szolgáltatás,module,Magento_Directory
 "Use Content-Disposition","Tartalom-diszpozíció használata",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Vendégként vásárlás tiltása, ha a kosár letölthető termékeket tartalmaz",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","Vendégként fizetés csak megoszthatóval fog működni.",module,Magento_Downloadable
+"EAV types and attributes","EAV típusok és attribútumok",module,Magento_Eav
 Emails,Emailek,module,Magento_Email
 "Logo Image",Logó,module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Engedélyezett fájltípusok: jpg, jpeg, gif, png. A logo nagy felbontású kijelzőkhöz való optimalizálásához tölts fel egy képet háromszoros méretben majd add meg az eredeti méretet az alábbi szélesség és magasság mezőkben.",module,Magento_Email
@@ -3928,10 +4563,13 @@ Title,Cím,module,Magento_Fedex
 Key,Kulcs,module,Magento_Fedex
 Password,Jelszó,module,Magento_Fedex
 "Sandbox Mode","Sandbox mód",module,Magento_Fedex
+Packaging,Csomagolás,module,Magento_Fedex
+Dropoff,Kiszállítás,module,Magento_Fedex
 "Weight Unit","Súly mértékegysége",module,Magento_Fedex
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Fedex
 "Handling Fee","Kezelési költség",module,Magento_Fedex
 "Allowed Methods","Alkalmazható módok",module,Magento_Fedex
+"Hub ID","Hub azonosító",module,Magento_Fedex
 "Free Method","Ingyenes mód",module,Magento_Fedex
 "Free Shipping Amount Threshold","Ingyenes szállítás határérték",module,Magento_Fedex
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Fedex
@@ -3940,12 +4578,32 @@ Password,Jelszó,module,Magento_Fedex
 Debug,Hibakeresés,module,Magento_Fedex
 "Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Fedex
 "Sort Order",Sorrend,module,Magento_Fedex
+"Allow Gift Messages on Order Level","Ajándék üzenetek engedélyezése a rendelés szinten",module,Magento_GiftMessage
+"Allow Gift Messages for Order Items","Ajándék üzenetek engedélyezése a rendelés tételekhez",module,Magento_GiftMessage
+Enable,Engedélyez,module,Magento_GoogleAdwords
+"Conversion ID","Konverzió azonosító",module,Magento_GoogleAdwords
+"Conversion Language","Konverzió nyelv",module,Magento_GoogleAdwords
+"Conversion Format","Konverzió formátum",module,Magento_GoogleAdwords
+"Conversion Color","Konverzió szín",module,Magento_GoogleAdwords
+"Conversion Label","Konverzió címke",module,Magento_GoogleAdwords
+"Conversion Value Type","Konverzió érték típusa",module,Magento_GoogleAdwords
+"Conversion Value","Konverzió érték",module,Magento_GoogleAdwords
+Enable,Bekapcsolás,module,Magento_GoogleAnalytics
+"Account Number","Fiók azonosító",module,Magento_GoogleAnalytics
+"Enable Content Experiments","Tartalmi kísérletek engedélyezése",module,Magento_GoogleOptimizer
 ID,Azonosító,module,Magento_ImportExport
 Summary,Összefoglaló,module,Magento_ImportExport
+Indexer,Indexelő,module,Magento_Indexer
 Description,Leírás,module,Magento_Indexer
+Mode,Mód,module,Magento_Indexer
 Status,Állapot,module,Magento_Indexer
+Updated,Frissítve,module,Magento_Indexer
 Status,Állapot,module,Magento_Integration
 "Layered Navigation","Réteges navigáció",module,Magento_LayeredNavigation
+"Display Product Count","Termékek számának megjeleítése",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Ár intervallumok maximális száma",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Az ár intervallumok maximális száma 100",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Ez a beállítás akkor lesz használatban, amikor minden ár egy megadott intervallumon belül egyenlő.",module,Magento_LayeredNavigation
 "Minimum Advertised Price","Minimum meghirdetett ár",module,Magento_Msrp
 "Enable MAP","MAP engedélyezése",module,Magento_Msrp
 "Display Actual Price","Aktuális ár megjelenítése",module,Magento_Msrp
@@ -3954,42 +4612,114 @@ Options,Opciók,module,Magento_Multishipping
 "Review Order","Rendelés áttekintése",module,Magento_Multishipping
 "We received your order!","Rendelését rögzítettük!",module,Magento_Multishipping
 General,Általános,module,Magento_NewRelicReporting
+"Subscription Options","Feliratkozási lehetőségek",module,Magento_Newsletter
+"Allow Guest Subscription","Feliratkozás engedélyezése vendégek számára",module,Magento_Newsletter
+"Need to Confirm","Megerősítés szükséges",module,Magento_Newsletter
+"Confirmation Email Sender","Megerősítő email küldője",module,Magento_Newsletter
+"Confirmation Email Template","Megerősítő email sablon",module,Magento_Newsletter
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Az email sablon a téma alapján kerül kiválasztásra az ""Alapértelmezett"" opció választása esetén.",module,Magento_Newsletter
+"Success Email Sender","Sikeres email küldő",module,Magento_Newsletter
+"Success Email Template","Sikeres email sablon",module,Magento_Newsletter
+"Unsubscription Email Sender","Leiratkozó email küldője",module,Magento_Newsletter
+"Unsubscription Email Template","Leiratkozás Email sablon",module,Magento_Newsletter
+"We found no problems.","Nem találtunk problémát.",module,Magento_Newsletter
 Subscriber,Feliratkozó,module,Magento_Newsletter
+"Queue Start Date","Sor kezdő dátuma",module,Magento_Newsletter
+"Queue Subject","Sor tárgya",module,Magento_Newsletter
+"Error Code",Hibakód,module,Magento_Newsletter
+"Error Text","Hiba szöveg",module,Magento_Newsletter
+"Queue Start","Sor kezdete",module,Magento_Newsletter
+"Queue End","Sor vége",module,Magento_Newsletter
 Status,Állapot,module,Magento_Newsletter
+Processed,Feldolgozott,module,Magento_Newsletter
+Recipients,Címzettek,module,Magento_Newsletter
 Unsubscribe,Leiratkozás,module,Magento_Newsletter
 Delete,Törlés,module,Magento_Newsletter
 Type,Típus,module,Magento_Newsletter
 Guest,Vendég,module,Magento_Newsletter
 Customer,Vásárló,module,Magento_Newsletter
+"Customer First Name","Vásárló keresztneve",module,Magento_Newsletter
+"Customer Last Name","Vásárló vezetékneve",module,Magento_Newsletter
+"Not Activated","Nem aktivált",module,Magento_Newsletter
 Subscribed,Feliratkozott,module,Magento_Newsletter
 Unsubscribed,Leiratkozott,module,Magento_Newsletter
+Unconfirmed,"Meg nem erősített",module,Magento_Newsletter
+"Web Site",Weboldal,module,Magento_Newsletter
+Store,Bolt,module,Magento_Newsletter
+"Store View",Boltnézet,module,Magento_Newsletter
+"Newsletter Subscriptions","Hírlevél feliratkozások",module,Magento_Newsletter
 Enabled,Engedélyezett,module,Magento_OfflinePayments
+"New Order Status","Új megrendelés állapota",module,Magento_OfflinePayments
 "Sort Order","Rendezési sorrend",module,Magento_OfflinePayments
 Title,Cím,module,Magento_OfflinePayments
+"Payment from Applicable Countries","Fizetés az elérhető országokból",module,Magento_OfflinePayments
+"Payment from Specific Countries","Fizetés a megadott országokból",module,Magento_OfflinePayments
+"Minimum Order Total","Minimális rendelési összeg",module,Magento_OfflinePayments
+"Maximum Order Total","Maximális rendelési összeg",module,Magento_OfflinePayments
+"Bank Transfer Payment","Banki átutalásos fizetés",module,Magento_OfflinePayments
 Instructions,Utasítások,module,Magento_OfflinePayments
+"Cash On Delivery Payment","Utánvétes fizetés",module,Magento_OfflinePayments
+"Zero Subtotal Checkout","Nulla Részösszeges Vásárlás",module,Magento_OfflinePayments
+"Automatically Invoice All Items","Az összes elem automatikus számlázása",module,Magento_OfflinePayments
 "Flat Rate",Átalány,module,Magento_OfflineShipping
+Enabled,Bekapcsolva,module,Magento_OfflineShipping
+"Method Name","Szállítás módja",module,Magento_OfflineShipping
 Price,Ár,module,Magento_OfflineShipping
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_OfflineShipping
 "Handling Fee","Kezelési költség",module,Magento_OfflineShipping
+"Sort Order","Rendezési sorrend",module,Magento_OfflineShipping
 Title,Cím,module,Magento_OfflineShipping
 Type,Típus,module,Magento_OfflineShipping
+"Ship to Applicable Countries","Szállítás az alkalmazható országokba",module,Magento_OfflineShipping
+"Ship to Specific Countries","Szállítás megadott országokba",module,Magento_OfflineShipping
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_OfflineShipping
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_OfflineShipping
+"Table Rates",Táblázatértékek,module,Magento_OfflineShipping
+Condition,Feltétel,module,Magento_OfflineShipping
 Export,Exportálás,module,Magento_OfflineShipping
 Import,Importálás,module,Magento_OfflineShipping
 "Minimum Order Amount","Minimális rendelési összeg",module,Magento_OfflineShipping
 "Full page caching.","Teljes oldal gyorstárazás.",module,Magento_PageCache
+"Payment Methods","Fizetési Módok",module,Magento_Payment
+"PayPal Payment Solutions","PayPal fizetési megoldások",module,Magento_Paypal
 Size,Méret,module,Magento_Paypal
 Title,Cím,module,Magento_Paypal
 "Advanced Settings","Haladó beállítások",module,Magento_Paypal
 Password,Jelszó,module,Magento_Paypal
+"Persistent Shopping Cart","Adatmegőrző kosár",module,Magento_Persistent
 "General Options","Általános beállítások",module,Magento_Persistent
+"Enable Persistence","Adatmegőrzés bekapcsolása",module,Magento_Persistent
+"Persistence Lifetime (seconds)","Adatok megőrzésének időtartama (másodperc)",module,Magento_Persistent
 "Enable ""Remember Me""","""Emlékezz rám"" engedélyezése",module,Magento_Persistent
+"""Remember Me"" Default Value","""Jegyezzen meg"" Alapértelmezett érték",module,Magento_Persistent
+"Clear Persistence on Sign Out","Megőrzött adatok törlése kijelentkezéskor",module,Magento_Persistent
+"Persist Shopping Cart","Kosár tartalmának megőrzése",module,Magento_Persistent
+"Product Alerts","Termék értesítések",module,Magento_ProductAlert
+"Allow Alert When Product Price Changes","Értesítés engedélyezése a termék árának változása esetén",module,Magento_ProductAlert
+"Allow Alert When Product Comes Back in Stock","Értesítés engedélyezése a termék készletre kerülése esetén",module,Magento_ProductAlert
+"Price Alert Email Template","Ár értesítés email sablon",module,Magento_ProductAlert
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Az email sablon a téma alapján kerül kiválasztásra az ""Alapértelmezett"" opció választása esetén.",module,Magento_ProductAlert
+"Stock Alert Email Template","Készlet értesítés email sablon",module,Magento_ProductAlert
+"Alert Email Sender","Email küldőjének értesítése",module,Magento_ProductAlert
+"Product Alerts Run Settings","Termék értesítések futásának beállítása",module,Magento_ProductAlert
 Frequency,Gyakoriság,module,Magento_ProductAlert
+"Start Time","Kezdés ideje",module,Magento_ProductAlert
+"Error Email Recipient","Hiba email címzettje",module,Magento_ProductAlert
+"Error Email Sender","Hiba email feladója",module,Magento_ProductAlert
+"Error Email Template","Hiba email sablon",module,Magento_ProductAlert
+"Product Video","Termék videó",module,Magento_ProductVideo
+"YouTube API Key","YouTube API-kulcs",module,Magento_ProductVideo
+"Autostart base video","Alap videó automatikus indítása",module,Magento_ProductVideo
+"Show related video","Kapcsolódó videó megjelenítése",module,Magento_ProductVideo
+"Auto restart video","Videó automatikus újraindítása",module,Magento_ProductVideo
 Dashboard,Vezérlőpult,module,Magento_Reports
 Average,Átlagos,module,Magento_Reports
 Guest,Vendég,module,Magento_Reports
 Action,Akció,module,Magento_Reports
 Description,Leírás,module,Magento_Reports
+"Allow Guests to Write Reviews","Értékelés engedélyezése vendégek számára",module,Magento_Review
+Active,Aktív,module,Magento_Review
+Inactive,Inaktív,module,Magento_Review
 "RSS Feeds","RSS hírcsatornák",module,Magento_Rss
 Address,Cím,module,Magento_Sales
 "Minimum Order Amount","Minimális rendelési összeg",module,Magento_Sales
@@ -3997,21 +4727,40 @@ Dashboard,Vezérlőpult,module,Magento_Sales
 Name,Név,module,Magento_Sales
 "Print Shipping Labels","Szállítási címkék nyomtatása",module,Magento_Sales
 "Shipping and Handling","Szállítás és kezelés",module,Magento_Sales
+"Search Engine",Keresőmotor,module,Magento_Search
 ID,Azonosító,module,Magento_Search
+Hits,Találatok,module,Magento_Search
 Delete,Törlés,module,Magento_Search
 "Are you sure?","Biztos benne?",module,Magento_Search
+"Suggested Terms","Javasolt kifejezések",module,Magento_Search
 yes,igen,module,Magento_Search
+no,nem,module,Magento_Search
 Action,Akció,module,Magento_Search
 Edit,Szerkesztés,module,Magento_Search
+"Email to a Friend","Email egy barátnak",module,Magento_SendFriend
 "Email Templates","Email sablonok",module,Magento_SendFriend
+Enabled,Bekapcsolva,module,Magento_SendFriend
+"Select Email Template","Válasszon email sablont",module,Magento_SendFriend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Az email sablon a téma alapján kerül kiválasztásra az ""Alapértelmezett"" opció választása esetén.",module,Magento_SendFriend
+"Allow for Guests","Engedélyezés vendégeknek",module,Magento_SendFriend
+"Max Recipients","Max címzettek száma",module,Magento_SendFriend
+"Max Products Sent in 1 Hour","Max küldhető termékek 1 órán belül",module,Magento_SendFriend
+"Limit Sending By","Küldő limit",module,Magento_SendFriend
 "Shipping Settings","Szállítási beállítások",module,Magento_Shipping
 Origin,Származás,module,Magento_Shipping
 Country,Ország,module,Magento_Shipping
+Region/State,Régió/állam,module,Magento_Shipping
 "ZIP/Postal Code",Irányítószám,module,Magento_Shipping
 City,Város,module,Magento_Shipping
+"Street Address","Utca, házszám",module,Magento_Shipping
+"Street Address Line 2","Utca, házszám 2. sor",module,Magento_Shipping
+"Shipping Policy Parameters","Szállítási feltételek paraméterei",module,Magento_Shipping
+"Apply custom Shipping Policy","Egyéni szállítás feltételek alkalmazása",module,Magento_Shipping
+"Shipping Policy","Szállítási feltételek",module,Magento_Shipping
 "Shipping Methods","Szállítási módok",module,Magento_Shipping
 ID,Azonosító,module,Magento_Sitemap
 Action,Akció,module,Magento_Sitemap
+Configuration,Konfiguráció,module,Magento_Store
 Layouts,Elrendezések,module,Magento_Store
 "Calculation Settings","Számítási beállítások",module,Magento_Tax
 "Tax Calculation Based On","Adó kiszámítása",module,Magento_Tax
@@ -4034,12 +4783,16 @@ Empty,Üres,module,Magento_Theme
 "Title Suffix","Cím utótag",module,Magento_Theme
 "Default Description","Alapértelmezett leírás",module,Magento_Theme
 "Default Keywords","Alapértelmezett kulcsszavak",module,Magento_Theme
+"Display Demo Store Notice","Demo bolt értesítés megjelenítése",module,Magento_Theme
 "Search Engine Robots","Kereső robotok",module,Magento_Theme
 "Default Robots","Alapértelmezett Robotok",module,Magento_Theme
+"Edit custom instruction of robots.txt File","Egyéni robots.txt utasítás szerkesztése",module,Magento_Theme
+"This action will delete your custom instructions and reset robots.txt file to system's default settings.","Ez a művelet törli az egyéni utasításokat és a robots.txt fájlt visszaállítja a rendszer alapértelmezett beállítására.",module,Magento_Theme
 Header,Fejléc,module,Magento_Theme
 "Logo Image","Logo kép",module,Magento_Theme
 "Logo Image Width","Logo kép szélessége",module,Magento_Theme
 "Logo Image Height","Logo kép magassága",module,Magento_Theme
+"Logo Image Alt","Logó helyettesítő szövege (alt tag)",module,Magento_Theme
 "Welcome Text","Üdvözlő szöveg",module,Magento_Theme
 Footer,Lábléc,module,Magento_Theme
 "Default welcome msg!","Alapértelmezett üdvözlő üzenet!",module,Magento_Theme
@@ -4054,6 +4807,7 @@ Action,Akció,module,Magento_Ui
 "Handling Fee","Kezelési költség",module,Magento_Ups
 Password,Jelszó,module,Magento_Ups
 Title,Cím,module,Magento_Ups
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Ups
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Ups
 Action,Akció,module,Magento_UrlRewrite
 Edit,Szerkesztés,module,Magento_UrlRewrite
@@ -4077,6 +4831,7 @@ Height,Magasság,module,Magento_Usps
 "Calculate Handling Fee","Kezelési költség kiszámítása",module,Magento_Usps
 "Handling Fee","Kezelési költség",module,Magento_Usps
 "Displayed Error Message","Megjelenített hibaüzenet",module,Magento_Usps
+"Show Method if Not Applicable","Mód megjelenítése, ha nem alkalmazható",module,Magento_Usps
 "Variable ID","Változó ID",module,Magento_Variable
 Name,Név,module,Magento_Variable
 "SOAP Settings","SOAP beállítások",module,Magento_Webapi

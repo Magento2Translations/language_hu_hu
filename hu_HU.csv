@@ -2322,12 +2322,15 @@ Constant,Állandó,module,Magento_GoogleAdwords
 "Experiment Code","Kísérlet kódja",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Kísérletkódot csak az eredeti oldalhoz kell hozzáadni.",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
+"Associated Products","Hozzárendelt termékek",module,Magento_GroupedProduct
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_GroupedProduct
 SKU,Cikkszám,module,Magento_GroupedProduct
+"Product Name","Termék neve",module,Magento_GroupedProduct
 Price,Ár,module,Magento_GroupedProduct
 Qty,Mennyiség,module,Magento_GroupedProduct
+"No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_GroupedProduct
 Name,Név,module,Magento_GroupedProduct
 "Default Qty","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 Availability,Elérhetőség,module,Magento_GroupedProduct
@@ -3881,6 +3884,8 @@ Done,Kész,module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Biztos benne, hogy végrehajtja a műveletet?",module,Magento_Customer
 "Are you sure you want to delete this address?","Biztos, hogy törli ezt a címet?",module,Magento_Customer
 "We could not detect a size.","A méret nem állapítható meg.",module,Magento_Downloadable
+"Add Products to Group","Termékek hozzáadása a csoporthoz",module,Magento_GroupedProduct
+"Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_GroupedProduct
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
 "Video Error",Videóhiba,module,Magento_ProductVideo
 "Unknown video type","Ismeretlen videó típus",module,Magento_ProductVideo

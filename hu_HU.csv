@@ -2466,17 +2466,24 @@ Constant,Állandó,module,Magento_GoogleAdwords
 "Google Analytics Content Experiments Code","Google Analytics tartalmi kísérletek kódja",module,Magento_GoogleOptimizer
 "Experiment Code","Kísérlet kódja",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Kísérletkódot csak az eredeti oldalhoz kell hozzáadni.",module,Magento_GoogleOptimizer
+"Add Products to Group","Termékek hozzáadása a csoporthoz",module,Magento_GroupedProduct
 Cancel,Mégse,module,Magento_GroupedProduct
+"Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_GroupedProduct
 Remove,Eltávolítás,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_GroupedProduct
 Thumbnail,Bélyegkép,module,Magento_GroupedProduct
 Name,Név,module,Magento_GroupedProduct
+Status,Állapot,module,Magento_GroupedProduct
 SKU,Cikkszám,module,Magento_GroupedProduct
 Price,Ár,module,Magento_GroupedProduct
+"Default Quantity","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 Actions,Műveletek,module,Magento_GroupedProduct
+"Associated Products","Hozzárendelt termékek",module,Magento_GroupedProduct
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct
+"Product Name","Termék neve",module,Magento_GroupedProduct
 Qty,Mennyiség,module,Magento_GroupedProduct
+"No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_GroupedProduct
 "Default Qty","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 Availability,Elérhetőség,module,Magento_GroupedProduct
 "In stock",Raktáron,module,Magento_GroupedProduct

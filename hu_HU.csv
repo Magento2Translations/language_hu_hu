@@ -1243,7 +1243,6 @@ Compare,Összehasonlítás,module,Magento_Catalog
 "Clear All","Mindet töröl",module,Magento_Catalog
 Prev,Előző,module,Magento_Catalog
 Next, Következő,module,Magento_Catalog
-"We can't find products matching the selection.","Nem található a kiválasztásnak megfelelő termék.",module,Magento_Catalog
 "Learn More","További információk",module,Magento_Catalog
 "Add to Compare","Összehasonlításhoz ad",module,Magento_Catalog
 "We found other products you might like!","Találtunk pár terméket amely elnyerheti a tetszését!",module,Magento_Catalog
@@ -4147,10 +4146,12 @@ Password:,Jelszó:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Ha nem Ön kérvényezte a változtatást, nyugodtan figyelmen kívül hagyhatja ezt az e-mailt, a jelszó változatlan marad.",module,Magento_Customer
 "Your %store_name password has been changed","Az Ön %store_name jelszava megváltozott",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: password.","Kérvény érkezett hozzánk az Ön következő fiókadatainak megváltoztatására: %store_name: password.",module,Magento_Customer
+"Checkout out as a new customer","Fizetés mint új vásárló",module,Magento_Customer
 "Creating an account has many benefits:","A fiók létrehozásának rengeteg előnye van:",module,Magento_Customer
 "See order and shipping status","A rendelési és szállítási állapot megtekintése",module,Magento_Customer
 "Track order history","Rendelés történet nyomonkövetése",module,Magento_Customer
 "Check out faster","Gyorsabb fizetés",module,Magento_Customer
+"Checkout out using your account","Fizetés az Ön fiókjának használatával",module,Magento_Customer
 "Email Address","Email cím",module,Magento_Customer
 "Currency Update Warnings","Pénznem-frissítési figyelmeztetések",module,Magento_Directory
 Footer,Lábléc,module,Magento_Email
@@ -5088,6 +5089,7 @@ Currency,Pénznem,module,Magento_CurrencySymbol
 "Leave empty for default (15 minutes).","Hagyja üresen az alapértelmezett értékhez (15 perc).",module,Magento_Customer
 "Customer Notification","Vásárló figyelmeztetések",module,Magento_Customer
 "Assign a Customer Group","Vevőcsoport hozzárendelése",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Biztosan hozzárendeli a kijelölt vevőket egy új csoporthoz?",module,Magento_Customer
 "Customer Grid","Vevő rács",module,Magento_Customer
 "Rebuild Customer grid index","Vevő rács index újraépítése",module,Magento_Customer
 Group,Csoport,module,Magento_Customer

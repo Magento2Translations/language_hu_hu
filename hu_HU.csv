@@ -2087,6 +2087,7 @@ Gender,Nem,module,Magento_Customer
 Name,Név,module,Magento_Customer
 "Tax/VAT number",Adószám,module,Magento_Customer
 "Phone Number",Telefonszám,module,Magento_Customer
+"Import failed: %1","Az importálás nem sikerült: %1",module,Magento_Deploy
 "Class for type ""%1"" was not declared","""%1"" típushoz nincs osztály deklarálva",module,Magento_Deploy
 "%1 does not implement %2","%1 nem hajtja végre a %2",module,Magento_Deploy
 "File app/etc/%1 can't be read. Please check if it exists and has read permissions.","A app/etc/%1 fájl nem olvasható. Kérem ellenőrizze hogy létezik-e, és rendelkezik-e olvasási joggal.",module,Magento_Deploy
@@ -2094,6 +2095,11 @@ Name,Név,module,Magento_Customer
 "Value can't be empty","Az érték nem lehet üres",module,Magento_Deploy
 "A configuration with this path does not exist or is not sensitive","Az ilyen útvonallal rendelkező konfiguráció nem létezik, vagy nem érzékelhető",module,Magento_Deploy
 "Cannot switch into given mode ""%1""","Nem lehet ""%1"" módba váltani",module,Magento_Deploy
+"Wrong logger interface specified.","Rossz naplózó interfész lett megadva.",module,Magento_Deploy
+"Hash has not been saved.","A hash nem került mentésre.",module,Magento_Deploy
+"The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","A konfigurációs fájl megváltozott. Futtassa a app:config:import vagy a setup:upgrade parancsot hogy szinkronizálja a konfigurációt.",module,Magento_Deploy
+"Wrong type specified: '%1'","Rossz a megadott típus: ""%1""",module,Magento_Deploy
+"Wrong queue type specified.","Rossz a megadott végrehajtási sorrend típusa.",module,Magento_Deploy
 "Wrong deploy strategy type: %1","Helytelen telepítési stratégia típus: %1",module,Magento_Deploy
 "Some error","Néhány hiba",module,Magento_Deploy
 "some message","néhány üzenet",module,Magento_Deploy
@@ -2527,13 +2533,18 @@ Constant,Állandó,module,Magento_GoogleAdwords
 "Google Analytics Content Experiments Code","Google Analytics tartalmi kísérletek kódja",module,Magento_GoogleOptimizer
 "Experiment Code","Kísérlet kódja",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Kísérletkódot csak az eredeti oldalhoz kell hozzáadni.",module,Magento_GoogleOptimizer
+"Grouped Products","Csoportosított termékek",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Kérjük, adja meg a termék(ek) mennyiségét.",module,Magento_GroupedProduct
+"Cannot process the item.","Nem lehet feldolgozni az elemet.",module,Magento_GroupedProduct
 "Add Products to Group","Termékek hozzáadása a csoporthoz",module,Magento_GroupedProduct
 Cancel,Mégse,module,Magento_GroupedProduct
 "Add Selected Products","Kijelölt termékek hozzáadása",module,Magento_GroupedProduct
+"A grouped product is made up of multiple, standalone products that are presented as a group. You can offer variations of a single product, or group them by season or theme to create a coordinated set. Each product can be purchased separately, or as part of the group.","A csoportosított termék több önálló termék összevonásával jön létre. Tartalmazhatja egy termék több variációját, vagy különböző termékeket valamilyen szempont szerint csoportosítva, mint például szezon, vagy téma. Minden egyes termék megvásárolható külön-külön, vagy a csoport részeként is.",module,Magento_GroupedProduct
 Remove,Eltávolítás,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_GroupedProduct
 Thumbnail,Bélyegkép,module,Magento_GroupedProduct
 Name,Név,module,Magento_GroupedProduct
+"Attribute Set","Jellemző halmaz",module,Magento_GroupedProduct
 Status,Állapot,module,Magento_GroupedProduct
 SKU,Cikkszám,module,Magento_GroupedProduct
 Price,Ár,module,Magento_GroupedProduct
@@ -2545,16 +2556,69 @@ Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Product Name","Termék neve",module,Magento_GroupedProduct
 Qty,Mennyiség,module,Magento_GroupedProduct
 "No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_GroupedProduct
+"There are no grouped products.","Nincsenek csoportosított termékek.",module,Magento_GroupedProduct
 "Default Qty","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 Availability,Elérhetőség,module,Magento_GroupedProduct
 "In stock",Raktáron,module,Magento_GroupedProduct
+"Grouped product items","Csoportosított termék tételek",module,Magento_GroupedProduct
 Export,Exportálás,module,Magento_ImportExport
+"Export Settings","Beállítások exportálása",module,Magento_ImportExport
+"Entity Type","Entitás típusa",module,Magento_ImportExport
+"Export File Format","Exportálási Fájlformátum",module,Magento_ImportExport
+From,Ettől,module,Magento_ImportExport
+To,Eddig,module,Magento_ImportExport
+Exclude,Kizárás,module,Magento_ImportExport
+"Attribute Label","Jellemző cimke",module,Magento_ImportExport
+"Attribute Code","Jellemző kód",module,Magento_ImportExport
 Filter,Szűrés,module,Magento_ImportExport
+"Unknown attribute filter type","Ismeretlen jellemző-szűrő típus",module,Magento_ImportExport
+Download,Letöltés,module,Magento_ImportExport
+"Check Data","Adatok ellenőrzése",module,Magento_ImportExport
 Import,Importálás,module,Magento_ImportExport
+"Import Settings","Beállítások importálása",module,Magento_ImportExport
+"Import Behavior","Importálási viselkedés",module,Magento_ImportExport
+"Stop on Error","Hibánál megáll",module,Magento_ImportExport
+"Skip error entries","Hibás sorok kihagyása",module,Magento_ImportExport
+"Allowed Errors Count","Hibák megengedet maximális száma",module,Magento_ImportExport
+"Please specify number of errors to halt import process","Adja meg hibák számát amit átlépve az importálás megszakad",module,Magento_ImportExport
+"Field separator",Mezőelválasztó,module,Magento_ImportExport
+"Multiple value separator","Többszörös érték elválasztó",module,Magento_ImportExport
+"File to Import","Importálni kívánt fájl",module,Magento_ImportExport
+"Select File to Import","Válassza ki az importálni kívánt fájl",module,Magento_ImportExport
+"Images File Directory","Képek mappája",module,Magento_ImportExport
 History,Előzmények,module,Magento_ImportExport
+"Import History","Import történet",module,Magento_ImportExport
+"Import history","Import történet",module,Magento_ImportExport
 Status,Állapot,module,Magento_ImportExport
+"Import successfully done","Sikeres importálás",module,Magento_ImportExport
+"The file was not uploaded.","A fájl nincs feltöltve.",module,Magento_ImportExport
+"Data validation failed. Please fix the following errors and upload the file again.","Az adatellenőrzés sikertelen. javítsa ki a következő hibákat, és töltse fel újra a fájlt.",module,Magento_ImportExport
+"This file is empty. Please try another one.","Ez a file üres. Próbálkozzon másikkal.",module,Magento_ImportExport
 "Show more","Mutass többet",module,Magento_ImportExport
+"Additional data","További adatok",module,Magento_ImportExport
+"Download full report","Teljes jelentés letöltése",module,Magento_ImportExport
+"in row(s):","a sorokban:",module,Magento_ImportExport
+"Created: %1, Updated: %2, Deleted: %3","Létrehozva: %1, Frissítve: %2, Törölve: %3",module,Magento_ImportExport
+"Please correct the file format.","Javítsd ki a fájl formátumát.",module,Magento_ImportExport
+"There is no data for the export.","Nincs exportálható adat.",module,Magento_ImportExport
+"Exported %1 rows.","%1 sor exportáltva.",module,Magento_ImportExport
+"The export is finished.","Az Exportálás befejezve.",module,Magento_ImportExport
+"The import was successful.","Az importálás sikeres volt.",module,Magento_ImportExport
+"The file you uploaded has no extension.","A feltöltött fájlnak nincs kiterjesztése.",module,Magento_ImportExport
+"The source file moving process failed.","A forrásfájl mozgatási folyamata sikertelen.",module,Magento_ImportExport
+"Begin data validation","Adatok érvényesítésének megkezdése",module,Magento_ImportExport
+"Import data validation is complete.","Iportált adatok érvényesítése befejeződött.",module,Magento_ImportExport
+"The source is not set.","A forrás nincs beállítva.",module,Magento_ImportExport
+"Please specify a source.","Kérem adjon meg egy forrást.",module,Magento_ImportExport
+"-- Please Select --","-- Kérem válasszon --",module,Magento_ImportExport
+label,címke,module,Magento_ImportExport
+Add/Update,Hozzáadás/Frissítés,module,Magento_ImportExport
+Replace,Csere,module,Magento_ImportExport
 Delete,Törlés,module,Magento_ImportExport
+"Custom Action","Egyéni művelet",module,Magento_ImportExport
+"Error message",Hibaüzenet,module,Magento_ImportExport
+Continue,Tovább,module,Magento_ImportExport
+"Validation Results","Érvényesítés eredménye",module,Magento_ImportExport
 "Indexer Management","Indexelő kezelés",module,Magento_Indexer
 "Update by Schedule","Ütemezett frissítés",module,Magento_Indexer
 "Update on Save","Frissítés mentéskor",module,Magento_Indexer
@@ -5243,8 +5307,18 @@ Enable,Bekapcsolás,module,Magento_GoogleAnalytics
 "Anonymize IP","Anonímizált IP",module,Magento_GoogleAnalytics
 "Enable Content Experiments","Tartalmi kísérletek engedélyezése",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
+"Grouped Product Image","Csoportosított termék kép",module,Magento_GroupedProduct
+Select...,Válasszon...,module,Magento_GroupedProduct
+Type,Típus,module,Magento_GroupedProduct
 Quantity,Mennyiség,module,Magento_GroupedProduct
+AttributeSetText,"Jellemző halmaz szöveg",module,Magento_GroupedProduct
+StatusText,Állapotszöveg,module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_ImportExport
+"Start Date&Time","Kezdő dátum & idő",module,Magento_ImportExport
+User,Felhasználó,module,Magento_ImportExport
+"Imported File","Importált fájl",module,Magento_ImportExport
+"Error File",Hibafájl,module,Magento_ImportExport
+"Execution Time","Végrehajtási idő",module,Magento_ImportExport
 Summary,Összefoglaló,module,Magento_ImportExport
 "Change indexer mode","Indexelő üzemmód-váltás",module,Magento_Indexer
 Indexer,Indexelő,module,Magento_Indexer

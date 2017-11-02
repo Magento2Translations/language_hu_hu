@@ -2322,6 +2322,9 @@ Constant,Állandó,module,Magento_GoogleAdwords
 "Experiment Code","Kísérlet kódja",module,Magento_GoogleOptimizer
 "Experiment code should be added to the original page only.","Kísérletkódot csak az eredeti oldalhoz kell hozzáadni.",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategória nézet optimalizálás",module,Magento_GoogleOptimizer
+"Grouped Products","Csoportosított termékek",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Kérjük, adja meg a termék(ek) mennyiségét.",module,Magento_GroupedProduct
+"Cannot process the item.","Nem lehet feldolgozni az elemet.",module,Magento_GroupedProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_GroupedProduct
 Availability:,Elérhetőség:,module,Magento_GroupedProduct
 "Out of stock","Nincs raktáron",module,Magento_GroupedProduct
@@ -2331,17 +2334,66 @@ SKU,Cikkszám,module,Magento_GroupedProduct
 Price,Ár,module,Magento_GroupedProduct
 Qty,Mennyiség,module,Magento_GroupedProduct
 "No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_GroupedProduct
+"There are no grouped products.","Nincsenek csoportosított termékek.",module,Magento_GroupedProduct
 Name,Név,module,Magento_GroupedProduct
 "Default Qty","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 Availability,Elérhetőség,module,Magento_GroupedProduct
 "In stock",Raktáron,module,Magento_GroupedProduct
+"Grouped product items","Csoportosított termék tételek",module,Magento_GroupedProduct
 Export,Exportálás,module,Magento_ImportExport
+"Export Settings","Beállítások exportálása",module,Magento_ImportExport
+"Entity Type","Entitás típusa",module,Magento_ImportExport
+"Export File Format","Exportálási Fájlformátum",module,Magento_ImportExport
+From,Ettől,module,Magento_ImportExport
+To,Eddig,module,Magento_ImportExport
+Exclude,Kizárás,module,Magento_ImportExport
+"Attribute Label","Jellemző cimke",module,Magento_ImportExport
+"Attribute Code","Jellemző kód",module,Magento_ImportExport
 Filter,Szűrés,module,Magento_ImportExport
+"Unknown attribute filter type","Ismeretlen jellemző-szűrő típus",module,Magento_ImportExport
+Download,Letöltés,module,Magento_ImportExport
+"Check Data","Adatok ellenőrzése",module,Magento_ImportExport
 Import,Importálás,module,Magento_ImportExport
+"Import Settings","Beállítások importálása",module,Magento_ImportExport
+"Import Behavior","Importálási viselkedés",module,Magento_ImportExport
+"Allowed Errors Count","Hibák megengedet maximális száma",module,Magento_ImportExport
+"Please specify number of errors to halt import process","Adja meg hibák számát amit átlépve az importálás megszakad",module,Magento_ImportExport
+"Field separator",Mezőelválasztó,module,Magento_ImportExport
+"Multiple value separator","Többszörös érték elválasztó",module,Magento_ImportExport
+"File to Import","Importálni kívánt fájl",module,Magento_ImportExport
+"Select File to Import","Válassza ki az importálni kívánt fájl",module,Magento_ImportExport
+"Images File Directory","Képek mappája",module,Magento_ImportExport
 History,Előzmények,module,Magento_ImportExport
+"Import History","Import történet",module,Magento_ImportExport
+"Import history","Import történet",module,Magento_ImportExport
 Status,Állapot,module,Magento_ImportExport
+"Import successfully done","Sikeres importálás",module,Magento_ImportExport
+"This file is empty. Please try another one.","Ez a file üres. Próbálkozzon másikkal.",module,Magento_ImportExport
+"The file was not uploaded.","A fájl nincs feltöltve.",module,Magento_ImportExport
 "Show more","Mutass többet",module,Magento_ImportExport
+"Additional data","További adatok",module,Magento_ImportExport
+"Download full report","Teljes jelentés letöltése",module,Magento_ImportExport
+"Created: %1, Updated: %2, Deleted: %3","Létrehozva: %1, Frissítve: %2, Törölve: %3",module,Magento_ImportExport
+"Please correct the file format.","Javítsd ki a fájl formátumát.",module,Magento_ImportExport
+"There is no data for the export.","Nincs exportálható adat.",module,Magento_ImportExport
+"Exported %1 rows.","%1 sor exportáltva.",module,Magento_ImportExport
+"The export is finished.","Az Exportálás befejezve.",module,Magento_ImportExport
+"The import was successful.","Az importálás sikeres volt.",module,Magento_ImportExport
+"The file you uploaded has no extension.","A feltöltött fájlnak nincs kiterjesztése.",module,Magento_ImportExport
+"The source file moving process failed.","A forrásfájl mozgatási folyamata sikertelen.",module,Magento_ImportExport
+"Begin data validation","Adatok érvényesítésének megkezdése",module,Magento_ImportExport
+"Import data validation is complete.","Iportált adatok érvényesítése befejeződött.",module,Magento_ImportExport
+"The source is not set.","A forrás nincs beállítva.",module,Magento_ImportExport
+"Please specify a source.","Kérem adjon meg egy forrást.",module,Magento_ImportExport
+"-- Please Select --","-- Kérem válasszon --",module,Magento_ImportExport
+label,címke,module,Magento_ImportExport
+Add/Update,Hozzáadás/Frissítés,module,Magento_ImportExport
+Replace,Csere,module,Magento_ImportExport
 Delete,Törlés,module,Magento_ImportExport
+"Custom Action","Egyéni művelet",module,Magento_ImportExport
+"Error message",Hibaüzenet,module,Magento_ImportExport
+Continue,Tovább,module,Magento_ImportExport
+"Validation Results","Érvényesítés eredménye",module,Magento_ImportExport
 "Indexer Management","Indexelő kezelés",module,Magento_Indexer
 "Update by Schedule","Ütemezett frissítés",module,Magento_Indexer
 "Update on Save","Frissítés mentéskor",module,Magento_Indexer
@@ -4596,7 +4648,13 @@ Enable,Engedélyez,module,Magento_GoogleAdwords
 Enable,Bekapcsolás,module,Magento_GoogleAnalytics
 "Account Number","Fiók azonosító",module,Magento_GoogleAnalytics
 "Enable Content Experiments","Tartalmi kísérletek engedélyezése",module,Magento_GoogleOptimizer
+"Grouped Product Image","Csoportosított termék kép",module,Magento_GroupedProduct
 ID,Azonosító,module,Magento_ImportExport
+"Start Date&Time","Kezdő dátum & idő",module,Magento_ImportExport
+User,Felhasználó,module,Magento_ImportExport
+"Imported File","Importált fájl",module,Magento_ImportExport
+"Error File",Hibafájl,module,Magento_ImportExport
+"Execution Time","Végrehajtási idő",module,Magento_ImportExport
 Summary,Összefoglaló,module,Magento_ImportExport
 Indexer,Indexelő,module,Magento_Indexer
 Description,Leírás,module,Magento_Indexer

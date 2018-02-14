@@ -297,9 +297,6 @@ YTD,"Folyó év",module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Az admin munkamenetének élettartama nagyobb vagy egyenlő kell legyen, mint 60 másodperc",module,Magento_Backend
 Order,Megrendelés,module,Magento_Backend
 "Order #%1","Megrendelés #%1",module,Magento_Backend
-"Access denied","Hozzáférés megtagadva",module,Magento_Backend
-"Please try to sign out and sign in again.","Kérjük, próbáljon meg kijelentkezni, majd újra bejelentkezni!",module,Magento_Backend
-"If you continue to receive this message, please contact the store owner.","Ha továbbra is ezt az üzenet kapja, kérjük, lépjen kapcsolatba a bolt tulajdonosával!",module,Magento_Backend
 "You need more permissions to access this.","A hozzáféréshez magasabb jogosultság szükséges.",module,Magento_Backend
 "Welcome, please sign in","Üdvözöljük! Kérjük, jelentkezzen be!",module,Magento_Backend
 Username,Felhasználónév,module,Magento_Backend
@@ -1360,7 +1357,6 @@ Checkout,Fizetés,module,Magento_Checkout
 Error!,Hiba!,module,Magento_Checkout
 "DB exception",Adatbázishiba,module,Magento_Checkout
 Message,Üzenet,module,Magento_Checkout
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Számla nyomtatása</a>",module,Magento_Checkout
 "Apply Discount Code","Kupon érvényesítése",module,Magento_Checkout
 "Enter discount code","Kedvezmény-kód megadása",module,Magento_Checkout
 "Apply Discount","Engedmény alkalmazása",module,Magento_Checkout

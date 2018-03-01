@@ -1676,6 +1676,7 @@ Name,Név,module,Magento_Integration
 "Basic Settings",Alapbeállítások,module,Magento_Integration
 Remove,Eltávolítás,module,Magento_Integration
 Edit,Szerkesztés,module,Magento_Integration
+Activate,Aktiválás,module,Magento_Integration
 "Filterable (with results)","Szűrhető (eredményekkel)",module,Magento_LayeredNavigation
 "Filterable (no results)","Szűrhető (eredmények nélkül)",module,Magento_LayeredNavigation
 No,Nem ,module,Magento_LayeredNavigation

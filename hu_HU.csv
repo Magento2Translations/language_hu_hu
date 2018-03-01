@@ -2595,6 +2595,7 @@ Name,Név,module,Magento_Integration
 "Basic Settings",Alapbeállítások,module,Magento_Integration
 Remove,Eltávolítás,module,Magento_Integration
 Edit,Szerkesztés,module,Magento_Integration
+Activate,Aktiválás,module,Magento_Integration
 Custom,Egyedi,module,Magento_Integration
 All,Összes,module,Magento_Integration
 No,Nem ,module,Magento_LayeredNavigation

@@ -2595,6 +2595,10 @@ Name,Név,module,Magento_Integration
 Remove,Eltávolítás,module,Magento_Integration
 Edit,Szerkesztés,module,Magento_Integration
 Activate,Aktiválás,module,Magento_Integration
+"Cannot edit integrations created via config file.","A konfigurációs fájl által létrehozott integrációk nem szerkeszthetőek.",module,Magento_Integration
+"%fieldName is a required field.","%fieldName mező megadása kötelező.",module,Magento_Integration
+"Your account is temporarily disabled.","A fiókja ideiglenesen le van tiltva.",module,Magento_Integration
+"You have entered an invalid password for current user.","Érvénytelen jelszó lett megadva az aktuális felhasználóhoz.",module,Magento_Integration
 Custom,Egyedi,module,Magento_Integration
 All,Összes,module,Magento_Integration
 No,Nem ,module,Magento_LayeredNavigation
@@ -2811,6 +2815,7 @@ No,Nem ,module,Magento_OfflineShipping
 "Varnish Cache (Recommended)","Varnish Cache (ajánlott)",module,Magento_PageCache
 Month,Hónap,module,Magento_Payment
 Year,Év,module,Magento_Payment
+"Command Executor for %1 is not defined.","Nincs megadva a parancsot végrehajtó %1.",module,Magento_Payment
 Discount,Kedvezmény,module,Magento_Payment
 Shipping,Szállítás,module,Magento_Payment
 "All Allowed Countries","Minden engedélyezett ország",module,Magento_Payment
@@ -2838,6 +2843,7 @@ Canceled,Törölve,module,Magento_Paypal
 Dynamic,Dinamikus,module,Magento_Paypal
 Yes,Igen,module,Magento_Paypal
 No,Nem ,module,Magento_Paypal
+"Error processing payment. Please try again later.","Hiba a fizetés feldolgozása közben. Kérjük, próbálkozzon később.",module,Magento_Paypal
 Custom,Egyedi,module,Magento_Paypal
 "--Please Select--","--Kérem válasszon--",module,Magento_Paypal
 Error,Hiba,module,Magento_Paypal
@@ -3070,6 +3076,7 @@ Reviews,Vélemények,module,Magento_Review
 "Something went wrong while deleting these records.","Valami nem sikerült a rekordok törlése közben.",module,Magento_Review
 "A total of %1 record(s) have been updated.","Összesen %1 sor frissítve.",module,Magento_Review
 "My Product Reviews","Termék véleményeim",module,Magento_Review
+"Cannot initialize product","A terméket nem lehetett inicializálni",module,Magento_Review
 Actions,Műveletek,module,Magento_Review
 "You have submitted no reviews.","Ön még nem adott le véleményt.",module,Magento_Review
 Back,Vissza,module,Magento_Review
@@ -4350,6 +4357,7 @@ Strong,Erős,module,Magento_Customer
 "Guest checkout is disabled.","Vendég vásárlás letiltva.",module,Magento_Customer
 "We could not detect a size.","A méret nem állapítható meg.",module,Magento_Downloadable
 "Please choose a payment method.","Kérjük válasszon egy fizetési módot.",module,Magento_Multishipping
+"Unable to place order. Please try again later.","Nem sikerült a megrendelés. Kérjük próbálkozzon később.",module,Magento_Payment
 "Video Error",Videóhiba,module,Magento_ProductVideo
 "Unknown video type","Ismeretlen videó típus",module,Magento_ProductVideo
 "Invalid video url","Érvénytelen videó url",module,Magento_ProductVideo

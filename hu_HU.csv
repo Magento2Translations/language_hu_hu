@@ -603,14 +603,22 @@ Apply,Alkalmazás,module,Magento_CatalogRule
 "Apply as fixed amount","Fix összegként való alkalmazás",module,Magento_CatalogRule
 "Adjust final price to this percentage","A végső ár beállítása erre a százalékos értékre",module,Magento_CatalogRule
 "Adjust final price to discount value","A végső ár beállítása a kedvezményes értékre",module,Magento_CatalogRule
+"Discount Amount","Engedmény összege",module,Magento_CatalogRule
+"Subproduct discounts","Melléktermék kedvezmények",module,Magento_CatalogRule
 No,Nem ,module,Magento_CatalogRule
 Yes,Igen,module,Magento_CatalogRule
 Conditions,Feltételek,module,Magento_CatalogRule
+"General Information","Általános információk",module,Magento_CatalogRule
+"Rule Name","Szabály neve",module,Magento_CatalogRule
 Description,Leírás,module,Magento_CatalogRule
 Status,Állapot,module,Magento_CatalogRule
 Active,Aktív,module,Magento_CatalogRule
 Inactive,Inaktív,module,Magento_CatalogRule
+Websites,Weboldalak,module,Magento_CatalogRule
 "Customer Groups","Vásárlói csoportok",module,Magento_CatalogRule
+From,Ettől,module,Magento_CatalogRule
+To,Eddig,module,Magento_CatalogRule
+Priority,Prioritás,module,Magento_CatalogRule
 ID,Azonosító,module,Magento_CatalogRule
 Type,Típus,module,Magento_CatalogRule
 "Attribute Set","Jellemző halmaz",module,Magento_CatalogRule

@@ -13,7 +13,7 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [2.1.5](https://crowdin.com/project/magento-2/hu#/2.1.5) at Crowdin and based on the Magento 2.1.5 sourcefiles.
-There have been  5615 strings translated of the 8458 strings in the Magento source.
+There have been  5600 strings translated of the 8458 strings in the Magento source.
 
 Translation progress:![Progress](http://progressed.io/bar/66)
 
@@ -23,7 +23,7 @@ Translation progress:![Progress](http://progressed.io/bar/66)
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_hu_hu:2.1.5.x-dev
+composer require magento2translations/language_hu_hu:2.1.5-dev
 php bin/magento cache:clean
 ```
 ## Manually
